@@ -1,0 +1,122 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{371F5BC1-2982-49D8-B9D9-077177FACBDE}"
+	ProjectSection(SolutionItems) = preProject
+		Readme for this version of HacmeBank.txt = Readme for this version of HacmeBank.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlInjection_DatabaseExplorer", "SqlInjection_DatabaseExplorer\SqlInjection_DatabaseExplorer.csproj", "{EC2087CE-C583-43A8-89A1-B89285FB6D39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FS_HttpModule", "Validator.Net\FS_HttpModule\FS_HttpModule.csproj", "{305128D7-9C90-4CA6-B781-ADFA0C25152C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidatorNET_GAC_Assembly", "Validator.Net\ValidatorNET_GAC_Assembly\ValidatorNET_GAC_Assembly.csproj", "{224EA972-DC8C-4054-9E5B-AE0B6461EE26}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HacmeBank_v2_Website", "HacmeBank_v2_Website\", "{8258F6E8-BF9A-4192-BB54-23E553E3C642}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "2.0"
+		ProjectReferences = "{305128D7-9C90-4CA6-B781-ADFA0C25152C}|FS_HttpModule.dll;{224EA972-DC8C-4054-9E5B-AE0B6461EE26}|ValidatorNET_GAC_Assembly.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/HacmeBank_v2_Website"
+		Debug.AspNetCompiler.PhysicalPath = "HacmeBank_v2_Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\HacmeBank_v2_Website\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/HacmeBank_v2_Website"
+		Release.AspNetCompiler.PhysicalPath = "HacmeBank_v2_Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\HacmeBank_v2_Website\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "15582"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HacmeBank_v2_WS", "HacmeBank_v2_WS\", "{1FCA502F-89DD-4274-894A-55934CED55F7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "2.0"
+		Debug.AspNetCompiler.VirtualPath = "/HacmeBank_v2_WS"
+		Debug.AspNetCompiler.PhysicalPath = "HacmeBank_v2_WS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\HacmeBank_v2_WS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/HacmeBank_v2_WS"
+		Release.AspNetCompiler.PhysicalPath = "HacmeBank_v2_WS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\HacmeBank_v2_WS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "15583"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC2087CE-C583-43A8-89A1-B89285FB6D39}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{EC2087CE-C583-43A8-89A1-B89285FB6D39}.Debug|.NET.Build.0 = Debug|Any CPU
+		{EC2087CE-C583-43A8-89A1-B89285FB6D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2087CE-C583-43A8-89A1-B89285FB6D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2087CE-C583-43A8-89A1-B89285FB6D39}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EC2087CE-C583-43A8-89A1-B89285FB6D39}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EC2087CE-C583-43A8-89A1-B89285FB6D39}.Release|.NET.ActiveCfg = Release|Any CPU
+		{EC2087CE-C583-43A8-89A1-B89285FB6D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2087CE-C583-43A8-89A1-B89285FB6D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC2087CE-C583-43A8-89A1-B89285FB6D39}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EC2087CE-C583-43A8-89A1-B89285FB6D39}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{305128D7-9C90-4CA6-B781-ADFA0C25152C}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{305128D7-9C90-4CA6-B781-ADFA0C25152C}.Debug|.NET.Build.0 = Debug|Any CPU
+		{305128D7-9C90-4CA6-B781-ADFA0C25152C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305128D7-9C90-4CA6-B781-ADFA0C25152C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305128D7-9C90-4CA6-B781-ADFA0C25152C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{305128D7-9C90-4CA6-B781-ADFA0C25152C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{305128D7-9C90-4CA6-B781-ADFA0C25152C}.Release|.NET.ActiveCfg = Release|Any CPU
+		{305128D7-9C90-4CA6-B781-ADFA0C25152C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305128D7-9C90-4CA6-B781-ADFA0C25152C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305128D7-9C90-4CA6-B781-ADFA0C25152C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{305128D7-9C90-4CA6-B781-ADFA0C25152C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{224EA972-DC8C-4054-9E5B-AE0B6461EE26}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{224EA972-DC8C-4054-9E5B-AE0B6461EE26}.Debug|.NET.Build.0 = Debug|Any CPU
+		{224EA972-DC8C-4054-9E5B-AE0B6461EE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224EA972-DC8C-4054-9E5B-AE0B6461EE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224EA972-DC8C-4054-9E5B-AE0B6461EE26}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{224EA972-DC8C-4054-9E5B-AE0B6461EE26}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{224EA972-DC8C-4054-9E5B-AE0B6461EE26}.Release|.NET.ActiveCfg = Release|Any CPU
+		{224EA972-DC8C-4054-9E5B-AE0B6461EE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224EA972-DC8C-4054-9E5B-AE0B6461EE26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224EA972-DC8C-4054-9E5B-AE0B6461EE26}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{224EA972-DC8C-4054-9E5B-AE0B6461EE26}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8258F6E8-BF9A-4192-BB54-23E553E3C642}.Debug|.NET.ActiveCfg = Debug|.NET
+		{8258F6E8-BF9A-4192-BB54-23E553E3C642}.Debug|.NET.Build.0 = Debug|.NET
+		{8258F6E8-BF9A-4192-BB54-23E553E3C642}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{8258F6E8-BF9A-4192-BB54-23E553E3C642}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{8258F6E8-BF9A-4192-BB54-23E553E3C642}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{8258F6E8-BF9A-4192-BB54-23E553E3C642}.Release|.NET.ActiveCfg = Debug|.NET
+		{8258F6E8-BF9A-4192-BB54-23E553E3C642}.Release|.NET.Build.0 = Debug|.NET
+		{8258F6E8-BF9A-4192-BB54-23E553E3C642}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{8258F6E8-BF9A-4192-BB54-23E553E3C642}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{8258F6E8-BF9A-4192-BB54-23E553E3C642}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{1FCA502F-89DD-4274-894A-55934CED55F7}.Debug|.NET.ActiveCfg = Debug|.NET
+		{1FCA502F-89DD-4274-894A-55934CED55F7}.Debug|.NET.Build.0 = Debug|.NET
+		{1FCA502F-89DD-4274-894A-55934CED55F7}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{1FCA502F-89DD-4274-894A-55934CED55F7}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{1FCA502F-89DD-4274-894A-55934CED55F7}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{1FCA502F-89DD-4274-894A-55934CED55F7}.Release|.NET.ActiveCfg = Debug|.NET
+		{1FCA502F-89DD-4274-894A-55934CED55F7}.Release|.NET.Build.0 = Debug|.NET
+		{1FCA502F-89DD-4274-894A-55934CED55F7}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{1FCA502F-89DD-4274-894A-55934CED55F7}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{1FCA502F-89DD-4274-894A-55934CED55F7}.Release|Mixed Platforms.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

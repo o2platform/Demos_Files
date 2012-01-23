@@ -1,0 +1,6 @@
+Jul 14, 2011 3:52:58 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Jul 14, 2011 3:53:01 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'petstore'
+Jul 14, 2011 3:53:02 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'remoting'

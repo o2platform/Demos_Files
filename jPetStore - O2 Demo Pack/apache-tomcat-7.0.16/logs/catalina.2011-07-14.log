@@ -1,0 +1,74 @@
+Jul 14, 2011 3:52:55 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Windows\system32;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\ActiveState Komodo Edit 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;.
+Jul 14, 2011 3:52:56 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jul 14, 2011 3:52:56 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 14, 2011 3:52:56 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1886 ms
+Jul 14, 2011 3:52:56 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 14, 2011 3:52:56 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.16
+Jul 14, 2011 3:52:56 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jpetstore.war
+Jul 14, 2011 3:52:58 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Jul 14, 2011 3:52:58 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.XmlWebApplicationContext@979e8b: display name [Root WebApplicationContext]; startup date [Thu Jul 14 15:52:58 BST 2011]; root of context hierarchy
+Jul 14, 2011 3:52:59 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/dataAccessContext-local.xml]
+Jul 14, 2011 3:52:59 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+Jul 14, 2011 3:52:59 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@979e8b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1ac5f13
+Jul 14, 2011 3:52:59 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from ServletContext resource [/WEB-INF/mail.properties]
+Jul 14, 2011 3:52:59 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from ServletContext resource [/WEB-INF/jdbc.properties]
+Jul 14, 2011 3:52:59 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ac5f13: defining beans [dataSource,transactionManager,sqlMapClient,accountDao,categoryDao,productDao,itemDao,orderDao,sequenceDao,propertyConfigurer,accountValidator,orderValidator,petStore,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,txAdvice]; root of factory hierarchy
+Jul 14, 2011 3:53:01 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 2523 ms
+Jul 14, 2011 3:53:01 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'petstore': initialization started
+Jul 14, 2011 3:53:01 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.XmlWebApplicationContext@cef6f1: display name [WebApplicationContext for namespace 'petstore-servlet']; startup date [Thu Jul 14 15:53:01 BST 2011]; parent: org.springframework.web.context.support.XmlWebApplicationContext@979e8b
+Jul 14, 2011 3:53:01 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/petstore-servlet.xml]
+Jul 14, 2011 3:53:01 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@cef6f1]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1873eb2
+Jul 14, 2011 3:53:01 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1873eb2: defining beans [viewResolver,defaultHandlerMapping,/shop/addItemToCart.do,/shop/checkout.do,/shop/index.do,/shop/newAccount.do,/shop/removeItemFromCart.do,/shop/signoff.do,/shop/searchProducts.do,/shop/signon.do,/shop/signonForm.do,/shop/updateCartQuantities.do,/shop/viewCart.do,/shop/viewCategory.do,/shop/viewItem.do,/shop/viewProduct.do,secureHandlerMapping,signonInterceptor,secure_editAccount,secure_listOrders,secure_newOrder,secure_viewOrder]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1ac5f13
+Jul 14, 2011 3:53:01 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'petstore': initialization completed in 331 ms
+Jul 14, 2011 3:53:02 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'remoting': initialization started
+Jul 14, 2011 3:53:02 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.XmlWebApplicationContext@145b02f: display name [WebApplicationContext for namespace 'remoting-servlet']; startup date [Thu Jul 14 15:53:02 BST 2011]; parent: org.springframework.web.context.support.XmlWebApplicationContext@979e8b
+Jul 14, 2011 3:53:02 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/remoting-servlet.xml]
+Jul 14, 2011 3:53:02 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@145b02f]: org.springframework.beans.factory.support.DefaultListableBeanFactory@31ff23
+Jul 14, 2011 3:53:02 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@31ff23: defining beans [/OrderService-hessian,/OrderService-burlap,/OrderService-httpinvoker]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1ac5f13
+Jul 14, 2011 3:53:02 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'remoting': initialization completed in 165 ms
+Jul 14, 2011 3:53:02 PM org.apache.axis.utils.JavaUtils isAttachmentSupported
+WARNING: Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+Jul 14, 2011 3:53:02 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jul 14, 2011 3:53:02 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jul 14, 2011 3:53:02 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6476 ms
+Jul 14, 2011 4:05:32 PM org.apache.tomcat.util.http.Parameters processParameters
+INFO: Parameters: Invalid chunk '' ignored.
+Jul 14, 2011 4:06:04 PM org.apache.tomcat.util.http.Parameters processParameters
+INFO: Parameters: Invalid chunk '' ignored.
+Jul 14, 2011 4:07:07 PM org.apache.tomcat.util.http.Parameters processParameters
+INFO: Parameters: Invalid chunk '' ignored.
+Jul 14, 2011 4:07:24 PM org.apache.tomcat.util.http.Parameters processParameters
+INFO: Parameters: Invalid chunk '' ignored.
+Jul 14, 2011 4:14:16 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/jpetstore/shop/listorders.do] in DispatcherServlet with name 'petstore'

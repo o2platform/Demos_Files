@@ -1,0 +1,519 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC050CA7-CCD9-492B-BDBF-78AD32841457}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>HacmeBank_v2_Website</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HacmeBank_v2_Website</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <WebReference_EnableProperties>true</WebReference_EnableProperties>
+    <WebReference_EnableSQLTypes>false</WebReference_EnableSQLTypes>
+    <WebReference_EnableLegacyEventingModel>true</WebReference_EnableLegacyEventingModel>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ascx\AccountTransfer.ascx.cs">
+      <DependentUpon>AccountTransfer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\AccountTransfer.ascx.designer.cs">
+      <DependentUpon>AccountTransfer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\AdminSection.ascx.cs">
+      <DependentUpon>AdminSection.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\AdminSection.ascx.designer.cs">
+      <DependentUpon>AdminSection.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\admin\Fetch_Web_Page.ascx.cs">
+      <DependentUpon>Fetch_Web_Page.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\admin\Fetch_Web_Page.ascx.designer.cs">
+      <DependentUpon>Fetch_Web_Page.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\admin\Manage_Accounts.ascx.cs">
+      <DependentUpon>Manage_Accounts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\admin\Manage_Accounts.ascx.designer.cs">
+      <DependentUpon>Manage_Accounts.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\admin\Manage_Messages.ascx.cs">
+      <DependentUpon>Manage_Messages.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\admin\Manage_Messages.ascx.designer.cs">
+      <DependentUpon>Manage_Messages.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\admin\Manage_Users.ascx.cs">
+      <DependentUpon>Manage_Users.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\admin\Manage_Users.ascx.designer.cs">
+      <DependentUpon>Manage_Users.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\admin\Sql_Query.ascx.cs">
+      <DependentUpon>Sql_Query.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\admin\Sql_Query.ascx.designer.cs">
+      <DependentUpon>Sql_Query.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\admin\Web_Services.ascx.cs">
+      <DependentUpon>Web_Services.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\admin\Web_Services.ascx.designer.cs">
+      <DependentUpon>Web_Services.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\Loan.ascx.cs">
+      <DependentUpon>Loan.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\Loan.ascx.designer.cs">
+      <DependentUpon>Loan.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\MyAccountForm.ascx.cs">
+      <DependentUpon>MyAccountForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\MyAccountForm.ascx.designer.cs">
+      <DependentUpon>MyAccountForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\PasswordChange.ascx.cs">
+      <DependentUpon>PasswordChange.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\PasswordChange.ascx.designer.cs">
+      <DependentUpon>PasswordChange.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\PostMessageForm.ascx.cs">
+      <DependentUpon>PostMessageForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\PostMessageForm.ascx.designer.cs">
+      <DependentUpon>PostMessageForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\TransactionDetails.ascx.cs">
+      <DependentUpon>TransactionDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\TransactionDetails.ascx.designer.cs">
+      <DependentUpon>TransactionDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\Welcome.ascx.cs">
+      <DependentUpon>Welcome.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\Welcome.ascx.designer.cs">
+      <DependentUpon>Welcome.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\_AdminLeftMenu.ascx.cs">
+      <DependentUpon>_AdminLeftMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\_AdminLeftMenu.ascx.designer.cs">
+      <DependentUpon>_AdminLeftMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\_Footer.ascx.cs">
+      <DependentUpon>_Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\_Footer.ascx.designer.cs">
+      <DependentUpon>_Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\_LeftMenu.ascx.cs">
+      <DependentUpon>_LeftMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\_LeftMenu.ascx.designer.cs">
+      <DependentUpon>_LeftMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ascx\_TopMenu.ascx.cs">
+      <DependentUpon>_TopMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ascx\_TopMenu.ascx.designer.cs">
+      <DependentUpon>_TopMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\AccountManagement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\AdminFunctions.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="classes\ascxThreadingIssue.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="classes\dataClasses.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\Gui.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="classes\UserManagement.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="classes\UsersCommunity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="httpModules\HttpModule_errorHandeling.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="httpModules\HttpModule_onlyAllowLocalAccess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Web References\WS_AccountManagement\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <SubType>code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Web References\WS_UserManagement\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <SubType>code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Web References\WS_UsersCommunity\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <SubType>code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="_misc\ascxDebug.aspx.cs">
+      <DependentUpon>ascxDebug.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_misc\ascxDebug.aspx.designer.cs">
+      <DependentUpon>ascxDebug.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_misc\ThreatIssue.aspx.cs">
+      <DependentUpon>ThreatIssue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_misc\ThreatIssue.aspx.designer.cs">
+      <DependentUpon>ThreatIssue.aspx</DependentUpon>
+    </Compile>
+    <Content Include="ascx\AccountTransfer.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\AdminSection.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\admin\Fetch_Web_Page.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\admin\Manage_Accounts.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\admin\Manage_Messages.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\admin\Manage_Users.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\admin\Sql_Query.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\admin\Web_Services.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\Loan.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\MyAccountForm.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\PasswordChange.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\PostMessageForm.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\TransactionDetails.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\Welcome.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\_AdminLeftMenu.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\_Footer.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\_LeftMenu.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="ascx\_TopMenu.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="aspx\images/blueheaderblank.jpg" />
+    <Content Include="aspx\images/blueheader_bg.gif" />
+    <Content Include="aspx\images/clear.gif" />
+    <Content Include="aspx\images/hacme_header.jpg" />
+    <Content Include="aspx\images/header_hacmebank.gif" />
+    <Content Include="aspx\images/login\bottom.gif" />
+    <Content Include="aspx\images/login\bottombg.gif" />
+    <Content Include="aspx\images/login\bottom_old.gif" />
+    <Content Include="aspx\images/login\top.gif" />
+    <Content Include="aspx\images/login\topbg.gif" />
+    <Content Include="aspx\images/nav_arrows.gif" />
+    <Content Include="aspx\images/onlinebanking.jpg" />
+    <Content Include="aspx\images/red_arrows.gif" />
+    <Content Include="aspx\images/rowheader_bg.gif" />
+    <Content Include="aspx\images/shadow_txtbox.gif" />
+    <Content Include="aspx\images/shadow_txtfield.gif" />
+    <Content Include="aspx\images/top_blue_menu.jpg" />
+    <Content Include="aspx\Login.aspx" />
+    <Content Include="aspx\Main.aspx" />
+    <Content Include="Code_development_Notes.txt" />
+    <Content Include="css\FoundStoneBank.css" />
+    <Content Include="default.aspx" />
+    <Content Include="Global.asax">
+      <SubType>Component</SubType>
+    </Content>
+    <Content Include="Web.config" />
+    <Content Include="xml\info.xml" />
+    <Content Include="xsl\info.xsl" />
+    <Content Include="_misc\ascxDebug.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="_misc\ThreatIssue.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <EmbeddedResource Include="ascx\AccountTransfer.ascx.resx">
+      <DependentUpon>AccountTransfer.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\AdminSection.ascx.resx">
+      <DependentUpon>AdminSection.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\admin\Fetch_Web_Page.ascx.resx">
+      <DependentUpon>Fetch_Web_Page.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\admin\Manage_Accounts.ascx.resx">
+      <DependentUpon>Manage_Accounts.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\admin\Manage_Messages.ascx.resx">
+      <DependentUpon>Manage_Messages.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\admin\Manage_Users.ascx.resx">
+      <DependentUpon>Manage_Users.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\admin\Sql_Query.ascx.resx">
+      <DependentUpon>Sql_Query.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\admin\Web_Services.ascx.resx">
+      <DependentUpon>Web_Services.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\Loan.ascx.resx">
+      <DependentUpon>Loan.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\MyAccountForm.ascx.resx">
+      <DependentUpon>MyAccountForm.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\PasswordChange.ascx.resx">
+      <DependentUpon>PasswordChange.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\PostMessageForm.ascx.resx">
+      <DependentUpon>PostMessageForm.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\TransactionDetails.ascx.resx">
+      <DependentUpon>TransactionDetails.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\Welcome.ascx.resx">
+      <DependentUpon>Welcome.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\_AdminLeftMenu.ascx.resx">
+      <DependentUpon>_AdminLeftMenu.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\_Footer.ascx.resx">
+      <DependentUpon>_Footer.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\_LeftMenu.ascx.resx">
+      <DependentUpon>_LeftMenu.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ascx\_TopMenu.ascx.resx">
+      <DependentUpon>_TopMenu.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aspx\Login.aspx.resx">
+      <DependentUpon>Login.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aspx\Main.aspx.resx">
+      <DependentUpon>Main.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_misc\ascxDebug.aspx.resx">
+      <DependentUpon>ascxDebug.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_misc\ThreatIssue.aspx.resx">
+      <DependentUpon>ThreatIssue.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="aspx\images/login\Thumbs.db" />
+    <None Include="Web References\WS_AccountManagement\AccountManagement.disco" />
+    <None Include="Web References\WS_AccountManagement\AccountManagement.wsdl" />
+    <None Include="Web References\WS_AccountManagement\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_UserManagement\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_UserManagement\UserManagement.disco" />
+    <None Include="Web References\WS_UserManagement\UserManagement.wsdl" />
+    <None Include="Web References\WS_UsersCommunity\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_UsersCommunity\UsersCommunity.wsdl" />
+    <WebReferenceUrl Include="http://192.168.1.10/HacmeBank_v2_WS/WebServices/AccountManagement.asmx">
+      <RelPath>Web References\WS_AccountManagement\</RelPath>
+      <UrlBehavior>Static</UrlBehavior>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://192.168.1.10/HacmeBank_v2_WS/WebServices/UserManagement.asmx">
+      <RelPath>Web References\WS_UserManagement\</RelPath>
+      <UrlBehavior>Static</UrlBehavior>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://192.168.1.10/HacmeBank_v2_WS/WebServices/UsersCommunity.asmx%3fWSDL">
+      <RelPath>Web References\WS_UsersCommunity\</RelPath>
+      <UrlBehavior>Static</UrlBehavior>
+    </WebReferenceUrl>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>15550</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://127.0.0.1/HacmeBank_v2_Website</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

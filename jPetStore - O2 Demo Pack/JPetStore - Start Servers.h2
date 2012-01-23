@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<H2>
+  <SourceCode>var topPanel = O2Gui.open&lt;Panel&gt;("JPetStore - Start Servers",1000,400);
+//var topPanel = panel.clear().add_Panel();
+Process hsqldbProcess = null;
+Process apacheProcess = null;
+var actionPanel = topPanel.insert_Above(20);
+topPanel.add_LogViewer();
+var ie = topPanel.insert_Right().add_IE();
+
+//Processes.getProcessesCalled("java").stop();
+var currentFolder = PublicDI.CurrentScript.directoryName(); 
+
+Action startServers = 
+	()=&gt;{
+			"Starting Db and Web servers".debug();
+			// start db server (hsqldb)	
+			hsqldbProcess = Processes.startProcessAndRedirectIO("java", 
+												    @"-classpath .\hsqldb.jar org.hsqldb.Server -database jpetstore", 
+												    currentFolder.pathCombine("hsqldb"),
+												    PublicDI.log.info);
+												    
+			//start web server (apache)
+			var tomcatFolder = currentFolder.pathCombine("apache-tomcat-7.0.16");
+			var apacheBinDirectory =  tomcatFolder.pathCombine("bin");
+			
+			var apacheStartParameters = ("-Djava.util.logging.config.file=\"{0}\\conf\\logging.properties\" " +
+										 "-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager   " + 
+										 "-Djava.endorsed.dirs=\"{0}\\endorsed\" " +
+										 "-classpath \"{0}\\bin\\bootstrap.jar;{0}\\bin\\tomcat-juli.jar\" " + 
+										 "-Dcatalina.base=\"{0}\" -Dcatalina.home=\"{0}\" " + 
+										 "-Djava.io.tmpdir=\"{0}\\temp\" org.apache.catalina.startup.Bootstrap  start"
+										).format(tomcatFolder) ;
+			
+			apacheProcess = Processes.startProcessAndRedirectIO("java", 
+															    apacheStartParameters,
+															    currentFolder.pathCombine("hsqldb"),
+															    PublicDI.log.info);			
+		};
+
+Action stopServers = 
+	()=&gt;{
+			"Stopping Db and Web servers".debug();
+			apacheProcess.stop();	 		
+			hsqldbProcess.stop();			
+		};
+Action openJPetStore = 
+	()=&gt;{
+			ie.open("http://localhost:8080/jpetstore");
+			ie.link("Enter the Store").click();
+			ie.links().where((link)=&gt; link.url().contains("FISH"))[0].click(); 
+		};
+actionPanel.add_Link("Start Servers",0,0,()=&gt;startServers())
+ 		   .append_Link("Stop Servers",()=&gt;stopServers())
+ 		   .append_Link("Enter JPetStore and open a Page", ()=&gt; openJPetStore())
+ 		   .append_Link("JpetStore - BlackBox Exploits.h2" ,()=&gt; "JpetStore - BlackBox Exploits.h2".local().executeH2Script() )
+ 		   .append_Link("JPetStore - View Controllers.h2"  ,()=&gt; currentFolder.pathCombine("JPetStore - View Controllers.h2").executeH2Script() );   ;
+ 		   
+
+ 			
+
+return "ok";
+
+//using System.Diagnostics
+//O2File:WatiN_IE_ExtensionMethods.cs
+//using O2.XRules.Database.Utils.O2
+//O2Ref:WatiN.Core.1x.dll</SourceCode>
+  <ReferencedAssemblies />
+</H2>

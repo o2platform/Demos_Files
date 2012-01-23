@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<SpringMvcMappings>
+  <XmlFile>C:\O2\Demos\SpringFramework\samples\jpetstore\war\WEB-INF\petstore-servlet.xml</XmlFile>
+  <Controllers>
+    <SpringMvcController>
+      <JavaClass>org.springframework.samples.jpetstore.web.spring.AddItemToCartController</JavaClass>
+      <HttpRequestUrl>/shop/addItemToCart.do</HttpRequestUrl>
+      <AutoWiredJavaObjects />
+      <FileName>org\springframework\samples\jpetstore\web\spring\AddItemToCartController.java</FileName>
+      <LineNumber>0</LineNumber>
+      <Properties>
+        <Item Key="petStore" Value="ref:petStore" />
+      </Properties>
+    </SpringMvcController>
+    <SpringMvcController>
+      <JavaClass>org.springframework.samples.jpetstore.web.spring.ViewCartController</JavaClass>
+      <HttpRequestUrl>/shop/checkout.do</HttpRequestUrl>
+      <AutoWiredJavaObjects />
+      <FileName>org\springframework\samples\jpetstore\web\spring\ViewCartController.java</FileName>
+      <LineNumber>0</LineNumber>
+      <Properties>
+        <Item Key="successView" Value="Checkout" />
+      </Properties>
+    </SpringMvcController>
+    <SpringMvcController>
+      <JavaClass>org.springframework.web.servlet.mvc.ParameterizableViewController</JavaClass>
+      <HttpRequestUrl>/shop/index.do</HttpRequestUrl>
+      <AutoWiredJavaObjects />
+      <FileName>org\springframework\web\servlet\mvc\ParameterizableViewController.java</FileName>
+      <LineNumber>0</LineNumber>
+      <Properties>
+        <Item Key="viewName" Value="index" />
+      </Properties>
+    </SpringMvcController>
+    <SpringMvcController>
+      <JavaClass>org.springframework.samples.jpetstore.web.spring.AccountFormController</JavaClass>
+      <HttpRequestUrl>/shop/newAccount.do</HttpRequestUrl>
+      <AutoWiredJavaObjects />
+      <CommandName>accountForm</CommandName>
+      <FileName>org\springframework\samples\jpetstore\web\spring\AccountFormController.java</FileName>
+      <LineNumber>0</LineNumber>
+      <Properties>
+        <Item Key="petStore" Value="ref:petStore" />
+        <Item Key="validator" Value="ref:accountValidator" />
+        <Item Key="successView" Value="index" />
+      </Properties>
+    </SpringMvcController>
+    <SpringMvcController>
+      <JavaClass>org.springframework.samples.jpetstore.web.spring.RemoveItemFromCartController</JavaClass>
+      <HttpRequestUrl>/shop/removeItemFromCart.do</HttpRequestUrl>
+      <AutoWiredJavaObjects />
+      <FileName>org\springframework\samples\jpetstore\web\spring\RemoveItemFromCartController.java</FileName>
+      <LineNumber>0</LineNumber>
+      <Properties />
+    </SpringMvcController>
+    <SpringMvcController>
+      <JavaClass>org.springframework.samples.jpetstore.web.spring.SignoffController</JavaClass>
+      <HttpRequestUrl>/shop/signoff.do</HttpRequestUrl>
+      <AutoWiredJavaObjects />
+      <FileName>org\springframework\samples\jpetstore\web\spring\SignoffController.java</FileName>
+      <LineNumber>0</LineNumber>
+      <Properties />
+    </SpringMvcController>
+    <SpringMvcController>
+      <JavaClass>org.springframework.samples.jpetstore.web.spring.SearchProductsController</JavaClass>
+      <HttpRequestUrl>/shop/searchProducts.do</HttpRequestUrl>
+      <AutoWiredJavaObjects />
+      <FileName>org\springframework\samples\jpetstore\web\spring\SearchProductsController.java</FileName>
+      <LineNumber>0</LineNumber>
+      <Properties>
+        <Item Key="petStore" Value="ref:petStore" />
+      </Properties>
+    </SpringMvcController>
+    <SpringMvcController>
+      <JavaClass>org.springframework.samples.jpetstore.web.spring.SignonController</JavaClass>
+      <HttpRequestUrl>/shop/signon.do</HttpRequestUrl>
+      <AutoWiredJavaObjects />
+      <FileName>org\springframework\samples\jpetstore\web\spring\SignonController.java</FileName>
+      <LineNumber>0</LineNumber>
+      <Properties>
+        <Item Key="petStore" Value="ref:petStore" />
+      </Properties>
+    </SpringMvcController>
+    <SpringMvcController>
+      <JavaClass>org.springframework.web.servlet.mvc.ParameterizableViewController</JavaClass>
+      <HttpRequestUrl>/shop/signonForm.do</HttpRequestUrl>
+      <AutoWiredJavaObjects />
+      <FileName>org\springframework\web\servlet\mvc\ParameterizableViewController.java</FileName>
+      <LineNumber>0</LineNumber>
+      <Properties>
+        <Item Key="viewName" Value="SignonForm" />
+      </Properties>
+    </SpringMvcController>
+    <SpringMvcController>
+      <JavaClass>org.springframework.samples.jpetstore.web.spring.UpdateCartQuantitiesController</JavaClass>
+      <HttpRequestUrl>/shop/updateCartQuantities.do</HttpRequestUrl>
+      <AutoWiredJavaObjects />
+      <FileName>org\springframework\samples\jpetstore\web\spring\UpdateCartQuantitiesController.java</FileName>
+      <LineNumber>0</LineNumber>
+      <Properties />
+    </SpringMvcController>
+    <SpringMvcController>
+      <JavaClass>org.springframework.samples.jpetstore.web.spring.ViewCartController</JavaClass>
+      <HttpRequestUrl>/shop/viewCart.do</HttpRequestUrl>
+      <AutoWiredJavaObjects />
+      <FileName>org\springframework\samples\jpetstore\web\spring\ViewCartController.java</FileName>
+      <LineNumber>0</LineNumber>
+      <Properties>
+        <Item Key="successView" Value="Cart" />
+      </Properties>
+    </SpringMvcController>
+    <SpringMvcController>
+      <JavaClass>org.springframework.samples.jpetstore.web.spring.ViewCategoryController</JavaClass>
+      <HttpRequestUrl>/shop/viewCategory.do</HttpRequestUrl>
+      <AutoWiredJavaObjects />
+      <FileName>org\springframework\samples\jpetstore\web\spring\ViewCategoryController.java</FileName>
+      <LineNumber>0</LineNumber>
+      <Properties>
+        <Item Key="petStore" Value="ref:petStore" />
+      </Properties>
+    </SpringMvcController>
+    <SpringMvcController>
+      <JavaClass>org.springframework.samples.jpetstore.web.spring.ViewItemController</JavaClass>
+      <HttpRequestUrl>/shop/viewItem.do</HttpRequestUrl>
+      <AutoWiredJavaObjects />
+      <FileName>org\springframework\samples\jpetstore\web\spring\ViewItemController.java</FileName>
+      <LineNumber>0</LineNumber>
+      <Properties>
+        <Item Key="petStore" Value="ref:petStore" />
+      </Properties>
+    </SpringMvcController>
+    <SpringMvcController>
+      <JavaClass>org.springframework.samples.jpetstore.web.spring.ViewProductController</JavaClass>
+      <HttpRequestUrl>/shop/viewProduct.do</HttpRequestUrl>
+      <AutoWiredJavaObjects />
+      <FileName>org\springframework\samples\jpetstore\web\spring\ViewProductController.java</FileName>
+      <LineNumber>0</LineNumber>
+      <Properties>
+        <Item Key="petStore" Value="ref:petStore" />
+      </Properties>
+    </SpringMvcController>
+  </Controllers>
+</SpringMvcMappings>

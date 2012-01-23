@@ -1,0 +1,29 @@
+[21-Nov-2005]
+
+- Validator.Net debug functions: There are 4 debug commands that can be passed as values in a querysting:
+	
+	?mode=debug			- Shows debug information in browser
+	?mode=normal		- doesn't show debug information in browser (default value)
+	?mode=disable		- disables Validator.Net
+	?mode=enable		- enables Validator.Net (default value)
+
+- hardcoded SQL Injection and XSS Attacks: I've added a an hardcoded check for SQL Injection and XSS to all forms that don't have an explicit rule associated with it
+	see: RequestToValidate.protectAndMitigateSQLInjections()
+		 RequestToValidate.protectAndMitigateXSSAttacks()		 	
+
+
+- issues:
+	* there must be a better way to find out the class that is currentenly being executed (ProcessRequest.resolvePageClassName() works but I don't think that it is the best way to do it)
+
+- TODO:
+	* put the sessionState in a session variable (this is almost complete)
+	* protect against the authorization vulnerability by creating a session variable which is set after the admin sucessfully logs in
+
+- Partial trust, the current version doesn't work in partial trust, but the ValidatorNet already supports it. To do so after installing the ValidatorNET_GAC_Assembly.dll in the GAC you will need to add this line to web.config
+  <system.web>
+	<trust level="Medium" originUrl="" />
+		<assemblies>
+			<add assembly="ValidatorNET_GAC_Assembly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7ba385e56658f538, Custom=null"/>
+		</assemblies>
+	</compilation>
+

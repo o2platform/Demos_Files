@@ -1,0 +1,5 @@
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\Validator.Net\ValidatorNET_GAC_Assembly\bin\ValidatorNET_GAC_Assembly.dll
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\Validator.Net\ValidatorNET_GAC_Assembly\bin\ValidatorNET_GAC_Assembly.pdb
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\Validator.Net\ValidatorNET_GAC_Assembly\obj\Debug\ResolveAssemblyReference.cache
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\Validator.Net\ValidatorNET_GAC_Assembly\obj\Debug\ValidatorNET_GAC_Assembly.dll
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\Validator.Net\ValidatorNET_GAC_Assembly\obj\Debug\ValidatorNET_GAC_Assembly.pdb

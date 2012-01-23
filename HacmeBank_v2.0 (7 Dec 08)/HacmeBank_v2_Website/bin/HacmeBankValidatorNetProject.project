@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigCons ProjectFileFormatVersion="1.0">
+  <Project Name="HacmeBank_v2_Website">
+    <Form FormName="ascxDebug" />
+    <Form FormName="ThreatIssue" />
+    <Form FormName="handleItemInfo" />
+    <Form FormName="NAME_QUERY" />
+    <Form FormName="SYSTEM_HANDLE_TABLE_ENTRY_INFO" />
+    <Form FormName="SYSTEM_HANDLE_INFORMATION" />
+    <Form FormName="OBJECT_INFORMATION_CLASS" />
+    <Form FormName="Fetch_Web_Page">
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtWebPageUrlToFetch" />
+    </Form>
+    <Form FormName="Manage_Accounts">
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtAccountNumber" />
+      <Control ControlClass="System.Web.UI.WebControls.DropDownList" ControlId="ddlUserIDs" />
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtAccountCurrency" />
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtAccountBranch" />
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtAccountInitialBalance" />
+      <Control ControlClass="System.Web.UI.WebControls.DropDownList" ControlId="ddlAccountType" />
+    </Form>
+    <Form FormName="AdminManageMessages">
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtSubject" />
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtText" />
+    </Form>
+    <Form FormName="Manage_Users">
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtUsername" />
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtLoginID" />
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtUserPassword" />
+    </Form>
+    <Form FormName="Sql_Query">
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtSqlQueryToExecute" />
+      <Control ControlClass="System.Web.UI.WebControls.DropDownList" ControlId="ddlSampleQueries" />
+    </Form>
+    <Form FormName="WebServices" />
+    <Form FormName="_AdminLeftMenu" />
+    <Form FormName="footer" />
+    <Form FormName="LeftMenu" />
+    <Form FormName="Header" />
+    <Form FormName="AccountTransfer">
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtAmt" />
+      <Control ControlClass="System.Web.UI.WebControls.DropDownList" ControlId="drpdwnSourceAcc" />
+      <Control ControlClass="System.Web.UI.WebControls.DropDownList" ControlId="drpdwnDestinationAcc" />
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtComment" />
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtExternalPaymentAccount" />
+    </Form>
+    <Form FormName="AdminSection">
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtChallenge" />
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtResponse" />
+    </Form>
+    <Form FormName="Loan">
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtAmount" />
+      <Control ControlClass="System.Web.UI.WebControls.DropDownList" ControlId="drpdwnCreditAccNo" />
+      <Control ControlClass="System.Web.UI.WebControls.DropDownList" ControlId="drpdwnLoanPeriodAndInterestRate" />
+      <Control ControlClass="System.Web.UI.HtmlControls.HtmlInputHidden" ControlId="hlblCreditAccNo" />
+      <Control ControlClass="System.Web.UI.HtmlControls.HtmlInputHidden" ControlId="hlblDebitAccNo" />
+      <Control ControlClass="System.Web.UI.HtmlControls.HtmlInputHidden" ControlId="hlblRate_Of_Interest" />
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtComment" />
+    </Form>
+    <Form FormName="MyAccountForm" />
+    <Form FormName="PasswordChange">
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtOldPassword">
+        <ValidationRule name="Password" />
+      </Control>
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtNewPassword">
+        <ValidationRule name="Password" />
+      </Control>
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtConfirmPassword">
+        <ValidationRule name="Password" />
+      </Control>
+    </Form>
+    <Form FormName="PostMessageForm">
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtSubject" />
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtText" />
+    </Form>
+    <Form FormName="TransactionDetails" />
+    <Form FormName="Welcome" />
+    <Form FormName="Login">
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtUserName">
+        <ValidationRule name="Username" />
+      </Control>
+      <Control ControlClass="System.Web.UI.WebControls.TextBox" ControlId="txtPassword">
+        <ValidationRule name="Password" />
+      </Control>
+    </Form>
+    <Form FormName="Main" />
+    <Form FormName="AccountManagement" />
+    <Form FormName="AdminFunctions" />
+    <Form FormName="ascxThreadingIssue" />
+    <Form FormName="handleItemInfo" />
+    <Form FormName="NAME_QUERY" />
+    <Form FormName="OBJECT_INFORMATION_CLASS" />
+    <Form FormName="dataClasses" />
+    <Form FormName="userData" />
+    <Form FormName="userAccount" />
+    <Form FormName="transactionDetail" />
+    <Form FormName="postedMessage" />
+    <Form FormName="Gui" />
+    <Form FormName="UserManagement" />
+    <Form FormName="UsersCommunity" />
+    <Form FormName="HttpModule_errorHandeling" />
+    <Form FormName="HttpModule_onlyAllowLocalAccess" />
+    <Form FormName="WS_AccountManagement" />
+    <Form FormName="WS_UserManagement" />
+    <Form FormName="WS_UsersCommunity" />
+  </Project>
+</ConfigCons>

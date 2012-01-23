@@ -1,0 +1,8 @@
+Jul 19, 2011 7:07:56 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Jul 19, 2011 7:07:58 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'petclinic'
+Jul 19, 2011 8:31:03 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'petclinic'
+Jul 19, 2011 8:31:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext

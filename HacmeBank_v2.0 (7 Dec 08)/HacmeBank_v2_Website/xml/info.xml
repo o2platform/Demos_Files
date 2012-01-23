@@ -1,0 +1,93 @@
+<?xml version="1.0"?> 
+<adv>
+ <advertise>
+    <courseschedule>
+     <date>03/08/06</date>
+     <location>Washington, DC</location>
+     <title>Ultimate Web Hacking</title>
+     <shortdescription> </shortdescription>
+     <moreinfo> </moreinfo>
+   </courseschedule>
+    <whitepaper>
+           <date>03/08/05</date>
+           <title>Foundstone Hacme Books - User and Solution Guide</title>
+           <downloadlocation>www.foundstone.com</downloadlocation>
+   </whitepaper>
+   <tool>
+           <title>Hacme Books</title>
+           <description> Java application security training tool</description>
+           <downloadlocation>www.foundstone.net</downloadlocation>
+   </tool>
+       <othernews>
+        <newitem> McAfee Foundstone Enhances Product Portfolio With Foundstone Enterprise 4.2 And FS 850</newitem>
+   </othernews>
+ </advertise>
+ <advertise>
+    <courseschedule>
+     <date>03/28/06</date>
+     <location>Washington, DC</location>
+     <title>Building Secure Software</title>
+     <shortdescription> </shortdescription>
+     <moreinfo> </moreinfo>
+   </courseschedule>
+    <whitepaper>
+           <date>03/08/05</date>
+           <title>Foundstone Validator.NET - Help detect potentially exploits in .NET</title>
+           <downloadlocation>www.foundstone.com</downloadlocation>
+   </whitepaper>
+   <tool>
+           <title>.NET Security Toolkit</title>
+           <description> Security Tools for .NET developers</description>
+           <downloadlocation>www.foundstone.net</downloadlocation>
+   </tool>
+    <othernews>
+        <newitem>McAfee Foundstone Professional Services Consultants Sponsor and Develop Security Tool With Carnegie Mellon Graduate Students</newitem>
+   </othernews>
+  </advertise>
+ <advertise>
+    <courseschedule>
+     <date>04/03/06</date>
+     <location>Washington, DC</location>
+     <title>Building Secure Software</title>
+     <shortdescription> </shortdescription>
+     <moreinfo> </moreinfo>
+   </courseschedule>
+    <whitepaper>
+        <date>01/06/05</date>
+        <title>Foundstone SiteDigger 2.0 - Identifying Information Leakage Using Search Engines</title>
+        <downloadlocation>www.foundstone.com</downloadlocation>
+   </whitepaper>
+   <tool>
+        <title>SiteDigger 2.0</title>
+        <description>Searches Google's cache to look for vulnerabilities</description>
+        <downloadlocation>www.foundstone.com</downloadlocation>
+   </tool>
+    <othernews>
+        <newitem>McAfee, Inc. Foundstone Services Delivers New Security Training Application to Help Java Developers Build More Secure Software</newitem>
+   </othernews>
+ </advertise>
+ <advertise>
+    <courseschedule>
+     <date>04/19/06</date>
+     <location>Stockholm, Sweden</location>
+     <title>Ultimate Web Hacking</title>
+     <shortdescription> </shortdescription>
+     <moreinfo> </moreinfo>
+   </courseschedule>
+     <othernews>
+        <newitem>McAfee, Inc. Foundstone Services Offers Tools and Training to Help Application Developers Build Secure Software</newitem>
+   </othernews>
+ </advertise>
+ <advertise>
+    <courseschedule>
+     <date>04/25/06</date>
+     <location>Washington, DC</location>
+     <title>Writing Secure Code - Java (J2EE)</title>
+     <shortdescription> </shortdescription>
+     <moreinfo> </moreinfo>
+   </courseschedule>
+     <othernews>
+        <newitem>McAfee, Inc. Completes Acquisition of Foundstone, Inc.</newitem>
+   </othernews>
+ </advertise>
+</adv>

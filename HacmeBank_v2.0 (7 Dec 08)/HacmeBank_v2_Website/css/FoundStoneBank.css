@@ -1,0 +1,493 @@
+BODY {
+    scrollbar-arrow-color:#B01212;
+	scrollbar-base-color:#B4B4B4;
+	scrollbar-shadow-color:#F3F3F3;
+	scrollbar-face-color:#B4B4B4;
+	scrollbar-highlight-color:#F3F3F3;
+	scrollbar-dark-shadow-color:#FFFFFF;
+	scrollbar-3d-light-color:#B4B4B4;
+}
+
+TD {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #373737;
+	font-weight : normal;	
+}
+TD A:LINK {color : #373737; text-decoration : underline;}
+TD A:VISITED {color : #373737; text-decoration : underline;}
+TD A:ACTIVE {color : #373737; text-decoration : underline;}
+TD A:HOVER {color : #BA0303; text-decoration : underline;}
+
+B {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #373737;
+	font-weight : bold;	
+}
+B A:LINK {color : #373737; text-decoration : underline;}
+B A:VISITED {color : #373737; text-decoration : underline;}
+B A:ACTIVE {color : #373737; text-decoration : underline;}
+B A:HOVER {color : #BA0303; text-decoration : underline;}
+
+.Utxt1 {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #BEBEBE;
+	font-weight : normal;
+}
+
+.Utxt1Bold {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #BEBEBE;
+	font-weight : bold;
+}
+
+.Utxt2 {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #585858;
+	font-weight : normal;
+}
+
+.Utxt2Bold {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #585858;
+	font-weight : bold;
+}
+.Utxt2Bold A:LINK {color : #585858; text-decoration : underline;}
+.Utxt2Bold A:VISITED {color : #585858; text-decoration : underline;}
+.Utxt2Bold A:ACTIVE {color : #585858; text-decoration : underline;}
+.Utxt2Bold A:HOVER {color : #585858; text-decoration : underline;}
+
+.Utxt3 {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #000000;
+	font-weight : normal;
+}
+.Utxt3 A:LINK {color : #000000; text-decoration : underline;}
+.Utxt3 A:VISITED {color : #000000; text-decoration : underline;}
+.Utxt3 A:ACTIVE {color : #000000; text-decoration : underline;}
+.Utxt3 A:HOVER {color : #000000; text-decoration : underline;}
+.Utxt2BoldDark {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 9px;
+	color : #343434;
+	font-weight : bold;
+}
+.Utxt2BoldDark A:LINK {color : #343434; text-decoration : underline;}
+.Utxt2BoldDark A:VISITED {color : #343434; text-decoration : 
+underline;}
+.Utxt2BoldDark A:ACTIVE {color : #343434; text-decoration : underline;}
+.Utxt2BoldDark A:HOVER {color : #343434; text-decoration : underline;}
+
+.Utxt4 {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #9C9B9B;
+	font-weight : normal;
+}
+
+.Utxt5 {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #D4D4D4;
+	font-weight : normal;
+}
+.Utxt5 A:LINK {color : #D4D4D4; text-decoration : underline;}
+.Utxt5 A:VISITED {color : #D4D4D4; text-decoration : underline;}
+.Utxt5 A:ACTIVE {color : #D4D4D4; text-decoration : underline;}
+.Utxt5 A:HOVER {color : #D4D4D4; text-decoration : underline;}
+
+.Utxt6 {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #BA0303;
+	font-weight : normal;
+}
+.Utxt6 A:LINK {color : #BA0303; text-decoration : underline;}
+.Utxt6 A:VISITED {color : #BA0303; text-decoration : underline;}
+.Utxt6 A:ACTIVE {color : #BA0303; text-decoration : underline;}
+.Utxt6 A:HOVER {color : #BA0303; text-decoration : underline;}
+
+.Utxt6Bold {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #BA0303;
+	font-weight : bold;
+}
+.Utxt6Bold A:LINK {color : #BA0303; text-decoration : underline;}
+.Utxt6Bold A:VISITED {color : #BA0303; text-decoration : underline;}
+.Utxt6Bold A:ACTIVE {color : #BA0303; text-decoration : underline;}
+.Utxt6Bold A:HOVER {color : #BA0303; text-decoration : underline;}
+
+.Utxt6Bold2 A:LINK {color : #BA0303; font-weight : bold; 
+text-decoration : underline;}
+.Utxt6Bold2 A:VISITED {color : #BA0303; font-weight : bold; 
+text-decoration : underline;}
+.Utxt6Bold2 A:ACTIVE {color : #BA0303; font-weight : bold; 
+text-decoration : underline;}
+.Utxt6Bold2 A:HOVER {color : #BA0303; font-weight : bold; 
+text-decoration : underline;}
+
+.Utxt7 {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #E1E1E1;
+	font-weight : normal;
+}
+.Utxt7 A:LINK {color : #E1E1E1; text-decoration : underline;}
+.Utxt7 A:VISITED {color : #E1E1E1; text-decoration : underline;}
+.Utxt7 A:ACTIVE {color : #E1E1E1; text-decoration : underline;}
+.Utxt7 A:HOVER {color : #E1E1E1; text-decoration : underline;}
+
+.Utxt7Bold
+{
+	font-weight: bold;
+	font-size: 10px;
+	color: dimgray;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.Utxt7Bold A:LINK {color : #E1E1E1; text-decoration : underline;}
+.Utxt7Bold A:VISITED {color : #E1E1E1; text-decoration : underline;}
+.Utxt7Bold A:ACTIVE {color : #E1E1E1; text-decoration : underline;}
+.Utxt7Bold A:HOVER {color : #E1E1E1; text-decoration : underline;}
+
+.Utxt8 {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #373737;
+	font-weight : normal;
+}
+.Utxt8 A:LINK {color : #373737; text-decoration : underline;}
+.Utxt8 A:VISITED {color : #373737; text-decoration : underline;}
+.Utxt8 A:ACTIVE {color : #373737; text-decoration : underline;}
+.Utxt8 A:HOVER {color : #373737; text-decoration : underline;}
+
+.Utxt8Bold {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #373737;
+	font-weight : bold;
+}
+.Utxt8Bold A:LINK {color : #373737; text-decoration : underline;}
+.Utxt8Bold A:VISITED {color : #373737; text-decoration : underline;}
+.Utxt8Bold A:ACTIVE {color : #373737; text-decoration : underline;}
+.Utxt8Bold A:HOVER {color : #373737; text-decoration : underline;}
+
+.Utxt9 {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #FFFFFF;
+	font-weight : normal;
+}
+.Utxt9 A:LINK {color : #FFFFFF; text-decoration : underline;}
+.Utxt9 A:VISITED {color : #FFFFFF; text-decoration : underline;}
+.Utxt9 A:ACTIVE {color : #FFFFFF; text-decoration : underline;}
+.Utxt9 A:HOVER {color : #FFFFFF; text-decoration : underline;}
+
+.Utxt9Bold {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #FFFFFF;
+	font-weight : bold;
+}
+.Utxt9Bold A:LINK {color : #FFFFFF; text-decoration : underline;}
+.Utxt9Bold A:VISITED {color : #FFFFFF; text-decoration : underline;}
+.Utxt9Bold A:ACTIVE {color : #FFFFFF; text-decoration : underline;}
+.Utxt9Bold A:HOVER {color : #FFFFFF; text-decoration : underline;}
+
+.tblBevel1
+{
+	border-right: #868686 1px solid;
+	border-top: #f5f5f5 1px solid;
+	background-image: url(./images/shadow_txtfield.gif);
+	border-left: #f5f5f5 1px solid;
+	border-bottom: #868686 1px solid;
+}
+.tblBevel2	{
+	border-color: #868686 #F5F5F5 #F5F5F5 #868686;
+	border-style: solid; border-top-width: 1px; border-right-width: 1px; 
+border-bottom-width: 1px; border-left-width: 1px;
+	}	
+.tblBevel3	{
+	border-color: #505050 #505050 #505050 #505050;
+	border-style: solid; border-top-width: 1px; border-right-width: 1px; 
+border-bottom-width: 1px; border-left-width: 1px;
+	}	
+.tblBevel4	{
+	border-color: #868686 #868686 #868686 #868686;
+	border-style: solid; border-top-width: 1px; border-right-width: 1px; 
+border-bottom-width: 1px; border-left-width: 1px;
+	}
+
+
+.frmBorder{
+    background-color: #505050;
+}
+.frmBackground{
+    background-color: #FAFAFA;
+}
+.frmDescription {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #FFFFFF;
+	line-height : 14px;
+	font-weight : normal;	
+	background-color : #828282;
+}
+.frmDescriptionBold
+{
+	font-weight: bold;
+	font-size: 11px;
+	left: 6px;
+	color: #ffffff;
+	line-height: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	position: static;
+	top: 8px;
+	background-color: #828282;
+}		
+.frmInput {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #C20F0F;
+	line-height : 14px;
+	background-color : #DCDCDC;
+}
+.frmRequired{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #C20F0F;
+	line-height : 14px;
+	font-weight : bold;	
+	background-color : #CECECE;
+}
+.frmStatus{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #C20F0F;
+	line-height : 14px;
+	background-color : #CDCDCD;
+}
+.butnStyle1{
+    border-top: 1px solid #A0A0A0;
+    border-bottom: 1px solid #A0A0A0;
+    border-left: 1px solid #A0A0A0;
+    border-right: 1px solid #A0A0A0;
+    background-color: #2E2E2E;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;    
+    color: #C8C8C8;
+	font-weight : normal;	   
+    text-decoration: none;
+    cursor : hand;
+}
+.butnStyle2{
+    border-top: 1px solid #505050;
+    border-bottom: 1px solid #505050;
+    border-left: 1px solid #505050;
+    border-right: 1px solid #505050;
+    background-color: #E6E6E6;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;    
+    color: #505050;
+	font-weight : normal;	   
+    text-decoration: none;
+    cursor : hand;
+}
+.loginbutton{
+    border-top: 1px solid #505050;
+    border-bottom: 1px solid #505050;
+    border-left: 1px solid #505050;
+    border-right: 1px solid #505050;
+    background-color: #990000;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;    
+    color: #FFFFFF;
+	font-weight : bold;	   
+    text-decoration: none;
+    cursor : hand;
+}
+.drpDown1{
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    border-left: 1px solid #666666;
+    border-right: 1px solid #666666;
+    background-color: #DDDDDD;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;    
+    color: #C20F0F;
+    font-weight : bold;
+}
+.drpDown2{
+    border-top: 1px solid #505050;
+    border-bottom: 1px solid #505050;
+    border-left: 1px solid #505050;
+    border-right: 1px solid #505050;
+    background-color: #F5F5F5;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;    
+    color: #505050;
+    font-weight : normal;
+}
+.txtBox1{
+    border-top: 1px solid #A0A0A0;
+    border-bottom: 1px solid #A0A0A0;
+    border-left: 1px solid #A0A0A0;
+    border-right: 1px solid #A0A0A0;
+    background-color: #F5F5F5;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;    
+    color: #373737;
+	text-decoration: none;
+}
+.txtBox2{
+    border-top: 1px solid #505050;
+    border-bottom: 1px solid #505050;
+    border-left: 1px solid #505050;
+    border-right: 1px solid #505050;
+    background-color: #F5F5F5;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;    
+    color: #505050;   
+    text-decoration: none;
+	background-image: url(./images/shadow_txtbox.gif);	
+}
+.txtField1
+{
+	border-right: #505050 1px solid;
+	border-top: #505050 1px solid;
+	font-size: 10px;
+	background-image: url(./images/shadow_txtfield.gif);
+	border-left: #505050 1px solid;
+	color: #505050;
+	border-bottom: #505050 1px solid;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #f5f5f5;
+	text-decoration: none;
+}
+.lstMenu1{
+    border-top: 1px solid #505050;
+    border-bottom: 1px solid #505050;
+    border-left: 1px solid #505050;
+    border-right: 1px solid #505050;
+    background-color: #EFEFEF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;    
+    color: #373737;   
+    text-decoration: none;
+}
+.lstMenu2{
+    border-top: 1px solid #505050;
+    border-bottom: 1px solid #505050;
+    border-left: 1px solid #505050;
+    border-right: 1px solid #505050;
+    background-color: #EFEFEF;
+    font-family:  Courier, "Courier New",monospace;
+    font-size: 10px;    
+    color: #373737;   
+    text-decoration: none;
+}
+.rdoButn1{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+}
+.chkBox1{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+}			
+.homeStrong {
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #373737;
+	font-weight : bold;	
+	line-height: 1.1;
+	letter-spacing: 0.04em;
+}	
+.errorMessage
+{
+	font-size: 9pt;
+	color: #BA3030;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.message
+{
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : black;
+	font-weight : bold;
+}
+
+.butonLink
+{
+	font-size: 10px;
+	color: white;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.label1
+{
+	font-size: 11px;
+	color:  #505050;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.multiText1
+{
+    border-top: 1px solid #505050;
+    border-bottom: 1px solid #505050;
+    border-left: 1px solid #505050;
+    border-right: 1px solid #505050;
+    background-color: #F5F5F5;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;    
+    color: #505050;   
+    text-decoration: none;
+	
+}	
+.bluebox
+{
+	color : #46678E;
+	font-weight : bold;
+}
+.loginbox
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;  
+    font-weight : bold;
+}
+.blueheader
+{
+    	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color : #BDD9EC;
+	font-weight : bold;
+    	text-decoration: none;	
+}
+.blueheader A:LINK {color : #BDD9EC; text-decoration : none;}
+.blueheader A:VISITED {color : #BDD9EC; text-decoration : none;}
+.blueheader A:ACTIVE {color : #FFFFFF; text-decoration : none;}
+.blueheader A:HOVER {color : #FFFFFF; text-decoration : none;}
+
+
+.menu_dark
+{
+    	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color : #BDD9EC;
+	font-weight : bold;
+    	text-decoration: none;
+    	background-color: #3A5676;
+}
+.menu_dark A:LINK {color : #BDD9EC; text-decoration : none;}
+.menu_dark A:VISITED {color : #BDD9EC; text-decoration : none;}
+.menu_dark A:ACTIVE {color : #FFFFFF; text-decoration : none;}
+.menu_dark A:HOVER {color : #FFFFFF; text-decoration : none;}
+
+.menu_light
+{
+    	background-color: #718A9F;
+}

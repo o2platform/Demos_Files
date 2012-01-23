@@ -1,0 +1,219 @@
+Sep 21, 2011 3:44:46 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_24\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\ActiveState Komodo Edit 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\
+Sep 21, 2011 3:44:47 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Sep 21, 2011 3:44:47 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:391)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:490)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:364)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:910)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:781)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:572)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:262)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:430)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:383)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:150)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:48)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:378)
+	... 17 more
+Sep 21, 2011 3:44:47 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:912)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:781)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:572)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:262)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:430)
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:391)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:490)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:364)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:910)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:383)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:150)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:48)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:378)
+	... 17 more
+Sep 21, 2011 3:44:47 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8010"]
+Sep 21, 2011 3:44:47 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1214 ms
+Sep 21, 2011 3:44:47 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 21, 2011 3:44:47 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.16
+Sep 21, 2011 3:44:47 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jpetstore.war
+Sep 21, 2011 3:44:49 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Sep 21, 2011 3:44:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.XmlWebApplicationContext@1eec35: display name [Root WebApplicationContext]; startup date [Wed Sep 21 15:44:49 BST 2011]; root of context hierarchy
+Sep 21, 2011 3:44:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/dataAccessContext-local.xml]
+Sep 21, 2011 3:44:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+Sep 21, 2011 3:44:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@1eec35]: org.springframework.beans.factory.support.DefaultListableBeanFactory@149105b
+Sep 21, 2011 3:44:50 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from ServletContext resource [/WEB-INF/mail.properties]
+Sep 21, 2011 3:44:50 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from ServletContext resource [/WEB-INF/jdbc.properties]
+Sep 21, 2011 3:44:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@149105b: defining beans [dataSource,transactionManager,sqlMapClient,accountDao,categoryDao,productDao,itemDao,orderDao,sequenceDao,propertyConfigurer,accountValidator,orderValidator,petStore,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,txAdvice]; root of factory hierarchy
+Sep 21, 2011 3:44:51 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 2454 ms
+Sep 21, 2011 3:44:51 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [141] milliseconds.
+Sep 21, 2011 3:44:52 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'petstore': initialization started
+Sep 21, 2011 3:44:52 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.XmlWebApplicationContext@82674b: display name [WebApplicationContext for namespace 'petstore-servlet']; startup date [Wed Sep 21 15:44:52 BST 2011]; parent: org.springframework.web.context.support.XmlWebApplicationContext@1eec35
+Sep 21, 2011 3:44:52 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/petstore-servlet.xml]
+Sep 21, 2011 3:44:52 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@82674b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1b17d49
+Sep 21, 2011 3:44:52 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1b17d49: defining beans [viewResolver,defaultHandlerMapping,/shop/addItemToCart.do,/shop/checkout.do,/shop/index.do,/shop/newAccount.do,/shop/removeItemFromCart.do,/shop/signoff.do,/shop/searchProducts.do,/shop/signon.do,/shop/signonForm.do,/shop/updateCartQuantities.do,/shop/viewCart.do,/shop/viewCategory.do,/shop/viewItem.do,/shop/viewProduct.do,secureHandlerMapping,signonInterceptor,secure_editAccount,secure_listOrders,secure_newOrder,secure_viewOrder]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@149105b
+Sep 21, 2011 3:44:52 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'petstore': initialization completed in 376 ms
+Sep 21, 2011 3:44:52 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'remoting': initialization started
+Sep 21, 2011 3:44:52 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.XmlWebApplicationContext@df2940: display name [WebApplicationContext for namespace 'remoting-servlet']; startup date [Wed Sep 21 15:44:52 BST 2011]; parent: org.springframework.web.context.support.XmlWebApplicationContext@1eec35
+Sep 21, 2011 3:44:52 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/remoting-servlet.xml]
+Sep 21, 2011 3:44:52 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@df2940]: org.springframework.beans.factory.support.DefaultListableBeanFactory@10d4f27
+Sep 21, 2011 3:44:52 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10d4f27: defining beans [/OrderService-hessian,/OrderService-burlap,/OrderService-httpinvoker]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@149105b
+Sep 21, 2011 3:44:52 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'remoting': initialization completed in 140 ms
+Sep 21, 2011 3:44:53 PM org.apache.axis.utils.JavaUtils isAttachmentSupported
+WARNING: Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+Sep 21, 2011 3:44:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8010"]
+Sep 21, 2011 3:44:53 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6463 ms
+Sep 21, 2011 3:47:28 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Sep 21, 2011 3:47:28 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8010"]
+Sep 21, 2011 3:47:29 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 21, 2011 3:47:29 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing org.springframework.web.context.support.XmlWebApplicationContext@df2940: display name [WebApplicationContext for namespace 'remoting-servlet']; startup date [Wed Sep 21 15:44:52 BST 2011]; parent: org.springframework.web.context.support.XmlWebApplicationContext@1eec35
+Sep 21, 2011 3:47:29 PM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10d4f27: defining beans [/OrderService-hessian,/OrderService-burlap,/OrderService-httpinvoker]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@149105b
+Sep 21, 2011 3:47:29 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing org.springframework.web.context.support.XmlWebApplicationContext@82674b: display name [WebApplicationContext for namespace 'petstore-servlet']; startup date [Wed Sep 21 15:44:52 BST 2011]; parent: org.springframework.web.context.support.XmlWebApplicationContext@1eec35
+Sep 21, 2011 3:47:29 PM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1b17d49: defining beans [viewResolver,defaultHandlerMapping,/shop/addItemToCart.do,/shop/checkout.do,/shop/index.do,/shop/newAccount.do,/shop/removeItemFromCart.do,/shop/signoff.do,/shop/searchProducts.do,/shop/signon.do,/shop/signonForm.do,/shop/updateCartQuantities.do,/shop/viewCart.do,/shop/viewCategory.do,/shop/viewItem.do,/shop/viewProduct.do,secureHandlerMapping,signonInterceptor,secure_editAccount,secure_listOrders,secure_newOrder,secure_viewOrder]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@149105b
+Sep 21, 2011 3:47:29 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing org.springframework.web.context.support.XmlWebApplicationContext@1eec35: display name [Root WebApplicationContext]; startup date [Wed Sep 21 15:44:49 BST 2011]; root of context hierarchy
+Sep 21, 2011 3:47:29 PM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@149105b: defining beans [dataSource,transactionManager,sqlMapClient,accountDao,categoryDao,productDao,itemDao,orderDao,sequenceDao,propertyConfigurer,accountValidator,orderValidator,petStore,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,txAdvice]; root of factory hierarchy
+Sep 21, 2011 3:47:29 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8010"]
+Sep 21, 2011 3:47:29 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Sep 21, 2011 3:47:29 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8010"]
+Sep 21, 2011 9:08:13 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Windows\system32;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\ActiveState Komodo Edit 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;.
+Sep 21, 2011 9:08:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Sep 21, 2011 9:08:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8010"]
+Sep 21, 2011 9:08:14 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1708 ms
+Sep 21, 2011 9:08:14 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 21, 2011 9:08:14 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.16
+Sep 21, 2011 9:08:14 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive jpetstore.war
+Sep 21, 2011 9:08:16 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Sep 21, 2011 9:08:16 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.XmlWebApplicationContext@d85cc: display name [Root WebApplicationContext]; startup date [Wed Sep 21 21:08:16 BST 2011]; root of context hierarchy
+Sep 21, 2011 9:08:16 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/dataAccessContext-local.xml]
+Sep 21, 2011 9:08:17 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+Sep 21, 2011 9:08:17 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@d85cc]: org.springframework.beans.factory.support.DefaultListableBeanFactory@caf6c1
+Sep 21, 2011 9:08:17 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from ServletContext resource [/WEB-INF/mail.properties]
+Sep 21, 2011 9:08:17 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from ServletContext resource [/WEB-INF/jdbc.properties]
+Sep 21, 2011 9:08:17 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@caf6c1: defining beans [dataSource,transactionManager,sqlMapClient,accountDao,categoryDao,productDao,itemDao,orderDao,sequenceDao,propertyConfigurer,accountValidator,orderValidator,petStore,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,txAdvice]; root of factory hierarchy
+Sep 21, 2011 9:08:18 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 2157 ms
+Sep 21, 2011 9:08:18 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [125] milliseconds.
+Sep 21, 2011 9:08:18 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'petstore': initialization started
+Sep 21, 2011 9:08:18 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.XmlWebApplicationContext@1128f5a: display name [WebApplicationContext for namespace 'petstore-servlet']; startup date [Wed Sep 21 21:08:18 BST 2011]; parent: org.springframework.web.context.support.XmlWebApplicationContext@d85cc
+Sep 21, 2011 9:08:18 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/petstore-servlet.xml]
+Sep 21, 2011 9:08:19 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@1128f5a]: org.springframework.beans.factory.support.DefaultListableBeanFactory@eb7331
+Sep 21, 2011 9:08:19 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@eb7331: defining beans [viewResolver,defaultHandlerMapping,/shop/addItemToCart.do,/shop/checkout.do,/shop/index.do,/shop/newAccount.do,/shop/removeItemFromCart.do,/shop/signoff.do,/shop/searchProducts.do,/shop/signon.do,/shop/signonForm.do,/shop/updateCartQuantities.do,/shop/viewCart.do,/shop/viewCategory.do,/shop/viewItem.do,/shop/viewProduct.do,secureHandlerMapping,signonInterceptor,secure_editAccount,secure_listOrders,secure_newOrder,secure_viewOrder]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@caf6c1
+Sep 21, 2011 9:08:19 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'petstore': initialization completed in 328 ms
+Sep 21, 2011 9:08:19 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'remoting': initialization started
+Sep 21, 2011 9:08:19 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.XmlWebApplicationContext@1684e26: display name [WebApplicationContext for namespace 'remoting-servlet']; startup date [Wed Sep 21 21:08:19 BST 2011]; parent: org.springframework.web.context.support.XmlWebApplicationContext@d85cc
+Sep 21, 2011 9:08:19 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/remoting-servlet.xml]
+Sep 21, 2011 9:08:19 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@1684e26]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1aa0a15
+Sep 21, 2011 9:08:19 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1aa0a15: defining beans [/OrderService-hessian,/OrderService-burlap,/OrderService-httpinvoker]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@caf6c1
+Sep 21, 2011 9:08:19 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'remoting': initialization completed in 156 ms
+Sep 21, 2011 9:08:19 PM org.apache.axis.utils.JavaUtils isAttachmentSupported
+WARNING: Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+Sep 21, 2011 9:08:20 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Sep 21, 2011 9:08:20 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8010"]
+Sep 21, 2011 9:08:20 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5755 ms
+Sep 21, 2011 9:08:23 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned where no TLDs were found. Skipping JAR scanning can improve startup time and JSP compilation time.

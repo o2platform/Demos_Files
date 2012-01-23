@@ -1,0 +1,11 @@
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\HacmeBank_v2_WS\bin\HacmeBank_v2_WS.dll
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\HacmeBank_v2_WS\bin\HacmeBank_v2_WS.pdb
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\HacmeBank_v2_WS\obj\Debug\ResolveAssemblyReference.cache
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\HacmeBank_v2_WS\obj\Debug\HacmeBank_v2_WS.Global.resources
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\HacmeBank_v2_WS\obj\Debug\HacmeBank_v2_WS.install.Install.resources
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\HacmeBank_v2_WS\obj\Debug\HacmeBank_v2_WS.WS_AccountManagement.resources
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\HacmeBank_v2_WS\obj\Debug\HacmeBank_v2_WS.WS_UserManagement.resources
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\HacmeBank_v2_WS\obj\Debug\HacmeBank_v2_WS.WS_UsersCommunity.resources
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\HacmeBank_v2_WS\obj\Debug\HacmeBank_v2_WS.csproj.GenerateResource.Cache
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\HacmeBank_v2_WS\obj\Debug\HacmeBank_v2_WS.dll
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\HacmeBank_v2_WS\obj\Debug\HacmeBank_v2_WS.pdb

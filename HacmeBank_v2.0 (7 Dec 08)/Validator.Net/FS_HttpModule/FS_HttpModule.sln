@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FS_HttpModule", "FS_HttpModule.csproj", "{305128D7-9C90-4CA6-B781-ADFA0C25152C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidatorNET_GAC_Assembly", "..\ValidatorNET_GAC_Assembly\ValidatorNET_GAC_Assembly.csproj", "{224EA972-DC8C-4054-9E5B-AE0B6461EE26}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HacmeBank_V2_Website", "http://127.0.0.1/HacmeBank_V2_Website/HacmeBank_V2_Website.csproj", "{449608A6-5401-4CBD-807E-71FF43C8D625}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{305128D7-9C90-4CA6-B781-ADFA0C25152C}.Debug.ActiveCfg = Debug|.NET
+		{305128D7-9C90-4CA6-B781-ADFA0C25152C}.Debug.Build.0 = Debug|.NET
+		{305128D7-9C90-4CA6-B781-ADFA0C25152C}.Release.ActiveCfg = Release|.NET
+		{305128D7-9C90-4CA6-B781-ADFA0C25152C}.Release.Build.0 = Release|.NET
+		{224EA972-DC8C-4054-9E5B-AE0B6461EE26}.Debug.ActiveCfg = Debug|.NET
+		{224EA972-DC8C-4054-9E5B-AE0B6461EE26}.Debug.Build.0 = Debug|.NET
+		{224EA972-DC8C-4054-9E5B-AE0B6461EE26}.Release.ActiveCfg = Release|.NET
+		{224EA972-DC8C-4054-9E5B-AE0B6461EE26}.Release.Build.0 = Release|.NET
+		{449608A6-5401-4CBD-807E-71FF43C8D625}.Debug.ActiveCfg = Debug|.NET
+		{449608A6-5401-4CBD-807E-71FF43C8D625}.Debug.Build.0 = Debug|.NET
+		{449608A6-5401-4CBD-807E-71FF43C8D625}.Release.ActiveCfg = Release|.NET
+		{449608A6-5401-4CBD-807E-71FF43C8D625}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

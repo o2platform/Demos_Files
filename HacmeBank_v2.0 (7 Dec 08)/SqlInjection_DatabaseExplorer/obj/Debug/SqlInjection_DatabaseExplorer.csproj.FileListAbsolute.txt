@@ -1,0 +1,11 @@
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\SqlInjection_DatabaseExplorer\obj\Debug\ResolveAssemblyReference.cache
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\SqlInjection_DatabaseExplorer\obj\Debug\SqlInjection_DatabaseExplorer.Form1.resources
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\SqlInjection_DatabaseExplorer\obj\Debug\SqlInjection_DatabaseExplorer.csproj.GenerateResource.Cache
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\SqlInjection_DatabaseExplorer\obj\Debug\SqlInjection_DatabaseExplorer.exe
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\SqlInjection_DatabaseExplorer\obj\Debug\SqlInjection_DatabaseExplorer.pdb
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\SqlInjection_DatabaseExplorer\SqlInjection_DatabaseExplorer.exe
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\SqlInjection_DatabaseExplorer\SqlInjection_DatabaseExplorer.pdb
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\SqlInjection_DatabaseExplorer\SqlInjection_DatabaseExplorer.exe.config
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\SqlInjection_DatabaseExplorer\bin\SqlInjection_DatabaseExplorer.exe.config
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\SqlInjection_DatabaseExplorer\bin\SqlInjection_DatabaseExplorer.exe
+E:\BlogPosts\HacmeBank_V2\HacmeBank_v2.0\SqlInjection_DatabaseExplorer\bin\SqlInjection_DatabaseExplorer.pdb

@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<H2>
+  <SourceCode>var topPanel = O2Gui.open&lt;Panel&gt;("Spring MVC Util - View Controllers",1000,400);
+//var topPanel = panel.clear().add_Panel(); 
+
+
+var baseDir = PublicDI.CurrentScript.directoryName();  
+
+//baseDir = @"C:\O2\Demos\SpringFramework\samples\jpetstore";
+var xmlFile = baseDir.pathCombine(@"sourceCode\war\WEB-INF\petstore-servlet.xml"); 
+var mcvMappingsFile = "{0}.mvcMappings.xml".format(xmlFile);
+var webAppClassFiles = baseDir.pathCombine("jPetStore.classes.zip.xml");
+
+var coreClassFiles = baseDir.pathCombine("jPetStore.classes.zip.xml"); 
+
+Func&lt;string,string,string&gt; resolveGetterReturnType =  
+	(methodName, returnType) =&gt; {
+									"in resolveGetterReturnType: {0}  -    {1}".debug(methodName, returnType);
+									if (methodName =="getLineItems")
+										return "org.springframework.samples.jpetstore.domain.LineItem";
+									return returnType;
+								};
+
+var mvcMappings = (mcvMappingsFile.fileExists())  
+						? mcvMappingsFile.load&lt;SpringMvcMappings&gt;() 
+						: xmlFile.springMvcMappings()    
+								 .mapCommandClass_using_XRefs(webAppClassFiles);	 			 
+  
+var xRefs = coreClassFiles.javaMetadata().map_JavaMetadata_XRefs();    
+
+var byCommandClass = mvcMappings.controllers_by_CommandClass();  
+  
+var treeView = topPanel.add_TreeView_with_PropertyGrid(true).sort();  
+var codeViewer = topPanel.insert_Right().add_SourceCodeViewer();
+Action&lt;string&gt; onClassSelected =
+	(@class) =&gt; {
+					if (xRefs.Classes_by_Signature.hasKey(@class))
+						codeViewer.open(xRefs.Classes_by_Signature[@class].file());											
+				};
+var _treeView = codeViewer.insert_Above().add_TreeView_For_CommandClasses_Visualization(xRefs, onClassSelected, resolveGetterReturnType);  
+
+treeView.afterSelect&lt;String&gt;( 
+	(javaClass)=&gt;{
+					if (javaClass.valid() &amp;&amp; javaClass !="[no commandName]")
+					{
+						var file = "{0}.java".format(javaClass.replace(".","\\")); 
+						_treeView.clear();
+						_treeView.add_Node(javaClass, javaClass,true);
+						codeViewer.open(file);
+					}
+					else
+						codeViewer.set_Text("");
+				 });
+				 
+treeView.afterSelect&lt;SpringMvcController&gt;(
+	(mvcController)=&gt;{											
+						if (mvcController.FileName.valid())
+							codeViewer.open(mvcController.FileName);
+						_treeView.clear();	
+						if (mvcController.CommandClass.valid())
+							_treeView.add_Node(mvcController.CommandClass, mvcController.CommandClass,true);							
+					 });
+					 
+var byCommandClassNode = treeView.add_Node("by CommandClass");
+foreach(var mapping in 	byCommandClass)
+	byCommandClassNode.add_Node(mapping.Key,mapping.Key) 
+					  .add_Nodes(mapping.Value);
+					  
+var byJavaClassNode = treeView.add_Node("by JavaClass");					  
+foreach(var mapping in  mvcMappings.controllers_by_JavaClass())
+	byJavaClassNode.add_Node(mapping.Key,mapping.Value);				    
+
+var byUrlNode = treeView.add_Node("by Url");					  
+foreach(var controller in  mvcMappings.Controllers)
+	byUrlNode.add_Node(controller.HttpRequestUrl,controller);
+
+treeView.focus(); 
+return "ok";
+
+
+//using O2.XRules.Database.Languages_and_Frameworks.J2EE
+//using O2.XRules.Database.APIs.IKVM
+//O2File:spring-servlet-2.0.xsd.cs
+//O2File:SpringMvcMappings_v2.0.cs
+//O2Ref:O2_Misc_Microsoft_MPL_Libs.dll</SourceCode>
+  <ReferencedAssemblies />
+</H2>

@@ -1,0 +1,8 @@
+When using O2_WebServicesLoader (instead of using IIS or Visual Studio) you will need to start the web servers on the folowing port:
+
+HacmeBank_v2_WS  	15583
+
+HacmeBank_v2_Website 	15582
+
+
+Note that the O2_WebServicesLoader uses the built in VisualStudio 2008 webserver which is usually installed at C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE

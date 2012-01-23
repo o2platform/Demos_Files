@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rule_definition file_format="1.0">
+  <rule name="Username" Description="">
+    <class name="RequiredFieldValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" InitialValue="" />
+    <class name="RegExValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" ValidationExpression="[^A-Za-z1-9]" />
+  </rule>
+  <rule name="Password" Description="">
+    <class name="RequiredFieldValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" InitialValue="" />
+    <class name="RegExValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" ValidationExpression="[^A-Za-z1-9]" />
+  </rule>
+  <rule name="Numeric Field" Description="">
+    <class name="RequiredFieldValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" InitialValue="" />
+    <class name="RangeValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" MaxValue="99" MinValue="0" />
+    <class name="RegExValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" ValidationExpression="[^1-9]" />
+  </rule>
+  <rule name="Internet URL" Description="">
+    <class name="RequiredFieldValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" InitialValue="" />
+    <class name="RegExValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" ValidationExpression="http://([\w-]+\.)+[\w-]+(/[\w- ./?%&amp;=]*)?" />
+  </rule>
+  <rule name="E mail" Description="">
+    <class name="RequiredFieldValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" InitialValue="" />
+    <class name="RegExValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" />
+  </rule>
+  <rule name="US Phone Number" Description="">
+    <class name="RequiredFieldValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" InitialValue="" />
+    <class name="RegExValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" ValidationExpression="((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}" />
+  </rule>
+  <rule name="US Zip Code" Description="">
+    <class name="RequiredFieldValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" InitialValue="" />
+    <class name="RegExValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" ValidationExpression="\d{5}(-\d{4})?" />
+  </rule>
+  <rule name="US Social Security Number" Description="">
+    <class name="RequiredFieldValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" InitialValue="" />
+    <class name="RegExValidator" CtrlId="" ErrorMsg="" ErrorText="" EnableClientSideScript="" ValidationExpression="\d{3}-\d{2}-\d{4}" />
+  </rule>
+</rule_definition>

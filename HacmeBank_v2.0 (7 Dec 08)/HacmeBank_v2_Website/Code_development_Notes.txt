@@ -1,0 +1,2 @@
+[in version x]
+	- changed the name of the login.aspx main class from WebForm1 to Login (WebForm1 was a legacy item from the previous version)

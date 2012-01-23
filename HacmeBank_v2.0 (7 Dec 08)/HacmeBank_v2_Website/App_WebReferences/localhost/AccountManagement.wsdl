@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetUserAccounts_using_UserID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserAccounts_using_UserIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserAccounts_using_UserIDResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAccountDetails_using_AccountID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="accountID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountDetails_using_AccountIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAccountDetails_using_AccountIDResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountTransactions_using_AccountID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="accountID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountTransactions_using_AccountIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAccountTransactions_using_AccountIDResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountTransactionDetails_using_TransactionID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="transactionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountTransactionDetails_using_TransactionIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAccountTransactionDetails_using_TransactionIDResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TransferFunds">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sourceAccount" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="destinationAccount" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="amount" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TransferFundsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TransferFundsResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLoanRates">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLoanRatesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLoanRatesResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequestALoan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="destinationAccount" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="amount" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="loanPeriod" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="loanInterestRate" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequestALoanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RequestALoanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MakePayment_Using_CreditCard">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sourceAccount_CCNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sourceAccount_CCExpiryDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="destinationAccount" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="amount" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MakePayment_Using_CreditCardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MakePayment_Using_CreditCardResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateAccount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="accountNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="accountCurrency" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="accountBranch" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="accountInitalBalance" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="accountType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateAccountResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="recalculateAllAccountBalances">
+        <s:complexType />
+      </s:element>
+      <s:element name="recalculateAllAccountBalancesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="recalculateAllAccountBalancesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteSqlQuery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sqlQueryToExecute" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteSqlQueryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExecuteSqlQueryResult" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetUserAccounts_using_UserIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserAccounts_using_UserID" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAccounts_using_UserIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserAccounts_using_UserIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountDetails_using_AccountIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAccountDetails_using_AccountID" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountDetails_using_AccountIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAccountDetails_using_AccountIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountTransactions_using_AccountIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAccountTransactions_using_AccountID" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountTransactions_using_AccountIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAccountTransactions_using_AccountIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountTransactionDetails_using_TransactionIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAccountTransactionDetails_using_TransactionID" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountTransactionDetails_using_TransactionIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAccountTransactionDetails_using_TransactionIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="TransferFundsSoapIn">
+    <wsdl:part name="parameters" element="tns:TransferFunds" />
+  </wsdl:message>
+  <wsdl:message name="TransferFundsSoapOut">
+    <wsdl:part name="parameters" element="tns:TransferFundsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLoanRatesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLoanRates" />
+  </wsdl:message>
+  <wsdl:message name="GetLoanRatesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLoanRatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="RequestALoanSoapIn">
+    <wsdl:part name="parameters" element="tns:RequestALoan" />
+  </wsdl:message>
+  <wsdl:message name="RequestALoanSoapOut">
+    <wsdl:part name="parameters" element="tns:RequestALoanResponse" />
+  </wsdl:message>
+  <wsdl:message name="MakePayment_Using_CreditCardSoapIn">
+    <wsdl:part name="parameters" element="tns:MakePayment_Using_CreditCard" />
+  </wsdl:message>
+  <wsdl:message name="MakePayment_Using_CreditCardSoapOut">
+    <wsdl:part name="parameters" element="tns:MakePayment_Using_CreditCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateAccountSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateAccount" />
+  </wsdl:message>
+  <wsdl:message name="CreateAccountSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="recalculateAllAccountBalancesSoapIn">
+    <wsdl:part name="parameters" element="tns:recalculateAllAccountBalances" />
+  </wsdl:message>
+  <wsdl:message name="recalculateAllAccountBalancesSoapOut">
+    <wsdl:part name="parameters" element="tns:recalculateAllAccountBalancesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteSqlQuerySoapIn">
+    <wsdl:part name="parameters" element="tns:ExecuteSqlQuery" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteSqlQuerySoapOut">
+    <wsdl:part name="parameters" element="tns:ExecuteSqlQueryResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WS_AccountManagementSoap">
+    <wsdl:operation name="GetUserAccounts_using_UserID">
+      <wsdl:input message="tns:GetUserAccounts_using_UserIDSoapIn" />
+      <wsdl:output message="tns:GetUserAccounts_using_UserIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountDetails_using_AccountID">
+      <wsdl:input message="tns:GetAccountDetails_using_AccountIDSoapIn" />
+      <wsdl:output message="tns:GetAccountDetails_using_AccountIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountTransactions_using_AccountID">
+      <wsdl:input message="tns:GetAccountTransactions_using_AccountIDSoapIn" />
+      <wsdl:output message="tns:GetAccountTransactions_using_AccountIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountTransactionDetails_using_TransactionID">
+      <wsdl:input message="tns:GetAccountTransactionDetails_using_TransactionIDSoapIn" />
+      <wsdl:output message="tns:GetAccountTransactionDetails_using_TransactionIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TransferFunds">
+      <wsdl:input message="tns:TransferFundsSoapIn" />
+      <wsdl:output message="tns:TransferFundsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLoanRates">
+      <wsdl:input message="tns:GetLoanRatesSoapIn" />
+      <wsdl:output message="tns:GetLoanRatesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestALoan">
+      <wsdl:input message="tns:RequestALoanSoapIn" />
+      <wsdl:output message="tns:RequestALoanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MakePayment_Using_CreditCard">
+      <wsdl:input message="tns:MakePayment_Using_CreditCardSoapIn" />
+      <wsdl:output message="tns:MakePayment_Using_CreditCardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateAccount">
+      <wsdl:input message="tns:CreateAccountSoapIn" />
+      <wsdl:output message="tns:CreateAccountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="recalculateAllAccountBalances">
+      <wsdl:input message="tns:recalculateAllAccountBalancesSoapIn" />
+      <wsdl:output message="tns:recalculateAllAccountBalancesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSqlQuery">
+      <wsdl:input message="tns:ExecuteSqlQuerySoapIn" />
+      <wsdl:output message="tns:ExecuteSqlQuerySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WS_AccountManagementSoap" type="tns:WS_AccountManagementSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUserAccounts_using_UserID">
+      <soap:operation soapAction="http://tempuri.org/GetUserAccounts_using_UserID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountDetails_using_AccountID">
+      <soap:operation soapAction="http://tempuri.org/GetAccountDetails_using_AccountID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountTransactions_using_AccountID">
+      <soap:operation soapAction="http://tempuri.org/GetAccountTransactions_using_AccountID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountTransactionDetails_using_TransactionID">
+      <soap:operation soapAction="http://tempuri.org/GetAccountTransactionDetails_using_TransactionID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferFunds">
+      <soap:operation soapAction="http://tempuri.org/TransferFunds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLoanRates">
+      <soap:operation soapAction="http://tempuri.org/GetLoanRates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestALoan">
+      <soap:operation soapAction="http://tempuri.org/RequestALoan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MakePayment_Using_CreditCard">
+      <soap:operation soapAction="http://tempuri.org/MakePayment_Using_CreditCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateAccount">
+      <soap:operation soapAction="http://tempuri.org/CreateAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="recalculateAllAccountBalances">
+      <soap:operation soapAction="http://tempuri.org/recalculateAllAccountBalances" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSqlQuery">
+      <soap:operation soapAction="http://tempuri.org/ExecuteSqlQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WS_AccountManagementSoap12" type="tns:WS_AccountManagementSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUserAccounts_using_UserID">
+      <soap12:operation soapAction="http://tempuri.org/GetUserAccounts_using_UserID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountDetails_using_AccountID">
+      <soap12:operation soapAction="http://tempuri.org/GetAccountDetails_using_AccountID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountTransactions_using_AccountID">
+      <soap12:operation soapAction="http://tempuri.org/GetAccountTransactions_using_AccountID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountTransactionDetails_using_TransactionID">
+      <soap12:operation soapAction="http://tempuri.org/GetAccountTransactionDetails_using_TransactionID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferFunds">
+      <soap12:operation soapAction="http://tempuri.org/TransferFunds" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLoanRates">
+      <soap12:operation soapAction="http://tempuri.org/GetLoanRates" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestALoan">
+      <soap12:operation soapAction="http://tempuri.org/RequestALoan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MakePayment_Using_CreditCard">
+      <soap12:operation soapAction="http://tempuri.org/MakePayment_Using_CreditCard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateAccount">
+      <soap12:operation soapAction="http://tempuri.org/CreateAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="recalculateAllAccountBalances">
+      <soap12:operation soapAction="http://tempuri.org/recalculateAllAccountBalances" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteSqlQuery">
+      <soap12:operation soapAction="http://tempuri.org/ExecuteSqlQuery" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WS_AccountManagement">
+    <wsdl:port name="WS_AccountManagementSoap" binding="tns:WS_AccountManagementSoap">
+      <soap:address location="http://localhost:15583/HacmeBank_v2_WS/WebServices/AccountManagement.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WS_AccountManagementSoap12" binding="tns:WS_AccountManagementSoap12">
+      <soap12:address location="http://localhost:15583/HacmeBank_v2_WS/WebServices/AccountManagement.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

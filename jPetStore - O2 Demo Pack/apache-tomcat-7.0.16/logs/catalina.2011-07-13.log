@@ -1,0 +1,8 @@
+Jul 13, 2011 1:02:07 AM org.apache.tomcat.util.http.Parameters processParameters
+INFO: Parameters: Invalid chunk '' ignored.
+Jul 13, 2011 8:41:11 AM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+WARNING: No mapping found for HTTP request with URI [/jpetstore/shop/newAccount.do.do] in DispatcherServlet with name 'petstore'
+Jul 13, 2011 9:34:52 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+Jul 13, 2011 9:34:52 AM org.springframework.jdbc.support.SQLErrorCodesFactory <init>
+INFO: SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
