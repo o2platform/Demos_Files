@@ -1,0 +1,550 @@
+<?xml version="1.0"?>
+<AspNet_Page>
+  <File_Path>C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\</File_Path>
+  <Virtual_Path>/CreateUserTestPage.aspx</Virtual_Path>
+  <Server>localhost</Server>
+  <Web_Address>http://localhost/</Web_Address>
+  <PagesConfig>
+    <Item Key="Properties" Value="System.Configuration.ConfigurationPropertyCollection" />
+    <Item Key="Buffer" Value="True" />
+    <Item Key="EnableSessionState" Value="False" />
+    <Item Key="EnableViewState" Value="True" />
+    <Item Key="EnableViewStateMac" Value="False" />
+    <Item Key="EnableEventValidation" Value="False" />
+    <Item Key="SmartNavigation" Value="False" />
+    <Item Key="AutoEventWireup" Value="True" />
+    <Item Key="MaintainScrollPositionOnPostBack" Value="False" />
+    <Item Key="PageBaseType" Value="System.Web.UI.Page" />
+    <Item Key="UserControlBaseType" Value="System.Web.UI.UserControl" />
+    <Item Key="PageBaseTypeInternal" Value="[null value]" />
+    <Item Key="UserControlBaseTypeInternal" Value="[null value]" />
+    <Item Key="PageParserFilterType" Value="" />
+    <Item Key="PageParserFilterTypeInternal" Value="[null value]" />
+    <Item Key="ValidateRequest" Value="False" />
+    <Item Key="MasterPageFile" Value="" />
+    <Item Key="MasterPageFileInternal" Value="" />
+    <Item Key="Theme" Value="" />
+    <Item Key="ThemeInternal" Value="" />
+    <Item Key="StyleSheetTheme" Value="" />
+    <Item Key="StyleSheetThemeInternal" Value="" />
+    <Item Key="Namespaces" Value="System.Web.Configuration.NamespaceCollection" />
+    <Item Key="Controls" Value="System.Web.Configuration.TagPrefixCollection" />
+    <Item Key="MaxPageStateFieldLength" Value="-1" />
+    <Item Key="TagMapping" Value="System.Web.Configuration.TagMapCollection" />
+    <Item Key="CompilationMode" Value="Always" />
+    <Item Key="ViewStateEncryptionMode" Value="Auto" />
+    <Item Key="AsyncTimeout" Value="00:00:45" />
+    <Item Key="RenderAllHiddenFieldsAtTopOfForm" Value="True" />
+    <Item Key="TagNamespaceRegisterEntriesInternal" Value="System.Web.UI.TagNamespaceRegisterEntryTable" />
+    <Item Key="DefaultTagNamespaceRegisterEntries" Value="System.Web.UI.TagNamespaceRegisterEntry[]" />
+    <Item Key="UserControlRegisterEntriesInternal" Value="System.Collections.Hashtable" />
+    <Item Key="SectionInformation" Value="System.Configuration.SectionInformation" />
+    <Item Key="DataToWriteInternal" Value="False" />
+    <Item Key="ElementPresent" Value="True" />
+    <Item Key="ElementTagName" Value="pages" />
+    <Item Key="LockedAttributesList" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockedAllExceptAttributesList" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="ItemLocked" Value="Default" />
+    <Item Key="LockAttributes" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockAllAttributesExcept" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockElements" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockAllElementsExcept" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockItem" Value="False" />
+    <Item Key="Item" Value="[null value]" />
+    <Item Key="Item" Value="[null value]" />
+    <Item Key="Values" Value="System.Configuration.ConfigurationValues" />
+    <Item Key="ElementInformation" Value="System.Configuration.ElementInformation" />
+    <Item Key="EvaluationContext" Value="System.Configuration.ContextInformation" />
+    <Item Key="ElementProperty" Value="System.Configuration.ConfigurationElementProperty" />
+  </PagesConfig>
+  <ConfigItems>
+    <Item Key="CurrentVirtualPathString" Value="/CreateUserTestPage.aspx" />
+    <Item Key="DefaultBaseType" Value="System.Web.UI.Page" />
+    <Item Key="DefaultFileLevelBuilderType" Value="System.Web.UI.FileLevelPageControlBuilder" />
+    <Item Key="HasCodeBehind" Value="False" />
+    <Item Key="IsCodeAllowed" Value="True" />
+  </ConfigItems>
+  <Namespaces>
+    <string>System.Web.Profile</string>
+    <string>System.Text.RegularExpressions</string>
+    <string>System.Web.Caching</string>
+    <string>System.Configuration</string>
+    <string>System.Collections.Specialized</string>
+    <string>System.Web.UI.HtmlControls</string>
+    <string>System.Web.UI.WebControls</string>
+    <string>System.Collections</string>
+    <string>System.Web.UI</string>
+    <string>System.Web.UI.WebControls.WebParts</string>
+    <string>System</string>
+    <string>System.Web.Security</string>
+    <string>System.Web</string>
+    <string>System.Web.SessionState</string>
+    <string>System.Text</string>
+  </Namespaces>
+  <SourceDependencies>
+    <string>/CreateUserTestPage.aspx</string>
+  </SourceDependencies>
+  <CodeBlock VirtualPath="/CreateUserTestPage.aspx" BuilderType="System.Web.UI.FileLevelPageControlBuilder" ControlType="System.Web.UI.Page" ID="__control1" Line="1" Column="0" IsHtmlControl="false" HasAspCode="false">
+    <SimplePropertyEntries>
+      <Item Key="EnableViewStateMac" Value="false" />
+      <Item Key="EnableEventValidation" Value="false" />
+    </SimplePropertyEntries>
+    <EventEntries />
+    <SubBlocks>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;&#xA;&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&#xA;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; &gt;&#xA;">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+      <CodeBlock VirtualPath="/CreateUserTestPage.aspx" BuilderType="System.Web.UI.HtmlControls.HtmlHeadBuilder" ControlType="System.Web.UI.HtmlControls.HtmlHead" ID="__control2" Line="5" Column="0" TagName="head" IsHtmlControl="false" HasAspCode="false" Filter="">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks>
+          <CodeBlock VirtualPath="/CreateUserTestPage.aspx" BuilderType="System.Web.UI.ControlBuilder" ControlType="System.Web.UI.HtmlControls.HtmlTitle" ID="__control3" Line="6" Column="0" TagName="title" IsHtmlControl="false" HasAspCode="false" Filter="">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks>
+              <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="CreateUser">
+                <SimplePropertyEntries />
+                <EventEntries />
+                <SubBlocks />
+              </CodeBlock>
+            </SubBlocks>
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;    &lt;style type=&quot;text/css&quot;&gt;&#xA;    html, body {&#xA;	    height: 100%;&#xA;	    overflow: auto;&#xA;    }&#xA;    body {&#xA;	    padding: 0;&#xA;	    margin: 0;&#xA;    }&#xA;    #silverlightControlHost {&#xA;	    height: 100%;&#xA;	    text-align:center;&#xA;    }&#xA;    &lt;/style&gt;&#xA;    &lt;script type=&quot;text/javascript&quot; src=&quot;Silverlight.js&quot;&gt;&lt;/script&gt;&#xA;    &lt;script type=&quot;text/javascript&quot;&gt;&#xA;        function onSilverlightError(sender, args) {&#xA;            var appSource = &quot;&quot;;&#xA;            if (sender != null &amp;&amp; sender != 0) {&#xA;              appSource = sender.getHost().Source;&#xA;            }&#xA;            &#xA;            var errorType = args.ErrorType;&#xA;            var iErrorCode = args.ErrorCode;&#xA;&#xA;            if (errorType == &quot;ImageError&quot; || errorType == &quot;MediaError&quot;) {&#xA;              return;&#xA;            }&#xA;&#xA;            var errMsg = &quot;Unhandled Error in Silverlight Application &quot; +  appSource + &quot;\n&quot; ;&#xA;&#xA;            errMsg += &quot;Code: &quot;+ iErrorCode + &quot;    \n&quot;;&#xA;            errMsg += &quot;Category: &quot; + errorType + &quot;       \n&quot;;&#xA;            errMsg += &quot;Message: &quot; + args.ErrorMessage + &quot;     \n&quot;;&#xA;&#xA;            if (errorType == &quot;ParserError&quot;) {&#xA;                errMsg += &quot;File: &quot; + args.xamlFile + &quot;     \n&quot;;&#xA;                errMsg += &quot;Line: &quot; + args.lineNumber + &quot;     \n&quot;;&#xA;                errMsg += &quot;Position: &quot; + args.charPosition + &quot;     \n&quot;;&#xA;            }&#xA;            else if (errorType == &quot;RuntimeError&quot;) {           &#xA;                if (args.lineNumber != 0) {&#xA;                    errMsg += &quot;Line: &quot; + args.lineNumber + &quot;     \n&quot;;&#xA;                    errMsg += &quot;Position: &quot; +  args.charPosition + &quot;     \n&quot;;&#xA;                }&#xA;                errMsg += &quot;MethodName: &quot; + args.methodName + &quot;     \n&quot;;&#xA;            }&#xA;&#xA;            throw new Error(errMsg);&#xA;        }&#xA;    &lt;/script&gt;&#xA;">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+        </SubBlocks>
+      </CodeBlock>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;&lt;body&gt;&#xA;    ">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+      <CodeBlock VirtualPath="/CreateUserTestPage.aspx" BuilderType="System.Web.UI.ControlBuilder" ControlType="System.Web.UI.HtmlControls.HtmlForm" ID="form1" Line="60" Column="0" TagName="form" IsHtmlControl="false" HasAspCode="false" Filter="">
+        <SimplePropertyEntries>
+          <Item Key="ID" Value="form1" />
+          <Item Key="style" Value="height:100%" />
+        </SimplePropertyEntries>
+        <EventEntries />
+        <SubBlocks>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;    &lt;div id=&quot;silverlightControlHost&quot;&gt;&#xA;        &lt;object data=&quot;data:application/x-silverlight-2,&quot; type=&quot;application/x-silverlight-2&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;&#xA;		  &lt;param name=&quot;source&quot; value=&quot;ClientBin/CreateUser.xap&quot;/&gt;&#xA;		  &lt;param name=&quot;onError&quot; value=&quot;onSilverlightError&quot; /&gt;&#xA;		  &lt;param name=&quot;background&quot; value=&quot;white&quot; /&gt;&#xA;		  &lt;param name=&quot;minRuntimeVersion&quot; value=&quot;3.0.40818.0&quot; /&gt;&#xA;		  &lt;param name=&quot;autoUpgrade&quot; value=&quot;true&quot; /&gt;&#xA;		  &lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkID=149156&amp;v=3.0.40818.0&quot; style=&quot;text-decoration:none&quot;&gt;&#xA; 			  &lt;img src=&quot;http://go.microsoft.com/fwlink/?LinkId=161376&quot; alt=&quot;Get Microsoft Silverlight&quot; style=&quot;border-style:none&quot;/&gt;&#xA;		  &lt;/a&gt;&#xA;	    &lt;/object&gt;&lt;iframe id=&quot;_sl_historyFrame&quot; style=&quot;visibility:hidden;height:0px;width:0px;border:0px&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&#xA;    ">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+        </SubBlocks>
+      </CodeBlock>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;&#xA;">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+    </SubBlocks>
+  </CodeBlock>
+  <Store_AspNet_SourceCode>true</Store_AspNet_SourceCode>
+  <Store_Compiled_AspNet_SourceCode>true</Store_Compiled_AspNet_SourceCode>
+  <AspNet_SourceCode>&lt;%@ Page Language="C#" AutoEventWireup="true" %&gt;
+
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" &gt;
+&lt;head runat="server"&gt;
+    &lt;title&gt;CreateUser&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+    html, body {
+	    height: 100%;
+	    overflow: auto;
+    }
+    body {
+	    padding: 0;
+	    margin: 0;
+    }
+    #silverlightControlHost {
+	    height: 100%;
+	    text-align:center;
+    }
+    &lt;/style&gt;
+    &lt;script type="text/javascript" src="Silverlight.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript"&gt;
+        function onSilverlightError(sender, args) {
+            var appSource = "";
+            if (sender != null &amp;&amp; sender != 0) {
+              appSource = sender.getHost().Source;
+            }
+            
+            var errorType = args.ErrorType;
+            var iErrorCode = args.ErrorCode;
+
+            if (errorType == "ImageError" || errorType == "MediaError") {
+              return;
+            }
+
+            var errMsg = "Unhandled Error in Silverlight Application " +  appSource + "\n" ;
+
+            errMsg += "Code: "+ iErrorCode + "    \n";
+            errMsg += "Category: " + errorType + "       \n";
+            errMsg += "Message: " + args.ErrorMessage + "     \n";
+
+            if (errorType == "ParserError") {
+                errMsg += "File: " + args.xamlFile + "     \n";
+                errMsg += "Line: " + args.lineNumber + "     \n";
+                errMsg += "Position: " + args.charPosition + "     \n";
+            }
+            else if (errorType == "RuntimeError") {           
+                if (args.lineNumber != 0) {
+                    errMsg += "Line: " + args.lineNumber + "     \n";
+                    errMsg += "Position: " +  args.charPosition + "     \n";
+                }
+                errMsg += "MethodName: " + args.methodName + "     \n";
+            }
+
+            throw new Error(errMsg);
+        }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;form id="form1" runat="server" style="height:100%"&gt;
+    &lt;div id="silverlightControlHost"&gt;
+        &lt;object data="data:application/x-silverlight-2," type="application/x-silverlight-2" width="100%" height="100%"&gt;
+		  &lt;param name="source" value="ClientBin/CreateUser.xap"/&gt;
+		  &lt;param name="onError" value="onSilverlightError" /&gt;
+		  &lt;param name="background" value="white" /&gt;
+		  &lt;param name="minRuntimeVersion" value="3.0.40818.0" /&gt;
+		  &lt;param name="autoUpgrade" value="true" /&gt;
+		  &lt;a href="http://go.microsoft.com/fwlink/?LinkID=149156&amp;v=3.0.40818.0" style="text-decoration:none"&gt;
+ 			  &lt;img src="http://go.microsoft.com/fwlink/?LinkId=161376" alt="Get Microsoft Silverlight" style="border-style:none"/&gt;
+		  &lt;/a&gt;
+	    &lt;/object&gt;&lt;iframe id="_sl_historyFrame" style="visibility:hidden;height:0px;width:0px;border:0px"&gt;&lt;/iframe&gt;&lt;/div&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</AspNet_SourceCode>
+  <AspNet_Compiled_SourceCode>
+    <string>#pragma checksum "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "40E8C28E9DD5DDA20B56B276E51007D8"
+//------------------------------------------------------------------------------
+// &lt;auto-generated&gt;
+//     This code was generated by a tool.
+//     Runtime Version:2.0.50727.5448
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// &lt;/auto-generated&gt;
+//------------------------------------------------------------------------------
+
+namespace ASP {
+    
+    #line 285 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Profile;
+    
+    #line default
+    #line hidden
+    
+    #line 280 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Text.RegularExpressions;
+    
+    #line default
+    #line hidden
+    
+    #line 282 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Caching;
+    
+    #line default
+    #line hidden
+    
+    #line 278 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Configuration;
+    
+    #line default
+    #line hidden
+    
+    #line 277 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Collections.Specialized;
+    
+    #line default
+    #line hidden
+    
+    #line 289 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.UI.HtmlControls;
+    
+    #line default
+    #line hidden
+    
+    #line 287 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.UI.WebControls;
+    
+    #line default
+    #line hidden
+    
+    #line 276 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Collections;
+    
+    #line default
+    #line hidden
+    
+    #line 286 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.UI;
+    
+    #line default
+    #line hidden
+    
+    #line 288 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.UI.WebControls.WebParts;
+    
+    #line default
+    #line hidden
+    
+    #line 275 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System;
+    
+    #line default
+    #line hidden
+    
+    #line 284 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Security;
+    
+    #line default
+    #line hidden
+    
+    #line 281 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web;
+    
+    #line default
+    #line hidden
+    
+    #line 283 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.SessionState;
+    
+    #line default
+    #line hidden
+    
+    #line 279 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Text;
+    
+    #line default
+    #line hidden
+    
+    
+    [System.Runtime.CompilerServices.CompilerGlobalScopeAttribute()]
+    public class createusertestpage_aspx : global::System.Web.UI.Page, System.Web.IHttpHandler {
+        
+        
+        #line 60 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        
+        #line default
+        #line hidden
+        
+        private static bool @__initialized;
+        
+        private static object @__stringResource;
+        
+        private static object @__fileDependencies;
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public createusertestpage_aspx() {
+            string[] dependencies;
+            ((global::System.Web.UI.Page)(this)).AppRelativeVirtualPath = "~/CreateUserTestPage.aspx";
+            if ((global::ASP.createusertestpage_aspx.@__initialized == false)) {
+                global::ASP.createusertestpage_aspx.@__stringResource = this.ReadStringResource();
+                dependencies = new string[1];
+                dependencies[0] = "~/CreateUserTestPage.aspx";
+                global::ASP.createusertestpage_aspx.@__fileDependencies = this.GetWrappedFileDependencies(dependencies);
+                global::ASP.createusertestpage_aspx.@__initialized = true;
+            }
+            this.Server.ScriptTimeout = 30000000;
+        }
+        
+        protected System.Web.Profile.DefaultProfile Profile {
+            get {
+                return ((System.Web.Profile.DefaultProfile)(this.Context.Profile));
+            }
+        }
+        
+        protected override bool SupportAutoEvents {
+            get {
+                return false;
+            }
+        }
+        
+        protected ASP.global_asax ApplicationInstance {
+            get {
+                return ((ASP.global_asax)(this.Context.ApplicationInstance));
+            }
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.HtmlControls.HtmlTitle @__BuildControl__control3() {
+            global::System.Web.UI.HtmlControls.HtmlTitle @__ctrl;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTitle();
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("CreateUser"));
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.HtmlControls.HtmlHead @__BuildControl__control2() {
+            global::System.Web.UI.HtmlControls.HtmlHead @__ctrl;
+            
+            #line 5 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlHead("head");
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.HtmlControls.HtmlTitle @__ctrl1;
+            
+            #line 5 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__ctrl1 = this.@__BuildControl__control3();
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 5 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            
+            #line 5 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__parser.AddParsedSubObject(this.CreateResourceBasedLiteralControl(0, 1709, true));
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.HtmlControls.HtmlForm @__BuildControlform1() {
+            global::System.Web.UI.HtmlControls.HtmlForm @__ctrl;
+            
+            #line 60 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlForm();
+            
+            #line default
+            #line hidden
+            this.form1 = @__ctrl;
+            
+            #line 60 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__ctrl.ID = "form1";
+            
+            #line default
+            #line hidden
+            
+            #line 60 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("style", "height:100%");
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 60 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__parser.AddParsedSubObject(this.CreateResourceBasedLiteralControl(1709, 784, true));
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlTree(createusertestpage_aspx @__ctrl) {
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__ctrl.EnableViewStateMac = false;
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__ctrl.EnableEventValidation = false;
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            this.InitializeCulture();
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\n&lt;!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.o" +
+                        "rg/TR/xhtml1/DTD/xhtml1-transitional.dtd\"&gt;\n&lt;html xmlns=\"http://www.w3.org/1999/x" +
+                        "html\" &gt;\n"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.HtmlControls.HtmlHead @__ctrl1;
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__ctrl1 = this.@__BuildControl__control2();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n&lt;body&gt;\n    "));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.HtmlControls.HtmlForm @__ctrl2;
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__ctrl2 = this.@__BuildControlform1();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__parser.AddParsedSubObject(@__ctrl2);
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\CreateUserTestPage.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n&lt;/body&gt;\n&lt;/html&gt;\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void FrameworkInitialize() {
+            base.FrameworkInitialize();
+            this.SetStringResourcePointer(global::ASP.createusertestpage_aspx.@__stringResource, 0);
+            this.@__BuildControlTree(this);
+            this.AddWrappedFileDependencies(global::ASP.createusertestpage_aspx.@__fileDependencies);
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override int GetTypeHashCode() {
+            return 783430533;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override void ProcessRequest(System.Web.HttpContext context) {
+            base.ProcessRequest(context);
+        }
+    }
+}
+</string>
+  </AspNet_Compiled_SourceCode>
+</AspNet_Page>

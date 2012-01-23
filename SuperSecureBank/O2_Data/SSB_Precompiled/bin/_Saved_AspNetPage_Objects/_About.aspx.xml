@@ -1,0 +1,418 @@
+<?xml version="1.0"?>
+<AspNet_Page>
+  <File_Path>C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\</File_Path>
+  <Virtual_Path>/About.aspx</Virtual_Path>
+  <Server>localhost</Server>
+  <Web_Address>http://localhost/</Web_Address>
+  <PagesConfig>
+    <Item Key="Properties" Value="System.Configuration.ConfigurationPropertyCollection" />
+    <Item Key="Buffer" Value="True" />
+    <Item Key="EnableSessionState" Value="False" />
+    <Item Key="EnableViewState" Value="True" />
+    <Item Key="EnableViewStateMac" Value="False" />
+    <Item Key="EnableEventValidation" Value="False" />
+    <Item Key="SmartNavigation" Value="False" />
+    <Item Key="AutoEventWireup" Value="True" />
+    <Item Key="MaintainScrollPositionOnPostBack" Value="False" />
+    <Item Key="PageBaseType" Value="System.Web.UI.Page" />
+    <Item Key="UserControlBaseType" Value="System.Web.UI.UserControl" />
+    <Item Key="PageBaseTypeInternal" Value="[null value]" />
+    <Item Key="UserControlBaseTypeInternal" Value="[null value]" />
+    <Item Key="PageParserFilterType" Value="" />
+    <Item Key="PageParserFilterTypeInternal" Value="[null value]" />
+    <Item Key="ValidateRequest" Value="False" />
+    <Item Key="MasterPageFile" Value="" />
+    <Item Key="MasterPageFileInternal" Value="" />
+    <Item Key="Theme" Value="" />
+    <Item Key="ThemeInternal" Value="" />
+    <Item Key="StyleSheetTheme" Value="" />
+    <Item Key="StyleSheetThemeInternal" Value="" />
+    <Item Key="Namespaces" Value="System.Web.Configuration.NamespaceCollection" />
+    <Item Key="Controls" Value="System.Web.Configuration.TagPrefixCollection" />
+    <Item Key="MaxPageStateFieldLength" Value="-1" />
+    <Item Key="TagMapping" Value="System.Web.Configuration.TagMapCollection" />
+    <Item Key="CompilationMode" Value="Always" />
+    <Item Key="ViewStateEncryptionMode" Value="Auto" />
+    <Item Key="AsyncTimeout" Value="00:00:45" />
+    <Item Key="RenderAllHiddenFieldsAtTopOfForm" Value="True" />
+    <Item Key="TagNamespaceRegisterEntriesInternal" Value="System.Web.UI.TagNamespaceRegisterEntryTable" />
+    <Item Key="DefaultTagNamespaceRegisterEntries" Value="System.Web.UI.TagNamespaceRegisterEntry[]" />
+    <Item Key="UserControlRegisterEntriesInternal" Value="System.Collections.Hashtable" />
+    <Item Key="SectionInformation" Value="System.Configuration.SectionInformation" />
+    <Item Key="DataToWriteInternal" Value="False" />
+    <Item Key="ElementPresent" Value="True" />
+    <Item Key="ElementTagName" Value="pages" />
+    <Item Key="LockedAttributesList" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockedAllExceptAttributesList" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="ItemLocked" Value="Default" />
+    <Item Key="LockAttributes" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockAllAttributesExcept" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockElements" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockAllElementsExcept" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockItem" Value="False" />
+    <Item Key="Item" Value="[null value]" />
+    <Item Key="Item" Value="[null value]" />
+    <Item Key="Values" Value="System.Configuration.ConfigurationValues" />
+    <Item Key="ElementInformation" Value="System.Configuration.ElementInformation" />
+    <Item Key="EvaluationContext" Value="System.Configuration.ContextInformation" />
+    <Item Key="ElementProperty" Value="System.Configuration.ConfigurationElementProperty" />
+  </PagesConfig>
+  <ConfigItems>
+    <Item Key="CurrentVirtualPathString" Value="/About.aspx" />
+    <Item Key="DefaultBaseType" Value="System.Web.UI.Page" />
+    <Item Key="DefaultFileLevelBuilderType" Value="System.Web.UI.FileLevelPageControlBuilder" />
+    <Item Key="HasCodeBehind" Value="True" />
+    <Item Key="IsCodeAllowed" Value="True" />
+  </ConfigItems>
+  <Namespaces>
+    <string>System.Web.Security</string>
+    <string>System.Web</string>
+    <string>System.Web.SessionState</string>
+    <string>System.Text</string>
+    <string>System.Web.UI.WebControls</string>
+    <string>System.Web.Profile</string>
+    <string>System.Collections</string>
+    <string>System.Web.UI.WebControls.WebParts</string>
+    <string>System.Configuration</string>
+    <string>System</string>
+    <string>ASP</string>
+    <string>System.Web.Caching</string>
+    <string>System.Web.UI</string>
+    <string>System.Collections.Specialized</string>
+    <string>System.Text.RegularExpressions</string>
+    <string>System.Web.UI.HtmlControls</string>
+  </Namespaces>
+  <SourceDependencies>
+    <string>/About.aspx</string>
+    <string>/Site.Master</string>
+  </SourceDependencies>
+  <CodeBlock VirtualPath="/About.aspx" BuilderType="System.Web.UI.FileLevelPageControlBuilder" ControlType="SuperSecureBank.About" ID="__control1" Line="1" Column="0" IsHtmlControl="false" HasAspCode="false">
+    <SimplePropertyEntries>
+      <Item Key="Title" Value="About Us" />
+      <Item Key="MasterPageFile" Value="~/Site.master" />
+      <Item Key="EnableViewStateMac" Value="false" />
+      <Item Key="EnableEventValidation" Value="false" />
+    </SimplePropertyEntries>
+    <EventEntries />
+    <SubBlocks>
+      <CodeBlock VirtualPath="/About.aspx" BuilderType="System.Web.UI.WebControls.ContentBuilderInternal" ControlType="System.Web.UI.WebControls.Content" ID="HeaderContent" Line="4" Column="0" TagName="asp:Content" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+        </SubBlocks>
+      </CodeBlock>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+      <CodeBlock VirtualPath="/About.aspx" BuilderType="System.Web.UI.WebControls.ContentBuilderInternal" ControlType="System.Web.UI.WebControls.Content" ID="BodyContent" Line="6" Column="0" TagName="asp:Content" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;	&lt;h2&gt;&#xA;		About&#xA;	&lt;/h2&gt;&#xA;	&lt;p&gt;&#xA;		SuperSecure bank is very much a fictional online bank. Any resemblance to any other&#xA;		bank is purely coincidental and is actually quite regrettable. This website is truly&#xA;		riddled with security vulnerabilities, do not use any aspect of this site as an&#xA;		example of how to create a secure online site. Do not reproduce any line of code&#xA;		in a production system. Any failure to do so will likely cause your entire website&#xA;		to become very insecure.&#xA;	&lt;/p&gt;&#xA;	&lt;p&gt;&#xA;		That said, this site is intended to help interested people learn about common web&#xA;		vulnerabilities. Each vulnerability in this system has been seen in the wild in&#xA;		recent history. These vulnerabilities represent a wide array of potential issues&#xA;		that hackers and other malicious users may attempt to exploit. Failure to protect&#xA;		yourself against these types of issues could result in any number of myriad vulnerabilities,&#xA;		not limited to complete server compromise and data loss.&#xA;	&lt;/p&gt;&#xA;	&lt;p&gt;&#xA;		I’ve created this website to help teach, if you have questions about the code, or&#xA;		how to find or fix these issues please feel free to contact me directly at: &lt;a href=&quot;mailto:jbasirico@securityinnovation.com&quot;&gt;&#xA;			jbasirico@securityinnovation.com&lt;/a&gt;&#xA;	&lt;/p&gt;&#xA;	&lt;p&gt;&#xA;		I hope you have as much fun breaking this site as I had creating it. Happy Hacking!&#xA;	&lt;/p&gt;&#xA;">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+        </SubBlocks>
+      </CodeBlock>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+    </SubBlocks>
+  </CodeBlock>
+  <Store_AspNet_SourceCode>true</Store_AspNet_SourceCode>
+  <Store_Compiled_AspNet_SourceCode>true</Store_Compiled_AspNet_SourceCode>
+  <AspNet_SourceCode>&lt;%@ Page Title="About Us" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+	CodeBehind="About.aspx.cs" Inherits="SuperSecureBank.About" %&gt;
+
+&lt;asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent"&gt;
+&lt;/asp:Content&gt;
+&lt;asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent"&gt;
+	&lt;h2&gt;
+		About
+	&lt;/h2&gt;
+	&lt;p&gt;
+		SuperSecure bank is very much a fictional online bank. Any resemblance to any other
+		bank is purely coincidental and is actually quite regrettable. This website is truly
+		riddled with security vulnerabilities, do not use any aspect of this site as an
+		example of how to create a secure online site. Do not reproduce any line of code
+		in a production system. Any failure to do so will likely cause your entire website
+		to become very insecure.
+	&lt;/p&gt;
+	&lt;p&gt;
+		That said, this site is intended to help interested people learn about common web
+		vulnerabilities. Each vulnerability in this system has been seen in the wild in
+		recent history. These vulnerabilities represent a wide array of potential issues
+		that hackers and other malicious users may attempt to exploit. Failure to protect
+		yourself against these types of issues could result in any number of myriad vulnerabilities,
+		not limited to complete server compromise and data loss.
+	&lt;/p&gt;
+	&lt;p&gt;
+		I’ve created this website to help teach, if you have questions about the code, or
+		how to find or fix these issues please feel free to contact me directly at: &lt;a href="mailto:jbasirico@securityinnovation.com"&gt;
+			jbasirico@securityinnovation.com&lt;/a&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		I hope you have as much fun breaking this site as I had creating it. Happy Hacking!
+	&lt;/p&gt;
+&lt;/asp:Content&gt;
+</AspNet_SourceCode>
+  <AspNet_Compiled_SourceCode>
+    <string>#pragma checksum "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "85D7F00EC75F522B8414DD3C4C266E54"
+//------------------------------------------------------------------------------
+// &lt;auto-generated&gt;
+//     This code was generated by a tool.
+//     Runtime Version:2.0.50727.5448
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// &lt;/auto-generated&gt;
+//------------------------------------------------------------------------------
+
+namespace ASP {
+    
+    #line 284 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Security;
+    
+    #line default
+    #line hidden
+    
+    #line 281 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web;
+    
+    #line default
+    #line hidden
+    
+    #line 283 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.SessionState;
+    
+    #line default
+    #line hidden
+    
+    #line 279 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Text;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx"
+    using System.Web.UI.WebControls;
+    
+    #line default
+    #line hidden
+    
+    #line 285 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Profile;
+    
+    #line default
+    #line hidden
+    
+    #line 276 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Collections;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx"
+    using System.Web.UI.WebControls.WebParts;
+    
+    #line default
+    #line hidden
+    
+    #line 278 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Configuration;
+    
+    #line default
+    #line hidden
+    
+    #line 275 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System;
+    
+    #line default
+    #line hidden
+    
+    #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx"
+    using ASP;
+    
+    #line default
+    #line hidden
+    
+    #line 282 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Caching;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx"
+    using System.Web.UI;
+    
+    #line default
+    #line hidden
+    
+    #line 277 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Collections.Specialized;
+    
+    #line default
+    #line hidden
+    
+    #line 280 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Text.RegularExpressions;
+    
+    #line default
+    #line hidden
+    
+    #line 289 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.UI.HtmlControls;
+    
+    #line default
+    #line hidden
+    
+    
+    [System.Runtime.CompilerServices.CompilerGlobalScopeAttribute()]
+    public class about_aspx : global::SuperSecureBank.About, System.Web.IHttpHandler {
+        
+        private static bool @__initialized;
+        
+        private static object @__stringResource;
+        
+        private static object @__fileDependencies;
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public about_aspx() {
+            string[] dependencies;
+            ((global::SuperSecureBank.About)(this)).AppRelativeVirtualPath = "~/About.aspx";
+            if ((global::ASP.about_aspx.@__initialized == false)) {
+                global::ASP.about_aspx.@__stringResource = this.ReadStringResource();
+                dependencies = new string[2];
+                dependencies[0] = "~/About.aspx";
+                dependencies[1] = "~/Site.Master";
+                global::ASP.about_aspx.@__fileDependencies = this.GetWrappedFileDependencies(dependencies);
+                global::ASP.about_aspx.@__initialized = true;
+            }
+            this.Server.ScriptTimeout = 30000000;
+        }
+        
+        protected System.Web.Profile.DefaultProfile Profile {
+            get {
+                return ((System.Web.Profile.DefaultProfile)(this.Context.Profile));
+            }
+        }
+        
+        protected ASP.global_asax ApplicationInstance {
+            get {
+                return ((ASP.global_asax)(this.Context.ApplicationInstance));
+            }
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlHeaderContent(System.Web.UI.Control @__ctrl) {
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlBodyContent(System.Web.UI.Control @__ctrl) {
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx"
+            @__parser.AddParsedSubObject(this.CreateResourceBasedLiteralControl(0, 1344, false));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlTree(about_aspx @__ctrl) {
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx"
+            @__ctrl.Title = "About Us";
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx"
+            @__ctrl.MasterPageFile = "~/Site.master";
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx"
+            @__ctrl.EnableViewStateMac = false;
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx"
+            @__ctrl.EnableEventValidation = false;
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx"
+            this.InitializeCulture();
+            
+            #line default
+            #line hidden
+            
+            #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx"
+            this.AddContentTemplate("HeadContent", new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControlHeaderContent)));
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx"
+            this.AddContentTemplate("MainContent", new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControlBodyContent)));
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\About.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void FrameworkInitialize() {
+            base.FrameworkInitialize();
+            this.SetStringResourcePointer(global::ASP.about_aspx.@__stringResource, 0);
+            this.@__BuildControlTree(this);
+            this.AddWrappedFileDependencies(global::ASP.about_aspx.@__fileDependencies);
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override int GetTypeHashCode() {
+            return 1654561052;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override void ProcessRequest(System.Web.HttpContext context) {
+            base.ProcessRequest(context);
+        }
+    }
+}
+</string>
+  </AspNet_Compiled_SourceCode>
+</AspNet_Page>

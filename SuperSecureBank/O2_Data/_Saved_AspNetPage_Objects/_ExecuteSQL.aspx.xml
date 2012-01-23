@@ -1,0 +1,965 @@
+<?xml version="1.0"?>
+<AspNet_Page>
+  <File_Path>C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\</File_Path>
+  <Virtual_Path>/ExecuteSQL.aspx</Virtual_Path>
+  <Server>localhost</Server>
+  <Web_Address>http://localhost/</Web_Address>
+  <PagesConfig>
+    <Item Key="Properties" Value="System.Configuration.ConfigurationPropertyCollection" />
+    <Item Key="Buffer" Value="True" />
+    <Item Key="EnableSessionState" Value="False" />
+    <Item Key="EnableViewState" Value="True" />
+    <Item Key="EnableViewStateMac" Value="False" />
+    <Item Key="EnableEventValidation" Value="False" />
+    <Item Key="SmartNavigation" Value="False" />
+    <Item Key="AutoEventWireup" Value="True" />
+    <Item Key="MaintainScrollPositionOnPostBack" Value="False" />
+    <Item Key="PageBaseType" Value="System.Web.UI.Page" />
+    <Item Key="UserControlBaseType" Value="System.Web.UI.UserControl" />
+    <Item Key="PageBaseTypeInternal" Value="[null value]" />
+    <Item Key="UserControlBaseTypeInternal" Value="[null value]" />
+    <Item Key="PageParserFilterType" Value="" />
+    <Item Key="PageParserFilterTypeInternal" Value="[null value]" />
+    <Item Key="ValidateRequest" Value="False" />
+    <Item Key="MasterPageFile" Value="" />
+    <Item Key="MasterPageFileInternal" Value="" />
+    <Item Key="Theme" Value="" />
+    <Item Key="ThemeInternal" Value="" />
+    <Item Key="StyleSheetTheme" Value="" />
+    <Item Key="StyleSheetThemeInternal" Value="" />
+    <Item Key="Namespaces" Value="System.Web.Configuration.NamespaceCollection" />
+    <Item Key="Controls" Value="System.Web.Configuration.TagPrefixCollection" />
+    <Item Key="MaxPageStateFieldLength" Value="-1" />
+    <Item Key="TagMapping" Value="System.Web.Configuration.TagMapCollection" />
+    <Item Key="CompilationMode" Value="Always" />
+    <Item Key="ViewStateEncryptionMode" Value="Auto" />
+    <Item Key="AsyncTimeout" Value="00:00:45" />
+    <Item Key="RenderAllHiddenFieldsAtTopOfForm" Value="True" />
+    <Item Key="TagNamespaceRegisterEntriesInternal" Value="System.Web.UI.TagNamespaceRegisterEntryTable" />
+    <Item Key="DefaultTagNamespaceRegisterEntries" Value="System.Web.UI.TagNamespaceRegisterEntry[]" />
+    <Item Key="UserControlRegisterEntriesInternal" Value="System.Collections.Hashtable" />
+    <Item Key="SectionInformation" Value="System.Configuration.SectionInformation" />
+    <Item Key="DataToWriteInternal" Value="False" />
+    <Item Key="ElementPresent" Value="True" />
+    <Item Key="ElementTagName" Value="pages" />
+    <Item Key="LockedAttributesList" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockedAllExceptAttributesList" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="ItemLocked" Value="Default" />
+    <Item Key="LockAttributes" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockAllAttributesExcept" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockElements" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockAllElementsExcept" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockItem" Value="False" />
+    <Item Key="Item" Value="[null value]" />
+    <Item Key="Item" Value="[null value]" />
+    <Item Key="Values" Value="System.Configuration.ConfigurationValues" />
+    <Item Key="ElementInformation" Value="System.Configuration.ElementInformation" />
+    <Item Key="EvaluationContext" Value="System.Configuration.ContextInformation" />
+    <Item Key="ElementProperty" Value="System.Configuration.ConfigurationElementProperty" />
+  </PagesConfig>
+  <ConfigItems>
+    <Item Key="CurrentVirtualPathString" Value="/ExecuteSQL.aspx" />
+    <Item Key="DefaultBaseType" Value="System.Web.UI.Page" />
+    <Item Key="DefaultFileLevelBuilderType" Value="System.Web.UI.FileLevelPageControlBuilder" />
+    <Item Key="HasCodeBehind" Value="True" />
+    <Item Key="IsCodeAllowed" Value="True" />
+  </ConfigItems>
+  <Namespaces>
+    <string>System.Web.Security</string>
+    <string>System.Web</string>
+    <string>System.Web.SessionState</string>
+    <string>System.Text</string>
+    <string>System.Web.UI.WebControls</string>
+    <string>System.Web.Profile</string>
+    <string>System.Collections</string>
+    <string>System.Web.UI.WebControls.WebParts</string>
+    <string>System.Configuration</string>
+    <string>System</string>
+    <string>ASP</string>
+    <string>System.Web.Caching</string>
+    <string>System.Web.UI</string>
+    <string>System.Collections.Specialized</string>
+    <string>System.Text.RegularExpressions</string>
+    <string>System.Web.UI.HtmlControls</string>
+  </Namespaces>
+  <SourceDependencies>
+    <string>/ExecuteSQL.aspx</string>
+    <string>/Site.Master</string>
+  </SourceDependencies>
+  <CodeBlock VirtualPath="/ExecuteSQL.aspx" BuilderType="System.Web.UI.FileLevelPageControlBuilder" ControlType="SuperSecureBank.ExecuteSQL" ID="__control1" Line="1" Column="0" IsHtmlControl="false" HasAspCode="false">
+    <SimplePropertyEntries>
+      <Item Key="Title" Value="" />
+      <Item Key="MasterPageFile" Value="~/Site.Master" />
+      <Item Key="EnableViewStateMac" Value="false" />
+      <Item Key="EnableEventValidation" Value="false" />
+    </SimplePropertyEntries>
+    <EventEntries />
+    <SubBlocks>
+      <CodeBlock VirtualPath="/ExecuteSQL.aspx" BuilderType="System.Web.UI.WebControls.ContentBuilderInternal" ControlType="System.Web.UI.WebControls.Content" ID="Content1" Line="4" Column="0" TagName="asp:Content" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+        </SubBlocks>
+      </CodeBlock>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+      <CodeBlock VirtualPath="/ExecuteSQL.aspx" BuilderType="System.Web.UI.WebControls.ContentBuilderInternal" ControlType="System.Web.UI.WebControls.Content" ID="Content2" Line="6" Column="0" TagName="asp:Content" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;	">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ExecuteSQL.aspx" BuilderType="System.Web.UI.WebControls.LabelControlBuilder" ControlType="System.Web.UI.WebControls.Label" ID="message" Line="7" Column="0" TagName="asp:Label" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="message" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;	Be _very _very careful with this.&#xA;	">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ExecuteSQL.aspx" BuilderType="System.Web.UI.WebControls.TextBoxControlBuilder" ControlType="System.Web.UI.WebControls.TextBox" ID="SecretPhrase" Line="9" Column="0" TagName="asp:TextBox" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="SecretPhrase" />
+              <Item Key="Width" Value="100%" />
+              <Item Key="TextMode" Value="Password" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;	">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ExecuteSQL.aspx" BuilderType="System.Web.UI.WebControls.TextBoxControlBuilder" ControlType="System.Web.UI.WebControls.TextBox" ID="SQLCommand" Line="10" Column="0" TagName="asp:TextBox" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="SQLCommand" />
+              <Item Key="TextMode" Value="MultiLine" />
+              <Item Key="Width" Value="100%" />
+              <Item Key="Height" Value="394px" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;	">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ExecuteSQL.aspx" BuilderType="System.Web.UI.ControlBuilder" ControlType="System.Web.UI.WebControls.Button" ID="Submit" Line="11" Column="0" TagName="asp:Button" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="Submit" />
+              <Item Key="Text" Value="Submit" />
+            </SimplePropertyEntries>
+            <EventEntries>
+              <Item Key="Click" Value="Submit_Click" />
+            </EventEntries>
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;	&lt;hr /&gt;&#xA;	">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ExecuteSQL.aspx" BuilderType="System.Web.UI.WebControls.LabelControlBuilder" ControlType="System.Web.UI.WebControls.Label" ID="output" Line="13" Column="0" TagName="asp:Label" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="output" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;	">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ExecuteSQL.aspx" BuilderType="System.Web.UI.ControlBuilder" ControlType="System.Web.UI.WebControls.GridView" ID="outputGrid" Line="14" Column="0" TagName="asp:GridView" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="outputGrid" />
+              <Item Key="CellPadding" Value="4" />
+              <Item Key="ForeColor" Value="#333333" />
+              <Item Key="GridLines" Value="None" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+        </SubBlocks>
+      </CodeBlock>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+    </SubBlocks>
+  </CodeBlock>
+  <Store_AspNet_SourceCode>true</Store_AspNet_SourceCode>
+  <Store_Compiled_AspNet_SourceCode>true</Store_Compiled_AspNet_SourceCode>
+  <AspNet_SourceCode>&lt;%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
+	CodeBehind="ExecuteSQL.aspx.cs" Inherits="SuperSecureBank.ExecuteSQL" %&gt;
+
+&lt;asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server"&gt;
+&lt;/asp:Content&gt;
+&lt;asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server"&gt;
+	&lt;asp:Label ID="message" runat="server" /&gt;
+	Be _very _very careful with this.
+	&lt;asp:TextBox ID="SecretPhrase" runat="server" Width="100%" TextMode="Password"&gt;&lt;/asp:TextBox&gt;
+	&lt;asp:TextBox ID="SQLCommand" runat="server" TextMode="MultiLine" Width="100%" Height="394px"&gt;&lt;/asp:TextBox&gt;
+	&lt;asp:Button ID="Submit" runat="server" Text="Submit" OnClick="Submit_Click" /&gt;
+	&lt;hr /&gt;
+	&lt;asp:Label ID="output" runat="server"&gt;&lt;/asp:Label&gt;
+	&lt;asp:GridView ID="outputGrid" runat="server" CellPadding="4" ForeColor="#333333"
+		GridLines="None"&gt;
+		&lt;RowStyle BackColor="#F7F6F3" ForeColor="#333333" /&gt;
+		&lt;FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" /&gt;
+		&lt;PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" /&gt;
+		&lt;SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" /&gt;
+		&lt;HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" /&gt;
+		&lt;EditRowStyle BackColor="#999999" /&gt;
+		&lt;AlternatingRowStyle BackColor="White" ForeColor="#284775" /&gt;
+	&lt;/asp:GridView&gt;
+&lt;/asp:Content&gt;
+</AspNet_SourceCode>
+  <AspNet_Compiled_SourceCode>
+    <string>#pragma checksum "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "C17DEEF60C94CA5003A4B598F292E0B0"
+//------------------------------------------------------------------------------
+// &lt;auto-generated&gt;
+//     This code was generated by a tool.
+//     Runtime Version:2.0.50727.5448
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// &lt;/auto-generated&gt;
+//------------------------------------------------------------------------------
+
+namespace ASP {
+    
+    #line 284 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Security;
+    
+    #line default
+    #line hidden
+    
+    #line 281 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web;
+    
+    #line default
+    #line hidden
+    
+    #line 283 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.SessionState;
+    
+    #line default
+    #line hidden
+    
+    #line 279 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Text;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+    using System.Web.UI.WebControls;
+    
+    #line default
+    #line hidden
+    
+    #line 285 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Profile;
+    
+    #line default
+    #line hidden
+    
+    #line 276 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Collections;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+    using System.Web.UI.WebControls.WebParts;
+    
+    #line default
+    #line hidden
+    
+    #line 278 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Configuration;
+    
+    #line default
+    #line hidden
+    
+    #line 275 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System;
+    
+    #line default
+    #line hidden
+    
+    #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+    using ASP;
+    
+    #line default
+    #line hidden
+    
+    #line 282 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Caching;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+    using System.Web.UI;
+    
+    #line default
+    #line hidden
+    
+    #line 277 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Collections.Specialized;
+    
+    #line default
+    #line hidden
+    
+    #line 280 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Text.RegularExpressions;
+    
+    #line default
+    #line hidden
+    
+    #line 289 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.UI.HtmlControls;
+    
+    #line default
+    #line hidden
+    
+    
+    [System.Runtime.CompilerServices.CompilerGlobalScopeAttribute()]
+    public class executesql_aspx : global::SuperSecureBank.ExecuteSQL, System.Web.IHttpHandler {
+        
+        private static bool @__initialized;
+        
+        private static object @__fileDependencies;
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public executesql_aspx() {
+            string[] dependencies;
+            ((global::SuperSecureBank.ExecuteSQL)(this)).AppRelativeVirtualPath = "~/ExecuteSQL.aspx";
+            if ((global::ASP.executesql_aspx.@__initialized == false)) {
+                dependencies = new string[2];
+                dependencies[0] = "~/ExecuteSQL.aspx";
+                dependencies[1] = "~/Site.Master";
+                global::ASP.executesql_aspx.@__fileDependencies = this.GetWrappedFileDependencies(dependencies);
+                global::ASP.executesql_aspx.@__initialized = true;
+            }
+            this.Server.ScriptTimeout = 30000000;
+        }
+        
+        protected System.Web.Profile.DefaultProfile Profile {
+            get {
+                return ((System.Web.Profile.DefaultProfile)(this.Context.Profile));
+            }
+        }
+        
+        protected ASP.global_asax ApplicationInstance {
+            get {
+                return ((ASP.global_asax)(this.Context.ApplicationInstance));
+            }
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlContent1(System.Web.UI.Control @__ctrl) {
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.Label @__BuildControlmessage() {
+            global::System.Web.UI.WebControls.Label @__ctrl;
+            
+            #line 7 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.Label();
+            
+            #line default
+            #line hidden
+            this.message = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 7 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.ID = "message";
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControlSecretPhrase() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            
+            #line 9 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            
+            #line default
+            #line hidden
+            this.SecretPhrase = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 9 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.ID = "SecretPhrase";
+            
+            #line default
+            #line hidden
+            
+            #line 9 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.Width = new System.Web.UI.WebControls.Unit(100, System.Web.UI.WebControls.UnitType.Percentage);
+            
+            #line default
+            #line hidden
+            
+            #line 9 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.TextMode = System.Web.UI.WebControls.TextBoxMode.Password;
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControlSQLCommand() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            
+            #line 10 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            
+            #line default
+            #line hidden
+            this.SQLCommand = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 10 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.ID = "SQLCommand";
+            
+            #line default
+            #line hidden
+            
+            #line 10 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.TextMode = System.Web.UI.WebControls.TextBoxMode.MultiLine;
+            
+            #line default
+            #line hidden
+            
+            #line 10 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.Width = new System.Web.UI.WebControls.Unit(100, System.Web.UI.WebControls.UnitType.Percentage);
+            
+            #line default
+            #line hidden
+            
+            #line 10 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.Height = new System.Web.UI.WebControls.Unit(394, System.Web.UI.WebControls.UnitType.Pixel);
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.Button @__BuildControlSubmit() {
+            global::System.Web.UI.WebControls.Button @__ctrl;
+            
+            #line 11 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.Button();
+            
+            #line default
+            #line hidden
+            this.Submit = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 11 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.ID = "Submit";
+            
+            #line default
+            #line hidden
+            
+            #line 11 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.Text = "Submit";
+            
+            #line default
+            #line hidden
+            
+            #line 11 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.Click -= new System.EventHandler(this.Submit_Click);
+            
+            #line default
+            #line hidden
+            
+            #line 11 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.Click += new System.EventHandler(this.Submit_Click);
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.Label @__BuildControloutput() {
+            global::System.Web.UI.WebControls.Label @__ctrl;
+            
+            #line 13 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.Label();
+            
+            #line default
+            #line hidden
+            this.output = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 13 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.ID = "output";
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControl__control2(System.Web.UI.WebControls.TableItemStyle @__ctrl) {
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.BackColor = ((System.Drawing.Color)(System.Drawing.Color.FromArgb(247, 246, 243)));
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.ForeColor = ((System.Drawing.Color)(System.Drawing.Color.FromArgb(51, 51, 51)));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControl__control3(System.Web.UI.WebControls.TableItemStyle @__ctrl) {
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.BackColor = ((System.Drawing.Color)(System.Drawing.Color.FromArgb(93, 123, 157)));
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.Font.Bold = true;
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.ForeColor = System.Drawing.Color.White;
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControl__control4(System.Web.UI.WebControls.TableItemStyle @__ctrl) {
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.BackColor = ((System.Drawing.Color)(System.Drawing.Color.FromArgb(40, 71, 117)));
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.ForeColor = System.Drawing.Color.White;
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.HorizontalAlign = System.Web.UI.WebControls.HorizontalAlign.Center;
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControl__control5(System.Web.UI.WebControls.TableItemStyle @__ctrl) {
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.BackColor = ((System.Drawing.Color)(System.Drawing.Color.FromArgb(226, 222, 214)));
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.Font.Bold = true;
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.ForeColor = ((System.Drawing.Color)(System.Drawing.Color.FromArgb(51, 51, 51)));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControl__control6(System.Web.UI.WebControls.TableItemStyle @__ctrl) {
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.BackColor = ((System.Drawing.Color)(System.Drawing.Color.FromArgb(93, 123, 157)));
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.Font.Bold = true;
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.ForeColor = System.Drawing.Color.White;
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControl__control7(System.Web.UI.WebControls.TableItemStyle @__ctrl) {
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.BackColor = ((System.Drawing.Color)(System.Drawing.Color.FromArgb(153, 153, 153)));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControl__control8(System.Web.UI.WebControls.TableItemStyle @__ctrl) {
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.BackColor = System.Drawing.Color.White;
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.ForeColor = ((System.Drawing.Color)(System.Drawing.Color.FromArgb(40, 71, 117)));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.GridView @__BuildControloutputGrid() {
+            global::System.Web.UI.WebControls.GridView @__ctrl;
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.GridView();
+            
+            #line default
+            #line hidden
+            this.outputGrid = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.ID = "outputGrid";
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.CellPadding = 4;
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.ForeColor = ((System.Drawing.Color)(System.Drawing.Color.FromArgb(51, 51, 51)));
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.GridLines = System.Web.UI.WebControls.GridLines.None;
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            this.@__BuildControl__control2(@__ctrl.RowStyle);
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            this.@__BuildControl__control3(@__ctrl.FooterStyle);
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            this.@__BuildControl__control4(@__ctrl.PagerStyle);
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            this.@__BuildControl__control5(@__ctrl.SelectedRowStyle);
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            this.@__BuildControl__control6(@__ctrl.HeaderStyle);
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            this.@__BuildControl__control7(@__ctrl.EditRowStyle);
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            this.@__BuildControl__control8(@__ctrl.AlternatingRowStyle);
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlContent2(System.Web.UI.Control @__ctrl) {
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.Label @__ctrl1;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl1 = this.@__BuildControlmessage();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\tBe _very _very careful with this.\n\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.TextBox @__ctrl2;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl2 = this.@__BuildControlSecretPhrase();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(@__ctrl2);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.TextBox @__ctrl3;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl3 = this.@__BuildControlSQLCommand();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(@__ctrl3);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.Button @__ctrl4;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl4 = this.@__BuildControlSubmit();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(@__ctrl4);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t&lt;hr /&gt;\n\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.Label @__ctrl5;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl5 = this.@__BuildControloutput();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(@__ctrl5);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.GridView @__ctrl6;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl6 = this.@__BuildControloutputGrid();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(@__ctrl6);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlTree(executesql_aspx @__ctrl) {
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.Title = "";
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.MasterPageFile = "~/Site.Master";
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.EnableViewStateMac = false;
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__ctrl.EnableEventValidation = false;
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            this.InitializeCulture();
+            
+            #line default
+            #line hidden
+            
+            #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            this.AddContentTemplate("HeadContent", new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControlContent1)));
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            this.AddContentTemplate("MainContent", new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControlContent2)));
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void FrameworkInitialize() {
+            base.FrameworkInitialize();
+            this.@__BuildControlTree(this);
+            this.AddWrappedFileDependencies(global::ASP.executesql_aspx.@__fileDependencies);
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override int GetTypeHashCode() {
+            return -1778055130;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override void ProcessRequest(System.Web.HttpContext context) {
+            base.ProcessRequest(context);
+        }
+    }
+}
+</string>
+  </AspNet_Compiled_SourceCode>
+</AspNet_Page>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/ExecuteSQL.aspx" hash="fffffff3e53d9c3b" filehash="7b87dbd87be73ccd" flags="100000" assembly="App_Web_ycjbconf" type="ASP.executesql_aspx">
+    <filedeps>
+        <filedep name="/ExecuteSQL.aspx" />
+        <filedep name="/Site.Master" />
+    </filedeps>
+</preserve>

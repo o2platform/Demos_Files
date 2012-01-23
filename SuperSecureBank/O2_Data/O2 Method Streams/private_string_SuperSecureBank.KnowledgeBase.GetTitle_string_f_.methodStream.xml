@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<Saved_MethodStream>
+  <RootMethod ItemType="Method" Name="GetTitle" Class="KnowledgeBase" Namespace="SuperSecureBank" ReturnType="System.String" Signature="private string SuperSecureBank.KnowledgeBase.GetTitle(string f)" DotNetName="SuperSecureBank.KnowledgeBase.GetTitle">
+    <Parameter Key="f" Value="System.String" />
+    <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\KnowledgeBase.aspx.cs" Line="30" Column="9" Line_End="30" Column_End="42" />
+  </RootMethod>
+  <MethodStreamItems>
+    <MethodStream_Item ItemType="ExternalClasses" Name="String" Class="System.String" Namespace="System" Signature="System.String" DotNetName="System.String" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="ReadAllLines" Class="File" Namespace="System.IO" ReturnType="System.String" Signature="public static string[] System.IO.File.ReadAllLines(string path)" DotNetName="System.IO.File.ReadAllLines">
+      <Parameter Key="path" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="GetTitle" Class="KnowledgeBase" Namespace="SuperSecureBank" ReturnType="System.String" Signature="private string SuperSecureBank.KnowledgeBase.GetTitle(string f)" DotNetName="SuperSecureBank.KnowledgeBase.GetTitle">
+      <Parameter Key="f" Value="System.String" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\KnowledgeBase.aspx.cs" Line="30" Column="9" Line_End="30" Column_End="42" />
+    </MethodStream_Item>
+  </MethodStreamItems>
+  <CodeStreams>
+    <CodeStreamPath Text="method -&gt; private string SuperSecureBank.KnowledgeBase.GetTitle(string f)" Line="8" Column="3" Line_End="8" Column_End="36" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; f" Line="8" Column="27" Line_End="8" Column_End="34" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; f : System.String" Line="10" Column="39" Line_End="10" Column_End="40" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="19" Column="3" Line_End="19" Column_End="51" HashCode="0">
+            <CodeStreamPath Text="parameter -&gt; path" Line="19" Column="39" Line_End="19" Column_End="46" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="8" Column="27" Line_End="8" Column_End="33" HashCode="0">
+      <CodeStreamPath Text="method -&gt; private string SuperSecureBank.KnowledgeBase.GetTitle(string f)" Line="8" Column="3" Line_End="8" Column_End="36" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; f" Line="8" Column="27" Line_End="8" Column_End="34" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; f : System.String" Line="10" Column="39" Line_End="10" Column_End="40" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="19" Column="3" Line_End="19" Column_End="51" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; path" Line="19" Column="39" Line_End="19" Column_End="46" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="8" Column="11" Line_End="8" Column_End="17" HashCode="0" />
+    <CodeStreamPath Text="LocalVariableDeclaration" Line="10" Column="4" Line_End="10" Column_End="42" HashCode="0" />
+    <CodeStreamPath Text="TypeReference" Line="10" Column="4" Line_End="10" Column_End="12" HashCode="0">
+      <CodeStreamPath Text="LocalVariableDeclaration" Line="10" Column="4" Line_End="10" Column_End="42" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="variable  -&gt; Lines" Line="10" Column="13" Line_End="10" Column_End="41" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; Lines : System.String" Line="11" Column="11" Line_End="11" Column_End="16" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="10" Column="38" Line_End="10" Column_End="41" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="19" Column="3" Line_End="19" Column_End="51" HashCode="0">
+        <CodeStreamPath Text="variable  -&gt; Lines" Line="10" Column="13" Line_End="10" Column_End="41" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; Lines : System.String" Line="11" Column="11" Line_End="11" Column_End="16" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public static string[] System.IO.File.ReadAllLines(string path)" Line="10" Column="25" Line_End="10" Column_End="38" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="10" Column="38" Line_End="10" Column_End="41" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="19" Column="3" Line_End="19" Column_End="51" HashCode="0">
+          <CodeStreamPath Text="variable  -&gt; Lines" Line="10" Column="13" Line_End="10" Column_End="41" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; Lines : System.String" Line="11" Column="11" Line_End="11" Column_End="16" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; File : System.IO.File" Line="10" Column="21" Line_End="10" Column_End="25" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="10" Column="38" Line_End="10" Column_End="41" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="19" Column="3" Line_End="19" Column_End="51" HashCode="0">
+          <CodeStreamPath Text="variable  -&gt; Lines" Line="10" Column="13" Line_End="10" Column_End="41" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; Lines : System.String" Line="11" Column="11" Line_End="11" Column_End="16" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; f : System.String" Line="10" Column="39" Line_End="10" Column_End="40" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="19" Column="3" Line_End="19" Column_End="51" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; path" Line="19" Column="39" Line_End="19" Column_End="46" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ReturnStatement" Line="11" Column="4" Line_End="11" Column_End="20" HashCode="0" />
+    <CodeStreamPath Text="IndexerExpression" Line="11" Column="16" Line_End="11" Column_End="19" HashCode="0">
+      <CodeStreamPath Text="ReturnStatement" Line="11" Column="4" Line_End="11" Column_End="20" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; Lines : System.String" Line="11" Column="11" Line_End="11" Column_End="16" HashCode="0" />
+    <CodeStreamPath Text="PrimitiveExpression" Line="11" Column="17" Line_End="11" Column_End="18" HashCode="0">
+      <CodeStreamPath Text="IndexerExpression" Line="11" Column="16" Line_End="11" Column_End="19" HashCode="0">
+        <CodeStreamPath Text="ReturnStatement" Line="11" Column="4" Line_End="11" Column_End="20" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+  </CodeStreams>
+  <MethodStream_FileCache>C:\O2\_tempDir\11-3-2011\_methodStreams\private_string_SuperSecureBank.KnowledgeBase.GetTitle_string_f_.cs</MethodStream_FileCache>
+  <Serialized_Saved_MethodStream_FileCache>C:\O2\Demos\SI - SuperSecureBank\O2 Method Streams_2\private_string_SuperSecureBank.KnowledgeBase.GetTitle_string_f_.methodStream.xml</Serialized_Saved_MethodStream_FileCache>
+  <MethodStream>using System;
+using System.IO;
+using SuperSecureBank;
+namespace SuperSecureBank
+{
+	public class KnowledgeBase : System.Web.UI.Page
+	{
+		private string GetTitle(string f)
+		{
+			string[] Lines = File.ReadAllLines(f);
+			return Lines[0];
+		}
+	}
+}
+namespace System.IO
+{
+	public class File
+	{
+		public static string[] ReadAllLines(string path)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+}
+</MethodStream>
+</Saved_MethodStream>

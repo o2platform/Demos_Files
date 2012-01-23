@@ -1,0 +1,1010 @@
+<?xml version="1.0"?>
+<Saved_MethodStream>
+  <RootMethod ItemType="Method" Name="Page_Load" Class="ViewPage" Namespace="SuperSecureBank" ReturnType="System.Void" Signature="protected void SuperSecureBank.ViewPage.Page_Load(object sender, EventArgs e)" DotNetName="SuperSecureBank.ViewPage.Page_Load">
+    <Parameter Key="sender" Value="System.Object" />
+    <Parameter Key="e" Value="System.EventArgs" />
+    <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewPage.aspx.cs" Line="14" Column="9" Line_End="14" Column_End="61" />
+  </RootMethod>
+  <MethodStreamItems>
+    <MethodStream_Item ItemType="ExternalClasses" Name="String" Class="System.String" Namespace="System" Signature="System.String" DotNetName="System.String" />
+    <MethodStream_Item ItemType="ExternalClasses" Name="Void" Class="System.Void" Namespace="System" Signature="System.Void" DotNetName="System.Void" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="Exists" Class="File" Namespace="System.IO" ReturnType="System.Boolean" Signature="public static bool System.IO.File.Exists(string path)" DotNetName="System.IO.File.Exists">
+      <Parameter Key="path" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="Open" Class="SqlConnection" Namespace="System.Data.SqlClient" ReturnType="System.Void" Signature="public virtual void System.Data.SqlClient.SqlConnection.Open()" DotNetName="System.Data.SqlClient.SqlConnection.Open" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="ExecuteNonQuery" Class="SqlCommand" Namespace="System.Data.SqlClient" ReturnType="System.Int32" Signature="public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" DotNetName="System.Data.SqlClient.SqlCommand.ExecuteNonQuery" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="Close" Class="SqlConnection" Namespace="System.Data.SqlClient" ReturnType="System.Void" Signature="public virtual void System.Data.SqlClient.SqlConnection.Close()" DotNetName="System.Data.SqlClient.SqlConnection.Close" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="#ctor" Class="SqlConnection" Namespace="System.Data.SqlClient" ReturnType="System.Data.SqlClient.SqlConnection" Signature="public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" DotNetName="System.Data.SqlClient.SqlConnection.#ctor">
+      <Parameter Key="connectionString" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="#ctor" Class="SqlCommand" Namespace="System.Data.SqlClient" ReturnType="System.Data.SqlClient.SqlCommand" Signature="public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" DotNetName="System.Data.SqlClient.SqlCommand.#ctor">
+      <Parameter Key="cmdText" Value="System.String" />
+      <Parameter Key="connection" Value="System.Data.SqlClient.SqlConnection" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="Format" Class="String" Namespace="System" ReturnType="System.String" Signature="public static string string.Format(string format, object arg0, object arg1, object arg2)" DotNetName="System.String.Format">
+      <Parameter Key="format" Value="System.String" />
+      <Parameter Key="arg0" Value="System.Object" />
+      <Parameter Key="arg1" Value="System.Object" />
+      <Parameter Key="arg2" Value="System.Object" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="Replace" Class="String" Namespace="System" ReturnType="System.String" Signature="public string string.Replace(string oldValue, string newValue)" DotNetName="System.String.Replace">
+      <Parameter Key="oldValue" Value="System.String" />
+      <Parameter Key="newValue" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="GetFileName" Class="Path" Namespace="System.IO" ReturnType="System.String" Signature="public static string System.IO.Path.GetFileName(string path)" DotNetName="System.IO.Path.GetFileName">
+      <Parameter Key="path" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="ToString" Class="Exception" Namespace="System" ReturnType="System.String" Signature="public virtual string System.Exception.ToString()" DotNetName="System.Exception.ToString" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="Redirect" Class="HttpResponse" Namespace="System.Web" ReturnType="System.Void" Signature="public void System.Web.HttpResponse.Redirect(string url)" DotNetName="System.Web.HttpResponse.Redirect">
+      <Parameter Key="url" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="#ctor" Class="StringBuilder" Namespace="System.Text" ReturnType="System.Text.StringBuilder" Signature="public System.Text.StringBuilder.StringBuilder()" DotNetName="System.Text.StringBuilder.#ctor" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="AppendLine" Class="StringBuilder" Namespace="System.Text" ReturnType="System.Text.StringBuilder" Signature="public StringBuilder System.Text.StringBuilder.AppendLine(string value)" DotNetName="System.Text.StringBuilder.AppendLine">
+      <Parameter Key="value" Value="System.String" />
+      <Attribute Key="None" Value="System.Runtime.InteropServices.ComVisibleAttribute" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="ToString" Class="StringBuilder" Namespace="System.Text" ReturnType="System.String" Signature="public virtual string System.Text.StringBuilder.ToString()" DotNetName="System.Text.StringBuilder.ToString" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="ReadAllLines" Class="File" Namespace="System.IO" ReturnType="System.String" Signature="public static string[] System.IO.File.ReadAllLines(string path)" DotNetName="System.IO.File.ReadAllLines">
+      <Parameter Key="path" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="Page_Load" Class="ViewPage" Namespace="SuperSecureBank" ReturnType="System.Void" Signature="protected void SuperSecureBank.ViewPage.Page_Load(object sender, EventArgs e)" DotNetName="SuperSecureBank.ViewPage.Page_Load">
+      <Parameter Key="sender" Value="System.Object" />
+      <Parameter Key="e" Value="System.EventArgs" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewPage.aspx.cs" Line="14" Column="9" Line_End="14" Column_End="61" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="AddException" Class="ErrorLogging" Namespace="SuperSecureBank" ReturnType="System.Void" Signature="public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" DotNetName="SuperSecureBank.ErrorLogging.AddException">
+      <Parameter Key="errorText" Value="System.String" />
+      <Parameter Key="ex" Value="System.Exception" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ErrorLogging.cs" Line="13" Column="3" Line_End="13" Column_End="66" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="cleanForSQL" Class="ErrorLogging" Namespace="SuperSecureBank" ReturnType="System.String" Signature="public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" DotNetName="SuperSecureBank.ErrorLogging.cleanForSQL">
+      <Parameter Key="foo" Value="System.String" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ErrorLogging.cs" Line="24" Column="3" Line_End="24" Column_End="47" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="BuildExceptionText" Class="ErrorLogging" Namespace="SuperSecureBank" ReturnType="System.String" Signature="private static string SuperSecureBank.ErrorLogging.BuildExceptionText(Exception ex)" DotNetName="SuperSecureBank.ErrorLogging.BuildExceptionText">
+      <Parameter Key="ex" Value="System.Exception" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ErrorLogging.cs" Line="55" Column="3" Line_End="55" Column_End="57" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="ProcessContent" Class="ViewPage" Namespace="SuperSecureBank" ReturnType="System.String" Signature="private string SuperSecureBank.ViewPage.ProcessContent(string[] Lines)" DotNetName="SuperSecureBank.ViewPage.ProcessContent">
+      <Parameter Key="Lines" Value="System.String" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewPage.aspx.cs" Line="36" Column="9" Line_End="36" Column_End="54" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="Field" Name="content" Class="SuperSecureBank.ViewPage.content" Namespace="SuperSecureBank.ViewPage" Signature="SuperSecureBank.ViewPage.content" DotNetName="SuperSecureBank.ViewPage.content">
+      <Location Line="22" Column="9" Line_End="22" Column_End="69" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="Property" Name="PhysicalApplicationPath" Class="System.Web.HttpRequest.PhysicalApplicationPath" Namespace="System.Web.HttpRequest" Signature="System.Web.HttpRequest.PhysicalApplicationPath" DotNetName="System.Web.HttpRequest.PhysicalApplicationPath" />
+    <MethodStream_Item ItemType="Property" Name="Now" Class="System.DateTime.Now" Namespace="System.DateTime" Signature="System.DateTime.Now" DotNetName="System.DateTime.Now" />
+    <MethodStream_Item ItemType="Property" Name="Message" Class="System.Exception.Message" Namespace="System.Exception" Signature="System.Exception.Message" DotNetName="System.Exception.Message" />
+    <MethodStream_Item ItemType="Property" Name="HelpLink" Class="System.Exception.HelpLink" Namespace="System.Exception" Signature="System.Exception.HelpLink" DotNetName="System.Exception.HelpLink" />
+    <MethodStream_Item ItemType="Property" Name="StackTrace" Class="System.Exception.StackTrace" Namespace="System.Exception" Signature="System.Exception.StackTrace" DotNetName="System.Exception.StackTrace" />
+    <MethodStream_Item ItemType="Property" Name="PhysicalPath" Class="System.Web.HttpRequest.PhysicalPath" Namespace="System.Web.HttpRequest" Signature="System.Web.HttpRequest.PhysicalPath" DotNetName="System.Web.HttpRequest.PhysicalPath" />
+    <MethodStream_Item ItemType="Property" Name="Length" Class="System.Array.Length" Namespace="System.Array" Signature="System.Array.Length" DotNetName="System.Array.Length" />
+    <MethodStream_Item ItemType="Property" Name="Request" Class="System.Web.UI.Page.Request" Namespace="System.Web.UI.Page" Signature="System.Web.UI.Page.Request" DotNetName="System.Web.UI.Page.Request" />
+    <MethodStream_Item ItemType="Property" Name="Response" Class="System.Web.UI.Page.Response" Namespace="System.Web.UI.Page" Signature="System.Web.UI.Page.Response" DotNetName="System.Web.UI.Page.Response" />
+  </MethodStreamItems>
+  <CodeStreams>
+    <CodeStreamPath Text="method -&gt; protected void SuperSecureBank.ViewPage.Page_Load(object sender, EventArgs e)" Line="12" Column="3" Line_End="12" Column_End="55" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; sender" Line="12" Column="28" Line_End="12" Column_End="35" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="12" Column="28" Line_End="12" Column_End="34" HashCode="0">
+      <CodeStreamPath Text="method -&gt; protected void SuperSecureBank.ViewPage.Page_Load(object sender, EventArgs e)" Line="12" Column="3" Line_End="12" Column_End="55" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; sender" Line="12" Column="28" Line_End="12" Column_End="35" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="method -&gt; protected void SuperSecureBank.ViewPage.Page_Load(object sender, EventArgs e)" Line="12" Column="3" Line_End="12" Column_End="55" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; e" Line="12" Column="43" Line_End="12" Column_End="53" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="12" Column="43" Line_End="12" Column_End="52" HashCode="0">
+      <CodeStreamPath Text="method -&gt; protected void SuperSecureBank.ViewPage.Page_Load(object sender, EventArgs e)" Line="12" Column="3" Line_End="12" Column_End="55" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; e" Line="12" Column="43" Line_End="12" Column_End="53" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="0" Column="0" Line_End="0" Column_End="0" HashCode="0" />
+    <CodeStreamPath Text="UnaryOperatorExpression" Line="15" Column="9" Line_End="15" Column_End="52" HashCode="0" />
+    <CodeStreamPath Text="[not resolved: invocation] IsNullOrWhiteSpace" Line="15" Column="35" Line_End="15" Column_End="52" HashCode="0">
+      <CodeStreamPath Text="UnaryOperatorExpression" Line="15" Column="9" Line_End="15" Column_End="52" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="System.String.IsNullOrWhiteSpace : " Line="15" Column="16" Line_End="15" Column_End="35" HashCode="0">
+      <CodeStreamPath Text="[not resolved: invocation] IsNullOrWhiteSpace" Line="15" Column="35" Line_End="15" Column_End="52" HashCode="0">
+        <CodeStreamPath Text="UnaryOperatorExpression" Line="15" Column="9" Line_End="15" Column_End="52" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReferenceExpression" Line="15" Column="10" Line_End="15" Column_End="16" HashCode="0">
+      <CodeStreamPath Text="System.String.IsNullOrWhiteSpace : " Line="15" Column="16" Line_End="15" Column_End="35" HashCode="0">
+        <CodeStreamPath Text="[not resolved: invocation] IsNullOrWhiteSpace" Line="15" Column="35" Line_End="15" Column_End="52" HashCode="0">
+          <CodeStreamPath Text="UnaryOperatorExpression" Line="15" Column="9" Line_End="15" Column_End="52" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="0" Column="0" Line_End="0" Column_End="0" HashCode="0">
+      <CodeStreamPath Text="TypeReferenceExpression" Line="15" Column="10" Line_End="15" Column_End="16" HashCode="0">
+        <CodeStreamPath Text="System.String.IsNullOrWhiteSpace : " Line="15" Column="16" Line_End="15" Column_End="35" HashCode="0">
+          <CodeStreamPath Text="[not resolved: invocation] IsNullOrWhiteSpace" Line="15" Column="35" Line_End="15" Column_End="52" HashCode="0">
+            <CodeStreamPath Text="UnaryOperatorExpression" Line="15" Column="9" Line_End="15" Column_End="52" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="IndexerExpression" Line="15" Column="43" Line_End="15" Column_End="51" HashCode="0">
+      <CodeStreamPath Text="[not resolved: invocation] IsNullOrWhiteSpace" Line="15" Column="35" Line_End="15" Column_End="52" HashCode="0">
+        <CodeStreamPath Text="UnaryOperatorExpression" Line="15" Column="9" Line_End="15" Column_End="52" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="15" Column="36" Line_End="15" Column_End="43" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="16" Column="24" Line_End="16" Column_End="31" HashCode="0">
+        <CodeStreamPath Text="variable  -&gt; RealPath" Line="16" Column="13" Line_End="16" Column_End="73" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="17" Column="23" Line_End="17" Column_End="31" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static bool System.IO.File.Exists(string path)" Line="77" Column="3" Line_End="77" Column_End="41" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; path" Line="77" Column="29" Line_End="77" Column_End="36" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="20" Column="55" Line_End="20" Column_End="63" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="81" Column="3" Line_End="81" Column_End="51" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; path" Line="81" Column="39" Line_End="81" Column_End="46" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+      <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="16" Column="58" Line_End="16" Column_End="65" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="18" Column="52" Line_End="18" Column_End="59" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="24" Column="62" Line_End="24" Column_End="69" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public static string System.IO.Path.GetFileName(string path)" Line="24" Column="61" Line_End="24" Column_End="83" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public static string System.IO.Path.GetFileName(string path)" Line="88" Column="3" Line_End="88" Column_End="48" HashCode="0">
+                <CodeStreamPath Text="parameter -&gt; path" Line="88" Column="36" Line_End="88" Column_End="43" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="15" Column="44" Line_End="15" Column_End="50" HashCode="0">
+      <CodeStreamPath Text="IndexerExpression" Line="15" Column="43" Line_End="15" Column_End="51" HashCode="0">
+        <CodeStreamPath Text="[not resolved: invocation] IsNullOrWhiteSpace" Line="15" Column="35" Line_End="15" Column_End="52" HashCode="0">
+          <CodeStreamPath Text="UnaryOperatorExpression" Line="15" Column="9" Line_End="15" Column_End="52" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="LocalVariableDeclaration" Line="16" Column="6" Line_End="16" Column_End="74" HashCode="0" />
+    <CodeStreamPath Text="TypeReference" Line="16" Column="6" Line_End="16" Column_End="12" HashCode="0">
+      <CodeStreamPath Text="LocalVariableDeclaration" Line="16" Column="6" Line_End="16" Column_End="74" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="variable  -&gt; RealPath" Line="16" Column="13" Line_End="16" Column_End="73" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="17" Column="23" Line_End="17" Column_End="31" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static bool System.IO.File.Exists(string path)" Line="77" Column="3" Line_End="77" Column_End="41" HashCode="0">
+          <CodeStreamPath Text="parameter -&gt; path" Line="77" Column="29" Line_End="77" Column_End="36" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+      <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="20" Column="55" Line_End="20" Column_End="63" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="81" Column="3" Line_End="81" Column_End="51" HashCode="0">
+          <CodeStreamPath Text="parameter -&gt; path" Line="81" Column="39" Line_End="81" Column_End="46" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="BinaryOperatorExpression" Line="16" Column="24" Line_End="16" Column_End="73" HashCode="0">
+      <CodeStreamPath Text="variable  -&gt; RealPath" Line="16" Column="13" Line_End="16" Column_End="73" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="17" Column="23" Line_End="17" Column_End="31" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public static bool System.IO.File.Exists(string path)" Line="77" Column="3" Line_End="77" Column_End="41" HashCode="0">
+            <CodeStreamPath Text="parameter -&gt; path" Line="77" Column="29" Line_End="77" Column_End="36" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+        <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="20" Column="55" Line_End="20" Column_End="63" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="81" Column="3" Line_End="81" Column_End="51" HashCode="0">
+            <CodeStreamPath Text="parameter -&gt; path" Line="81" Column="39" Line_End="81" Column_End="46" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultProperty: public string System.Web.HttpRequest.PhysicalApplicationPath" Line="16" Column="31" Line_End="16" Column_End="55" HashCode="0">
+      <CodeStreamPath Text="BinaryOperatorExpression" Line="16" Column="24" Line_End="16" Column_End="73" HashCode="0">
+        <CodeStreamPath Text="variable  -&gt; RealPath" Line="16" Column="13" Line_End="16" Column_End="73" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="17" Column="23" Line_End="17" Column_End="31" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static bool System.IO.File.Exists(string path)" Line="77" Column="3" Line_End="77" Column_End="41" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; path" Line="77" Column="29" Line_End="77" Column_End="36" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="20" Column="55" Line_End="20" Column_End="63" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="81" Column="3" Line_End="81" Column_End="51" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; path" Line="81" Column="39" Line_End="81" Column_End="46" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="16" Column="24" Line_End="16" Column_End="31" HashCode="0">
+      <CodeStreamPath Text="variable  -&gt; RealPath" Line="16" Column="13" Line_End="16" Column_End="73" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="17" Column="23" Line_End="17" Column_End="31" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public static bool System.IO.File.Exists(string path)" Line="77" Column="3" Line_End="77" Column_End="41" HashCode="0">
+            <CodeStreamPath Text="parameter -&gt; path" Line="77" Column="29" Line_End="77" Column_End="36" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+        <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="20" Column="55" Line_End="20" Column_End="63" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="81" Column="3" Line_End="81" Column_End="51" HashCode="0">
+            <CodeStreamPath Text="parameter -&gt; path" Line="81" Column="39" Line_End="81" Column_End="46" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="16" Column="58" Line_End="16" Column_End="65" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="18" Column="52" Line_End="18" Column_End="59" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="24" Column="62" Line_End="24" Column_End="69" HashCode="0">
+                    <CodeStreamPath Text="invocation -&gt; public static string System.IO.Path.GetFileName(string path)" Line="24" Column="61" Line_End="24" Column_End="83" HashCode="0">
+                      <CodeStreamPath Text="method -&gt; public static string System.IO.Path.GetFileName(string path)" Line="88" Column="3" Line_End="88" Column_End="48" HashCode="0">
+                        <CodeStreamPath Text="parameter -&gt; path" Line="88" Column="36" Line_End="88" Column_End="43" HashCode="0" />
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="IndexerExpression" Line="16" Column="65" Line_End="16" Column_End="73" HashCode="0">
+      <CodeStreamPath Text="BinaryOperatorExpression" Line="16" Column="24" Line_End="16" Column_End="73" HashCode="0">
+        <CodeStreamPath Text="variable  -&gt; RealPath" Line="16" Column="13" Line_End="16" Column_End="73" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="17" Column="23" Line_End="17" Column_End="31" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static bool System.IO.File.Exists(string path)" Line="77" Column="3" Line_End="77" Column_End="41" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; path" Line="77" Column="29" Line_End="77" Column_End="36" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="20" Column="55" Line_End="20" Column_End="63" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="81" Column="3" Line_End="81" Column_End="51" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; path" Line="81" Column="39" Line_End="81" Column_End="46" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="16" Column="58" Line_End="16" Column_End="65" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="18" Column="52" Line_End="18" Column_End="59" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="24" Column="62" Line_End="24" Column_End="69" HashCode="0">
+          <CodeStreamPath Text="invocation -&gt; public static string System.IO.Path.GetFileName(string path)" Line="24" Column="61" Line_End="24" Column_End="83" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static string System.IO.Path.GetFileName(string path)" Line="88" Column="3" Line_End="88" Column_End="48" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; path" Line="88" Column="36" Line_End="88" Column_End="43" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="16" Column="66" Line_End="16" Column_End="72" HashCode="0">
+      <CodeStreamPath Text="IndexerExpression" Line="16" Column="65" Line_End="16" Column_End="73" HashCode="0">
+        <CodeStreamPath Text="BinaryOperatorExpression" Line="16" Column="24" Line_End="16" Column_End="73" HashCode="0">
+          <CodeStreamPath Text="variable  -&gt; RealPath" Line="16" Column="13" Line_End="16" Column_End="73" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="17" Column="23" Line_End="17" Column_End="31" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public static bool System.IO.File.Exists(string path)" Line="77" Column="3" Line_End="77" Column_End="41" HashCode="0">
+                <CodeStreamPath Text="parameter -&gt; path" Line="77" Column="29" Line_End="77" Column_End="36" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+            <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="20" Column="55" Line_End="20" Column_End="63" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="81" Column="3" Line_End="81" Column_End="51" HashCode="0">
+                <CodeStreamPath Text="parameter -&gt; path" Line="81" Column="39" Line_End="81" Column_End="46" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="UnaryOperatorExpression" Line="17" Column="10" Line_End="17" Column_End="32" HashCode="0" />
+    <CodeStreamPath Text="invocation -&gt; public static bool System.IO.File.Exists(string path)" Line="17" Column="22" Line_End="17" Column_End="32" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static bool System.IO.File.Exists(string path)" Line="77" Column="3" Line_End="77" Column_End="41" HashCode="0">
+        <CodeStreamPath Text="UnaryOperatorExpression" Line="17" Column="10" Line_End="17" Column_End="32" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public static bool System.IO.File.Exists(string path)" Line="17" Column="15" Line_End="17" Column_End="22" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static bool System.IO.File.Exists(string path)" Line="17" Column="22" Line_End="17" Column_End="32" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static bool System.IO.File.Exists(string path)" Line="77" Column="3" Line_End="77" Column_End="41" HashCode="0">
+          <CodeStreamPath Text="UnaryOperatorExpression" Line="17" Column="10" Line_End="17" Column_End="32" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; File : System.IO.File" Line="17" Column="11" Line_End="17" Column_End="15" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static bool System.IO.File.Exists(string path)" Line="17" Column="22" Line_End="17" Column_End="32" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static bool System.IO.File.Exists(string path)" Line="77" Column="3" Line_End="77" Column_End="41" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; File : System.IO.File" Line="20" Column="37" Line_End="20" Column_End="41" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="20" Column="54" Line_End="20" Column_End="64" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="81" Column="3" Line_End="81" Column_End="51" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; content : System.Web.UI.WebControls.Literal" Line="20" Column="7" Line_End="20" Column_End="14" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; content : System.Web.UI.WebControls.Literal" Line="25" Column="5" Line_End="25" Column_End="12" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="17" Column="23" Line_End="17" Column_End="31" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static bool System.IO.File.Exists(string path)" Line="77" Column="3" Line_End="77" Column_End="41" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; path" Line="77" Column="29" Line_End="77" Column_End="36" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="20" Column="55" Line_End="20" Column_End="63" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="81" Column="3" Line_End="81" Column_End="51" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; path" Line="81" Column="39" Line_End="81" Column_End="46" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ExpressionStatement" Line="18" Column="7" Line_End="18" Column_End="69" HashCode="0" />
+    <CodeStreamPath Text="invocation -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="18" Column="24" Line_End="18" Column_End="68" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="182" Column="3" Line_End="182" Column_End="35" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="18" Column="7" Line_End="18" Column_End="69" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public void System.Web.HttpResponse.Redirect(string url)" Line="18" Column="15" Line_End="18" Column_End="24" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="18" Column="24" Line_End="18" Column_End="68" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="182" Column="3" Line_End="182" Column_End="35" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="18" Column="7" Line_End="18" Column_End="69" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; Response : System.Web.HttpResponse" Line="18" Column="7" Line_End="18" Column_End="15" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="18" Column="24" Line_End="18" Column_End="68" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="182" Column="3" Line_End="182" Column_End="35" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; Response : System.Web.HttpResponse" Line="22" Column="6" Line_End="22" Column_End="14" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="22" Column="23" Line_End="22" Column_End="39" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="BinaryOperatorExpression" Line="18" Column="25" Line_End="18" Column_End="67" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="18" Column="24" Line_End="18" Column_End="68" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="182" Column="3" Line_End="182" Column_End="35" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="18" Column="7" Line_End="18" Column_End="69" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="18" Column="25" Line_End="18" Column_End="49" HashCode="0">
+      <CodeStreamPath Text="BinaryOperatorExpression" Line="18" Column="25" Line_End="18" Column_End="67" HashCode="0">
+        <CodeStreamPath Text="invocation -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="18" Column="24" Line_End="18" Column_End="68" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="182" Column="3" Line_End="182" Column_End="35" HashCode="0">
+            <CodeStreamPath Text="ExpressionStatement" Line="18" Column="7" Line_End="18" Column_End="69" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="IndexerExpression" Line="18" Column="59" Line_End="18" Column_End="67" HashCode="0">
+      <CodeStreamPath Text="BinaryOperatorExpression" Line="18" Column="25" Line_End="18" Column_End="67" HashCode="0">
+        <CodeStreamPath Text="invocation -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="18" Column="24" Line_End="18" Column_End="68" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="182" Column="3" Line_End="182" Column_End="35" HashCode="0">
+            <CodeStreamPath Text="ExpressionStatement" Line="18" Column="7" Line_End="18" Column_End="69" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="18" Column="52" Line_End="18" Column_End="59" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="24" Column="62" Line_End="24" Column_End="69" HashCode="0">
+        <CodeStreamPath Text="invocation -&gt; public static string System.IO.Path.GetFileName(string path)" Line="24" Column="61" Line_End="24" Column_End="83" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public static string System.IO.Path.GetFileName(string path)" Line="88" Column="3" Line_End="88" Column_End="48" HashCode="0">
+            <CodeStreamPath Text="parameter -&gt; path" Line="88" Column="36" Line_End="88" Column_End="43" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="18" Column="60" Line_End="18" Column_End="66" HashCode="0">
+      <CodeStreamPath Text="IndexerExpression" Line="18" Column="59" Line_End="18" Column_End="67" HashCode="0">
+        <CodeStreamPath Text="BinaryOperatorExpression" Line="18" Column="25" Line_End="18" Column_End="67" HashCode="0">
+          <CodeStreamPath Text="invocation -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="18" Column="24" Line_End="18" Column_End="68" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="182" Column="3" Line_End="182" Column_End="35" HashCode="0">
+              <CodeStreamPath Text="ExpressionStatement" Line="18" Column="7" Line_End="18" Column_End="69" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ExpressionStatement" Line="20" Column="7" Line_End="20" Column_End="66" HashCode="0" />
+    <CodeStreamPath Text="AssignmentExpression" Line="20" Column="7" Line_End="20" Column_End="65" HashCode="0">
+      <CodeStreamPath Text="System.Web.UI.WebControls.Literal.Text : content" Line="20" Column="14" Line_End="20" Column_End="19" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="20" Column="7" Line_End="20" Column_End="66" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="System.Web.UI.WebControls.Literal.Text : content" Line="20" Column="14" Line_End="20" Column_End="19" HashCode="0">
+      <CodeStreamPath Text="AssignmentExpression" Line="20" Column="7" Line_End="20" Column_End="65" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="20" Column="7" Line_End="20" Column_End="66" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; content : System.Web.UI.WebControls.Literal" Line="20" Column="7" Line_End="20" Column_End="14" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; content : System.Web.UI.WebControls.Literal" Line="25" Column="5" Line_End="25" Column_End="12" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; private string SuperSecureBank.ViewPage.ProcessContent(string[] Lines)" Line="20" Column="36" Line_End="20" Column_End="65" HashCode="0">
+      <CodeStreamPath Text="method -&gt; private string SuperSecureBank.ViewPage.ProcessContent(string[] Lines)" Line="28" Column="3" Line_End="28" Column_End="48" HashCode="0">
+        <CodeStreamPath Text="AssignmentExpression" Line="20" Column="7" Line_End="20" Column_End="65" HashCode="0">
+          <CodeStreamPath Text="System.Web.UI.WebControls.Literal.Text : content" Line="20" Column="14" Line_End="20" Column_End="19" HashCode="0">
+            <CodeStreamPath Text="ExpressionStatement" Line="20" Column="7" Line_End="20" Column_End="66" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; ProcessContent : " Line="20" Column="22" Line_End="20" Column_End="36" HashCode="0">
+      <CodeStreamPath Text="method -&gt; private string SuperSecureBank.ViewPage.ProcessContent(string[] Lines)" Line="28" Column="3" Line_End="28" Column_End="48" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="20" Column="54" Line_End="20" Column_End="64" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="81" Column="3" Line_End="81" Column_End="51" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; content : System.Web.UI.WebControls.Literal" Line="20" Column="7" Line_End="20" Column_End="14" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; content : System.Web.UI.WebControls.Literal" Line="25" Column="5" Line_End="25" Column_End="12" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; private string SuperSecureBank.ViewPage.ProcessContent(string[] Lines)" Line="20" Column="36" Line_End="20" Column_End="65" HashCode="0">
+              <CodeStreamPath Text="method -&gt; private string SuperSecureBank.ViewPage.ProcessContent(string[] Lines)" Line="28" Column="3" Line_End="28" Column_End="48" HashCode="0">
+                <CodeStreamPath Text="AssignmentExpression" Line="20" Column="7" Line_End="20" Column_End="65" HashCode="0">
+                  <CodeStreamPath Text="System.Web.UI.WebControls.Literal.Text : content" Line="20" Column="14" Line_End="20" Column_End="19" HashCode="0">
+                    <CodeStreamPath Text="ExpressionStatement" Line="20" Column="7" Line_End="20" Column_End="66" HashCode="0" />
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public static string[] System.IO.File.ReadAllLines(string path)" Line="20" Column="41" Line_End="20" Column_End="54" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="20" Column="54" Line_End="20" Column_End="64" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="81" Column="3" Line_End="81" Column_End="51" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; content : System.Web.UI.WebControls.Literal" Line="20" Column="7" Line_End="20" Column_End="14" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; content : System.Web.UI.WebControls.Literal" Line="25" Column="5" Line_End="25" Column_End="12" HashCode="0">
+              <CodeStreamPath Text="invocation -&gt; private string SuperSecureBank.ViewPage.ProcessContent(string[] Lines)" Line="20" Column="36" Line_End="20" Column_End="65" HashCode="0">
+                <CodeStreamPath Text="method -&gt; private string SuperSecureBank.ViewPage.ProcessContent(string[] Lines)" Line="28" Column="3" Line_End="28" Column_End="48" HashCode="0">
+                  <CodeStreamPath Text="parameter -&gt; Lines" Line="28" Column="33" Line_End="28" Column_End="42" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; Lines : System.String" Line="33" Column="20" Line_End="33" Column_End="25" HashCode="0">
+                      <CodeStreamPath Text="identifier  -&gt; Lines : System.String" Line="34" Column="19" Line_End="34" Column_End="24" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; Lines : System.String" Line="36" Column="27" Line_End="36" Column_End="32" HashCode="0">
+                          <CodeStreamPath Text="variable  -&gt; i" Line="36" Column="16" Line_End="36" Column_End="21" HashCode="0">
+                            <CodeStreamPath Text="identifier  -&gt; i : System.Int64" Line="36" Column="23" Line_End="36" Column_End="24" HashCode="0" />
+                            <CodeStreamPath Text="identifier  -&gt; i : System.Int64" Line="36" Column="41" Line_End="36" Column_End="42" HashCode="0" />
+                            <CodeStreamPath Text="identifier  -&gt; i : System.Int64" Line="37" Column="26" Line_End="37" Column_End="27" HashCode="0" />
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                        <CodeStreamPath Text="identifier  -&gt; Lines : System.String" Line="37" Column="20" Line_End="37" Column_End="25" HashCode="0" />
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                    <CodeStreamPath Text="identifier  -&gt; Lines : System.String" Line="34" Column="19" Line_End="34" Column_End="24" HashCode="0">
+                      <CodeStreamPath Text="identifier  -&gt; Lines : System.String" Line="36" Column="27" Line_End="36" Column_End="32" HashCode="0">
+                        <CodeStreamPath Text="variable  -&gt; i" Line="36" Column="16" Line_End="36" Column_End="21" HashCode="0">
+                          <CodeStreamPath Text="identifier  -&gt; i : System.Int64" Line="36" Column="23" Line_End="36" Column_End="24" HashCode="0" />
+                          <CodeStreamPath Text="identifier  -&gt; i : System.Int64" Line="36" Column="41" Line_End="36" Column_End="42" HashCode="0" />
+                          <CodeStreamPath Text="identifier  -&gt; i : System.Int64" Line="37" Column="26" Line_End="37" Column_End="27" HashCode="0" />
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                      <CodeStreamPath Text="identifier  -&gt; Lines : System.String" Line="37" Column="20" Line_End="37" Column_End="25" HashCode="0" />
+                    </CodeStreamPath>
+                    <CodeStreamPath Text="identifier  -&gt; Lines : System.String" Line="36" Column="27" Line_End="36" Column_End="32" HashCode="0">
+                      <CodeStreamPath Text="variable  -&gt; i" Line="36" Column="16" Line_End="36" Column_End="21" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; i : System.Int64" Line="36" Column="23" Line_End="36" Column_End="24" HashCode="0" />
+                        <CodeStreamPath Text="identifier  -&gt; i : System.Int64" Line="36" Column="41" Line_End="36" Column_End="42" HashCode="0" />
+                        <CodeStreamPath Text="identifier  -&gt; i : System.Int64" Line="37" Column="26" Line_End="37" Column_End="27" HashCode="0" />
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                    <CodeStreamPath Text="identifier  -&gt; Lines : System.String" Line="37" Column="20" Line_End="37" Column_End="25" HashCode="0" />
+                    <CodeStreamPath Text="AssignmentExpression" Line="20" Column="7" Line_End="20" Column_End="65" HashCode="0">
+                      <CodeStreamPath Text="System.Web.UI.WebControls.Literal.Text : content" Line="20" Column="14" Line_End="20" Column_End="19" HashCode="0">
+                        <CodeStreamPath Text="ExpressionStatement" Line="20" Column="7" Line_End="20" Column_End="66" HashCode="0" />
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; File : System.IO.File" Line="20" Column="37" Line_End="20" Column_End="41" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="20" Column="54" Line_End="20" Column_End="64" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="81" Column="3" Line_End="81" Column_End="51" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; content : System.Web.UI.WebControls.Literal" Line="20" Column="7" Line_End="20" Column_End="14" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; content : System.Web.UI.WebControls.Literal" Line="25" Column="5" Line_End="25" Column_End="12" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; RealPath : System.String" Line="20" Column="55" Line_End="20" Column_End="63" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static string[] System.IO.File.ReadAllLines(string path)" Line="81" Column="3" Line_End="81" Column_End="51" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; path" Line="81" Column="39" Line_End="81" Column_End="46" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ExpressionStatement" Line="22" Column="6" Line_End="22" Column_End="40" HashCode="0" />
+    <CodeStreamPath Text="invocation -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="22" Column="23" Line_End="22" Column_End="39" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="182" Column="3" Line_End="182" Column_End="35" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="22" Column="6" Line_End="22" Column_End="40" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public void System.Web.HttpResponse.Redirect(string url)" Line="22" Column="14" Line_End="22" Column_End="23" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="22" Column="23" Line_End="22" Column_End="39" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="182" Column="3" Line_End="182" Column_End="35" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="22" Column="6" Line_End="22" Column_End="40" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; Response : System.Web.HttpResponse" Line="22" Column="6" Line_End="22" Column_End="14" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="22" Column="23" Line_End="22" Column_End="39" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="182" Column="3" Line_End="182" Column_End="35" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="22" Column="24" Line_End="22" Column_End="38" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="22" Column="23" Line_End="22" Column_End="39" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public void System.Web.HttpResponse.Redirect(string url)" Line="182" Column="3" Line_End="182" Column_End="35" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="22" Column="6" Line_End="22" Column_End="40" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+    <CodeStreamPath Text="TypeReference" Line="23" Column="13" Line_End="0" Column_End="0" HashCode="0">
+      <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+    <CodeStreamPath Text="ExpressionStatement" Line="24" Column="5" Line_End="24" Column_End="89" HashCode="0">
+      <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="24" Column="30" Line_End="24" Column_End="88" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="49" Column="3" Line_End="49" Column_End="66" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="24" Column="5" Line_End="24" Column_End="89" HashCode="0">
+          <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="24" Column="17" Line_End="24" Column_End="30" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="24" Column="30" Line_End="24" Column_End="88" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="49" Column="3" Line_End="49" Column_End="66" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="24" Column="5" Line_End="24" Column_End="89" HashCode="0">
+            <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; ErrorLogging : SuperSecureBank.ErrorLogging" Line="24" Column="5" Line_End="24" Column_End="17" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="24" Column="30" Line_End="24" Column_End="88" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="49" Column="3" Line_End="49" Column_End="66" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="BinaryOperatorExpression" Line="24" Column="31" Line_End="24" Column_End="83" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="24" Column="30" Line_End="24" Column_End="88" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="49" Column="3" Line_End="49" Column_End="66" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="24" Column="5" Line_End="24" Column_End="89" HashCode="0">
+            <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="24" Column="31" Line_End="24" Column_End="42" HashCode="0">
+      <CodeStreamPath Text="BinaryOperatorExpression" Line="24" Column="31" Line_End="24" Column_End="83" HashCode="0">
+        <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="24" Column="30" Line_End="24" Column_End="88" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="49" Column="3" Line_End="49" Column_End="66" HashCode="0">
+            <CodeStreamPath Text="ExpressionStatement" Line="24" Column="5" Line_End="24" Column_End="89" HashCode="0">
+              <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; public static string System.IO.Path.GetFileName(string path)" Line="24" Column="61" Line_End="24" Column_End="83" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static string System.IO.Path.GetFileName(string path)" Line="88" Column="3" Line_End="88" Column_End="48" HashCode="0">
+        <CodeStreamPath Text="BinaryOperatorExpression" Line="24" Column="31" Line_End="24" Column_End="83" HashCode="0">
+          <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="24" Column="30" Line_End="24" Column_End="88" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="49" Column="3" Line_End="49" Column_End="66" HashCode="0">
+              <CodeStreamPath Text="ExpressionStatement" Line="24" Column="5" Line_End="24" Column_End="89" HashCode="0">
+                <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public static string System.IO.Path.GetFileName(string path)" Line="24" Column="49" Line_End="24" Column_End="61" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static string System.IO.Path.GetFileName(string path)" Line="24" Column="61" Line_End="24" Column_End="83" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string System.IO.Path.GetFileName(string path)" Line="88" Column="3" Line_End="88" Column_End="48" HashCode="0">
+          <CodeStreamPath Text="BinaryOperatorExpression" Line="24" Column="31" Line_End="24" Column_End="83" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="24" Column="30" Line_End="24" Column_End="88" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="49" Column="3" Line_End="49" Column_End="66" HashCode="0">
+                <CodeStreamPath Text="parameter -&gt; errorText" Line="49" Column="35" Line_End="49" Column_End="42" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; errorText : System.String" Line="54" Column="71" Line_End="54" Column_End="80" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="59" Column="3" Line_End="59" Column_End="47" HashCode="0">
+                      <CodeStreamPath Text="parameter -&gt; foo" Line="59" Column="36" Line_End="59" Column_End="43" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="61" Column="16" Line_End="61" Column_End="19" HashCode="0" />
+                        <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="62" Column="12" Line_End="62" Column_End="15" HashCode="0">
+                          <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="62" Column="23" Line_End="62" Column_End="34" HashCode="0">
+                            <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="131" Column="3" Line_End="131" Column_End="58" HashCode="0">
+                              <CodeStreamPath Text="ReturnStatement" Line="62" Column="5" Line_End="62" Column_End="35" HashCode="0" />
+                            </CodeStreamPath>
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                  <CodeStreamPath Text="ExpressionStatement" Line="24" Column="5" Line_End="24" Column_End="89" HashCode="0">
+                    <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; Path : System.IO.Path" Line="24" Column="45" Line_End="24" Column_End="49" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static string System.IO.Path.GetFileName(string path)" Line="24" Column="61" Line_End="24" Column_End="83" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string System.IO.Path.GetFileName(string path)" Line="88" Column="3" Line_End="88" Column_End="48" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultProperty: public string System.Web.HttpRequest.PhysicalPath" Line="24" Column="69" Line_End="24" Column_End="82" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static string System.IO.Path.GetFileName(string path)" Line="24" Column="61" Line_End="24" Column_End="83" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string System.IO.Path.GetFileName(string path)" Line="88" Column="3" Line_End="88" Column_End="48" HashCode="0">
+          <CodeStreamPath Text="parameter -&gt; path" Line="88" Column="36" Line_End="88" Column_End="43" HashCode="0">
+            <CodeStreamPath Text="BinaryOperatorExpression" Line="24" Column="31" Line_End="24" Column_End="83" HashCode="0">
+              <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="24" Column="30" Line_End="24" Column_End="88" HashCode="0">
+                <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="49" Column="3" Line_End="49" Column_End="66" HashCode="0">
+                  <CodeStreamPath Text="parameter -&gt; errorText" Line="49" Column="35" Line_End="49" Column_End="42" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; errorText : System.String" Line="54" Column="71" Line_End="54" Column_End="80" HashCode="0">
+                      <CodeStreamPath Text="method -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="59" Column="3" Line_End="59" Column_End="47" HashCode="0">
+                        <CodeStreamPath Text="parameter -&gt; foo" Line="59" Column="36" Line_End="59" Column_End="43" HashCode="0">
+                          <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="61" Column="16" Line_End="61" Column_End="19" HashCode="0" />
+                          <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="62" Column="12" Line_End="62" Column_End="15" HashCode="0">
+                            <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="62" Column="23" Line_End="62" Column_End="34" HashCode="0">
+                              <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="131" Column="3" Line_End="131" Column_End="58" HashCode="0">
+                                <CodeStreamPath Text="ReturnStatement" Line="62" Column="5" Line_End="62" Column_End="35" HashCode="0" />
+                              </CodeStreamPath>
+                            </CodeStreamPath>
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                    <CodeStreamPath Text="ExpressionStatement" Line="24" Column="5" Line_End="24" Column_End="89" HashCode="0">
+                      <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="24" Column="62" Line_End="24" Column_End="69" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static string System.IO.Path.GetFileName(string path)" Line="24" Column="61" Line_End="24" Column_End="83" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string System.IO.Path.GetFileName(string path)" Line="88" Column="3" Line_End="88" Column_End="48" HashCode="0">
+          <CodeStreamPath Text="parameter -&gt; path" Line="88" Column="36" Line_End="88" Column_End="43" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="24" Column="85" Line_End="24" Column_End="87" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="49" Column="3" Line_End="49" Column_End="66" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; ex" Line="49" Column="53" Line_End="49" Column_End="63" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="54" Column="102" Line_End="54" Column_End="104" HashCode="0">
+            <CodeStreamPath Text="method -&gt; private static string SuperSecureBank.ErrorLogging.BuildExceptionText(Exception ex)" Line="66" Column="3" Line_End="66" Column_End="57" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; ex" Line="66" Column="44" Line_End="66" Column_End="54" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="69" Column="52" Line_End="69" Column_End="54" HashCode="0">
+                  <CodeStreamPath Text="invocation -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="69" Column="51" Line_End="69" Column_End="63" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="59" Column="3" Line_End="59" Column_End="47" HashCode="0">
+                      <CodeStreamPath Text="parameter -&gt; foo" Line="59" Column="36" Line_End="59" Column_End="43" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="61" Column="16" Line_End="61" Column_End="19" HashCode="0" />
+                        <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="62" Column="12" Line_End="62" Column_End="15" HashCode="0">
+                          <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="62" Column="23" Line_End="62" Column_End="34" HashCode="0">
+                            <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="131" Column="3" Line_End="131" Column_End="58" HashCode="0">
+                              <CodeStreamPath Text="ReturnStatement" Line="62" Column="5" Line_End="62" Column_End="35" HashCode="0" />
+                            </CodeStreamPath>
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+                <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="69" Column="77" Line_End="69" Column_End="79" HashCode="0">
+                  <CodeStreamPath Text="invocation -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="69" Column="76" Line_End="69" Column_End="89" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="59" Column="3" Line_End="59" Column_End="47" HashCode="0">
+                      <CodeStreamPath Text="parameter -&gt; foo" Line="59" Column="36" Line_End="59" Column_End="43" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="61" Column="16" Line_End="61" Column_End="19" HashCode="0" />
+                        <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="62" Column="12" Line_End="62" Column_End="15" HashCode="0">
+                          <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="62" Column="23" Line_End="62" Column_End="34" HashCode="0">
+                            <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="131" Column="3" Line_End="131" Column_End="58" HashCode="0">
+                              <CodeStreamPath Text="ReturnStatement" Line="62" Column="5" Line_End="62" Column_End="35" HashCode="0" />
+                            </CodeStreamPath>
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+                <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="69" Column="103" Line_End="69" Column_End="105" HashCode="0">
+                  <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="69" Column="124" Line_End="69" Column_End="140" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="131" Column="3" Line_End="131" Column_End="58" HashCode="0">
+                      <CodeStreamPath Text="ReturnStatement" Line="69" Column="4" Line_End="69" Column_End="185" HashCode="0" />
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="25" Column="20" Line_End="25" Column_End="22" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual string System.Exception.ToString()" Line="25" Column="31" Line_End="25" Column_End="33" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual string System.Exception.ToString()" Line="138" Column="3" Line_End="138" Column_End="35" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; content : System.Web.UI.WebControls.Literal" Line="25" Column="5" Line_End="25" Column_End="12" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ExpressionStatement" Line="25" Column="5" Line_End="25" Column_End="34" HashCode="0">
+      <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="AssignmentExpression" Line="25" Column="5" Line_End="25" Column_End="33" HashCode="0">
+      <CodeStreamPath Text="System.Web.UI.WebControls.Literal.Text : content" Line="25" Column="12" Line_End="25" Column_End="17" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="25" Column="5" Line_End="25" Column_End="34" HashCode="0">
+          <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="System.Web.UI.WebControls.Literal.Text : content" Line="25" Column="12" Line_End="25" Column_End="17" HashCode="0">
+      <CodeStreamPath Text="AssignmentExpression" Line="25" Column="5" Line_End="25" Column_End="33" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="25" Column="5" Line_End="25" Column_End="34" HashCode="0">
+          <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; content : System.Web.UI.WebControls.Literal" Line="25" Column="5" Line_End="25" Column_End="12" HashCode="0" />
+    <CodeStreamPath Text="invocation -&gt; public virtual string System.Exception.ToString()" Line="25" Column="31" Line_End="25" Column_End="33" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public virtual string System.Exception.ToString()" Line="138" Column="3" Line_End="138" Column_End="35" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; content : System.Web.UI.WebControls.Literal" Line="25" Column="5" Line_End="25" Column_End="12" HashCode="0">
+          <CodeStreamPath Text="AssignmentExpression" Line="25" Column="5" Line_End="25" Column_End="33" HashCode="0">
+            <CodeStreamPath Text="System.Web.UI.WebControls.Literal.Text : content" Line="25" Column="12" Line_End="25" Column_End="17" HashCode="0">
+              <CodeStreamPath Text="ExpressionStatement" Line="25" Column="5" Line_End="25" Column_End="34" HashCode="0">
+                <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public virtual string System.Exception.ToString()" Line="25" Column="22" Line_End="25" Column_End="31" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public virtual string System.Exception.ToString()" Line="25" Column="31" Line_End="25" Column_End="33" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public virtual string System.Exception.ToString()" Line="138" Column="3" Line_End="138" Column_End="35" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; content : System.Web.UI.WebControls.Literal" Line="25" Column="5" Line_End="25" Column_End="12" HashCode="0">
+            <CodeStreamPath Text="AssignmentExpression" Line="25" Column="5" Line_End="25" Column_End="33" HashCode="0">
+              <CodeStreamPath Text="System.Web.UI.WebControls.Literal.Text : content" Line="25" Column="12" Line_End="25" Column_End="17" HashCode="0">
+                <CodeStreamPath Text="ExpressionStatement" Line="25" Column="5" Line_End="25" Column_End="34" HashCode="0">
+                  <CodeStreamPath Text="CatchClause" Line="23" Column="6" Line_End="26" Column_End="4" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="25" Column="20" Line_End="25" Column_End="22" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public virtual string System.Exception.ToString()" Line="25" Column="31" Line_End="25" Column_End="33" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public virtual string System.Exception.ToString()" Line="138" Column="3" Line_End="138" Column_End="35" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; content : System.Web.UI.WebControls.Literal" Line="25" Column="5" Line_End="25" Column_End="12" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+  </CodeStreams>
+  <MethodStream_FileCache>C:\O2\_tempDir\11-3-2011\_methodStreams\protected_void_SuperSecureBank.ViewPage.Page_Load_object_sender__EventArgs_e_.cs</MethodStream_FileCache>
+  <Serialized_Saved_MethodStream_FileCache>C:\O2\Demos\SI - SuperSecureBank\O2 Method Streams_2\protected_void_SuperSecureBank.ViewPage.Page_Load_object_sender__EventArgs_e_.methodStream.xml</Serialized_Saved_MethodStream_FileCache>
+  <MethodStream>using System.Text;
+using System.Web;
+using System;
+using System.Data.SqlClient;
+using System.IO;
+using SuperSecureBank;
+namespace SuperSecureBank
+{
+	public class ViewPage : System.Web.UI.Page
+	{
+		protected global::System.Web.UI.WebControls.Literal content;
+		protected void Page_Load(object sender, EventArgs e)
+		{
+			try {
+				if (!string.IsNullOrWhiteSpace(Request["Page"])) {
+					string RealPath = Request.PhysicalApplicationPath + Request["Page"];
+					if (!File.Exists(RealPath))
+						Response.Redirect("404.aspx?AttemptedUrl=" + Request["Page"]);
+					else
+						content.Text = ProcessContent(File.ReadAllLines(RealPath));
+				} else
+					Response.Redirect("Default.aspx");
+			} catch (Exception ex) {
+				ErrorLogging.AddException("Error in " + Path.GetFileName(Request.PhysicalPath), ex);
+				content.Text = ex.ToString();
+			}
+		}
+		private string ProcessContent(string[] Lines)
+		{
+			string returnval = "";
+			try {
+				string newPage = "&lt;h1&gt;{0}&lt;/h1&gt;&lt;div&gt;&lt;a href=\"{1}\"&gt;{1}&lt;/a&gt;&lt;/div&gt;&lt;div&gt;{2}&lt;/div&gt;";
+				string title = Lines[0];
+				string link = Lines[1];
+				StringBuilder sb = new StringBuilder();
+				for (Int64 i = 2; i &lt; Lines.Length; i++) {
+					sb.AppendLine(Lines[i]);
+				}
+				returnval = string.Format(newPage, title, link, sb.ToString());
+			} catch (Exception ex) {
+				ErrorLogging.AddException("Error in " + Path.GetFileName(Request.PhysicalPath), ex);
+				returnval = ex.ToString();
+			}
+			return returnval;
+		}
+	}
+	public class ErrorLogging
+	{
+		public static void AddException(string errorText, Exception ex)
+		{
+			string insertError = "INSERT INTO ErrorLog values ('{0}', '{1}', '{2}')";
+			SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ssbcon"].ConnectionString);
+			conn.Open();
+			insertError = String.Format(insertError, DateTime.Now, cleanForSQL(errorText), BuildExceptionText(ex));
+			SqlCommand command = new SqlCommand(insertError, conn);
+			command.ExecuteNonQuery();
+			conn.Close();
+		}
+		public static string cleanForSQL(string foo)
+		{
+			if (null != foo) {
+				return foo.Replace("'", "''");
+			} else
+				return "";
+		}
+		private static string BuildExceptionText(Exception ex)
+		{
+			string exceptionText = "&lt;h3&gt;{0}&lt;/h3&gt;More Info: {1}&lt;br/&gt;&lt;h4&gt;Stack&lt;/h4&gt;&lt;br/&gt;&lt;pre&gt;&lt;code&gt;{2}&lt;/code&gt;&lt;/pre&gt;";
+			return string.Format(exceptionText, cleanForSQL(ex.Message), cleanForSQL(ex.HelpLink), cleanForSQL(ex.StackTrace.Replace("\r\n", "&lt;br&gt;").Replace("\t", "&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;")));
+		}
+	}
+}
+namespace System.IO
+{
+	public class File
+	{
+		public static bool Exists(string path)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public static string[] ReadAllLines(string path)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+	public class Path
+	{
+		public static string GetFileName(string path)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+}
+namespace System.Data.SqlClient
+{
+	public class SqlConnection : System.Data.Common.DbConnection, System.ComponentModel.IComponent, System.IDisposable, System.Data.IDbConnection, System.ICloneable
+	{
+		public virtual void Open()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public virtual void Close()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public SqlConnection(string connectionString)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+	public class SqlCommand : System.Data.Common.DbCommand, System.ComponentModel.IComponent, System.IDisposable, System.Data.IDbCommand, System.ICloneable
+	{
+		public virtual int ExecuteNonQuery()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public SqlCommand(string cmdText, SqlConnection connection)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+}
+namespace System
+{
+	public class String : System.IComparable, System.ICloneable, System.IConvertible, System.IComparable, System.Collections.Generic.IEnumerable, System.Collections.IEnumerable, System.IEquatable
+	{
+		public static string Format(string format, object arg0, object arg1, object arg2)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public string Replace(string oldValue, string newValue)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+	public class Exception : System.Runtime.Serialization.ISerializable, System.Runtime.InteropServices._Exception
+	{
+		public virtual string ToString()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public virtual string Message {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+		public virtual string HelpLink {
+			get {
+				throw new NotImplementedException();
+			}
+			set {
+				throw new NotImplementedException();
+			}
+		}
+		public virtual string StackTrace {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+	}
+	public class DateTime : System.ValueType, System.IComparable, System.IFormattable, System.IConvertible, System.Runtime.Serialization.ISerializable, System.IComparable, System.IEquatable
+	{
+		public static System.DateTime Now {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+	}
+	public class Array : System.ICloneable, System.Collections.IList, System.Collections.ICollection, System.Collections.IEnumerable
+	{
+		public int Length {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+	}
+}
+namespace System.Web
+{
+	public class HttpResponse
+	{
+		public void Redirect(string url)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+	public class HttpRequest
+	{
+		public string PhysicalApplicationPath {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+		public string PhysicalPath {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+	}
+}
+namespace System.Text
+{
+	public class StringBuilder : System.Runtime.Serialization.ISerializable
+	{
+		public StringBuilder()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public StringBuilder AppendLine(string value)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public virtual string ToString()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+}
+namespace System.Web.UI
+{
+	public class Page : System.Web.UI.TemplateControl, System.ComponentModel.IComponent, System.IDisposable, System.Web.UI.IParserAccessor, System.Web.UI.IUrlResolutionService, System.Web.UI.IDataBindingsAccessor, System.Web.UI.IControlBuilderAccessor, System.Web.UI.IControlDesignerAccessor, System.Web.UI.IExpressionsAccessor, System.Web.UI.INamingContainer, System.Web.UI.IFilterResolutionService, System.Web.IHttpHandler
+	{
+		public System.Web.HttpRequest Request {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+		public System.Web.HttpResponse Response {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+	}
+}
+</MethodStream>
+</Saved_MethodStream>

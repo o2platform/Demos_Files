@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/ViewPage.aspx" hash="fffffff3e53d9c3b" filehash="5cc927f5b52aefa" flags="100000" assembly="App_Web_ycjbconf" type="ASP.viewpage_aspx">
+    <filedeps>
+        <filedep name="/Site.Master" />
+        <filedep name="/ViewPage.aspx" />
+    </filedeps>
+</preserve>

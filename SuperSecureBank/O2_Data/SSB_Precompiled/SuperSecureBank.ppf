@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project default_configuration_name="Configuration 1" file_encoding="UTF-8" file_extension_set_name="aspweb" ltd_name=".net" name="SuperSecureBank" version="8.0.0.1">
+	<Configuration name="Configuration 1"/>
+	<Source exclude="false" path="." web="false"/>
+	<ProjectScanSettings filter_findings_to_project="false"/>
+</Project>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSecureBank", "SuperSecureBank\SuperSecureBank.csproj", "{8DD2DCFB-EBAD-4C50-BD5D-E175F78DEA21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSecureBankService", "SuperSecureBankService\SuperSecureBankService.csproj", "{0A03804C-9146-4F1B-AD96-ADACCF709B58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateUser", "CreateUser\CreateUser.csproj", "{F5B3EA5E-A8FF-4424-B877-9007FA9768F2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0A03804C-9146-4F1B-AD96-ADACCF709B58} = {0A03804C-9146-4F1B-AD96-ADACCF709B58}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DD2DCFB-EBAD-4C50-BD5D-E175F78DEA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD2DCFB-EBAD-4C50-BD5D-E175F78DEA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD2DCFB-EBAD-4C50-BD5D-E175F78DEA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD2DCFB-EBAD-4C50-BD5D-E175F78DEA21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A03804C-9146-4F1B-AD96-ADACCF709B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A03804C-9146-4F1B-AD96-ADACCF709B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A03804C-9146-4F1B-AD96-ADACCF709B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A03804C-9146-4F1B-AD96-ADACCF709B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B3EA5E-A8FF-4424-B877-9007FA9768F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B3EA5E-A8FF-4424-B877-9007FA9768F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B3EA5E-A8FF-4424-B877-9007FA9768F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B3EA5E-A8FF-4424-B877-9007FA9768F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

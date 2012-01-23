@@ -1,0 +1,843 @@
+<?xml version="1.0"?>
+<Saved_MethodStream>
+  <RootMethod ItemType="Method" Name="CreateUser" Class="UserMgmt" Namespace="SuperSecureBank" ReturnType="System.Int64" Signature="public static long SuperSecureBank.UserMgmt.CreateUser(string username, string email, string pass)" DotNetName="SuperSecureBank.UserMgmt.CreateUser">
+    <Parameter Key="username" Value="System.String" />
+    <Parameter Key="email" Value="System.String" />
+    <Parameter Key="pass" Value="System.String" />
+    <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\UserMgmt.cs" Line="13" Column="3" Line_End="13" Column_End="77" />
+  </RootMethod>
+  <MethodStreamItems>
+    <MethodStream_Item ItemType="ExternalClasses" Name="Int64" Class="System.Int64" Namespace="System" Signature="System.Int64" DotNetName="System.Int64" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="Open" Class="SqlConnection" Namespace="System.Data.SqlClient" ReturnType="System.Void" Signature="public virtual void System.Data.SqlClient.SqlConnection.Open()" DotNetName="System.Data.SqlClient.SqlConnection.Open" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="ExecuteScalar" Class="SqlCommand" Namespace="System.Data.SqlClient" ReturnType="System.Object" Signature="public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" DotNetName="System.Data.SqlClient.SqlCommand.ExecuteScalar" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="Close" Class="SqlConnection" Namespace="System.Data.SqlClient" ReturnType="System.Void" Signature="public virtual void System.Data.SqlClient.SqlConnection.Close()" DotNetName="System.Data.SqlClient.SqlConnection.Close" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="#ctor" Class="SqlConnection" Namespace="System.Data.SqlClient" ReturnType="System.Data.SqlClient.SqlConnection" Signature="public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" DotNetName="System.Data.SqlClient.SqlConnection.#ctor">
+      <Parameter Key="connectionString" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="#ctor" Class="SqlCommand" Namespace="System.Data.SqlClient" ReturnType="System.Data.SqlClient.SqlCommand" Signature="public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" DotNetName="System.Data.SqlClient.SqlCommand.#ctor">
+      <Parameter Key="cmdText" Value="System.String" />
+      <Parameter Key="connection" Value="System.Data.SqlClient.SqlConnection" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="Format" Class="String" Namespace="System" ReturnType="System.String" Signature="public static string string.Format(string format, object arg0, object arg1, object arg2)" DotNetName="System.String.Format">
+      <Parameter Key="format" Value="System.String" />
+      <Parameter Key="arg0" Value="System.Object" />
+      <Parameter Key="arg1" Value="System.Object" />
+      <Parameter Key="arg2" Value="System.Object" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="ToInt64" Class="Convert" Namespace="System" ReturnType="System.Int64" Signature="public static long System.Convert.ToInt64(object value)" DotNetName="System.Convert.ToInt64">
+      <Parameter Key="value" Value="System.Object" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="CreateUser" Class="UserMgmt" Namespace="SuperSecureBank" ReturnType="System.Int64" Signature="public static long SuperSecureBank.UserMgmt.CreateUser(string username, string email, string pass)" DotNetName="SuperSecureBank.UserMgmt.CreateUser">
+      <Parameter Key="username" Value="System.String" />
+      <Parameter Key="email" Value="System.String" />
+      <Parameter Key="pass" Value="System.String" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\UserMgmt.cs" Line="13" Column="3" Line_End="13" Column_End="77" />
+    </MethodStream_Item>
+  </MethodStreamItems>
+  <CodeStreams>
+    <CodeStreamPath Text="method -&gt; public static long SuperSecureBank.UserMgmt.CreateUser(string username, string email, string pass)" Line="8" Column="3" Line_End="8" Column_End="77" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; username" Line="8" Column="34" Line_End="8" Column_End="41" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; username : System.String" Line="14" Column="44" Line_End="14" Column_End="52" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+            <CodeStreamPath Text="parameter -&gt; arg0" Line="58" Column="46" Line_End="58" Column_End="53" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="8" Column="34" Line_End="8" Column_End="40" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static long SuperSecureBank.UserMgmt.CreateUser(string username, string email, string pass)" Line="8" Column="3" Line_End="8" Column_End="77" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; username" Line="8" Column="34" Line_End="8" Column_End="41" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; username : System.String" Line="14" Column="44" Line_End="14" Column_End="52" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; arg0" Line="58" Column="46" Line_End="58" Column_End="53" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="method -&gt; public static long SuperSecureBank.UserMgmt.CreateUser(string username, string email, string pass)" Line="8" Column="3" Line_End="8" Column_End="77" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; email" Line="8" Column="51" Line_End="8" Column_End="58" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; email : System.String" Line="14" Column="54" Line_End="14" Column_End="59" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+            <CodeStreamPath Text="parameter -&gt; arg1" Line="58" Column="59" Line_End="58" Column_End="66" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="8" Column="51" Line_End="8" Column_End="57" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static long SuperSecureBank.UserMgmt.CreateUser(string username, string email, string pass)" Line="8" Column="3" Line_End="8" Column_End="77" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; email" Line="8" Column="51" Line_End="8" Column_End="58" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; email : System.String" Line="14" Column="54" Line_End="14" Column_End="59" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; arg1" Line="58" Column="59" Line_End="58" Column_End="66" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="method -&gt; public static long SuperSecureBank.UserMgmt.CreateUser(string username, string email, string pass)" Line="8" Column="3" Line_End="8" Column_End="77" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; pass" Line="8" Column="65" Line_End="8" Column_End="72" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; pass : System.String" Line="14" Column="61" Line_End="14" Column_End="65" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+            <CodeStreamPath Text="parameter -&gt; arg2" Line="58" Column="72" Line_End="58" Column_End="79" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="8" Column="65" Line_End="8" Column_End="71" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static long SuperSecureBank.UserMgmt.CreateUser(string username, string email, string pass)" Line="8" Column="3" Line_End="8" Column_End="77" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; pass" Line="8" Column="65" Line_End="8" Column_End="72" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; pass : System.String" Line="14" Column="61" Line_End="14" Column_End="65" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; arg2" Line="58" Column="72" Line_End="58" Column_End="79" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="8" Column="17" Line_End="8" Column_End="22" HashCode="0" />
+    <CodeStreamPath Text="LocalVariableDeclaration" Line="11" Column="5" Line_End="11" Column_End="100" HashCode="0" />
+    <CodeStreamPath Text="TypeReference" Line="11" Column="5" Line_End="11" Column_End="11" HashCode="0">
+      <CodeStreamPath Text="LocalVariableDeclaration" Line="11" Column="5" Line_End="11" Column_End="100" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="variable  -&gt; insertUser" Line="11" Column="12" Line_End="11" Column_End="99" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="14" Column="5" Line_End="14" Column_End="15" HashCode="0" />
+      <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="14" Column="32" Line_End="14" Column_End="42" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+          <CodeStreamPath Text="parameter -&gt; format" Line="58" Column="31" Line_End="58" Column_End="38" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+      <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="15" Column="41" Line_End="15" Column_End="51" HashCode="0">
+        <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="48" Column="10" Line_End="48" Column_End="62" HashCode="0">
+          <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0" />
+          <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+              <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+                <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                  <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                      <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="11" Column="25" Line_End="11" Column_End="99" HashCode="0">
+      <CodeStreamPath Text="variable  -&gt; insertUser" Line="11" Column="12" Line_End="11" Column_End="99" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="14" Column="5" Line_End="14" Column_End="15" HashCode="0" />
+        <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="14" Column="32" Line_End="14" Column_End="42" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+            <CodeStreamPath Text="parameter -&gt; format" Line="58" Column="31" Line_End="58" Column_End="38" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+        <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="15" Column="41" Line_End="15" Column_End="51" HashCode="0">
+          <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="48" Column="10" Line_End="48" Column_End="62" HashCode="0">
+            <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0" />
+            <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+                <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+                  <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                    <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                      <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                        <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="LocalVariableDeclaration" Line="12" Column="5" Line_End="12" Column_End="111" HashCode="0" />
+    <CodeStreamPath Text="TypeReference" Line="12" Column="5" Line_End="12" Column_End="18" HashCode="0">
+      <CodeStreamPath Text="LocalVariableDeclaration" Line="12" Column="5" Line_End="12" Column_End="111" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="variable  -&gt; conn" Line="12" Column="19" Line_End="12" Column_End="110" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="13" Column="5" Line_End="13" Column_End="9" HashCode="0">
+        <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="13" Column="14" Line_End="13" Column_End="16" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="29" Column="3" Line_End="29" Column_End="29" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+      <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="15" Column="53" Line_End="15" Column_End="57" HashCode="0">
+        <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="48" Column="10" Line_End="48" Column_End="62" HashCode="0">
+          <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0" />
+          <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+              <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+                <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                  <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                      <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+      <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="5" Line_End="17" Column_End="9" HashCode="0">
+        <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="33" Column="3" Line_End="33" Column_End="30" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" Line="12" Column="26" Line_End="12" Column_End="110" HashCode="0">
+      <CodeStreamPath Text="variable  -&gt; conn" Line="12" Column="19" Line_End="12" Column_End="110" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="13" Column="5" Line_End="13" Column_End="9" HashCode="0">
+          <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="13" Column="14" Line_End="13" Column_End="16" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="29" Column="3" Line_End="29" Column_End="29" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+        <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="15" Column="53" Line_End="15" Column_End="57" HashCode="0">
+          <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="48" Column="10" Line_End="48" Column_End="62" HashCode="0">
+            <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0" />
+            <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+                <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+                  <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                    <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                      <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                        <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+        <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="5" Line_End="17" Column_End="9" HashCode="0">
+          <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="33" Column="3" Line_End="33" Column_End="30" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="12" Column="30" Line_End="12" Column_End="43" HashCode="0">
+      <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" Line="12" Column="26" Line_End="12" Column_End="110" HashCode="0">
+        <CodeStreamPath Text="variable  -&gt; conn" Line="12" Column="19" Line_End="12" Column_End="110" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="13" Column="5" Line_End="13" Column_End="9" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="13" Column="14" Line_End="13" Column_End="16" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="29" Column="3" Line_End="29" Column_End="29" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="15" Column="53" Line_End="15" Column_End="57" HashCode="0">
+            <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="48" Column="10" Line_End="48" Column_End="62" HashCode="0">
+              <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0" />
+              <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+                  <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                      <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                          <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="5" Line_End="17" Column_End="9" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="33" Column="3" Line_End="33" Column_End="30" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="[not resolved: target] .ConnectionString : " Line="12" Column="92" Line_End="12" Column_End="109" HashCode="0">
+      <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" Line="12" Column="26" Line_End="12" Column_End="110" HashCode="0">
+        <CodeStreamPath Text="variable  -&gt; conn" Line="12" Column="19" Line_End="12" Column_End="110" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="13" Column="5" Line_End="13" Column_End="9" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="13" Column="14" Line_End="13" Column_End="16" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="29" Column="3" Line_End="29" Column_End="29" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="15" Column="53" Line_End="15" Column_End="57" HashCode="0">
+            <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="48" Column="10" Line_End="48" Column_End="62" HashCode="0">
+              <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0" />
+              <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+                  <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                      <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                          <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="5" Line_End="17" Column_End="9" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="33" Column="3" Line_End="33" Column_End="30" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="IndexerExpression" Line="12" Column="82" Line_End="12" Column_End="92" HashCode="0">
+      <CodeStreamPath Text="[not resolved: target] .ConnectionString : " Line="12" Column="92" Line_End="12" Column_End="109" HashCode="0">
+        <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" Line="12" Column="26" Line_End="12" Column_End="110" HashCode="0">
+          <CodeStreamPath Text="variable  -&gt; conn" Line="12" Column="19" Line_End="12" Column_End="110" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="13" Column="5" Line_End="13" Column_End="9" HashCode="0">
+              <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="13" Column="14" Line_End="13" Column_End="16" HashCode="0">
+                <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="29" Column="3" Line_End="29" Column_End="29" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+            <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="15" Column="53" Line_End="15" Column_End="57" HashCode="0">
+              <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="48" Column="10" Line_End="48" Column_End="62" HashCode="0">
+                <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0" />
+                <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+                    <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+                      <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                        <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                          <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                            <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+            <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="5" Line_End="17" Column_End="9" HashCode="0">
+              <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+                <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="33" Column="3" Line_End="33" Column_End="30" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="[not resolved: target] .ConnectionStrings : ConfigurationManager" Line="12" Column="64" Line_End="12" Column_End="82" HashCode="0">
+      <CodeStreamPath Text="IndexerExpression" Line="12" Column="82" Line_End="12" Column_End="92" HashCode="0">
+        <CodeStreamPath Text="[not resolved: target] .ConnectionString : " Line="12" Column="92" Line_End="12" Column_End="109" HashCode="0">
+          <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" Line="12" Column="26" Line_End="12" Column_End="110" HashCode="0">
+            <CodeStreamPath Text="variable  -&gt; conn" Line="12" Column="19" Line_End="12" Column_End="110" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="13" Column="5" Line_End="13" Column_End="9" HashCode="0">
+                <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="13" Column="14" Line_End="13" Column_End="16" HashCode="0">
+                  <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="29" Column="3" Line_End="29" Column_End="29" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+              <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="15" Column="53" Line_End="15" Column_End="57" HashCode="0">
+                <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="48" Column="10" Line_End="48" Column_End="62" HashCode="0">
+                  <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0" />
+                  <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+                      <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+                        <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                          <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                            <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                              <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                            </CodeStreamPath>
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+              <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="5" Line_End="17" Column_End="9" HashCode="0">
+                <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+                  <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="33" Column="3" Line_End="33" Column_End="30" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; ConfigurationManager : [type not resolved]" Line="12" Column="44" Line_End="12" Column_End="64" HashCode="0">
+      <CodeStreamPath Text="IndexerExpression" Line="12" Column="82" Line_End="12" Column_End="92" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="12" Column="83" Line_End="12" Column_End="91" HashCode="0">
+      <CodeStreamPath Text="IndexerExpression" Line="12" Column="82" Line_End="12" Column_End="92" HashCode="0">
+        <CodeStreamPath Text="[not resolved: target] .ConnectionString : " Line="12" Column="92" Line_End="12" Column_End="109" HashCode="0">
+          <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" Line="12" Column="26" Line_End="12" Column_End="110" HashCode="0">
+            <CodeStreamPath Text="variable  -&gt; conn" Line="12" Column="19" Line_End="12" Column_End="110" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="13" Column="5" Line_End="13" Column_End="9" HashCode="0">
+                <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="13" Column="14" Line_End="13" Column_End="16" HashCode="0">
+                  <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="29" Column="3" Line_End="29" Column_End="29" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+              <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="15" Column="53" Line_End="15" Column_End="57" HashCode="0">
+                <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="48" Column="10" Line_End="48" Column_End="62" HashCode="0">
+                  <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0" />
+                  <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+                      <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+                        <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                          <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                            <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                              <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                            </CodeStreamPath>
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+              <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="5" Line_End="17" Column_End="9" HashCode="0">
+                <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+                  <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="33" Column="3" Line_End="33" Column_End="30" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ExpressionStatement" Line="13" Column="5" Line_End="13" Column_End="17" HashCode="0" />
+    <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="13" Column="14" Line_End="13" Column_End="16" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="29" Column="3" Line_End="29" Column_End="29" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="13" Column="5" Line_End="13" Column_End="17" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="13" Column="9" Line_End="13" Column_End="14" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="13" Column="14" Line_End="13" Column_End="16" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="29" Column="3" Line_End="29" Column_End="29" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="13" Column="5" Line_End="13" Column_End="17" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="13" Column="5" Line_End="13" Column_End="9" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="13" Column="14" Line_End="13" Column_End="16" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="29" Column="3" Line_End="29" Column_End="29" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="15" Column="53" Line_End="15" Column_End="57" HashCode="0">
+            <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="48" Column="10" Line_End="48" Column_End="62" HashCode="0">
+              <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0" />
+              <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+                  <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                      <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                          <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="5" Line_End="17" Column_End="9" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="33" Column="3" Line_End="33" Column_End="30" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ExpressionStatement" Line="14" Column="5" Line_End="14" Column_End="67" HashCode="0" />
+    <CodeStreamPath Text="AssignmentExpression" Line="14" Column="5" Line_End="14" Column_End="66" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="14" Column="5" Line_End="14" Column_End="15" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="14" Column="32" Line_End="14" Column_End="42" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+            <CodeStreamPath Text="parameter -&gt; format" Line="58" Column="31" Line_End="58" Column_End="38" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+        <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="15" Column="41" Line_End="15" Column_End="51" HashCode="0">
+          <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="48" Column="10" Line_End="48" Column_End="62" HashCode="0">
+            <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0" />
+            <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+                <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+                  <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                    <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                      <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                        <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="14" Column="5" Line_End="14" Column_End="15" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="14" Column="32" Line_End="14" Column_End="42" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+          <CodeStreamPath Text="parameter -&gt; format" Line="58" Column="31" Line_End="58" Column_End="38" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+      <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="15" Column="41" Line_End="15" Column_End="51" HashCode="0">
+        <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="48" Column="10" Line_End="48" Column_End="62" HashCode="0">
+          <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0" />
+          <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+              <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+                <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                  <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                      <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="14" Column="31" Line_End="14" Column_End="66" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="14" Column="5" Line_End="14" Column_End="15" HashCode="0">
+          <CodeStreamPath Text="AssignmentExpression" Line="14" Column="5" Line_End="14" Column_End="66" HashCode="0">
+            <CodeStreamPath Text="ExpressionStatement" Line="14" Column="5" Line_End="14" Column_End="67" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="14" Column="24" Line_End="14" Column_End="31" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="14" Column="31" Line_End="14" Column_End="66" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="14" Column="5" Line_End="14" Column_End="15" HashCode="0">
+            <CodeStreamPath Text="AssignmentExpression" Line="14" Column="5" Line_End="14" Column_End="66" HashCode="0">
+              <CodeStreamPath Text="ExpressionStatement" Line="14" Column="5" Line_End="14" Column_End="67" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; String : System.String" Line="14" Column="18" Line_End="14" Column_End="24" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="14" Column="31" Line_End="14" Column_End="66" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="14" Column="5" Line_End="14" Column_End="15" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="14" Column="32" Line_End="14" Column_End="42" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; format" Line="58" Column="31" Line_End="58" Column_End="38" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="15" Column="41" Line_End="15" Column_End="51" HashCode="0">
+            <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="48" Column="10" Line_End="48" Column_End="62" HashCode="0">
+              <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0" />
+              <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+                  <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                      <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                          <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; username : System.String" Line="14" Column="44" Line_End="14" Column_End="52" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; arg0" Line="58" Column="46" Line_End="58" Column_End="53" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; email : System.String" Line="14" Column="54" Line_End="14" Column_End="59" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; arg1" Line="58" Column="59" Line_End="58" Column_End="66" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; pass : System.String" Line="14" Column="61" Line_End="14" Column_End="65" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1, object arg2)" Line="58" Column="3" Line_End="58" Column_End="84" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; arg2" Line="58" Column="72" Line_End="58" Column_End="79" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="LocalVariableDeclaration" Line="15" Column="5" Line_End="15" Column_End="59" HashCode="0" />
+    <CodeStreamPath Text="TypeReference" Line="15" Column="5" Line_End="15" Column_End="15" HashCode="0">
+      <CodeStreamPath Text="LocalVariableDeclaration" Line="15" Column="5" Line_End="15" Column_End="59" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+        <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+            <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0">
+      <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+          <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+              <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                  <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="15" Column="30" Line_End="15" Column_End="40" HashCode="0">
+      <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0">
+        <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                    <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; insertUser : System.String" Line="15" Column="41" Line_End="15" Column_End="51" HashCode="0">
+      <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="48" Column="10" Line_End="48" Column_End="62" HashCode="0">
+        <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0" />
+        <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                    <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="15" Column="53" Line_End="15" Column_End="57" HashCode="0">
+      <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="48" Column="10" Line_End="48" Column_End="62" HashCode="0">
+        <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="15" Column="26" Line_End="15" Column_End="58" HashCode="0" />
+        <CodeStreamPath Text="variable  -&gt; command" Line="15" Column="16" Line_End="15" Column_End="58" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+                <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+                    <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0">
+                      <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="5" Line_End="17" Column_End="9" HashCode="0">
+                        <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+                          <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="33" Column="3" Line_End="33" Column_End="30" HashCode="0" />
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="LocalVariableDeclaration" Line="16" Column="5" Line_End="16" Column_End="61" HashCode="0" />
+    <CodeStreamPath Text="TypeReference" Line="16" Column="5" Line_End="16" Column_End="10" HashCode="0">
+      <CodeStreamPath Text="LocalVariableDeclaration" Line="16" Column="5" Line_End="16" Column_End="61" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+        <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; public static long System.Convert.ToInt64(object value)" Line="16" Column="35" Line_End="16" Column_End="60" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static long System.Convert.ToInt64(object value)" Line="65" Column="3" Line_End="65" Column_End="43" HashCode="0">
+        <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+            <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public static long System.Convert.ToInt64(object value)" Line="16" Column="27" Line_End="16" Column_End="35" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static long System.Convert.ToInt64(object value)" Line="16" Column="35" Line_End="16" Column_End="60" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static long System.Convert.ToInt64(object value)" Line="65" Column="3" Line_End="65" Column_End="43" HashCode="0">
+          <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+              <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; Convert : System.Convert" Line="16" Column="20" Line_End="16" Column_End="27" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static long System.Convert.ToInt64(object value)" Line="16" Column="35" Line_End="16" Column_End="60" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static long System.Convert.ToInt64(object value)" Line="65" Column="3" Line_End="65" Column_End="43" HashCode="0">
+          <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+              <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+        <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+            <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0">
+              <CodeStreamPath Text="invocation -&gt; public static long System.Convert.ToInt64(object value)" Line="16" Column="35" Line_End="16" Column_End="60" HashCode="0">
+                <CodeStreamPath Text="method -&gt; public static long System.Convert.ToInt64(object value)" Line="65" Column="3" Line_End="65" Column_End="43" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="43" Line_End="16" Column_End="57" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+          <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+              <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0">
+                <CodeStreamPath Text="invocation -&gt; public static long System.Convert.ToInt64(object value)" Line="16" Column="35" Line_End="16" Column_End="60" HashCode="0">
+                  <CodeStreamPath Text="method -&gt; public static long System.Convert.ToInt64(object value)" Line="65" Column="3" Line_End="65" Column_End="43" HashCode="0">
+                    <CodeStreamPath Text="parameter -&gt; value" Line="65" Column="30" Line_End="65" Column_End="37" HashCode="0" />
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="16" Column="36" Line_End="16" Column_End="43" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="16" Column="57" Line_End="16" Column_End="59" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public virtual object System.Data.SqlClient.SqlCommand.ExecuteScalar()" Line="44" Column="3" Line_End="44" Column_End="40" HashCode="0">
+          <CodeStreamPath Text="variable  -&gt; userID" Line="16" Column="11" Line_End="16" Column_End="60" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+              <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ExpressionStatement" Line="17" Column="5" Line_End="17" Column_End="18" HashCode="0" />
+    <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="33" Column="3" Line_End="33" Column_End="30" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="17" Column="5" Line_End="17" Column_End="18" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="17" Column="9" Line_End="17" Column_End="15" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="33" Column="3" Line_End="33" Column_End="30" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="17" Column="5" Line_End="17" Column_End="18" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="5" Line_End="17" Column_End="9" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Close()" Line="33" Column="3" Line_End="33" Column_End="30" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+    <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="18" Column="12" Line_End="18" Column_End="18" HashCode="0">
+      <CodeStreamPath Text="ReturnStatement" Line="18" Column="5" Line_End="18" Column_End="19" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="CatchClause" Line="19" Column="6" Line_End="21" Column_End="4" HashCode="0" />
+    <CodeStreamPath Text="TypeReference" Line="19" Column="13" Line_End="0" Column_End="0" HashCode="0">
+      <CodeStreamPath Text="CatchClause" Line="19" Column="6" Line_End="21" Column_End="4" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="CatchClause" Line="19" Column="6" Line_End="21" Column_End="4" HashCode="0" />
+    <CodeStreamPath Text="ThrowStatement" Line="20" Column="5" Line_End="20" Column_End="11" HashCode="0">
+      <CodeStreamPath Text="CatchClause" Line="19" Column="6" Line_End="21" Column_End="4" HashCode="0" />
+    </CodeStreamPath>
+  </CodeStreams>
+  <MethodStream_FileCache>C:\O2\_tempDir\11-3-2011\_methodStreams\public_static_long_SuperSecureBank.UserMgmt.CreateUser_string_username__string_email__string_pass_.cs</MethodStream_FileCache>
+  <Serialized_Saved_MethodStream_FileCache>C:\O2\Demos\SI - SuperSecureBank\O2 Method Streams_2\public_static_long_SuperSecureBank.UserMgmt.CreateUser_string_username__string_email__string_pass_.methodStream.xml</Serialized_Saved_MethodStream_FileCache>
+  <MethodStream>using System;
+using System.Data.SqlClient;
+using SuperSecureBank;
+namespace SuperSecureBank
+{
+	public class UserMgmt
+	{
+		public static Int64 CreateUser(string username, string email, string pass)
+		{
+			try {
+				string insertUser = "INSERT INTO Users values ('{0}', '{1}', '{2}'); SELECT SCOPE_IDENTITY();";
+				SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ssbcon"].ConnectionString);
+				conn.Open();
+				insertUser = String.Format(insertUser, username, email, pass);
+				SqlCommand command = new SqlCommand(insertUser, conn);
+				Int64 userID = Convert.ToInt64(command.ExecuteScalar());
+				conn.Close();
+				return userID;
+			} catch (Exception) {
+				throw;
+			}
+		}
+	}
+}
+namespace System.Data.SqlClient
+{
+	public class SqlConnection : System.Data.Common.DbConnection, System.ComponentModel.IComponent, System.IDisposable, System.Data.IDbConnection, System.ICloneable
+	{
+		public virtual void Open()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public virtual void Close()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public SqlConnection(string connectionString)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+	public class SqlCommand : System.Data.Common.DbCommand, System.ComponentModel.IComponent, System.IDisposable, System.Data.IDbCommand, System.ICloneable
+	{
+		public virtual object ExecuteScalar()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public SqlCommand(string cmdText, SqlConnection connection)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+}
+namespace System
+{
+	public class String : System.IComparable, System.ICloneable, System.IConvertible, System.IComparable, System.Collections.Generic.IEnumerable, System.Collections.IEnumerable, System.IEquatable
+	{
+		public static string Format(string format, object arg0, object arg1, object arg2)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+	public class Convert
+	{
+		public static long ToInt64(object value)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+}
+</MethodStream>
+</Saved_MethodStream>

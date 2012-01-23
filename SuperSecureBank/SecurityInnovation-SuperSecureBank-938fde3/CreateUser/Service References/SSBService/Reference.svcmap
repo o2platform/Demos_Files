@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7b2a086f-349c-4e0c-92c1-e65bc8bdc77d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://supersecurebank/SSBService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SSBService4.xsd" MetadataType="Schema" ID="13f23c04-20a8-4285-8a0a-08a975615408" SourceId="1" SourceUrl="http://supersecurebank/SSBService.svc?xsd=xsd3" />
+    <MetadataFile FileName="SSBService41.xsd" MetadataType="Schema" ID="fde0182c-c83a-4981-acbd-af3b565cbd64" SourceId="1" SourceUrl="http://supersecurebank/SSBService.svc?xsd=xsd2" />
+    <MetadataFile FileName="SSBService1.disco" MetadataType="Disco" ID="9cb166f1-6fba-49fa-9871-a5cb86dca0eb" SourceId="1" SourceUrl="http://supersecurebank/SSBService.svc?disco" />
+    <MetadataFile FileName="SSBService42.xsd" MetadataType="Schema" ID="99f37b9e-82ae-42d8-a15b-caf4d9f3194e" SourceId="1" SourceUrl="http://supersecurebank/SSBService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SSBService1.wsdl" MetadataType="Wsdl" ID="de14b2b6-1326-496a-a3da-db2534b597eb" SourceId="1" SourceUrl="http://supersecurebank/SSBService.svc?wsdl" />
+    <MetadataFile FileName="SSBService43.xsd" MetadataType="Schema" ID="f4255f2e-875d-4fdf-bf5d-2252b347069d" SourceId="1" SourceUrl="http://supersecurebank/SSBService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

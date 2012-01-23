@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<AspNet_Page>
+  <File_Path>C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\</File_Path>
+  <Virtual_Path>/_O2_AspNet/Open_O2_Tools.aspx</Virtual_Path>
+  <Server>localhost</Server>
+  <Web_Address>http://localhost/</Web_Address>
+  <PagesConfig>
+    <Item Key="Properties" Value="System.Configuration.ConfigurationPropertyCollection" />
+    <Item Key="Buffer" Value="True" />
+    <Item Key="EnableSessionState" Value="False" />
+    <Item Key="EnableViewState" Value="True" />
+    <Item Key="EnableViewStateMac" Value="False" />
+    <Item Key="EnableEventValidation" Value="False" />
+    <Item Key="SmartNavigation" Value="False" />
+    <Item Key="AutoEventWireup" Value="True" />
+    <Item Key="MaintainScrollPositionOnPostBack" Value="False" />
+    <Item Key="PageBaseType" Value="System.Web.UI.Page" />
+    <Item Key="UserControlBaseType" Value="System.Web.UI.UserControl" />
+    <Item Key="PageBaseTypeInternal" Value="[null value]" />
+    <Item Key="UserControlBaseTypeInternal" Value="[null value]" />
+    <Item Key="PageParserFilterType" Value="" />
+    <Item Key="PageParserFilterTypeInternal" Value="[null value]" />
+    <Item Key="ValidateRequest" Value="False" />
+    <Item Key="MasterPageFile" Value="" />
+    <Item Key="MasterPageFileInternal" Value="" />
+    <Item Key="Theme" Value="" />
+    <Item Key="ThemeInternal" Value="" />
+    <Item Key="StyleSheetTheme" Value="" />
+    <Item Key="StyleSheetThemeInternal" Value="" />
+    <Item Key="Namespaces" Value="System.Web.Configuration.NamespaceCollection" />
+    <Item Key="Controls" Value="System.Web.Configuration.TagPrefixCollection" />
+    <Item Key="MaxPageStateFieldLength" Value="-1" />
+    <Item Key="TagMapping" Value="System.Web.Configuration.TagMapCollection" />
+    <Item Key="CompilationMode" Value="Always" />
+    <Item Key="ViewStateEncryptionMode" Value="Auto" />
+    <Item Key="AsyncTimeout" Value="00:00:45" />
+    <Item Key="RenderAllHiddenFieldsAtTopOfForm" Value="True" />
+    <Item Key="TagNamespaceRegisterEntriesInternal" Value="System.Web.UI.TagNamespaceRegisterEntryTable" />
+    <Item Key="DefaultTagNamespaceRegisterEntries" Value="System.Web.UI.TagNamespaceRegisterEntry[]" />
+    <Item Key="UserControlRegisterEntriesInternal" Value="System.Collections.Hashtable" />
+    <Item Key="SectionInformation" Value="System.Configuration.SectionInformation" />
+    <Item Key="DataToWriteInternal" Value="False" />
+    <Item Key="ElementPresent" Value="True" />
+    <Item Key="ElementTagName" Value="pages" />
+    <Item Key="LockedAttributesList" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockedAllExceptAttributesList" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="ItemLocked" Value="Default" />
+    <Item Key="LockAttributes" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockAllAttributesExcept" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockElements" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockAllElementsExcept" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockItem" Value="False" />
+    <Item Key="Item" Value="[null value]" />
+    <Item Key="Item" Value="[null value]" />
+    <Item Key="Values" Value="System.Configuration.ConfigurationValues" />
+    <Item Key="ElementInformation" Value="System.Configuration.ElementInformation" />
+    <Item Key="EvaluationContext" Value="System.Configuration.ContextInformation" />
+    <Item Key="ElementProperty" Value="System.Configuration.ConfigurationElementProperty" />
+  </PagesConfig>
+  <ConfigItems>
+    <Item Key="CurrentVirtualPathString" Value="/_O2_AspNet/Open_O2_Tools.aspx" />
+    <Item Key="DefaultBaseType" Value="System.Web.UI.Page" />
+    <Item Key="DefaultFileLevelBuilderType" Value="System.Web.UI.FileLevelPageControlBuilder" />
+    <Item Key="HasCodeBehind" Value="False" />
+    <Item Key="IsCodeAllowed" Value="True" />
+  </ConfigItems>
+  <Namespaces>
+    <string>System.Web</string>
+    <string>O2.Kernel.ExtensionMethods</string>
+    <string>System.Web.Caching</string>
+    <string>System.Web.UI.WebControls</string>
+    <string>System.Web.Security</string>
+    <string>System.Text</string>
+    <string>O2.Views.ASCX.Ascx.MainGUI</string>
+    <string>System</string>
+    <string>System.Collections.Specialized</string>
+    <string>System.Text.RegularExpressions</string>
+    <string>System.Web.UI</string>
+    <string>System.Web.Profile</string>
+    <string>System.Collections</string>
+    <string>O2.Views.ASCX.classes.MainGUI</string>
+    <string>System.Web.SessionState</string>
+    <string>O2.DotNetWrappers.ExtensionMethods</string>
+    <string>O2.External.SharpDevelop.ExtensionMethods</string>
+    <string>System.Web.UI.WebControls.WebParts</string>
+    <string>System.Configuration</string>
+    <string>System.Web.UI.HtmlControls</string>
+  </Namespaces>
+  <SourceDependencies>
+    <string>/_O2_AspNet/Open_O2_Tools.aspx</string>
+  </SourceDependencies>
+  <CodeBlock VirtualPath="/_O2_AspNet/Open_O2_Tools.aspx" BuilderType="System.Web.UI.FileLevelPageControlBuilder" ControlType="System.Web.UI.Page" ID="__control1" Line="1" Column="0" IsHtmlControl="false" HasAspCode="false">
+    <SimplePropertyEntries>
+      <Item Key="Title" Value="" />
+      <Item Key="EnableViewStateMac" Value="false" />
+      <Item Key="EnableEventValidation" Value="false" />
+    </SimplePropertyEntries>
+    <EventEntries />
+    <SubBlocks>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;html&gt;&#xD;&#xA;">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+      <CodeBlock VirtualPath="/_O2_AspNet/Open_O2_Tools.aspx" BuilderType="System.Web.UI.HtmlControls.HtmlHeadBuilder" ControlType="System.Web.UI.HtmlControls.HtmlHead" ID="__control2" Line="10" Column="0" TagName="head" IsHtmlControl="false" HasAspCode="false" Filter="">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xD;&#xA;">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xD;&#xA;&lt;body&gt;&#xD;&#xA;	&lt;hr&gt;&#xD;&#xA;	&#xD;&#xA;	&lt;h2&gt;O2 Server-Side Actions&lt;/h2&gt;&#xD;&#xA;	&#xD;&#xA;		&lt;ul&gt; &#xD;&#xA;			&lt;li&gt;&lt;a href=&quot;?action=LogViewer&quot;&gt;Log Viewer&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;			&lt;li&gt;&lt;a href=&quot;?action=ScriptEditor&quot;&gt;Script Editor&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;			&lt;li&gt;&lt;a href=&quot;?action=QuickDevelopmentGui&quot;&gt;Quick Development Gui&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;			&lt;li&gt;&lt;a href=&quot;?action=O2DevelopmentEnviroment&quot;&gt;O2 Development Environment&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;			&lt;li&gt;&lt;a href=&quot;?action=AspNetPageRender&quot;&gt;AspNet Page Render&lt;/a&gt;&lt;/li&gt;						&#xD;&#xA;			&lt;li&gt;&lt;a href=&quot;Create_o2_AspNet_Page_Objects.aspx&quot;&gt;Create o2 AspNet Page Objects.aspx&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;			&#xD;&#xA;		&lt;/ul&gt;			&#xD;&#xA;&#xD;&#xA;&lt;/body&gt;&#xD;&#xA;&lt;/html&gt;		&#xD;&#xA;	&#xD;&#xA;">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+    </SubBlocks>
+  </CodeBlock>
+  <Store_AspNet_SourceCode>true</Store_AspNet_SourceCode>
+  <Store_Compiled_AspNet_SourceCode>true</Store_Compiled_AspNet_SourceCode>
+  <AspNet_SourceCode>&lt;%@ Page Title="" Language="C#" %&gt;
+&lt;% @Import Namespace="O2.Kernel.ExtensionMethods" %&gt;
+&lt;% @Import Namespace="O2.DotNetWrappers.ExtensionMethods" %&gt;
+&lt;% @Import Namespace="O2.Views.ASCX.Ascx.MainGUI" %&gt;
+&lt;% @Import Namespace="O2.Views.ASCX.classes.MainGUI" %&gt;
+&lt;% @Import Namespace="O2.External.SharpDevelop.ExtensionMethods" %&gt;
+
+
+&lt;html&gt;
+&lt;head runat="server" /&gt;
+&lt;script runAt="server"&gt;
+	void sendMessage(string message)
+	{
+		Response.Write("&lt;h3&gt;{0}&lt;/h3&gt;".format(message));
+	}
+	
+	protected void Page_Load(object sender, EventArgs e)
+	{		
+		var action = Request["action"];
+		if (action.valid())
+		{			
+			switch(action)
+			{
+				case "LogViewer":
+					sendMessage("Opening up Log Viewer");
+					O2Gui.open&lt;ascx_LogViewer&gt;("Asp.Net O2 LogViewer", 400,400);
+					//.popupWindow().add_Control&lt;&gt;();
+					break;
+				case "ScriptEditor":	
+					sendMessage("Opening up Script Editor");
+					"ascx_Simple_Script_Editor.cs.o2".local().compile().executeFirstMethod();   
+					break;
+				case "QuickDevelopmentGui":	
+					sendMessage("Opening up Quick Development Environment");
+					"ascx_Quick_Development_GUI.cs.o2".local().compile().executeFirstMethod();   
+					break;					
+				case "O2DevelopmentEnviroment":	
+					sendMessage("Opening up O2 Development Environment");
+					"Util - O2 Development Environment.h2".local().compile_H2Script().executeFirstMethod();   
+					break;			
+				case "AspNetPageRender":	
+					sendMessage("Opening up AspNet Page Render Tool");
+					//"Tool - AspNet Page Render.h2".local().compile_H2Script().executeFirstMethod();   
+					@"C:\O2\O2Scripts_Database\_Scripts\Languages_and_Frameworks\AspNet\Tool - AspNet Page Render.h2".compile_H2Script().executeFirstMethod();   
+					break;				
+					
+					
+			}
+		}
+	}
+&lt;/script&gt;
+&lt;body&gt;
+	&lt;hr&gt;
+	
+	&lt;h2&gt;O2 Server-Side Actions&lt;/h2&gt;
+	
+		&lt;ul&gt; 
+			&lt;li&gt;&lt;a href="?action=LogViewer"&gt;Log Viewer&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="?action=ScriptEditor"&gt;Script Editor&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="?action=QuickDevelopmentGui"&gt;Quick Development Gui&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="?action=O2DevelopmentEnviroment"&gt;O2 Development Environment&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="?action=AspNetPageRender"&gt;AspNet Page Render&lt;/a&gt;&lt;/li&gt;						
+			&lt;li&gt;&lt;a href="Create_o2_AspNet_Page_Objects.aspx"&gt;Create o2 AspNet Page Objects.aspx&lt;/a&gt;&lt;/li&gt;
+			
+		&lt;/ul&gt;			
+
+&lt;/body&gt;
+&lt;/html&gt;		
+	
+</AspNet_SourceCode>
+  <AspNet_Compiled_SourceCode>
+    <string>#pragma checksum "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "A79CFB9A1E5484CF5427162951340A09"
+//------------------------------------------------------------------------------
+// &lt;auto-generated&gt;
+//     This code was generated by a tool.
+//     Runtime Version:2.0.50727.5448
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// &lt;/auto-generated&gt;
+//------------------------------------------------------------------------------
+
+namespace ASP {
+    
+    #line 281 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web;
+    
+    #line default
+    #line hidden
+    
+    #line 2 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+    using O2.Kernel.ExtensionMethods;
+    
+    #line default
+    #line hidden
+    
+    #line 282 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Caching;
+    
+    #line default
+    #line hidden
+    
+    #line 287 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.UI.WebControls;
+    
+    #line default
+    #line hidden
+    
+    #line 284 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Security;
+    
+    #line default
+    #line hidden
+    
+    #line 279 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Text;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+    using O2.Views.ASCX.Ascx.MainGUI;
+    
+    #line default
+    #line hidden
+    
+    #line 275 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System;
+    
+    #line default
+    #line hidden
+    
+    #line 277 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Collections.Specialized;
+    
+    #line default
+    #line hidden
+    
+    #line 280 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Text.RegularExpressions;
+    
+    #line default
+    #line hidden
+    
+    #line 286 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.UI;
+    
+    #line default
+    #line hidden
+    
+    #line 285 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Profile;
+    
+    #line default
+    #line hidden
+    
+    #line 276 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Collections;
+    
+    #line default
+    #line hidden
+    
+    #line 5 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+    using O2.Views.ASCX.classes.MainGUI;
+    
+    #line default
+    #line hidden
+    
+    #line 283 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.SessionState;
+    
+    #line default
+    #line hidden
+    
+    #line 3 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+    using O2.DotNetWrappers.ExtensionMethods;
+    
+    #line default
+    #line hidden
+    
+    #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+    using O2.External.SharpDevelop.ExtensionMethods;
+    
+    #line default
+    #line hidden
+    
+    #line 288 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.UI.WebControls.WebParts;
+    
+    #line default
+    #line hidden
+    
+    #line 278 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Configuration;
+    
+    #line default
+    #line hidden
+    
+    #line 289 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.UI.HtmlControls;
+    
+    #line default
+    #line hidden
+    
+    
+    [System.Runtime.CompilerServices.CompilerGlobalScopeAttribute()]
+    public class _o2_aspnet_open_o2_tools_aspx : global::System.Web.UI.Page, System.Web.IHttpHandler {
+        
+        private static bool @__initialized;
+        
+        private static object @__stringResource;
+        
+        private static object @__fileDependencies;
+        
+        
+        #line 11 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+                       
+	void sendMessage(string message)
+	{
+		Response.Write("&lt;h3&gt;{0}&lt;/h3&gt;".format(message));
+	}
+	
+	protected void Page_Load(object sender, EventArgs e)
+	{		
+		var action = Request["action"];
+		if (action.valid())
+		{			
+			switch(action)
+			{
+				case "LogViewer":
+					sendMessage("Opening up Log Viewer");
+					O2Gui.open&lt;ascx_LogViewer&gt;("Asp.Net O2 LogViewer", 400,400);
+					//.popupWindow().add_Control&lt;&gt;();
+					break;
+				case "ScriptEditor":	
+					sendMessage("Opening up Script Editor");
+					"ascx_Simple_Script_Editor.cs.o2".local().compile().executeFirstMethod();   
+					break;
+				case "QuickDevelopmentGui":	
+					sendMessage("Opening up Quick Development Environment");
+					"ascx_Quick_Development_GUI.cs.o2".local().compile().executeFirstMethod();   
+					break;					
+				case "O2DevelopmentEnviroment":	
+					sendMessage("Opening up O2 Development Environment");
+					"Util - O2 Development Environment.h2".local().compile_H2Script().executeFirstMethod();   
+					break;			
+				case "AspNetPageRender":	
+					sendMessage("Opening up AspNet Page Render Tool");
+					//"Tool - AspNet Page Render.h2".local().compile_H2Script().executeFirstMethod();   
+					@"C:\O2\O2Scripts_Database\_Scripts\Languages_and_Frameworks\AspNet\Tool - AspNet Page Render.h2".compile_H2Script().executeFirstMethod();   
+					break;				
+					
+					
+			}
+		}
+	}
+
+        #line default
+        #line hidden
+        
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public _o2_aspnet_open_o2_tools_aspx() {
+            string[] dependencies;
+            ((global::System.Web.UI.Page)(this)).AppRelativeVirtualPath = "~/_O2_AspNet/Open_O2_Tools.aspx";
+            if ((global::ASP._o2_aspnet_open_o2_tools_aspx.@__initialized == false)) {
+                global::ASP._o2_aspnet_open_o2_tools_aspx.@__stringResource = this.ReadStringResource();
+                dependencies = new string[1];
+                dependencies[0] = "~/_O2_AspNet/Open_O2_Tools.aspx";
+                global::ASP._o2_aspnet_open_o2_tools_aspx.@__fileDependencies = this.GetWrappedFileDependencies(dependencies);
+                global::ASP._o2_aspnet_open_o2_tools_aspx.@__initialized = true;
+            }
+            this.Server.ScriptTimeout = 30000000;
+        }
+        
+        protected System.Web.Profile.DefaultProfile Profile {
+            get {
+                return ((System.Web.Profile.DefaultProfile)(this.Context.Profile));
+            }
+        }
+        
+        protected ASP.global_asax ApplicationInstance {
+            get {
+                return ((ASP.global_asax)(this.Context.ApplicationInstance));
+            }
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.HtmlControls.HtmlHead @__BuildControl__control2() {
+            global::System.Web.UI.HtmlControls.HtmlHead @__ctrl;
+            
+            #line 10 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlHead("head");
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlTree(_o2_aspnet_open_o2_tools_aspx @__ctrl) {
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+            @__ctrl.Title = "";
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+            @__ctrl.EnableViewStateMac = false;
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+            @__ctrl.EnableEventValidation = false;
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+            this.InitializeCulture();
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n\r\n&lt;html&gt;\r\n"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.HtmlControls.HtmlHead @__ctrl1;
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+            @__ctrl1 = this.@__BuildControl__control2();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n"));
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\_O2_AspNet\Open_O2_Tools.aspx"
+            @__parser.AddParsedSubObject(this.CreateResourceBasedLiteralControl(0, 563, true));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void FrameworkInitialize() {
+            base.FrameworkInitialize();
+            this.SetStringResourcePointer(global::ASP._o2_aspnet_open_o2_tools_aspx.@__stringResource, 0);
+            this.@__BuildControlTree(this);
+            this.AddWrappedFileDependencies(global::ASP._o2_aspnet_open_o2_tools_aspx.@__fileDependencies);
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override int GetTypeHashCode() {
+            return -153409166;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override void ProcessRequest(System.Web.HttpContext context) {
+            base.ProcessRequest(context);
+        }
+    }
+}
+</string>
+  </AspNet_Compiled_SourceCode>
+</AspNet_Page>

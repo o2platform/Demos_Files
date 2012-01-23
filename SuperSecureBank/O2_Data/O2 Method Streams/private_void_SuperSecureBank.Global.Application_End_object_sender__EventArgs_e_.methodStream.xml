@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Saved_MethodStream>
+  <RootMethod ItemType="Method" Name="Application_End" Class="Global" Namespace="SuperSecureBank" ReturnType="System.Void" Signature="private void SuperSecureBank.Global.Application_End(object sender, EventArgs e)" DotNetName="SuperSecureBank.Global.Application_End">
+    <Parameter Key="sender" Value="System.Object" />
+    <Parameter Key="e" Value="System.EventArgs" />
+    <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Global.asax.cs" Line="28" Column="9" Line_End="28" Column_End="57" />
+  </RootMethod>
+  <MethodStreamItems>
+    <MethodStream_Item ItemType="ExternalClasses" Name="Void" Class="System.Void" Namespace="System" Signature="System.Void" DotNetName="System.Void" />
+    <MethodStream_Item ItemType="MappedMethod" Name="Application_End" Class="Global" Namespace="SuperSecureBank" ReturnType="System.Void" Signature="private void SuperSecureBank.Global.Application_End(object sender, EventArgs e)" DotNetName="SuperSecureBank.Global.Application_End">
+      <Parameter Key="sender" Value="System.Object" />
+      <Parameter Key="e" Value="System.EventArgs" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Global.asax.cs" Line="28" Column="9" Line_End="28" Column_End="57" />
+    </MethodStream_Item>
+  </MethodStreamItems>
+  <CodeStreams>
+    <CodeStreamPath Text="method -&gt; private void SuperSecureBank.Global.Application_End(object sender, EventArgs e)" Line="7" Column="3" Line_End="7" Column_End="51" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; sender" Line="7" Column="24" Line_End="7" Column_End="31" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="7" Column="24" Line_End="7" Column_End="30" HashCode="0">
+      <CodeStreamPath Text="method -&gt; private void SuperSecureBank.Global.Application_End(object sender, EventArgs e)" Line="7" Column="3" Line_End="7" Column_End="51" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; sender" Line="7" Column="24" Line_End="7" Column_End="31" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="method -&gt; private void SuperSecureBank.Global.Application_End(object sender, EventArgs e)" Line="7" Column="3" Line_End="7" Column_End="51" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; e" Line="7" Column="39" Line_End="7" Column_End="49" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="7" Column="39" Line_End="7" Column_End="48" HashCode="0">
+      <CodeStreamPath Text="method -&gt; private void SuperSecureBank.Global.Application_End(object sender, EventArgs e)" Line="7" Column="3" Line_End="7" Column_End="51" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; e" Line="7" Column="39" Line_End="7" Column_End="49" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="0" Column="0" Line_End="0" Column_End="0" HashCode="0" />
+  </CodeStreams>
+  <MethodStream_FileCache>C:\O2\_tempDir\11-3-2011\_methodStreams\private_void_SuperSecureBank.Global.Application_End_object_sender__EventArgs_e_.cs</MethodStream_FileCache>
+  <Serialized_Saved_MethodStream_FileCache>C:\O2\Demos\SI - SuperSecureBank\O2 Method Streams_2\private_void_SuperSecureBank.Global.Application_End_object_sender__EventArgs_e_.methodStream.xml</Serialized_Saved_MethodStream_FileCache>
+  <MethodStream>using System;
+using SuperSecureBank;
+namespace SuperSecureBank
+{
+	public class Global : System.Web.HttpApplication
+	{
+		void Application_End(object sender, EventArgs e)
+		{
+		}
+	}
+}
+</MethodStream>
+</Saved_MethodStream>

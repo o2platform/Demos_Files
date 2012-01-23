@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/About.aspx" hash="fffffff3e53d9c3b" filehash="d838fb83540cc373" flags="100000" assembly="App_Web_ycjbconf" type="ASP.about_aspx">
+    <filedeps>
+        <filedep name="/About.aspx" />
+        <filedep name="/Site.Master" />
+    </filedeps>
+</preserve>

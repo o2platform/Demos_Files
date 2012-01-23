@@ -1,0 +1,1378 @@
+<?xml version="1.0"?>
+<Saved_MethodStream>
+  <RootMethod ItemType="Method" Name="Submit_Click" Class="ExecuteSQL" Namespace="SuperSecureBank" ReturnType="System.Void" Signature="protected void SuperSecureBank.ExecuteSQL.Submit_Click(object sender, EventArgs e)" DotNetName="SuperSecureBank.ExecuteSQL.Submit_Click">
+    <Parameter Key="sender" Value="System.Object" />
+    <Parameter Key="e" Value="System.EventArgs" />
+    <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx.cs" Line="35" Column="3" Line_End="35" Column_End="58" />
+  </RootMethod>
+  <MethodStreamItems>
+    <MethodStream_Item ItemType="ExternalClasses" Name="String" Class="System.String" Namespace="System" Signature="System.String" DotNetName="System.String" />
+    <MethodStream_Item ItemType="ExternalClasses" Name="Void" Class="System.Void" Namespace="System" Signature="System.Void" DotNetName="System.Void" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="Open" Class="SqlConnection" Namespace="System.Data.SqlClient" ReturnType="System.Void" Signature="public virtual void System.Data.SqlClient.SqlConnection.Open()" DotNetName="System.Data.SqlClient.SqlConnection.Open" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="ExecuteNonQuery" Class="SqlCommand" Namespace="System.Data.SqlClient" ReturnType="System.Int32" Signature="public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" DotNetName="System.Data.SqlClient.SqlCommand.ExecuteNonQuery" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="Close" Class="SqlConnection" Namespace="System.Data.SqlClient" ReturnType="System.Void" Signature="public virtual void System.Data.SqlClient.SqlConnection.Close()" DotNetName="System.Data.SqlClient.SqlConnection.Close" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="#ctor" Class="SqlConnection" Namespace="System.Data.SqlClient" ReturnType="System.Data.SqlClient.SqlConnection" Signature="public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" DotNetName="System.Data.SqlClient.SqlConnection.#ctor">
+      <Parameter Key="connectionString" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="#ctor" Class="SqlCommand" Namespace="System.Data.SqlClient" ReturnType="System.Data.SqlClient.SqlCommand" Signature="public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" DotNetName="System.Data.SqlClient.SqlCommand.#ctor">
+      <Parameter Key="cmdText" Value="System.String" />
+      <Parameter Key="connection" Value="System.Data.SqlClient.SqlConnection" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="Format" Class="String" Namespace="System" ReturnType="System.String" Signature="public static string string.Format(string format, object arg0, object arg1, object arg2)" DotNetName="System.String.Format">
+      <Parameter Key="format" Value="System.String" />
+      <Parameter Key="arg0" Value="System.Object" />
+      <Parameter Key="arg1" Value="System.Object" />
+      <Parameter Key="arg2" Value="System.Object" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="Replace" Class="String" Namespace="System" ReturnType="System.String" Signature="public string string.Replace(string oldValue, string newValue)" DotNetName="System.String.Replace">
+      <Parameter Key="oldValue" Value="System.String" />
+      <Parameter Key="newValue" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="GetFileName" Class="Path" Namespace="System.IO" ReturnType="System.String" Signature="public static string System.IO.Path.GetFileName(string path)" DotNetName="System.IO.Path.GetFileName">
+      <Parameter Key="path" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="ToString" Class="Exception" Namespace="System" ReturnType="System.String" Signature="public virtual string System.Exception.ToString()" DotNetName="System.Exception.ToString" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="ExecuteReader" Class="SqlCommand" Namespace="System.Data.SqlClient" ReturnType="System.Data.SqlClient.SqlDataReader" Signature="public SqlDataReader System.Data.SqlClient.SqlCommand.ExecuteReader()" DotNetName="System.Data.SqlClient.SqlCommand.ExecuteReader" />
+    <MethodStream_Item ItemType="MappedMethod" Name="Submit_Click" Class="ExecuteSQL" Namespace="SuperSecureBank" ReturnType="System.Void" Signature="protected void SuperSecureBank.ExecuteSQL.Submit_Click(object sender, EventArgs e)" DotNetName="SuperSecureBank.ExecuteSQL.Submit_Click">
+      <Parameter Key="sender" Value="System.Object" />
+      <Parameter Key="e" Value="System.EventArgs" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ExecuteSQL.aspx.cs" Line="35" Column="3" Line_End="35" Column_End="58" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="AddException" Class="ErrorLogging" Namespace="SuperSecureBank" ReturnType="System.Void" Signature="public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" DotNetName="SuperSecureBank.ErrorLogging.AddException">
+      <Parameter Key="errorText" Value="System.String" />
+      <Parameter Key="ex" Value="System.Exception" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ErrorLogging.cs" Line="13" Column="3" Line_End="13" Column_End="66" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="cleanForSQL" Class="ErrorLogging" Namespace="SuperSecureBank" ReturnType="System.String" Signature="public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" DotNetName="SuperSecureBank.ErrorLogging.cleanForSQL">
+      <Parameter Key="foo" Value="System.String" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ErrorLogging.cs" Line="24" Column="3" Line_End="24" Column_End="47" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="BuildExceptionText" Class="ErrorLogging" Namespace="SuperSecureBank" ReturnType="System.String" Signature="private static string SuperSecureBank.ErrorLogging.BuildExceptionText(Exception ex)" DotNetName="SuperSecureBank.ErrorLogging.BuildExceptionText">
+      <Parameter Key="ex" Value="System.Exception" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ErrorLogging.cs" Line="55" Column="3" Line_End="55" Column_End="57" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="Field" Name="SQLCommand" Class="SuperSecureBank.ExecuteSQL.SQLCommand" Namespace="SuperSecureBank.ExecuteSQL" Signature="SuperSecureBank.ExecuteSQL.SQLCommand" DotNetName="SuperSecureBank.ExecuteSQL.SQLCommand">
+      <Location Line="40" Column="9" Line_End="40" Column_End="72" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="Field" Name="output" Class="SuperSecureBank.ExecuteSQL.output" Namespace="SuperSecureBank.ExecuteSQL" Signature="SuperSecureBank.ExecuteSQL.output" DotNetName="SuperSecureBank.ExecuteSQL.output">
+      <Location Line="58" Column="9" Line_End="58" Column_End="66" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="Field" Name="outputGrid" Class="SuperSecureBank.ExecuteSQL.outputGrid" Namespace="SuperSecureBank.ExecuteSQL" Signature="SuperSecureBank.ExecuteSQL.outputGrid" DotNetName="SuperSecureBank.ExecuteSQL.outputGrid">
+      <Location Line="67" Column="9" Line_End="67" Column_End="73" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="Property" Name="Now" Class="System.DateTime.Now" Namespace="System.DateTime" Signature="System.DateTime.Now" DotNetName="System.DateTime.Now" />
+    <MethodStream_Item ItemType="Property" Name="Message" Class="System.Exception.Message" Namespace="System.Exception" Signature="System.Exception.Message" DotNetName="System.Exception.Message" />
+    <MethodStream_Item ItemType="Property" Name="HelpLink" Class="System.Exception.HelpLink" Namespace="System.Exception" Signature="System.Exception.HelpLink" DotNetName="System.Exception.HelpLink" />
+    <MethodStream_Item ItemType="Property" Name="StackTrace" Class="System.Exception.StackTrace" Namespace="System.Exception" Signature="System.Exception.StackTrace" DotNetName="System.Exception.StackTrace" />
+    <MethodStream_Item ItemType="Property" Name="PhysicalPath" Class="System.Web.HttpRequest.PhysicalPath" Namespace="System.Web.HttpRequest" Signature="System.Web.HttpRequest.PhysicalPath" DotNetName="System.Web.HttpRequest.PhysicalPath" />
+    <MethodStream_Item ItemType="Property" Name="Request" Class="System.Web.UI.Page.Request" Namespace="System.Web.UI.Page" Signature="System.Web.UI.Page.Request" DotNetName="System.Web.UI.Page.Request" />
+  </MethodStreamItems>
+  <CodeStreams>
+    <CodeStreamPath Text="method -&gt; protected void SuperSecureBank.ExecuteSQL.Submit_Click(object sender, EventArgs e)" Line="12" Column="3" Line_End="12" Column_End="58" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; sender" Line="12" Column="31" Line_End="12" Column_End="38" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="12" Column="31" Line_End="12" Column_End="37" HashCode="0">
+      <CodeStreamPath Text="method -&gt; protected void SuperSecureBank.ExecuteSQL.Submit_Click(object sender, EventArgs e)" Line="12" Column="3" Line_End="12" Column_End="58" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; sender" Line="12" Column="31" Line_End="12" Column_End="38" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="method -&gt; protected void SuperSecureBank.ExecuteSQL.Submit_Click(object sender, EventArgs e)" Line="12" Column="3" Line_End="12" Column_End="58" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; e" Line="12" Column="46" Line_End="12" Column_End="56" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="12" Column="46" Line_End="12" Column_End="55" HashCode="0">
+      <CodeStreamPath Text="method -&gt; protected void SuperSecureBank.ExecuteSQL.Submit_Click(object sender, EventArgs e)" Line="12" Column="3" Line_End="12" Column_End="58" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; e" Line="12" Column="46" Line_End="12" Column_End="56" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="0" Column="0" Line_End="0" Column_End="0" HashCode="0" />
+    <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    <CodeStreamPath Text="LocalVariableDeclaration" Line="15" Column="12" Line_End="15" Column_End="117" HashCode="0">
+      <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="15" Column="12" Line_End="15" Column_End="25" HashCode="0">
+      <CodeStreamPath Text="LocalVariableDeclaration" Line="15" Column="12" Line_End="15" Column_End="117" HashCode="0">
+        <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="variable  -&gt; conn" Line="15" Column="26" Line_End="15" Column_End="117" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="16" Column="59" Line_End="16" Column_End="63" HashCode="0">
+        <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="84" Column="10" Line_End="84" Column_End="62" HashCode="0">
+          <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="16" Column="27" Line_End="16" Column_End="64" HashCode="0" />
+          <CodeStreamPath Text="variable  -&gt; command" Line="16" Column="17" Line_End="16" Column_End="64" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="20" Column="21" Line_End="20" Column_End="28" HashCode="0">
+              <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+                <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+                    <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+            <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="24" Column="31" Line_End="24" Column_End="38" HashCode="0">
+              <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+                <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+                      <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+      <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="6" Line_End="17" Column_End="10" HashCode="0">
+        <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="65" Column="3" Line_End="65" Column_End="29" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" Line="15" Column="33" Line_End="15" Column_End="117" HashCode="0">
+      <CodeStreamPath Text="variable  -&gt; conn" Line="15" Column="26" Line_End="15" Column_End="117" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="16" Column="59" Line_End="16" Column_End="63" HashCode="0">
+          <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="84" Column="10" Line_End="84" Column_End="62" HashCode="0">
+            <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="16" Column="27" Line_End="16" Column_End="64" HashCode="0" />
+            <CodeStreamPath Text="variable  -&gt; command" Line="16" Column="17" Line_End="16" Column_End="64" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="20" Column="21" Line_End="20" Column_End="28" HashCode="0">
+                <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+                  <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+                      <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+                      <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+              <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="24" Column="31" Line_End="24" Column_End="38" HashCode="0">
+                <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+                  <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+                      <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+                        <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+        <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="6" Line_End="17" Column_End="10" HashCode="0">
+          <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="65" Column="3" Line_End="65" Column_End="29" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="15" Column="37" Line_End="15" Column_End="50" HashCode="0">
+      <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" Line="15" Column="33" Line_End="15" Column_End="117" HashCode="0">
+        <CodeStreamPath Text="variable  -&gt; conn" Line="15" Column="26" Line_End="15" Column_End="117" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="16" Column="59" Line_End="16" Column_End="63" HashCode="0">
+            <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="84" Column="10" Line_End="84" Column_End="62" HashCode="0">
+              <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="16" Column="27" Line_End="16" Column_End="64" HashCode="0" />
+              <CodeStreamPath Text="variable  -&gt; command" Line="16" Column="17" Line_End="16" Column_End="64" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="20" Column="21" Line_End="20" Column_End="28" HashCode="0">
+                  <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+                      <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+                        <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+                <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="24" Column="31" Line_End="24" Column_End="38" HashCode="0">
+                  <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+                      <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+                          <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="6" Line_End="17" Column_End="10" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="65" Column="3" Line_End="65" Column_End="29" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="[not resolved: target] .ConnectionString : " Line="15" Column="99" Line_End="15" Column_End="116" HashCode="0">
+      <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" Line="15" Column="33" Line_End="15" Column_End="117" HashCode="0">
+        <CodeStreamPath Text="variable  -&gt; conn" Line="15" Column="26" Line_End="15" Column_End="117" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="16" Column="59" Line_End="16" Column_End="63" HashCode="0">
+            <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="84" Column="10" Line_End="84" Column_End="62" HashCode="0">
+              <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="16" Column="27" Line_End="16" Column_End="64" HashCode="0" />
+              <CodeStreamPath Text="variable  -&gt; command" Line="16" Column="17" Line_End="16" Column_End="64" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="20" Column="21" Line_End="20" Column_End="28" HashCode="0">
+                  <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+                      <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+                        <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+                <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="24" Column="31" Line_End="24" Column_End="38" HashCode="0">
+                  <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+                      <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+                          <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="6" Line_End="17" Column_End="10" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="65" Column="3" Line_End="65" Column_End="29" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="IndexerExpression" Line="15" Column="89" Line_End="15" Column_End="99" HashCode="0">
+      <CodeStreamPath Text="[not resolved: target] .ConnectionString : " Line="15" Column="99" Line_End="15" Column_End="116" HashCode="0">
+        <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" Line="15" Column="33" Line_End="15" Column_End="117" HashCode="0">
+          <CodeStreamPath Text="variable  -&gt; conn" Line="15" Column="26" Line_End="15" Column_End="117" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="16" Column="59" Line_End="16" Column_End="63" HashCode="0">
+              <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="84" Column="10" Line_End="84" Column_End="62" HashCode="0">
+                <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="16" Column="27" Line_End="16" Column_End="64" HashCode="0" />
+                <CodeStreamPath Text="variable  -&gt; command" Line="16" Column="17" Line_End="16" Column_End="64" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="20" Column="21" Line_End="20" Column_End="28" HashCode="0">
+                    <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+                      <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+                          <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+                          <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                  <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="24" Column="31" Line_End="24" Column_End="38" HashCode="0">
+                    <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+                      <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+                          <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+                            <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+            <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="6" Line_End="17" Column_End="10" HashCode="0">
+              <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+                <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="65" Column="3" Line_End="65" Column_End="29" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="[not resolved: target] .ConnectionStrings : ConfigurationManager" Line="15" Column="71" Line_End="15" Column_End="89" HashCode="0">
+      <CodeStreamPath Text="IndexerExpression" Line="15" Column="89" Line_End="15" Column_End="99" HashCode="0">
+        <CodeStreamPath Text="[not resolved: target] .ConnectionString : " Line="15" Column="99" Line_End="15" Column_End="116" HashCode="0">
+          <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" Line="15" Column="33" Line_End="15" Column_End="117" HashCode="0">
+            <CodeStreamPath Text="variable  -&gt; conn" Line="15" Column="26" Line_End="15" Column_End="117" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="16" Column="59" Line_End="16" Column_End="63" HashCode="0">
+                <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="84" Column="10" Line_End="84" Column_End="62" HashCode="0">
+                  <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="16" Column="27" Line_End="16" Column_End="64" HashCode="0" />
+                  <CodeStreamPath Text="variable  -&gt; command" Line="16" Column="17" Line_End="16" Column_End="64" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="20" Column="21" Line_End="20" Column_End="28" HashCode="0">
+                      <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+                        <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+                          <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+                            <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+                            <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                    <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="24" Column="31" Line_End="24" Column_End="38" HashCode="0">
+                      <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+                        <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+                          <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+                            <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+                              <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+                            </CodeStreamPath>
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+              <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="6" Line_End="17" Column_End="10" HashCode="0">
+                <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+                  <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="65" Column="3" Line_End="65" Column_End="29" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; ConfigurationManager : [type not resolved]" Line="15" Column="51" Line_End="15" Column_End="71" HashCode="0">
+      <CodeStreamPath Text="IndexerExpression" Line="15" Column="89" Line_End="15" Column_End="99" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="15" Column="90" Line_End="15" Column_End="98" HashCode="0">
+      <CodeStreamPath Text="IndexerExpression" Line="15" Column="89" Line_End="15" Column_End="99" HashCode="0">
+        <CodeStreamPath Text="[not resolved: target] .ConnectionString : " Line="15" Column="99" Line_End="15" Column_End="116" HashCode="0">
+          <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" Line="15" Column="33" Line_End="15" Column_End="117" HashCode="0">
+            <CodeStreamPath Text="variable  -&gt; conn" Line="15" Column="26" Line_End="15" Column_End="117" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="16" Column="59" Line_End="16" Column_End="63" HashCode="0">
+                <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="84" Column="10" Line_End="84" Column_End="62" HashCode="0">
+                  <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="16" Column="27" Line_End="16" Column_End="64" HashCode="0" />
+                  <CodeStreamPath Text="variable  -&gt; command" Line="16" Column="17" Line_End="16" Column_End="64" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="20" Column="21" Line_End="20" Column_End="28" HashCode="0">
+                      <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+                        <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+                          <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+                            <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+                            <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                    <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="24" Column="31" Line_End="24" Column_End="38" HashCode="0">
+                      <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+                        <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+                          <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+                            <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+                              <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+                            </CodeStreamPath>
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+              <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="6" Line_End="17" Column_End="10" HashCode="0">
+                <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+                  <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="65" Column="3" Line_End="65" Column_End="29" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    <CodeStreamPath Text="LocalVariableDeclaration" Line="16" Column="6" Line_End="16" Column_End="65" HashCode="0">
+      <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="16" Column="6" Line_End="16" Column_End="16" HashCode="0">
+      <CodeStreamPath Text="LocalVariableDeclaration" Line="16" Column="6" Line_End="16" Column_End="65" HashCode="0">
+        <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="variable  -&gt; command" Line="16" Column="17" Line_End="16" Column_End="64" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="20" Column="21" Line_End="20" Column_End="28" HashCode="0">
+        <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+              <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+      <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="24" Column="31" Line_End="24" Column_End="38" HashCode="0">
+        <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+                <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="16" Column="27" Line_End="16" Column_End="64" HashCode="0">
+      <CodeStreamPath Text="variable  -&gt; command" Line="16" Column="17" Line_End="16" Column_End="64" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="20" Column="21" Line_End="20" Column_End="28" HashCode="0">
+          <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+                <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+        <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="24" Column="31" Line_End="24" Column_End="38" HashCode="0">
+          <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+                  <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="16" Column="31" Line_End="16" Column_End="41" HashCode="0">
+      <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="16" Column="27" Line_End="16" Column_End="64" HashCode="0">
+        <CodeStreamPath Text="variable  -&gt; command" Line="16" Column="17" Line_End="16" Column_End="64" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="20" Column="21" Line_End="20" Column_End="28" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+                  <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="24" Column="31" Line_End="24" Column_End="38" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+                    <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="System.Web.UI.WebControls.TextBox.Text : SQLCommand" Line="16" Column="52" Line_End="16" Column_End="57" HashCode="0">
+      <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="16" Column="27" Line_End="16" Column_End="64" HashCode="0">
+        <CodeStreamPath Text="variable  -&gt; command" Line="16" Column="17" Line_End="16" Column_End="64" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="20" Column="21" Line_End="20" Column_End="28" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+                  <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="24" Column="31" Line_End="24" Column_End="38" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+                    <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; SQLCommand : System.Web.UI.WebControls.TextBox" Line="16" Column="42" Line_End="16" Column_End="52" HashCode="0">
+      <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="16" Column="27" Line_End="16" Column_End="64" HashCode="0">
+        <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="84" Column="10" Line_End="84" Column_End="62" HashCode="0">
+          <CodeStreamPath Text="variable  -&gt; command" Line="16" Column="17" Line_End="16" Column_End="64" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="20" Column="21" Line_End="20" Column_End="28" HashCode="0">
+              <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+                <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+                    <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+            <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="24" Column="31" Line_End="24" Column_End="38" HashCode="0">
+              <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+                <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+                      <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; SQLCommand : System.Web.UI.WebControls.TextBox" Line="18" Column="11" Line_End="18" Column_End="21" HashCode="0">
+                          <CodeStreamPath Text="[not resolved: invocation] ToLower" Line="18" Column="34" Line_End="18" Column_End="36" HashCode="0" />
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="16" Column="59" Line_End="16" Column_End="63" HashCode="0">
+      <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="84" Column="10" Line_End="84" Column_End="62" HashCode="0">
+        <CodeStreamPath Text="constructor -&gt; public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" Line="16" Column="27" Line_End="16" Column_End="64" HashCode="0" />
+        <CodeStreamPath Text="variable  -&gt; command" Line="16" Column="17" Line_End="16" Column_End="64" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="20" Column="21" Line_End="20" Column_End="28" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+                  <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="24" Column="31" Line_End="24" Column_End="38" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+                    <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0">
+                      <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="6" Line_End="17" Column_End="10" HashCode="0">
+                        <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+                          <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="65" Column="3" Line_End="65" Column_End="29" HashCode="0" />
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ExpressionStatement" Line="17" Column="6" Line_End="17" Column_End="18" HashCode="0">
+      <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="65" Column="3" Line_End="65" Column_End="29" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="17" Column="6" Line_End="17" Column_End="18" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="17" Column="10" Line_End="17" Column_End="15" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="65" Column="3" Line_End="65" Column_End="29" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="17" Column="6" Line_End="17" Column_End="18" HashCode="0">
+            <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; conn : System.Data.SqlClient.SqlConnection" Line="17" Column="6" Line_End="17" Column_End="10" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="17" Column="15" Line_End="17" Column_End="17" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public virtual void System.Data.SqlClient.SqlConnection.Open()" Line="65" Column="3" Line_End="65" Column_End="29" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    <CodeStreamPath Text="UnaryOperatorExpression" Line="18" Column="10" Line_End="18" Column_End="55" HashCode="0">
+      <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="[not resolved: invocation] Contains" Line="18" Column="45" Line_End="18" Column_End="55" HashCode="0">
+      <CodeStreamPath Text="UnaryOperatorExpression" Line="18" Column="10" Line_End="18" Column_End="55" HashCode="0">
+        <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="[not resolved: target] .Contains : " Line="18" Column="36" Line_End="18" Column_End="45" HashCode="0">
+      <CodeStreamPath Text="[not resolved: invocation] Contains" Line="18" Column="45" Line_End="18" Column_End="55" HashCode="0">
+        <CodeStreamPath Text="UnaryOperatorExpression" Line="18" Column="10" Line_End="18" Column_End="55" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="[not resolved: invocation] ToLower" Line="18" Column="34" Line_End="18" Column_End="36" HashCode="0">
+      <CodeStreamPath Text="[not resolved: target] .Contains : " Line="18" Column="36" Line_End="18" Column_End="45" HashCode="0">
+        <CodeStreamPath Text="[not resolved: invocation] Contains" Line="18" Column="45" Line_End="18" Column_End="55" HashCode="0">
+          <CodeStreamPath Text="UnaryOperatorExpression" Line="18" Column="10" Line_End="18" Column_End="55" HashCode="0">
+            <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="[not resolved: target] .ToLower : " Line="18" Column="26" Line_End="18" Column_End="34" HashCode="0">
+      <CodeStreamPath Text="[not resolved: invocation] ToLower" Line="18" Column="34" Line_End="18" Column_End="36" HashCode="0">
+        <CodeStreamPath Text="[not resolved: target] .Contains : " Line="18" Column="36" Line_End="18" Column_End="45" HashCode="0">
+          <CodeStreamPath Text="[not resolved: invocation] Contains" Line="18" Column="45" Line_End="18" Column_End="55" HashCode="0">
+            <CodeStreamPath Text="UnaryOperatorExpression" Line="18" Column="10" Line_End="18" Column_End="55" HashCode="0">
+              <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="System.Web.UI.WebControls.TextBox.Text : SQLCommand" Line="18" Column="21" Line_End="18" Column_End="26" HashCode="0">
+      <CodeStreamPath Text="[not resolved: target] .ToLower : " Line="18" Column="26" Line_End="18" Column_End="34" HashCode="0">
+        <CodeStreamPath Text="[not resolved: invocation] ToLower" Line="18" Column="34" Line_End="18" Column_End="36" HashCode="0">
+          <CodeStreamPath Text="[not resolved: target] .Contains : " Line="18" Column="36" Line_End="18" Column_End="45" HashCode="0">
+            <CodeStreamPath Text="[not resolved: invocation] Contains" Line="18" Column="45" Line_End="18" Column_End="55" HashCode="0">
+              <CodeStreamPath Text="UnaryOperatorExpression" Line="18" Column="10" Line_End="18" Column_End="55" HashCode="0">
+                <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; SQLCommand : System.Web.UI.WebControls.TextBox" Line="18" Column="11" Line_End="18" Column_End="21" HashCode="0">
+      <CodeStreamPath Text="[not resolved: invocation] ToLower" Line="18" Column="34" Line_End="18" Column_End="36" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="18" Column="46" Line_End="18" Column_End="54" HashCode="0">
+      <CodeStreamPath Text="[not resolved: invocation] Contains" Line="18" Column="45" Line_End="18" Column_End="55" HashCode="0">
+        <CodeStreamPath Text="UnaryOperatorExpression" Line="18" Column="10" Line_End="18" Column_End="55" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    <CodeStreamPath Text="ExpressionStatement" Line="19" Column="7" Line_End="19" Column_End="29" HashCode="0">
+      <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="AssignmentExpression" Line="19" Column="7" Line_End="19" Column_End="28" HashCode="0">
+      <CodeStreamPath Text="System.Web.UI.WebControls.Label.Visible : output" Line="19" Column="13" Line_End="19" Column_End="21" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="19" Column="7" Line_End="19" Column_End="29" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="System.Web.UI.WebControls.Label.Visible : output" Line="19" Column="13" Line_End="19" Column_End="21" HashCode="0">
+      <CodeStreamPath Text="AssignmentExpression" Line="19" Column="7" Line_End="19" Column_End="28" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="19" Column="7" Line_End="19" Column_End="29" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="19" Column="7" Line_End="19" Column_End="13" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0" />
+      <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+      <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="19" Column="24" Line_End="19" Column_End="28" HashCode="0">
+      <CodeStreamPath Text="AssignmentExpression" Line="19" Column="7" Line_End="19" Column_End="28" HashCode="0">
+        <CodeStreamPath Text="System.Web.UI.WebControls.Label.Visible : output" Line="19" Column="13" Line_End="19" Column_End="21" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="19" Column="7" Line_End="19" Column_End="29" HashCode="0">
+            <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ExpressionStatement" Line="20" Column="7" Line_End="20" Column_End="68" HashCode="0">
+      <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="AssignmentExpression" Line="20" Column="7" Line_End="20" Column_End="67" HashCode="0">
+      <CodeStreamPath Text="System.Web.UI.WebControls.Label.Text : output" Line="20" Column="13" Line_End="20" Column_End="18" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="20" Column="7" Line_End="20" Column_End="68" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="System.Web.UI.WebControls.Label.Text : output" Line="20" Column="13" Line_End="20" Column_End="18" HashCode="0">
+      <CodeStreamPath Text="AssignmentExpression" Line="20" Column="7" Line_End="20" Column_End="67" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="20" Column="7" Line_End="20" Column_End="68" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+      <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="BinaryOperatorExpression" Line="20" Column="21" Line_End="20" Column_End="67" HashCode="0">
+      <CodeStreamPath Text="AssignmentExpression" Line="20" Column="7" Line_End="20" Column_End="67" HashCode="0">
+        <CodeStreamPath Text="System.Web.UI.WebControls.Label.Text : output" Line="20" Column="13" Line_End="20" Column_End="18" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="20" Column="7" Line_End="20" Column_End="68" HashCode="0">
+            <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+          <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0">
+            <CodeStreamPath Text="BinaryOperatorExpression" Line="20" Column="21" Line_End="20" Column_End="67" HashCode="0">
+              <CodeStreamPath Text="AssignmentExpression" Line="20" Column="7" Line_End="20" Column_End="67" HashCode="0">
+                <CodeStreamPath Text="System.Web.UI.WebControls.Label.Text : output" Line="20" Column="13" Line_End="20" Column_End="18" HashCode="0">
+                  <CodeStreamPath Text="ExpressionStatement" Line="20" Column="7" Line_End="20" Column_End="68" HashCode="0">
+                    <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="28" Line_End="20" Column_End="44" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+            <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0">
+              <CodeStreamPath Text="BinaryOperatorExpression" Line="20" Column="21" Line_End="20" Column_End="67" HashCode="0">
+                <CodeStreamPath Text="AssignmentExpression" Line="20" Column="7" Line_End="20" Column_End="67" HashCode="0">
+                  <CodeStreamPath Text="System.Web.UI.WebControls.Label.Text : output" Line="20" Column="13" Line_End="20" Column_End="18" HashCode="0">
+                    <CodeStreamPath Text="ExpressionStatement" Line="20" Column="7" Line_End="20" Column_End="68" HashCode="0">
+                      <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="20" Column="21" Line_End="20" Column_End="28" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="20" Column="44" Line_End="20" Column_End="46" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" Line="80" Column="3" Line_End="80" Column_End="39" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="20" Column="7" Line_End="20" Column_End="13" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0" />
+            <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="24" Column="31" Line_End="24" Column_End="38" HashCode="0">
+                <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+                  <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+                      <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+                        <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="20" Column="49" Line_End="20" Column_End="67" HashCode="0">
+      <CodeStreamPath Text="BinaryOperatorExpression" Line="20" Column="21" Line_End="20" Column_End="67" HashCode="0">
+        <CodeStreamPath Text="AssignmentExpression" Line="20" Column="7" Line_End="20" Column_End="67" HashCode="0">
+          <CodeStreamPath Text="System.Web.UI.WebControls.Label.Text : output" Line="20" Column="13" Line_End="20" Column_End="18" HashCode="0">
+            <CodeStreamPath Text="ExpressionStatement" Line="20" Column="7" Line_End="20" Column_End="68" HashCode="0">
+              <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ExpressionStatement" Line="21" Column="7" Line_End="21" Column_End="34" HashCode="0">
+      <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="AssignmentExpression" Line="21" Column="7" Line_End="21" Column_End="33" HashCode="0">
+      <CodeStreamPath Text="System.Web.UI.WebControls.GridView.Visible : outputGrid" Line="21" Column="17" Line_End="21" Column_End="25" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="21" Column="7" Line_End="21" Column_End="34" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="System.Web.UI.WebControls.GridView.Visible : outputGrid" Line="21" Column="17" Line_End="21" Column_End="25" HashCode="0">
+      <CodeStreamPath Text="AssignmentExpression" Line="21" Column="7" Line_End="21" Column_End="33" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="21" Column="7" Line_End="21" Column_End="34" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="21" Column="7" Line_End="21" Column_End="17" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="23" Column="7" Line_End="23" Column_End="17" HashCode="0" />
+      <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0" />
+      <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+        <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="21" Column="28" Line_End="21" Column_End="33" HashCode="0">
+      <CodeStreamPath Text="AssignmentExpression" Line="21" Column="7" Line_End="21" Column_End="33" HashCode="0">
+        <CodeStreamPath Text="System.Web.UI.WebControls.GridView.Visible : outputGrid" Line="21" Column="17" Line_End="21" Column_End="25" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="21" Column="7" Line_End="21" Column_End="34" HashCode="0">
+            <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    <CodeStreamPath Text="ExpressionStatement" Line="23" Column="7" Line_End="23" Column_End="33" HashCode="0">
+      <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="AssignmentExpression" Line="23" Column="7" Line_End="23" Column_End="32" HashCode="0">
+      <CodeStreamPath Text="System.Web.UI.WebControls.GridView.Visible : outputGrid" Line="23" Column="17" Line_End="23" Column_End="25" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="23" Column="7" Line_End="23" Column_End="33" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="System.Web.UI.WebControls.GridView.Visible : outputGrid" Line="23" Column="17" Line_End="23" Column_End="25" HashCode="0">
+      <CodeStreamPath Text="AssignmentExpression" Line="23" Column="7" Line_End="23" Column_End="32" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="23" Column="7" Line_End="23" Column_End="33" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="23" Column="7" Line_End="23" Column_End="17" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0" />
+      <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+        <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="23" Column="28" Line_End="23" Column_End="32" HashCode="0">
+      <CodeStreamPath Text="AssignmentExpression" Line="23" Column="7" Line_End="23" Column_End="32" HashCode="0">
+        <CodeStreamPath Text="System.Web.UI.WebControls.GridView.Visible : outputGrid" Line="23" Column="17" Line_End="23" Column_End="25" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="23" Column="7" Line_End="23" Column_End="33" HashCode="0">
+            <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ExpressionStatement" Line="24" Column="7" Line_End="24" Column_End="55" HashCode="0">
+      <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="AssignmentExpression" Line="24" Column="7" Line_End="24" Column_End="54" HashCode="0">
+      <CodeStreamPath Text="System.Web.UI.WebControls.GridView.DataSource : outputGrid" Line="24" Column="17" Line_End="24" Column_End="28" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="24" Column="7" Line_End="24" Column_End="55" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="System.Web.UI.WebControls.GridView.DataSource : outputGrid" Line="24" Column="17" Line_End="24" Column_End="28" HashCode="0">
+      <CodeStreamPath Text="AssignmentExpression" Line="24" Column="7" Line_End="24" Column_End="54" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="24" Column="7" Line_End="24" Column_End="55" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+        <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+            <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0">
+              <CodeStreamPath Text="AssignmentExpression" Line="24" Column="7" Line_End="24" Column_End="54" HashCode="0">
+                <CodeStreamPath Text="System.Web.UI.WebControls.GridView.DataSource : outputGrid" Line="24" Column="17" Line_End="24" Column_End="28" HashCode="0">
+                  <CodeStreamPath Text="ExpressionStatement" Line="24" Column="7" Line_End="24" Column_End="55" HashCode="0">
+                    <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="38" Line_End="24" Column_End="52" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+              <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0">
+                <CodeStreamPath Text="AssignmentExpression" Line="24" Column="7" Line_End="24" Column_End="54" HashCode="0">
+                  <CodeStreamPath Text="System.Web.UI.WebControls.GridView.DataSource : outputGrid" Line="24" Column="17" Line_End="24" Column_End="28" HashCode="0">
+                    <CodeStreamPath Text="ExpressionStatement" Line="24" Column="7" Line_End="24" Column_End="55" HashCode="0">
+                      <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; command : System.Data.SqlClient.SqlCommand" Line="24" Column="31" Line_End="24" Column_End="38" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="24" Column="52" Line_End="24" Column_End="54" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public ? System.Data.SqlClient.SqlCommand.ExecuteReader()" Line="88" Column="3" Line_End="88" Column_End="39" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="24" Column="7" Line_End="24" Column_End="17" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+              <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ExpressionStatement" Line="25" Column="7" Line_End="25" Column_End="29" HashCode="0">
+      <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0">
+      <CodeStreamPath Text="ExpressionStatement" Line="25" Column="7" Line_End="25" Column_End="29" HashCode="0">
+        <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="System.Web.UI.WebControls.GridView.DataBind : outputGrid" Line="25" Column="17" Line_End="25" Column_End="26" HashCode="0">
+      <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="25" Column="7" Line_End="25" Column_End="29" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; outputGrid : System.Web.UI.WebControls.GridView" Line="25" Column="7" Line_End="25" Column_End="17" HashCode="0">
+      <CodeStreamPath Text="[not resolved: invocation] DataBind" Line="25" Column="26" Line_End="25" Column_End="28" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="ExpressionStatement" Line="26" Column="7" Line_End="26" Column_End="30" HashCode="0">
+      <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="AssignmentExpression" Line="26" Column="7" Line_End="26" Column_End="29" HashCode="0">
+      <CodeStreamPath Text="System.Web.UI.WebControls.Label.Visible : output" Line="26" Column="13" Line_End="26" Column_End="21" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="26" Column="7" Line_End="26" Column_End="30" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="System.Web.UI.WebControls.Label.Visible : output" Line="26" Column="13" Line_End="26" Column_End="21" HashCode="0">
+      <CodeStreamPath Text="AssignmentExpression" Line="26" Column="7" Line_End="26" Column_End="29" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="26" Column="7" Line_End="26" Column_End="30" HashCode="0">
+          <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="26" Column="7" Line_End="26" Column_End="13" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="26" Column="24" Line_End="26" Column_End="29" HashCode="0">
+      <CodeStreamPath Text="AssignmentExpression" Line="26" Column="7" Line_End="26" Column_End="29" HashCode="0">
+        <CodeStreamPath Text="System.Web.UI.WebControls.Label.Visible : output" Line="26" Column="13" Line_End="26" Column_End="21" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="26" Column="7" Line_End="26" Column_End="30" HashCode="0">
+            <CodeStreamPath Text="UsingStatement" Line="15" Column="5" Line_End="28" Column_End="6" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+    <CodeStreamPath Text="TypeReference" Line="29" Column="13" Line_End="0" Column_End="0" HashCode="0">
+      <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+    <CodeStreamPath Text="ExpressionStatement" Line="30" Column="5" Line_End="30" Column_End="89" HashCode="0">
+      <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="30" Column="30" Line_End="30" Column_End="88" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="37" Column="3" Line_End="37" Column_End="66" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="30" Column="5" Line_End="30" Column_End="89" HashCode="0">
+          <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="30" Column="17" Line_End="30" Column_End="30" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="30" Column="30" Line_End="30" Column_End="88" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="37" Column="3" Line_End="37" Column_End="66" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="30" Column="5" Line_End="30" Column_End="89" HashCode="0">
+            <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; ErrorLogging : SuperSecureBank.ErrorLogging" Line="30" Column="5" Line_End="30" Column_End="17" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="30" Column="30" Line_End="30" Column_End="88" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="37" Column="3" Line_End="37" Column_End="66" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="BinaryOperatorExpression" Line="30" Column="31" Line_End="30" Column_End="83" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="30" Column="30" Line_End="30" Column_End="88" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="37" Column="3" Line_End="37" Column_End="66" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="30" Column="5" Line_End="30" Column_End="89" HashCode="0">
+            <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="30" Column="31" Line_End="30" Column_End="42" HashCode="0">
+      <CodeStreamPath Text="BinaryOperatorExpression" Line="30" Column="31" Line_End="30" Column_End="83" HashCode="0">
+        <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="30" Column="30" Line_End="30" Column_End="88" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="37" Column="3" Line_End="37" Column_End="66" HashCode="0">
+            <CodeStreamPath Text="ExpressionStatement" Line="30" Column="5" Line_End="30" Column_End="89" HashCode="0">
+              <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; public static string System.IO.Path.GetFileName(string path)" Line="30" Column="61" Line_End="30" Column_End="83" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static string System.IO.Path.GetFileName(string path)" Line="145" Column="3" Line_End="145" Column_End="48" HashCode="0">
+        <CodeStreamPath Text="BinaryOperatorExpression" Line="30" Column="31" Line_End="30" Column_End="83" HashCode="0">
+          <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="30" Column="30" Line_End="30" Column_End="88" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="37" Column="3" Line_End="37" Column_End="66" HashCode="0">
+              <CodeStreamPath Text="ExpressionStatement" Line="30" Column="5" Line_End="30" Column_End="89" HashCode="0">
+                <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public static string System.IO.Path.GetFileName(string path)" Line="30" Column="49" Line_End="30" Column_End="61" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static string System.IO.Path.GetFileName(string path)" Line="30" Column="61" Line_End="30" Column_End="83" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string System.IO.Path.GetFileName(string path)" Line="145" Column="3" Line_End="145" Column_End="48" HashCode="0">
+          <CodeStreamPath Text="BinaryOperatorExpression" Line="30" Column="31" Line_End="30" Column_End="83" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="30" Column="30" Line_End="30" Column_End="88" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="37" Column="3" Line_End="37" Column_End="66" HashCode="0">
+                <CodeStreamPath Text="parameter -&gt; errorText" Line="37" Column="35" Line_End="37" Column_End="42" HashCode="0">
+                  <CodeStreamPath Text="identifier  -&gt; errorText : System.String" Line="42" Column="71" Line_End="42" Column_End="80" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="47" Column="3" Line_End="47" Column_End="47" HashCode="0">
+                      <CodeStreamPath Text="parameter -&gt; foo" Line="47" Column="36" Line_End="47" Column_End="43" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="49" Column="16" Line_End="49" Column_End="19" HashCode="0" />
+                        <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="50" Column="12" Line_End="50" Column_End="15" HashCode="0">
+                          <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="50" Column="23" Line_End="50" Column_End="34" HashCode="0">
+                            <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="102" Column="3" Line_End="102" Column_End="58" HashCode="0">
+                              <CodeStreamPath Text="ReturnStatement" Line="50" Column="5" Line_End="50" Column_End="35" HashCode="0" />
+                            </CodeStreamPath>
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                  <CodeStreamPath Text="ExpressionStatement" Line="30" Column="5" Line_End="30" Column_End="89" HashCode="0">
+                    <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; Path : System.IO.Path" Line="30" Column="45" Line_End="30" Column_End="49" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static string System.IO.Path.GetFileName(string path)" Line="30" Column="61" Line_End="30" Column_End="83" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string System.IO.Path.GetFileName(string path)" Line="145" Column="3" Line_End="145" Column_End="48" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultProperty: public string System.Web.HttpRequest.PhysicalPath" Line="30" Column="69" Line_End="30" Column_End="82" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static string System.IO.Path.GetFileName(string path)" Line="30" Column="61" Line_End="30" Column_End="83" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string System.IO.Path.GetFileName(string path)" Line="145" Column="3" Line_End="145" Column_End="48" HashCode="0">
+          <CodeStreamPath Text="parameter -&gt; path" Line="145" Column="36" Line_End="145" Column_End="43" HashCode="0">
+            <CodeStreamPath Text="BinaryOperatorExpression" Line="30" Column="31" Line_End="30" Column_End="83" HashCode="0">
+              <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="30" Column="30" Line_End="30" Column_End="88" HashCode="0">
+                <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="37" Column="3" Line_End="37" Column_End="66" HashCode="0">
+                  <CodeStreamPath Text="parameter -&gt; errorText" Line="37" Column="35" Line_End="37" Column_End="42" HashCode="0">
+                    <CodeStreamPath Text="identifier  -&gt; errorText : System.String" Line="42" Column="71" Line_End="42" Column_End="80" HashCode="0">
+                      <CodeStreamPath Text="method -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="47" Column="3" Line_End="47" Column_End="47" HashCode="0">
+                        <CodeStreamPath Text="parameter -&gt; foo" Line="47" Column="36" Line_End="47" Column_End="43" HashCode="0">
+                          <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="49" Column="16" Line_End="49" Column_End="19" HashCode="0" />
+                          <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="50" Column="12" Line_End="50" Column_End="15" HashCode="0">
+                            <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="50" Column="23" Line_End="50" Column_End="34" HashCode="0">
+                              <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="102" Column="3" Line_End="102" Column_End="58" HashCode="0">
+                                <CodeStreamPath Text="ReturnStatement" Line="50" Column="5" Line_End="50" Column_End="35" HashCode="0" />
+                              </CodeStreamPath>
+                            </CodeStreamPath>
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                    <CodeStreamPath Text="ExpressionStatement" Line="30" Column="5" Line_End="30" Column_End="89" HashCode="0">
+                      <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; Request : System.Web.HttpRequest" Line="30" Column="62" Line_End="30" Column_End="69" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static string System.IO.Path.GetFileName(string path)" Line="30" Column="61" Line_End="30" Column_End="83" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static string System.IO.Path.GetFileName(string path)" Line="145" Column="3" Line_End="145" Column_End="48" HashCode="0">
+          <CodeStreamPath Text="parameter -&gt; path" Line="145" Column="36" Line_End="145" Column_End="43" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="30" Column="85" Line_End="30" Column_End="87" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="37" Column="3" Line_End="37" Column_End="66" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; ex" Line="37" Column="53" Line_End="37" Column_End="63" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="42" Column="102" Line_End="42" Column_End="104" HashCode="0">
+            <CodeStreamPath Text="method -&gt; private static string SuperSecureBank.ErrorLogging.BuildExceptionText(Exception ex)" Line="54" Column="3" Line_End="54" Column_End="57" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; ex" Line="54" Column="44" Line_End="54" Column_End="54" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="57" Column="52" Line_End="57" Column_End="54" HashCode="0">
+                  <CodeStreamPath Text="invocation -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="57" Column="51" Line_End="57" Column_End="63" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="47" Column="3" Line_End="47" Column_End="47" HashCode="0">
+                      <CodeStreamPath Text="parameter -&gt; foo" Line="47" Column="36" Line_End="47" Column_End="43" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="49" Column="16" Line_End="49" Column_End="19" HashCode="0" />
+                        <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="50" Column="12" Line_End="50" Column_End="15" HashCode="0">
+                          <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="50" Column="23" Line_End="50" Column_End="34" HashCode="0">
+                            <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="102" Column="3" Line_End="102" Column_End="58" HashCode="0">
+                              <CodeStreamPath Text="ReturnStatement" Line="50" Column="5" Line_End="50" Column_End="35" HashCode="0" />
+                            </CodeStreamPath>
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+                <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="57" Column="77" Line_End="57" Column_End="79" HashCode="0">
+                  <CodeStreamPath Text="invocation -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="57" Column="76" Line_End="57" Column_End="89" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="47" Column="3" Line_End="47" Column_End="47" HashCode="0">
+                      <CodeStreamPath Text="parameter -&gt; foo" Line="47" Column="36" Line_End="47" Column_End="43" HashCode="0">
+                        <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="49" Column="16" Line_End="49" Column_End="19" HashCode="0" />
+                        <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="50" Column="12" Line_End="50" Column_End="15" HashCode="0">
+                          <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="50" Column="23" Line_End="50" Column_End="34" HashCode="0">
+                            <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="102" Column="3" Line_End="102" Column_End="58" HashCode="0">
+                              <CodeStreamPath Text="ReturnStatement" Line="50" Column="5" Line_End="50" Column_End="35" HashCode="0" />
+                            </CodeStreamPath>
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+                <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="57" Column="103" Line_End="57" Column_End="105" HashCode="0">
+                  <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="57" Column="124" Line_End="57" Column_End="140" HashCode="0">
+                    <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="102" Column="3" Line_End="102" Column_End="58" HashCode="0">
+                      <CodeStreamPath Text="ReturnStatement" Line="57" Column="4" Line_End="57" Column_End="185" HashCode="0" />
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="31" Column="19" Line_End="31" Column_End="21" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual string System.Exception.ToString()" Line="31" Column="30" Line_End="31" Column_End="32" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual string System.Exception.ToString()" Line="109" Column="3" Line_End="109" Column_End="35" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ExpressionStatement" Line="31" Column="5" Line_End="31" Column_End="33" HashCode="0">
+      <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="AssignmentExpression" Line="31" Column="5" Line_End="31" Column_End="32" HashCode="0">
+      <CodeStreamPath Text="System.Web.UI.WebControls.Label.Text : output" Line="31" Column="11" Line_End="31" Column_End="16" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="31" Column="5" Line_End="31" Column_End="33" HashCode="0">
+          <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="System.Web.UI.WebControls.Label.Text : output" Line="31" Column="11" Line_End="31" Column_End="16" HashCode="0">
+      <CodeStreamPath Text="AssignmentExpression" Line="31" Column="5" Line_End="31" Column_End="32" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="31" Column="5" Line_End="31" Column_End="33" HashCode="0">
+          <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+    <CodeStreamPath Text="invocation -&gt; public virtual string System.Exception.ToString()" Line="31" Column="30" Line_End="31" Column_End="32" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public virtual string System.Exception.ToString()" Line="109" Column="3" Line_End="109" Column_End="35" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0">
+          <CodeStreamPath Text="AssignmentExpression" Line="31" Column="5" Line_End="31" Column_End="32" HashCode="0">
+            <CodeStreamPath Text="System.Web.UI.WebControls.Label.Text : output" Line="31" Column="11" Line_End="31" Column_End="16" HashCode="0">
+              <CodeStreamPath Text="ExpressionStatement" Line="31" Column="5" Line_End="31" Column_End="33" HashCode="0">
+                <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public virtual string System.Exception.ToString()" Line="31" Column="21" Line_End="31" Column_End="30" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public virtual string System.Exception.ToString()" Line="31" Column="30" Line_End="31" Column_End="32" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public virtual string System.Exception.ToString()" Line="109" Column="3" Line_End="109" Column_End="35" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0">
+            <CodeStreamPath Text="AssignmentExpression" Line="31" Column="5" Line_End="31" Column_End="32" HashCode="0">
+              <CodeStreamPath Text="System.Web.UI.WebControls.Label.Text : output" Line="31" Column="11" Line_End="31" Column_End="16" HashCode="0">
+                <CodeStreamPath Text="ExpressionStatement" Line="31" Column="5" Line_End="31" Column_End="33" HashCode="0">
+                  <CodeStreamPath Text="CatchClause" Line="29" Column="6" Line_End="32" Column_End="4" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="31" Column="19" Line_End="31" Column_End="21" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public virtual string System.Exception.ToString()" Line="31" Column="30" Line_End="31" Column_End="32" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public virtual string System.Exception.ToString()" Line="109" Column="3" Line_End="109" Column_End="35" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; output : System.Web.UI.WebControls.Label" Line="31" Column="5" Line_End="31" Column_End="11" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+  </CodeStreams>
+  <MethodStream_FileCache>C:\O2\_tempDir\11-3-2011\_methodStreams\protected_void_SuperSecureBank.ExecuteSQL.Submit_Click_object_sender__EventArgs_e_.cs</MethodStream_FileCache>
+  <Serialized_Saved_MethodStream_FileCache>C:\O2\Demos\SI - SuperSecureBank\O2 Method Streams_2\protected_void_SuperSecureBank.ExecuteSQL.Submit_Click_object_sender__EventArgs_e_.methodStream.xml</Serialized_Saved_MethodStream_FileCache>
+  <MethodStream>using System.IO;
+using System;
+using System.Data.SqlClient;
+using SuperSecureBank;
+namespace SuperSecureBank
+{
+	public class ExecuteSQL : System.Web.UI.Page
+	{
+		protected global::System.Web.UI.WebControls.GridView outputGrid;
+		protected global::System.Web.UI.WebControls.Label output;
+		protected global::System.Web.UI.WebControls.TextBox SQLCommand;
+		protected void Submit_Click(object sender, EventArgs e)
+		{
+			try {
+				using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ssbcon"].ConnectionString)) {
+					SqlCommand command = new SqlCommand(SQLCommand.Text, conn);
+					conn.Open();
+					if (!SQLCommand.Text.ToLower().Contains("select")) {
+						output.Visible = true;
+						output.Text = command.ExecuteNonQuery() + " row(s) affected";
+						outputGrid.Visible = false;
+					} else {
+						outputGrid.Visible = true;
+						outputGrid.DataSource = command.ExecuteReader();
+						outputGrid.DataBind();
+						output.Visible = false;
+					}
+				}
+			} catch (Exception ex) {
+				ErrorLogging.AddException("Error in " + Path.GetFileName(Request.PhysicalPath), ex);
+				output.Text = ex.ToString();
+			}
+		}
+	}
+	public class ErrorLogging
+	{
+		public static void AddException(string errorText, Exception ex)
+		{
+			string insertError = "INSERT INTO ErrorLog values ('{0}', '{1}', '{2}')";
+			SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ssbcon"].ConnectionString);
+			conn.Open();
+			insertError = String.Format(insertError, DateTime.Now, cleanForSQL(errorText), BuildExceptionText(ex));
+			SqlCommand command = new SqlCommand(insertError, conn);
+			command.ExecuteNonQuery();
+			conn.Close();
+		}
+		public static string cleanForSQL(string foo)
+		{
+			if (null != foo) {
+				return foo.Replace("'", "''");
+			} else
+				return "";
+		}
+		private static string BuildExceptionText(Exception ex)
+		{
+			string exceptionText = "&lt;h3&gt;{0}&lt;/h3&gt;More Info: {1}&lt;br/&gt;&lt;h4&gt;Stack&lt;/h4&gt;&lt;br/&gt;&lt;pre&gt;&lt;code&gt;{2}&lt;/code&gt;&lt;/pre&gt;";
+			return string.Format(exceptionText, cleanForSQL(ex.Message), cleanForSQL(ex.HelpLink), cleanForSQL(ex.StackTrace.Replace("\r\n", "&lt;br&gt;").Replace("\t", "&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;")));
+		}
+	}
+}
+namespace System.Data.SqlClient
+{
+	public class SqlConnection : System.Data.Common.DbConnection, System.ComponentModel.IComponent, System.IDisposable, System.Data.IDbConnection, System.ICloneable
+	{
+		public virtual void Open()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public virtual void Close()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public SqlConnection(string connectionString)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+	public class SqlCommand : System.Data.Common.DbCommand, System.ComponentModel.IComponent, System.IDisposable, System.Data.IDbCommand, System.ICloneable
+	{
+		public virtual int ExecuteNonQuery()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public SqlCommand(string cmdText, SqlConnection connection)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public SqlDataReader ExecuteReader()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+}
+namespace System
+{
+	public class String : System.IComparable, System.ICloneable, System.IConvertible, System.IComparable, System.Collections.Generic.IEnumerable, System.Collections.IEnumerable, System.IEquatable
+	{
+		public static string Format(string format, object arg0, object arg1, object arg2)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public string Replace(string oldValue, string newValue)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+	public class Exception : System.Runtime.Serialization.ISerializable, System.Runtime.InteropServices._Exception
+	{
+		public virtual string ToString()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public virtual string Message {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+		public virtual string HelpLink {
+			get {
+				throw new NotImplementedException();
+			}
+			set {
+				throw new NotImplementedException();
+			}
+		}
+		public virtual string StackTrace {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+	}
+	public class DateTime : System.ValueType, System.IComparable, System.IFormattable, System.IConvertible, System.Runtime.Serialization.ISerializable, System.IComparable, System.IEquatable
+	{
+		public static System.DateTime Now {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+	}
+}
+namespace System.IO
+{
+	public class Path
+	{
+		public static string GetFileName(string path)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+}
+namespace System.Web
+{
+	public class HttpRequest
+	{
+		public string PhysicalPath {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+	}
+}
+namespace System.Web.UI
+{
+	public class Page : System.Web.UI.TemplateControl, System.ComponentModel.IComponent, System.IDisposable, System.Web.UI.IParserAccessor, System.Web.UI.IUrlResolutionService, System.Web.UI.IDataBindingsAccessor, System.Web.UI.IControlBuilderAccessor, System.Web.UI.IControlDesignerAccessor, System.Web.UI.IExpressionsAccessor, System.Web.UI.INamingContainer, System.Web.UI.IFilterResolutionService, System.Web.IHttpHandler
+	{
+		public System.Web.HttpRequest Request {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+	}
+}
+</MethodStream>
+</Saved_MethodStream>

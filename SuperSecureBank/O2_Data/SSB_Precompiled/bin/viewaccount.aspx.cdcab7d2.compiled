@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/ViewAccount.aspx" hash="fffffff3e53d9c3b" filehash="fa3390adc6721bdd" flags="100000" assembly="App_Web_ycjbconf" type="ASP.viewaccount_aspx">
+    <filedeps>
+        <filedep name="/Site.Master" />
+        <filedep name="/ViewAccount.aspx" />
+    </filedeps>
+</preserve>

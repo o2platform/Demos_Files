@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Logout.aspx" hash="fffffff3e53d9c3b" filehash="ffffc783c0c67f9d" flags="100000" assembly="App_Web_c4eglvaj" type="ASP.logout_aspx">
+    <filedeps>
+        <filedep name="/Logout.aspx" />
+    </filedeps>
+</preserve>

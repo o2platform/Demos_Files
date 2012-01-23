@@ -1,0 +1,20 @@
+C:\Users\Joe\ToolBox\SI_GitHub\SuperSecureBank\SuperSecureBank\bin\SuperSecureBank.dll
+C:\Users\Joe\ToolBox\SI_GitHub\SuperSecureBank\SuperSecureBank\bin\SuperSecureBank.pdb
+C:\Users\Joe\ToolBox\SI_GitHub\SuperSecureBank\SuperSecureBank\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Joe\ToolBox\SI_GitHub\SuperSecureBank\SuperSecureBank\obj\Debug\SuperSecureBank.dll
+C:\Users\Joe\ToolBox\SI_GitHub\SuperSecureBank\SuperSecureBank\obj\Debug\SuperSecureBank.pdb
+C:\Users\Joe\Documents\My Dropbox\Tools\SuperSecureBank\SuperSecureBank\bin\SuperSecureBank.dll
+C:\Users\Joe\Documents\My Dropbox\Tools\SuperSecureBank\SuperSecureBank\bin\SuperSecureBank.pdb
+C:\Users\Joe\Documents\My Dropbox\Tools\SuperSecureBank\SuperSecureBank\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Joe\Documents\My Dropbox\Tools\SuperSecureBank\SuperSecureBank\obj\Debug\SuperSecureBank.dll
+C:\Users\Joe\Documents\My Dropbox\Tools\SuperSecureBank\SuperSecureBank\obj\Debug\SuperSecureBank.pdb
+C:\Users\joe\Dropbox\Tools\SuperSecureBank\SuperSecureBank\bin\SuperSecureBank.dll
+C:\Users\joe\Dropbox\Tools\SuperSecureBank\SuperSecureBank\bin\SuperSecureBank.pdb
+C:\Users\joe\Dropbox\Tools\SuperSecureBank\SuperSecureBank\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\joe\Dropbox\Tools\SuperSecureBank\SuperSecureBank\obj\Debug\SuperSecureBank.dll
+C:\Users\joe\Dropbox\Tools\SuperSecureBank\SuperSecureBank\obj\Debug\SuperSecureBank.pdb
+C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\obj\Debug\ResolveAssemblyReference.cache
+C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\bin\SuperSecureBank.dll
+C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\bin\SuperSecureBank.pdb
+C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\obj\Debug\SuperSecureBank.dll
+C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\obj\Debug\SuperSecureBank.pdb

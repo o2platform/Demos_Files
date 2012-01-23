@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Application name="SuperSecureBank" version="8.0.0.1">
+	<Projects>
+		<Project ltd_name=".net" path=".\SuperSecureBank\SuperSecureBank.ppf"/>
+	</Projects>
+	<FindingModifications exclusion="false" version="8.0.0">
+	</FindingModifications>
+	<Findings exclusion="false" version="8.0.0">
+	</Findings>
+</Application>

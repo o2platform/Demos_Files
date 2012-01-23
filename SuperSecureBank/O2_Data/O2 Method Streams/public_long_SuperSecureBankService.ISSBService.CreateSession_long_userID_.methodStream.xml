@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<Saved_MethodStream>
+  <RootMethod ItemType="Method" Name="CreateSession" Class="ISSBService" Namespace="SuperSecureBankService" ReturnType="System.Int64" Signature="public long SuperSecureBankService.ISSBService.CreateSession(long userID)" DotNetName="SuperSecureBankService.ISSBService.CreateSession">
+    <Parameter Key="userID" Value="System.Int64" />
+    <Attribute Key="None" Value="OperationContract" />
+    <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBankService\ISSBService.cs" Line="29" Column="3" Line_End="29" Column_End="37" />
+  </RootMethod>
+  <MethodStreamItems>
+    <MethodStream_Item ItemType="ExternalClasses" Name="Int64" Class="System.Int64" Namespace="System" Signature="System.Int64" DotNetName="System.Int64" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="Open" Class="SqlConnection" Namespace="System.Data.SqlClient" ReturnType="System.Void" Signature="public virtual void System.Data.SqlClient.SqlConnection.Open()" DotNetName="System.Data.SqlClient.SqlConnection.Open" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="ExecuteNonQuery" Class="SqlCommand" Namespace="System.Data.SqlClient" ReturnType="System.Int32" Signature="public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" DotNetName="System.Data.SqlClient.SqlCommand.ExecuteNonQuery" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="Close" Class="SqlConnection" Namespace="System.Data.SqlClient" ReturnType="System.Void" Signature="public virtual void System.Data.SqlClient.SqlConnection.Close()" DotNetName="System.Data.SqlClient.SqlConnection.Close" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="#ctor" Class="SqlConnection" Namespace="System.Data.SqlClient" ReturnType="System.Data.SqlClient.SqlConnection" Signature="public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" DotNetName="System.Data.SqlClient.SqlConnection.#ctor">
+      <Parameter Key="connectionString" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="#ctor" Class="SqlCommand" Namespace="System.Data.SqlClient" ReturnType="System.Data.SqlClient.SqlCommand" Signature="public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" DotNetName="System.Data.SqlClient.SqlCommand.#ctor">
+      <Parameter Key="cmdText" Value="System.String" />
+      <Parameter Key="connection" Value="System.Data.SqlClient.SqlConnection" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="Format" Class="String" Namespace="System" ReturnType="System.String" Signature="public static string string.Format(string format, object arg0, object arg1)" DotNetName="System.String.Format">
+      <Parameter Key="format" Value="System.String" />
+      <Parameter Key="arg0" Value="System.Object" />
+      <Parameter Key="arg1" Value="System.Object" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="CreateSession" Class="ISSBService" Namespace="SuperSecureBankService" ReturnType="System.Int64" Signature="public long SuperSecureBankService.ISSBService.CreateSession(long userID)" DotNetName="SuperSecureBankService.ISSBService.CreateSession">
+      <Parameter Key="userID" Value="System.Int64" />
+      <Attribute Key="None" Value="OperationContract" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBankService\ISSBService.cs" Line="29" Column="3" Line_End="29" Column_End="37" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="CreateSession" Class="SSBService" Namespace="SuperSecureBankService" ReturnType="System.Int64" Signature="public long SuperSecureBankService.SSBService.CreateSession(long userID)" DotNetName="SuperSecureBankService.SSBService.CreateSession">
+      <Parameter Key="userID" Value="System.Int64" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBankService\SSBService.svc.cs" Line="119" Column="3" Line_End="119" Column_End="43" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="Property" Name="NextSessionID" Class="SuperSecureBankService.SessionIDSingleton.NextSessionID" Namespace="SuperSecureBankService.SessionIDSingleton" Signature="SuperSecureBankService.SessionIDSingleton.NextSessionID" DotNetName="SuperSecureBankService.SessionIDSingleton.NextSessionID">
+      <Location Line="31" Column="3" Line_End="31" Column_End="29" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="Property" Name="Instance" Class="SuperSecureBankService.SessionIDSingleton.Instance" Namespace="SuperSecureBankService.SessionIDSingleton" Signature="SuperSecureBankService.SessionIDSingleton.Instance" DotNetName="SuperSecureBankService.SessionIDSingleton.Instance">
+      <Location Line="23" Column="3" Line_End="23" Column_End="44" />
+    </MethodStream_Item>
+  </MethodStreamItems>
+  <CodeStreams>
+    <CodeStreamPath Text="AttributeSection" Line="8" Column="3" Line_End="8" Column_End="24" HashCode="0" />
+    <CodeStreamPath Text="Attribute" Line="8" Column="4" Line_End="8" Column_End="23" HashCode="0">
+      <CodeStreamPath Text="AttributeSection" Line="8" Column="3" Line_End="8" Column_End="24" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="method -&gt; private long SuperSecureBankService.ISSBService.CreateSession(long userID)" Line="9" Column="3" Line_End="9" Column_End="36" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; userID" Line="9" Column="23" Line_End="9" Column_End="29" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="11" Column="52" Line_End="11" Column_End="58" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public long SuperSecureBankService.SSBService.CreateSession(long userID)" Line="16" Column="3" Line_End="16" Column_End="43" HashCode="0">
+            <CodeStreamPath Text="parameter -&gt; userID" Line="16" Column="30" Line_End="16" Column_End="36" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="22" Column="49" Line_End="22" Column_End="55" HashCode="0">
+                <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1)" Line="75" Column="3" Line_End="75" Column_End="71" HashCode="0">
+                  <CodeStreamPath Text="parameter -&gt; arg0" Line="75" Column="46" Line_End="75" Column_End="53" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="9" Column="23" Line_End="9" Column_End="28" HashCode="0">
+      <CodeStreamPath Text="method -&gt; private long SuperSecureBankService.ISSBService.CreateSession(long userID)" Line="9" Column="3" Line_End="9" Column_End="36" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; userID" Line="9" Column="23" Line_End="9" Column_End="29" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="11" Column="52" Line_End="11" Column_End="58" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public long SuperSecureBankService.SSBService.CreateSession(long userID)" Line="16" Column="3" Line_End="16" Column_End="43" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; userID" Line="16" Column="30" Line_End="16" Column_End="36" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="22" Column="49" Line_End="22" Column_End="55" HashCode="0">
+                  <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1)" Line="75" Column="3" Line_End="75" Column_End="71" HashCode="0">
+                    <CodeStreamPath Text="parameter -&gt; arg0" Line="75" Column="46" Line_End="75" Column_End="53" HashCode="0" />
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="9" Column="3" Line_End="9" Column_End="8" HashCode="0" />
+    <CodeStreamPath Text="ExpressionStatement" Line="11" Column="4" Line_End="11" Column_End="60" HashCode="0" />
+    <CodeStreamPath Text="invocation -&gt; public long SuperSecureBankService.SSBService.CreateSession(long userID)" Line="11" Column="51" Line_End="11" Column_End="59" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public long SuperSecureBankService.SSBService.CreateSession(long userID)" Line="16" Column="3" Line_End="16" Column_End="43" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="11" Column="4" Line_End="11" Column_End="60" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public long SuperSecureBankService.SSBService.CreateSession(long userID)" Line="11" Column="37" Line_End="11" Column_End="51" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public long SuperSecureBankService.SSBService.CreateSession(long userID)" Line="11" Column="51" Line_End="11" Column_End="59" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public long SuperSecureBankService.SSBService.CreateSession(long userID)" Line="16" Column="3" Line_End="16" Column_End="43" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="11" Column="4" Line_End="11" Column_End="60" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="[not resolved: target] .SSBService : SuperSecureBankService" Line="11" Column="26" Line_End="11" Column_End="37" HashCode="0">
+      <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public long SuperSecureBankService.SSBService.CreateSession(long userID)" Line="11" Column="37" Line_End="11" Column_End="51" HashCode="0">
+        <CodeStreamPath Text="invocation -&gt; public long SuperSecureBankService.SSBService.CreateSession(long userID)" Line="11" Column="51" Line_End="11" Column_End="59" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public long SuperSecureBankService.SSBService.CreateSession(long userID)" Line="16" Column="3" Line_End="16" Column_End="43" HashCode="0">
+            <CodeStreamPath Text="ExpressionStatement" Line="11" Column="4" Line_End="11" Column_End="60" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; SuperSecureBankService : [type not resolved]" Line="11" Column="4" Line_End="11" Column_End="26" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public long SuperSecureBankService.SSBService.CreateSession(long userID)" Line="11" Column="51" Line_End="11" Column_End="59" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public long SuperSecureBankService.SSBService.CreateSession(long userID)" Line="16" Column="3" Line_End="16" Column_End="43" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="11" Column="52" Line_End="11" Column_End="58" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public long SuperSecureBankService.SSBService.CreateSession(long userID)" Line="16" Column="3" Line_End="16" Column_End="43" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; userID" Line="16" Column="30" Line_End="16" Column_End="36" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; userID : System.Int64" Line="22" Column="49" Line_End="22" Column_End="55" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static string string.Format(string format, object arg0, object arg1)" Line="75" Column="3" Line_End="75" Column_End="71" HashCode="0">
+              <CodeStreamPath Text="parameter -&gt; arg0" Line="75" Column="46" Line_End="75" Column_End="53" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+  </CodeStreams>
+  <MethodStream_FileCache>C:\O2\_tempDir\11-3-2011\_methodStreams\public_long_SuperSecureBankService.ISSBService.CreateSession_long_userID_.cs</MethodStream_FileCache>
+  <Serialized_Saved_MethodStream_FileCache>C:\O2\Demos\SI - SuperSecureBank\O2 Method Streams_2\public_long_SuperSecureBankService.ISSBService.CreateSession_long_userID_.methodStream.xml</Serialized_Saved_MethodStream_FileCache>
+  <MethodStream>using System;
+using System.Data.SqlClient;
+using SuperSecureBankService;
+namespace SuperSecureBankService
+{
+	public class ISSBService
+	{
+		[OperationContract()]
+		Int64 CreateSession(Int64 userID)
+		{
+			SuperSecureBankService.SSBService.CreateSession(userID);
+		}
+	}
+	public class SSBService : SuperSecureBankService.ISSBService
+	{
+		public Int64 CreateSession(Int64 userID)
+		{
+			Int64 sessionID = SessionIDSingleton.Instance.NextSessionID;
+			string insertSession = "INSERT INTO sessions values ({0}, {1})";
+			SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ssbcon"].ConnectionString);
+			conn.Open();
+			insertSession = String.Format(insertSession, userID, sessionID);
+			SqlCommand command = new SqlCommand(insertSession, conn);
+			command.ExecuteNonQuery();
+			conn.Close();
+			return sessionID;
+		}
+	}
+	public class SessionIDSingleton
+	{
+		public Int64 NextSessionID {
+			get {
+				currentID = new Random((int)currentID).Next(Int32.MaxValue);
+				return currentID;
+			}
+		}
+		public static SessionIDSingleton Instance {
+			get { return instance; }
+		}
+	}
+}
+namespace System.Data.SqlClient
+{
+	public class SqlConnection : System.Data.Common.DbConnection, System.ComponentModel.IComponent, System.IDisposable, System.Data.IDbConnection, System.ICloneable
+	{
+		public virtual void Open()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public virtual void Close()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public SqlConnection(string connectionString)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+	public class SqlCommand : System.Data.Common.DbCommand, System.ComponentModel.IComponent, System.IDisposable, System.Data.IDbCommand, System.ICloneable
+	{
+		public virtual int ExecuteNonQuery()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public SqlCommand(string cmdText, SqlConnection connection)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+}
+namespace System
+{
+	public class String : System.IComparable, System.ICloneable, System.IConvertible, System.IComparable, System.Collections.Generic.IEnumerable, System.Collections.IEnumerable, System.IEquatable
+	{
+		public static string Format(string format, object arg0, object arg1)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+}
+</MethodStream>
+</Saved_MethodStream>

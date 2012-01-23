@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/DoTransfer.aspx" hash="fffffff3e53d9c3b" filehash="ffffcf882374daf1" flags="100000" assembly="App_Web_c4eglvaj" type="ASP.dotransfer_aspx">
+    <filedeps>
+        <filedep name="/DoTransfer.aspx" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<Saved_MethodStream>
+  <RootMethod ItemType="Method" Name="cleanForSQL" Class="ErrorLogging" Namespace="SuperSecureBank" ReturnType="System.String" Signature="public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" DotNetName="SuperSecureBank.ErrorLogging.cleanForSQL">
+    <Parameter Key="foo" Value="System.String" />
+    <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ErrorLogging.cs" Line="24" Column="3" Line_End="24" Column_End="47" />
+  </RootMethod>
+  <MethodStreamItems>
+    <MethodStream_Item ItemType="ExternalClasses" Name="String" Class="System.String" Namespace="System" Signature="System.String" DotNetName="System.String" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="Replace" Class="String" Namespace="System" ReturnType="System.String" Signature="public string string.Replace(string oldValue, string newValue)" DotNetName="System.String.Replace">
+      <Parameter Key="oldValue" Value="System.String" />
+      <Parameter Key="newValue" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="cleanForSQL" Class="ErrorLogging" Namespace="SuperSecureBank" ReturnType="System.String" Signature="public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" DotNetName="SuperSecureBank.ErrorLogging.cleanForSQL">
+      <Parameter Key="foo" Value="System.String" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ErrorLogging.cs" Line="24" Column="3" Line_End="24" Column_End="47" />
+    </MethodStream_Item>
+  </MethodStreamItems>
+  <CodeStreams>
+    <CodeStreamPath Text="method -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="7" Column="3" Line_End="7" Column_End="47" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; foo" Line="7" Column="36" Line_End="7" Column_End="43" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="9" Column="16" Line_End="9" Column_End="19" HashCode="0" />
+        <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="10" Column="12" Line_End="10" Column_End="15" HashCode="0">
+          <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="10" Column="23" Line_End="10" Column_End="34" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="20" Column="3" Line_End="20" Column_End="58" HashCode="0">
+              <CodeStreamPath Text="ReturnStatement" Line="10" Column="5" Line_End="10" Column_End="35" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="7" Column="36" Line_End="7" Column_End="42" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="7" Column="3" Line_End="7" Column_End="47" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; foo" Line="7" Column="36" Line_End="7" Column_End="43" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="9" Column="16" Line_End="9" Column_End="19" HashCode="0" />
+          <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="10" Column="12" Line_End="10" Column_End="15" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="10" Column="23" Line_End="10" Column_End="34" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="20" Column="3" Line_End="20" Column_End="58" HashCode="0">
+                <CodeStreamPath Text="ReturnStatement" Line="10" Column="5" Line_End="10" Column_End="35" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="7" Column="17" Line_End="7" Column_End="23" HashCode="0" />
+    <CodeStreamPath Text="BinaryOperatorExpression" Line="9" Column="8" Line_End="9" Column_End="19" HashCode="0" />
+    <CodeStreamPath Text="PrimitiveExpression" Line="9" Column="8" Line_End="9" Column_End="12" HashCode="0">
+      <CodeStreamPath Text="BinaryOperatorExpression" Line="9" Column="8" Line_End="9" Column_End="19" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="9" Column="16" Line_End="9" Column_End="19" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="10" Column="12" Line_End="10" Column_End="15" HashCode="0">
+        <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="10" Column="23" Line_End="10" Column_End="34" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="20" Column="3" Line_End="20" Column_End="58" HashCode="0">
+            <CodeStreamPath Text="ReturnStatement" Line="10" Column="5" Line_End="10" Column_End="35" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ReturnStatement" Line="10" Column="5" Line_End="10" Column_End="35" HashCode="0" />
+    <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="10" Column="23" Line_End="10" Column_End="34" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="20" Column="3" Line_End="20" Column_End="58" HashCode="0">
+        <CodeStreamPath Text="ReturnStatement" Line="10" Column="5" Line_End="10" Column_End="35" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public string string.Replace(string oldValue, string newValue)" Line="10" Column="15" Line_End="10" Column_End="23" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="10" Column="23" Line_End="10" Column_End="34" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="20" Column="3" Line_End="20" Column_End="58" HashCode="0">
+          <CodeStreamPath Text="ReturnStatement" Line="10" Column="5" Line_End="10" Column_End="35" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="10" Column="12" Line_End="10" Column_End="15" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="10" Column="23" Line_End="10" Column_End="34" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="20" Column="3" Line_End="20" Column_End="58" HashCode="0">
+          <CodeStreamPath Text="ReturnStatement" Line="10" Column="5" Line_End="10" Column_End="35" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="10" Column="24" Line_End="10" Column_End="27" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="10" Column="23" Line_End="10" Column_End="34" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="20" Column="3" Line_End="20" Column_End="58" HashCode="0">
+          <CodeStreamPath Text="ReturnStatement" Line="10" Column="5" Line_End="10" Column_End="35" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="10" Column="29" Line_End="10" Column_End="33" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="10" Column="23" Line_End="10" Column_End="34" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="20" Column="3" Line_End="20" Column_End="58" HashCode="0">
+          <CodeStreamPath Text="ReturnStatement" Line="10" Column="5" Line_End="10" Column_End="35" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ReturnStatement" Line="12" Column="5" Line_End="12" Column_End="15" HashCode="0" />
+    <CodeStreamPath Text="PrimitiveExpression" Line="12" Column="12" Line_End="12" Column_End="14" HashCode="0">
+      <CodeStreamPath Text="ReturnStatement" Line="12" Column="5" Line_End="12" Column_End="15" HashCode="0" />
+    </CodeStreamPath>
+  </CodeStreams>
+  <MethodStream_FileCache>C:\O2\_tempDir\11-3-2011\_methodStreams\public_static_string_SuperSecureBank.ErrorLogging.cleanForSQL_string_foo_.cs</MethodStream_FileCache>
+  <Serialized_Saved_MethodStream_FileCache>C:\O2\Demos\SI - SuperSecureBank\O2 Method Streams_2\public_static_string_SuperSecureBank.ErrorLogging.cleanForSQL_string_foo_.methodStream.xml</Serialized_Saved_MethodStream_FileCache>
+  <MethodStream>using System;
+using SuperSecureBank;
+namespace SuperSecureBank
+{
+	public class ErrorLogging
+	{
+		public static string cleanForSQL(string foo)
+		{
+			if (null != foo) {
+				return foo.Replace("'", "''");
+			} else
+				return "";
+		}
+	}
+}
+namespace System
+{
+	public class String : System.IComparable, System.ICloneable, System.IConvertible, System.IComparable, System.Collections.Generic.IEnumerable, System.Collections.IEnumerable, System.IEquatable
+	{
+		public string Replace(string oldValue, string newValue)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+}
+</MethodStream>
+</Saved_MethodStream>

@@ -1,0 +1,941 @@
+<?xml version="1.0"?>
+<AspNet_Page>
+  <File_Path>C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\</File_Path>
+  <Virtual_Path>/ApplyForCredit.aspx</Virtual_Path>
+  <Server>localhost</Server>
+  <Web_Address>http://localhost/</Web_Address>
+  <PagesConfig>
+    <Item Key="Properties" Value="System.Configuration.ConfigurationPropertyCollection" />
+    <Item Key="Buffer" Value="True" />
+    <Item Key="EnableSessionState" Value="False" />
+    <Item Key="EnableViewState" Value="True" />
+    <Item Key="EnableViewStateMac" Value="False" />
+    <Item Key="EnableEventValidation" Value="False" />
+    <Item Key="SmartNavigation" Value="False" />
+    <Item Key="AutoEventWireup" Value="True" />
+    <Item Key="MaintainScrollPositionOnPostBack" Value="False" />
+    <Item Key="PageBaseType" Value="System.Web.UI.Page" />
+    <Item Key="UserControlBaseType" Value="System.Web.UI.UserControl" />
+    <Item Key="PageBaseTypeInternal" Value="[null value]" />
+    <Item Key="UserControlBaseTypeInternal" Value="[null value]" />
+    <Item Key="PageParserFilterType" Value="" />
+    <Item Key="PageParserFilterTypeInternal" Value="[null value]" />
+    <Item Key="ValidateRequest" Value="False" />
+    <Item Key="MasterPageFile" Value="" />
+    <Item Key="MasterPageFileInternal" Value="" />
+    <Item Key="Theme" Value="" />
+    <Item Key="ThemeInternal" Value="" />
+    <Item Key="StyleSheetTheme" Value="" />
+    <Item Key="StyleSheetThemeInternal" Value="" />
+    <Item Key="Namespaces" Value="System.Web.Configuration.NamespaceCollection" />
+    <Item Key="Controls" Value="System.Web.Configuration.TagPrefixCollection" />
+    <Item Key="MaxPageStateFieldLength" Value="-1" />
+    <Item Key="TagMapping" Value="System.Web.Configuration.TagMapCollection" />
+    <Item Key="CompilationMode" Value="Always" />
+    <Item Key="ViewStateEncryptionMode" Value="Auto" />
+    <Item Key="AsyncTimeout" Value="00:00:45" />
+    <Item Key="RenderAllHiddenFieldsAtTopOfForm" Value="True" />
+    <Item Key="TagNamespaceRegisterEntriesInternal" Value="System.Web.UI.TagNamespaceRegisterEntryTable" />
+    <Item Key="DefaultTagNamespaceRegisterEntries" Value="System.Web.UI.TagNamespaceRegisterEntry[]" />
+    <Item Key="UserControlRegisterEntriesInternal" Value="System.Collections.Hashtable" />
+    <Item Key="SectionInformation" Value="System.Configuration.SectionInformation" />
+    <Item Key="DataToWriteInternal" Value="False" />
+    <Item Key="ElementPresent" Value="True" />
+    <Item Key="ElementTagName" Value="pages" />
+    <Item Key="LockedAttributesList" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockedAllExceptAttributesList" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="ItemLocked" Value="Default" />
+    <Item Key="LockAttributes" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockAllAttributesExcept" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockElements" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockAllElementsExcept" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockItem" Value="False" />
+    <Item Key="Item" Value="[null value]" />
+    <Item Key="Item" Value="[null value]" />
+    <Item Key="Values" Value="System.Configuration.ConfigurationValues" />
+    <Item Key="ElementInformation" Value="System.Configuration.ElementInformation" />
+    <Item Key="EvaluationContext" Value="System.Configuration.ContextInformation" />
+    <Item Key="ElementProperty" Value="System.Configuration.ConfigurationElementProperty" />
+  </PagesConfig>
+  <ConfigItems>
+    <Item Key="CurrentVirtualPathString" Value="/ApplyForCredit.aspx" />
+    <Item Key="DefaultBaseType" Value="System.Web.UI.Page" />
+    <Item Key="DefaultFileLevelBuilderType" Value="System.Web.UI.FileLevelPageControlBuilder" />
+    <Item Key="HasCodeBehind" Value="True" />
+    <Item Key="IsCodeAllowed" Value="True" />
+  </ConfigItems>
+  <Namespaces>
+    <string>System.Web.Security</string>
+    <string>System.Web</string>
+    <string>System.Web.SessionState</string>
+    <string>System.Text</string>
+    <string>System.Web.UI.WebControls</string>
+    <string>System.Web.Profile</string>
+    <string>System.Collections</string>
+    <string>System.Web.UI.WebControls.WebParts</string>
+    <string>System.Configuration</string>
+    <string>System</string>
+    <string>ASP</string>
+    <string>System.Web.Caching</string>
+    <string>System.Web.UI</string>
+    <string>System.Collections.Specialized</string>
+    <string>System.Text.RegularExpressions</string>
+    <string>System.Web.UI.HtmlControls</string>
+  </Namespaces>
+  <SourceDependencies>
+    <string>/ApplyForCredit.aspx</string>
+    <string>/Site.Master</string>
+  </SourceDependencies>
+  <CodeBlock VirtualPath="/ApplyForCredit.aspx" BuilderType="System.Web.UI.FileLevelPageControlBuilder" ControlType="SuperSecureBank.ApplyForCredit" ID="__control1" Line="1" Column="0" IsHtmlControl="false" HasAspCode="false">
+    <SimplePropertyEntries>
+      <Item Key="Title" Value="" />
+      <Item Key="MasterPageFile" Value="~/Site.Master" />
+      <Item Key="EnableViewStateMac" Value="false" />
+      <Item Key="EnableEventValidation" Value="false" />
+    </SimplePropertyEntries>
+    <EventEntries />
+    <SubBlocks>
+      <CodeBlock VirtualPath="/ApplyForCredit.aspx" BuilderType="System.Web.UI.WebControls.ContentBuilderInternal" ControlType="System.Web.UI.WebControls.Content" ID="Content1" Line="4" Column="0" TagName="asp:Content" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+        </SubBlocks>
+      </CodeBlock>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+      <CodeBlock VirtualPath="/ApplyForCredit.aspx" BuilderType="System.Web.UI.WebControls.ContentBuilderInternal" ControlType="System.Web.UI.WebControls.Content" ID="Content2" Line="6" Column="0" TagName="asp:Content" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;	&lt;h1&gt;&#xA;		&lt;img src=&quot;Images/ToDo.png&quot; alt=&quot;Open New Account&quot; /&gt;&#xA;		Open a New Line of Credit&lt;/h1&gt;&#xA;	">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ApplyForCredit.aspx" BuilderType="System.Web.UI.WebControls.LabelControlBuilder" ControlType="System.Web.UI.WebControls.Label" ID="message" Line="10" Column="0" TagName="asp:Label" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="message" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;	&lt;p&gt;&#xA;		Thank you for applying for a new line of credit! Please use the form below to apply,&#xA;		your case will be reviewed and if accepted you will see it in your account list.&lt;/p&gt;&#xA;	&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&#xA;		&lt;tr&gt;&#xA;			&lt;td&gt;&#xA;				Name&#xA;			&lt;/td&gt;&#xA;			&lt;td&gt;&#xA;				">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ApplyForCredit.aspx" BuilderType="System.Web.UI.WebControls.TextBoxControlBuilder" ControlType="System.Web.UI.WebControls.TextBox" ID="ApplicantName" Line="20" Column="0" TagName="asp:TextBox" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="ApplicantName" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;			&lt;/td&gt;&#xA;		&lt;/tr&gt;&#xA;		&lt;tr&gt;&#xA;			&lt;td&gt;&#xA;				Account Type&#xA;			&lt;/td&gt;&#xA;			&lt;td&gt;&#xA;				">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ApplyForCredit.aspx" BuilderType="System.Web.UI.ControlBuilder" ControlType="System.Web.UI.WebControls.DropDownList" ID="AccountType" Line="28" Column="0" TagName="asp:DropDownList" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="AccountType" />
+              <Item Key="DataSourceID" Value="SqlDataSource1" />
+              <Item Key="DataTextField" Value="Name" />
+              <Item Key="DataValueField" Value="type" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;			&lt;/td&gt;&#xA;		&lt;/tr&gt;&#xA;		&lt;tr&gt;&#xA;			&lt;td&gt;&#xA;				Level&#xA;			&lt;/td&gt;&#xA;			&lt;td&gt;&#xA;				">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ApplyForCredit.aspx" BuilderType="System.Web.UI.ControlBuilder" ControlType="System.Web.UI.WebControls.DropDownList" ID="AccountLevel" Line="38" Column="0" TagName="asp:DropDownList" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="AccountLevel" />
+              <Item Key="DataSourceID" Value="SqlDataSource2" />
+              <Item Key="DataTextField" Value="Name" />
+              <Item Key="DataValueField" Value="level" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;			&lt;/td&gt;&#xA;		&lt;/tr&gt;&#xA;		&lt;tr&gt;&#xA;			&lt;td&gt;&#xA;				Credit Limit or Loan Amount&#xA;			&lt;/td&gt;&#xA;			&lt;td&gt;&#xA;				">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ApplyForCredit.aspx" BuilderType="System.Web.UI.WebControls.TextBoxControlBuilder" ControlType="System.Web.UI.WebControls.TextBox" ID="CreditAmount" Line="48" Column="0" TagName="asp:TextBox" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="CreditAmount" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;			&lt;/td&gt;&#xA;		&lt;/tr&gt;&#xA;		&lt;tr&gt;&#xA;			&lt;td colspan=&quot;2&quot;&gt;&#xA;				">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ApplyForCredit.aspx" BuilderType="System.Web.UI.ControlBuilder" ControlType="System.Web.UI.WebControls.Button" ID="Submit" Line="53" Column="0" TagName="asp:Button" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="Text" Value="Submit" />
+              <Item Key="ID" Value="Submit" />
+            </SimplePropertyEntries>
+            <EventEntries>
+              <Item Key="Click" Value="Submit_Click" />
+            </EventEntries>
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;			&lt;/td&gt;&#xA;		&lt;/tr&gt;&#xA;	&lt;/table&gt;&#xA;	">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ApplyForCredit.aspx" BuilderType="System.Web.UI.DataSourceControlBuilder" ControlType="System.Web.UI.WebControls.SqlDataSource" ID="SqlDataSource2" Line="57" Column="0" TagName="asp:SqlDataSource" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="SqlDataSource2" />
+              <Item Key="SelectCommand" Value="SELECT [level], [Name] FROM [AccountLevels] ORDER BY [level]" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;	">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ApplyForCredit.aspx" BuilderType="System.Web.UI.DataSourceControlBuilder" ControlType="System.Web.UI.WebControls.SqlDataSource" ID="SqlDataSource1" Line="60" Column="0" TagName="asp:SqlDataSource" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="SqlDataSource1" />
+              <Item Key="SelectCommand" Value="SELECT * FROM [AccountTypes] WHERE IsLoan = 1" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+        </SubBlocks>
+      </CodeBlock>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+    </SubBlocks>
+  </CodeBlock>
+  <Store_AspNet_SourceCode>true</Store_AspNet_SourceCode>
+  <Store_Compiled_AspNet_SourceCode>true</Store_Compiled_AspNet_SourceCode>
+  <AspNet_SourceCode>&lt;%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
+	CodeBehind="ApplyForCredit.aspx.cs" Inherits="SuperSecureBank.ApplyForCredit" %&gt;
+
+&lt;asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server"&gt;
+&lt;/asp:Content&gt;
+&lt;asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server"&gt;
+	&lt;h1&gt;
+		&lt;img src="Images/ToDo.png" alt="Open New Account" /&gt;
+		Open a New Line of Credit&lt;/h1&gt;
+	&lt;asp:Label ID="message" runat="server" /&gt;
+	&lt;p&gt;
+		Thank you for applying for a new line of credit! Please use the form below to apply,
+		your case will be reviewed and if accepted you will see it in your account list.&lt;/p&gt;
+	&lt;table border="0" cellpadding="0" cellspacing="0"&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				Name
+			&lt;/td&gt;
+			&lt;td&gt;
+				&lt;asp:TextBox runat="server" ID="ApplicantName" /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				Account Type
+			&lt;/td&gt;
+			&lt;td&gt;
+				&lt;asp:DropDownList ID="AccountType" runat="server" DataSourceID="SqlDataSource1" DataTextField="Name"
+					DataValueField="type"&gt;
+				&lt;/asp:DropDownList&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				Level
+			&lt;/td&gt;
+			&lt;td&gt;
+				&lt;asp:DropDownList ID="AccountLevel" runat="server" DataSourceID="SqlDataSource2"
+					DataTextField="Name" DataValueField="level"&gt;
+				&lt;/asp:DropDownList&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;
+				Credit Limit or Loan Amount
+			&lt;/td&gt;
+			&lt;td&gt;
+				&lt;asp:TextBox runat="server" ID="CreditAmount" /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td colspan="2"&gt;
+				&lt;asp:Button Text="Submit" runat="server" ID="Submit" OnClick="Submit_Click" /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
+	&lt;asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="&lt;%$ ConnectionStrings:ssbcon %&gt;"
+		SelectCommand="SELECT [level], [Name] FROM [AccountLevels] ORDER BY [level]"&gt;
+	&lt;/asp:SqlDataSource&gt;
+	&lt;asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="&lt;%$ ConnectionStrings:ssbcon %&gt;"
+		SelectCommand="SELECT * FROM [AccountTypes] WHERE IsLoan = 1"&gt;&lt;/asp:SqlDataSource&gt;
+&lt;/asp:Content&gt;
+</AspNet_SourceCode>
+  <AspNet_Compiled_SourceCode>
+    <string>#pragma checksum "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "E49292101A01B9897072D8E03EA5844E"
+//------------------------------------------------------------------------------
+// &lt;auto-generated&gt;
+//     This code was generated by a tool.
+//     Runtime Version:2.0.50727.5448
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// &lt;/auto-generated&gt;
+//------------------------------------------------------------------------------
+
+namespace ASP {
+    
+    #line 284 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Security;
+    
+    #line default
+    #line hidden
+    
+    #line 281 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web;
+    
+    #line default
+    #line hidden
+    
+    #line 283 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.SessionState;
+    
+    #line default
+    #line hidden
+    
+    #line 279 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Text;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+    using System.Web.UI.WebControls;
+    
+    #line default
+    #line hidden
+    
+    #line 285 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Profile;
+    
+    #line default
+    #line hidden
+    
+    #line 276 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Collections;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+    using System.Web.UI.WebControls.WebParts;
+    
+    #line default
+    #line hidden
+    
+    #line 278 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Configuration;
+    
+    #line default
+    #line hidden
+    
+    #line 275 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System;
+    
+    #line default
+    #line hidden
+    
+    #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+    using ASP;
+    
+    #line default
+    #line hidden
+    
+    #line 282 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Caching;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+    using System.Web.UI;
+    
+    #line default
+    #line hidden
+    
+    #line 277 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Collections.Specialized;
+    
+    #line default
+    #line hidden
+    
+    #line 280 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Text.RegularExpressions;
+    
+    #line default
+    #line hidden
+    
+    #line 289 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.UI.HtmlControls;
+    
+    #line default
+    #line hidden
+    
+    
+    [System.Runtime.CompilerServices.CompilerGlobalScopeAttribute()]
+    public class applyforcredit_aspx : global::SuperSecureBank.ApplyForCredit, System.Web.IHttpHandler {
+        
+        private static bool @__initialized;
+        
+        private static object @__stringResource;
+        
+        private static object @__fileDependencies;
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public applyforcredit_aspx() {
+            string[] dependencies;
+            ((global::SuperSecureBank.ApplyForCredit)(this)).AppRelativeVirtualPath = "~/ApplyForCredit.aspx";
+            if ((global::ASP.applyforcredit_aspx.@__initialized == false)) {
+                global::ASP.applyforcredit_aspx.@__stringResource = this.ReadStringResource();
+                dependencies = new string[2];
+                dependencies[0] = "~/ApplyForCredit.aspx";
+                dependencies[1] = "~/Site.Master";
+                global::ASP.applyforcredit_aspx.@__fileDependencies = this.GetWrappedFileDependencies(dependencies);
+                global::ASP.applyforcredit_aspx.@__initialized = true;
+            }
+            this.Server.ScriptTimeout = 30000000;
+        }
+        
+        protected System.Web.Profile.DefaultProfile Profile {
+            get {
+                return ((System.Web.Profile.DefaultProfile)(this.Context.Profile));
+            }
+        }
+        
+        protected ASP.global_asax ApplicationInstance {
+            get {
+                return ((ASP.global_asax)(this.Context.ApplicationInstance));
+            }
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlContent1(System.Web.UI.Control @__ctrl) {
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.Label @__BuildControlmessage() {
+            global::System.Web.UI.WebControls.Label @__ctrl;
+            
+            #line 10 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.Label();
+            
+            #line default
+            #line hidden
+            this.message = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 10 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.ID = "message";
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControlApplicantName() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            
+            #line 20 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            
+            #line default
+            #line hidden
+            this.ApplicantName = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 20 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.ID = "ApplicantName";
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.DropDownList @__BuildControlAccountType() {
+            global::System.Web.UI.WebControls.DropDownList @__ctrl;
+            
+            #line 28 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.DropDownList();
+            
+            #line default
+            #line hidden
+            this.AccountType = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 28 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.ID = "AccountType";
+            
+            #line default
+            #line hidden
+            
+            #line 28 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.DataSourceID = "SqlDataSource1";
+            
+            #line default
+            #line hidden
+            
+            #line 28 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.DataTextField = "Name";
+            
+            #line default
+            #line hidden
+            
+            #line 28 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.DataValueField = "type";
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.DropDownList @__BuildControlAccountLevel() {
+            global::System.Web.UI.WebControls.DropDownList @__ctrl;
+            
+            #line 38 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.DropDownList();
+            
+            #line default
+            #line hidden
+            this.AccountLevel = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 38 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.ID = "AccountLevel";
+            
+            #line default
+            #line hidden
+            
+            #line 38 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.DataSourceID = "SqlDataSource2";
+            
+            #line default
+            #line hidden
+            
+            #line 38 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.DataTextField = "Name";
+            
+            #line default
+            #line hidden
+            
+            #line 38 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.DataValueField = "level";
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControlCreditAmount() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            
+            #line 48 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            
+            #line default
+            #line hidden
+            this.CreditAmount = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 48 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.ID = "CreditAmount";
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.Button @__BuildControlSubmit() {
+            global::System.Web.UI.WebControls.Button @__ctrl;
+            
+            #line 53 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.Button();
+            
+            #line default
+            #line hidden
+            this.Submit = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 53 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.Text = "Submit";
+            
+            #line default
+            #line hidden
+            
+            #line 53 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.ID = "Submit";
+            
+            #line default
+            #line hidden
+            
+            #line 53 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.Click -= new System.EventHandler(this.Submit_Click);
+            
+            #line default
+            #line hidden
+            
+            #line 53 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.Click += new System.EventHandler(this.Submit_Click);
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.SqlDataSource @__BuildControlSqlDataSource2() {
+            global::System.Web.UI.WebControls.SqlDataSource @__ctrl;
+            
+            #line 57 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.SqlDataSource();
+            
+            #line default
+            #line hidden
+            this.SqlDataSource2 = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            
+            #line 57 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.ID = "SqlDataSource2";
+            
+            #line default
+            #line hidden
+            
+            #line 57 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.SelectCommand = "SELECT [level], [Name] FROM [AccountLevels] ORDER BY [level]";
+            
+            #line default
+            #line hidden
+            @__ctrl.ConnectionString = System.Convert.ToString(System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionString("ssbcon"), System.Globalization.CultureInfo.CurrentCulture);
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.SqlDataSource @__BuildControlSqlDataSource1() {
+            global::System.Web.UI.WebControls.SqlDataSource @__ctrl;
+            
+            #line 60 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.SqlDataSource();
+            
+            #line default
+            #line hidden
+            this.SqlDataSource1 = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            
+            #line 60 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.ID = "SqlDataSource1";
+            
+            #line default
+            #line hidden
+            
+            #line 60 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.SelectCommand = "SELECT * FROM [AccountTypes] WHERE IsLoan = 1";
+            
+            #line default
+            #line hidden
+            @__ctrl.ConnectionString = System.Convert.ToString(System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionString("ssbcon"), System.Globalization.CultureInfo.CurrentCulture);
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlContent2(System.Web.UI.Control @__ctrl) {
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t&lt;h1&gt;\n\t\t&lt;img src=\"Images/ToDo.png\" alt=\"Open New Account\" /&gt;\n\t\tOpen a New Line o" +
+                        "f Credit&lt;/h1&gt;\n\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.Label @__ctrl1;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl1 = this.@__BuildControlmessage();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(this.CreateResourceBasedLiteralControl(0, 277, true));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.TextBox @__ctrl2;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl2 = this.@__BuildControlApplicantName();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(@__ctrl2);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t\t\t&lt;/td&gt;\n\t\t&lt;/tr&gt;\n\t\t&lt;tr&gt;\n\t\t\t&lt;td&gt;\n\t\t\t\tAccount Type\n\t\t\t&lt;/td&gt;\n\t\t\t&lt;td&gt;\n\t\t\t\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.DropDownList @__ctrl3;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl3 = this.@__BuildControlAccountType();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(@__ctrl3);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t\t\t&lt;/td&gt;\n\t\t&lt;/tr&gt;\n\t\t&lt;tr&gt;\n\t\t\t&lt;td&gt;\n\t\t\t\tLevel\n\t\t\t&lt;/td&gt;\n\t\t\t&lt;td&gt;\n\t\t\t\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.DropDownList @__ctrl4;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl4 = this.@__BuildControlAccountLevel();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(@__ctrl4);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t\t\t&lt;/td&gt;\n\t\t&lt;/tr&gt;\n\t\t&lt;tr&gt;\n\t\t\t&lt;td&gt;\n\t\t\t\tCredit Limit or Loan Amount\n\t\t\t&lt;/td&gt;\n\t\t\t&lt;td&gt;" +
+                        "\n\t\t\t\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.TextBox @__ctrl5;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl5 = this.@__BuildControlCreditAmount();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(@__ctrl5);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t\t\t&lt;/td&gt;\n\t\t&lt;/tr&gt;\n\t\t&lt;tr&gt;\n\t\t\t&lt;td colspan=\"2\"&gt;\n\t\t\t\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.Button @__ctrl6;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl6 = this.@__BuildControlSubmit();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(@__ctrl6);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t\t\t&lt;/td&gt;\n\t\t&lt;/tr&gt;\n\t&lt;/table&gt;\n\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.SqlDataSource @__ctrl7;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl7 = this.@__BuildControlSqlDataSource2();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(@__ctrl7);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.SqlDataSource @__ctrl8;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl8 = this.@__BuildControlSqlDataSource1();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(@__ctrl8);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlTree(applyforcredit_aspx @__ctrl) {
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.Title = "";
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.MasterPageFile = "~/Site.Master";
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.EnableViewStateMac = false;
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__ctrl.EnableEventValidation = false;
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            this.InitializeCulture();
+            
+            #line default
+            #line hidden
+            
+            #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            this.AddContentTemplate("HeadContent", new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControlContent1)));
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            this.AddContentTemplate("MainContent", new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControlContent2)));
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ApplyForCredit.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void FrameworkInitialize() {
+            base.FrameworkInitialize();
+            this.SetStringResourcePointer(global::ASP.applyforcredit_aspx.@__stringResource, 0);
+            this.@__BuildControlTree(this);
+            this.AddWrappedFileDependencies(global::ASP.applyforcredit_aspx.@__fileDependencies);
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override int GetTypeHashCode() {
+            return -126789977;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override void ProcessRequest(System.Web.HttpContext context) {
+            base.ProcessRequest(context);
+        }
+    }
+}
+</string>
+  </AspNet_Compiled_SourceCode>
+</AspNet_Page>

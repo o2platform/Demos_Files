@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SuperSecureBank.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SessionCookieKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SSBSession</Value>
+    </Setting>
+    <Setting Name="SecretPhrase" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">changeme</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

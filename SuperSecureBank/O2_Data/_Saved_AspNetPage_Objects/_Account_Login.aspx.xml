@@ -1,0 +1,1141 @@
+<?xml version="1.0"?>
+<AspNet_Page>
+  <File_Path>C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\</File_Path>
+  <Virtual_Path>/Account/Login.aspx</Virtual_Path>
+  <Server>localhost</Server>
+  <Web_Address>http://localhost/</Web_Address>
+  <PagesConfig>
+    <Item Key="Properties" Value="System.Configuration.ConfigurationPropertyCollection" />
+    <Item Key="Buffer" Value="True" />
+    <Item Key="EnableSessionState" Value="False" />
+    <Item Key="EnableViewState" Value="True" />
+    <Item Key="EnableViewStateMac" Value="False" />
+    <Item Key="EnableEventValidation" Value="False" />
+    <Item Key="SmartNavigation" Value="False" />
+    <Item Key="AutoEventWireup" Value="True" />
+    <Item Key="MaintainScrollPositionOnPostBack" Value="False" />
+    <Item Key="PageBaseType" Value="System.Web.UI.Page" />
+    <Item Key="UserControlBaseType" Value="System.Web.UI.UserControl" />
+    <Item Key="PageBaseTypeInternal" Value="[null value]" />
+    <Item Key="UserControlBaseTypeInternal" Value="[null value]" />
+    <Item Key="PageParserFilterType" Value="" />
+    <Item Key="PageParserFilterTypeInternal" Value="[null value]" />
+    <Item Key="ValidateRequest" Value="False" />
+    <Item Key="MasterPageFile" Value="" />
+    <Item Key="MasterPageFileInternal" Value="" />
+    <Item Key="Theme" Value="" />
+    <Item Key="ThemeInternal" Value="" />
+    <Item Key="StyleSheetTheme" Value="" />
+    <Item Key="StyleSheetThemeInternal" Value="" />
+    <Item Key="Namespaces" Value="System.Web.Configuration.NamespaceCollection" />
+    <Item Key="Controls" Value="System.Web.Configuration.TagPrefixCollection" />
+    <Item Key="MaxPageStateFieldLength" Value="-1" />
+    <Item Key="TagMapping" Value="System.Web.Configuration.TagMapCollection" />
+    <Item Key="CompilationMode" Value="Always" />
+    <Item Key="ViewStateEncryptionMode" Value="Auto" />
+    <Item Key="AsyncTimeout" Value="00:00:45" />
+    <Item Key="RenderAllHiddenFieldsAtTopOfForm" Value="True" />
+    <Item Key="TagNamespaceRegisterEntriesInternal" Value="System.Web.UI.TagNamespaceRegisterEntryTable" />
+    <Item Key="DefaultTagNamespaceRegisterEntries" Value="System.Web.UI.TagNamespaceRegisterEntry[]" />
+    <Item Key="UserControlRegisterEntriesInternal" Value="System.Collections.Hashtable" />
+    <Item Key="SectionInformation" Value="System.Configuration.SectionInformation" />
+    <Item Key="DataToWriteInternal" Value="False" />
+    <Item Key="ElementPresent" Value="True" />
+    <Item Key="ElementTagName" Value="pages" />
+    <Item Key="LockedAttributesList" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockedAllExceptAttributesList" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="ItemLocked" Value="Default" />
+    <Item Key="LockAttributes" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockAllAttributesExcept" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockElements" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockAllElementsExcept" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockItem" Value="False" />
+    <Item Key="Item" Value="[null value]" />
+    <Item Key="Item" Value="[null value]" />
+    <Item Key="Values" Value="System.Configuration.ConfigurationValues" />
+    <Item Key="ElementInformation" Value="System.Configuration.ElementInformation" />
+    <Item Key="EvaluationContext" Value="System.Configuration.ContextInformation" />
+    <Item Key="ElementProperty" Value="System.Configuration.ConfigurationElementProperty" />
+  </PagesConfig>
+  <ConfigItems>
+    <Item Key="CurrentVirtualPathString" Value="/Account/Login.aspx" />
+    <Item Key="DefaultBaseType" Value="System.Web.UI.Page" />
+    <Item Key="DefaultFileLevelBuilderType" Value="System.Web.UI.FileLevelPageControlBuilder" />
+    <Item Key="HasCodeBehind" Value="True" />
+    <Item Key="IsCodeAllowed" Value="True" />
+  </ConfigItems>
+  <Namespaces>
+    <string>System.Web.Security</string>
+    <string>System.Web</string>
+    <string>System.Web.SessionState</string>
+    <string>System.Text</string>
+    <string>System.Web.UI.WebControls</string>
+    <string>System.Web.Profile</string>
+    <string>System.Collections</string>
+    <string>System.Web.UI.WebControls.WebParts</string>
+    <string>System.Configuration</string>
+    <string>System</string>
+    <string>ASP</string>
+    <string>System.Web.Caching</string>
+    <string>System.Web.UI</string>
+    <string>System.Collections.Specialized</string>
+    <string>System.Text.RegularExpressions</string>
+    <string>System.Web.UI.HtmlControls</string>
+  </Namespaces>
+  <SourceDependencies>
+    <string>/Account/Login.aspx</string>
+    <string>/Site.Master</string>
+  </SourceDependencies>
+  <CodeBlock VirtualPath="/Account/Login.aspx" BuilderType="System.Web.UI.FileLevelPageControlBuilder" ControlType="SuperSecureBank.Account.Login" ID="__control1" Line="1" Column="0" IsHtmlControl="false" HasAspCode="false">
+    <SimplePropertyEntries>
+      <Item Key="Title" Value="Log In" />
+      <Item Key="MasterPageFile" Value="~/Site.master" />
+      <Item Key="EnableViewStateMac" Value="false" />
+      <Item Key="EnableEventValidation" Value="false" />
+    </SimplePropertyEntries>
+    <EventEntries />
+    <SubBlocks>
+      <CodeBlock VirtualPath="/Account/Login.aspx" BuilderType="System.Web.UI.WebControls.ContentBuilderInternal" ControlType="System.Web.UI.WebControls.Content" ID="HeaderContent" Line="4" Column="0" TagName="asp:Content" IsHtmlControl="true" HasAspCode="false" Filter="asp">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;&lt;script&gt;&#xA;    function Validate() {&#xA;        var Url = &quot;^[A-Za-z0-9]+$&quot;&#xA;        var tempURL = document.getElementById(&quot;">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/Account/Login.aspx" BuilderType="System.Web.UI.CodeBlockBuilder" BlockType="Expression" Line="8" Column="51" IsHtmlControl="false" HasAspCode="false" Content="UserName.ClientID">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&quot;).value;&#xA;        var matchURL = tempURL.match(Url);&#xA;        if (matchURL == null) {&#xA;            alert(&quot;the username doesn't seem to be valid, please try again&quot;);&#xA;            return false;&#xA;        }&#xA;        else {&#xA;&#xA;            return true;&#xA;        }&#xA;    }&#xA;&lt;/script&gt;&#xA;">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+        </SubBlocks>
+      </CodeBlock>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+      <CodeBlock VirtualPath="/Account/Login.aspx" BuilderType="System.Web.UI.WebControls.ContentBuilderInternal" ControlType="System.Web.UI.WebControls.Content" ID="BodyContent" Line="21" Column="0" TagName="asp:Content" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;	&lt;h2&gt;&#xA;		Log In&#xA;	&lt;/h2&gt;&#xA;	&lt;p&gt;&#xA;		Please enter your username and password.&#xA;		&lt;a href=&quot;Register.aspx&quot;&gt;Register&lt;/a&gt;&#xA;		if you don't have an account.&#xA;	&lt;/p&gt;&#xA;	&lt;span class=&quot;failureNotification&quot;&gt;&#xA;		">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/Account/Login.aspx" BuilderType="System.Web.UI.WebControls.LiteralControlBuilder" ControlType="System.Web.UI.WebControls.Literal" ID="FailureText" Line="31" Column="0" TagName="asp:Literal" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="FailureText" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;	&lt;/span&gt;&#xA;	">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/Account/Login.aspx" BuilderType="System.Web.UI.ControlBuilder" ControlType="System.Web.UI.WebControls.ValidationSummary" ID="LoginUserValidationSummary" Line="33" Column="0" TagName="asp:ValidationSummary" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="LoginUserValidationSummary" />
+              <Item Key="CssClass" Value="failureNotification" />
+              <Item Key="ValidationGroup" Value="LoginUserValidationGroup" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;	&lt;div class=&quot;accountInfo&quot;&gt;&#xA;		&lt;fieldset class=&quot;login&quot;&gt;&#xA;			&lt;legend&gt;Account Information&lt;/legend&gt;&#xA;			&lt;p&gt;&#xA;				">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/Account/Login.aspx" BuilderType="System.Web.UI.WebControls.LabelControlBuilder" ControlType="System.Web.UI.WebControls.Label" ID="UserNameLabel" Line="39" Column="0" TagName="asp:Label" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="UserNameLabel" />
+              <Item Key="AssociatedControlID" Value="UserName" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks>
+              <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="Username:">
+                <SimplePropertyEntries />
+                <EventEntries />
+                <SubBlocks />
+              </CodeBlock>
+            </SubBlocks>
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;				">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/Account/Login.aspx" BuilderType="System.Web.UI.WebControls.TextBoxControlBuilder" ControlType="System.Web.UI.WebControls.TextBox" ID="UserName" Line="40" Column="0" TagName="asp:TextBox" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="UserName" />
+              <Item Key="CssClass" Value="textEntry" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;				">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/Account/Login.aspx" BuilderType="System.Web.UI.WebControls.LabelControlBuilder" ControlType="System.Web.UI.WebControls.RequiredFieldValidator" ID="UserNameRequired" Line="41" Column="0" TagName="asp:RequiredFieldValidator" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="UserNameRequired" />
+              <Item Key="ControlToValidate" Value="UserName" />
+              <Item Key="CssClass" Value="failureNotification" />
+              <Item Key="ErrorMessage" Value="User Name is required." />
+              <Item Key="ToolTip" Value="User Name is required." />
+              <Item Key="ValidationGroup" Value="LoginUserValidationGroup" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks>
+              <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="*">
+                <SimplePropertyEntries />
+                <EventEntries />
+                <SubBlocks />
+              </CodeBlock>
+            </SubBlocks>
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;			&lt;/p&gt;&#xA;			&lt;p&gt;&#xA;				">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/Account/Login.aspx" BuilderType="System.Web.UI.WebControls.LabelControlBuilder" ControlType="System.Web.UI.WebControls.Label" ID="PasswordLabel" Line="46" Column="0" TagName="asp:Label" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="PasswordLabel" />
+              <Item Key="AssociatedControlID" Value="Password" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks>
+              <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="Password:">
+                <SimplePropertyEntries />
+                <EventEntries />
+                <SubBlocks />
+              </CodeBlock>
+            </SubBlocks>
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;				">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/Account/Login.aspx" BuilderType="System.Web.UI.WebControls.TextBoxControlBuilder" ControlType="System.Web.UI.WebControls.TextBox" ID="Password" Line="47" Column="0" TagName="asp:TextBox" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="Password" />
+              <Item Key="CssClass" Value="passwordEntry" />
+              <Item Key="TextMode" Value="Password" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;				">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/Account/Login.aspx" BuilderType="System.Web.UI.WebControls.LabelControlBuilder" ControlType="System.Web.UI.WebControls.RequiredFieldValidator" ID="PasswordRequired" Line="48" Column="0" TagName="asp:RequiredFieldValidator" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="PasswordRequired" />
+              <Item Key="ControlToValidate" Value="Password" />
+              <Item Key="CssClass" Value="failureNotification" />
+              <Item Key="ErrorMessage" Value="Password is required." />
+              <Item Key="ToolTip" Value="Password is required." />
+              <Item Key="ValidationGroup" Value="LoginUserValidationGroup" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks>
+              <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="*">
+                <SimplePropertyEntries />
+                <EventEntries />
+                <SubBlocks />
+              </CodeBlock>
+            </SubBlocks>
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;			&lt;/p&gt;&#xA;		&lt;/fieldset&gt;&#xA;		&lt;p class=&quot;submitButton&quot;&gt;&#xA;			">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/Account/Login.aspx" BuilderType="System.Web.UI.ControlBuilder" ControlType="System.Web.UI.WebControls.Button" ID="LoginButton" Line="54" Column="0" TagName="asp:Button" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="LoginButton" />
+              <Item Key="Text" Value="Log In" />
+              <Item Key="ValidationGroup" Value="LoginUserValidationGroup" />
+              <Item Key="OnClientClick" Value="return Validate()" />
+            </SimplePropertyEntries>
+            <EventEntries>
+              <Item Key="Click" Value="LoginButton_Click" />
+            </EventEntries>
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;		&lt;/p&gt;&#xA;	&lt;/div&gt;&#xA;&#xA;	&lt;!--Remove all test accounts before release:&#xA;		test/test&#xA;		username/password&#xA;		admin/admin--&gt;&#xA;">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+        </SubBlocks>
+      </CodeBlock>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+    </SubBlocks>
+  </CodeBlock>
+  <Store_AspNet_SourceCode>true</Store_AspNet_SourceCode>
+  <Store_Compiled_AspNet_SourceCode>true</Store_Compiled_AspNet_SourceCode>
+  <AspNet_SourceCode>&lt;%@ Page Title="Log In" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+	CodeBehind="Login.aspx.cs" Inherits="SuperSecureBank.Account.Login" %&gt;
+
+&lt;asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent"&gt;
+&lt;script&gt;
+    function Validate() {
+        var Url = "^[A-Za-z0-9]+$"
+        var tempURL = document.getElementById("&lt;%=UserName.ClientID%&gt;").value;
+        var matchURL = tempURL.match(Url);
+        if (matchURL == null) {
+            alert("the username doesn't seem to be valid, please try again");
+            return false;
+        }
+        else {
+
+            return true;
+        }
+    }
+&lt;/script&gt;
+&lt;/asp:Content&gt;
+&lt;asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent"&gt;
+	&lt;h2&gt;
+		Log In
+	&lt;/h2&gt;
+	&lt;p&gt;
+		Please enter your username and password.
+		&lt;a href="Register.aspx"&gt;Register&lt;/a&gt;
+		if you don't have an account.
+	&lt;/p&gt;
+	&lt;span class="failureNotification"&gt;
+		&lt;asp:Literal ID="FailureText" runat="server"&gt;&lt;/asp:Literal&gt;
+	&lt;/span&gt;
+	&lt;asp:ValidationSummary ID="LoginUserValidationSummary" runat="server" CssClass="failureNotification"
+		ValidationGroup="LoginUserValidationGroup" /&gt;
+	&lt;div class="accountInfo"&gt;
+		&lt;fieldset class="login"&gt;
+			&lt;legend&gt;Account Information&lt;/legend&gt;
+			&lt;p&gt;
+				&lt;asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName"&gt;Username:&lt;/asp:Label&gt;
+				&lt;asp:TextBox ID="UserName" runat="server" CssClass="textEntry"&gt;&lt;/asp:TextBox&gt;
+				&lt;asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName"
+					CssClass="failureNotification" ErrorMessage="User Name is required." ToolTip="User Name is required."
+					ValidationGroup="LoginUserValidationGroup"&gt;*&lt;/asp:RequiredFieldValidator&gt;
+			&lt;/p&gt;
+			&lt;p&gt;
+				&lt;asp:Label ID="PasswordLabel" runat="server" AssociatedControlID="Password"&gt;Password:&lt;/asp:Label&gt;
+				&lt;asp:TextBox ID="Password" runat="server" CssClass="passwordEntry" TextMode="Password"&gt;&lt;/asp:TextBox&gt;
+				&lt;asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="Password"
+					CssClass="failureNotification" ErrorMessage="Password is required." ToolTip="Password is required."
+					ValidationGroup="LoginUserValidationGroup"&gt;*&lt;/asp:RequiredFieldValidator&gt;
+			&lt;/p&gt;
+		&lt;/fieldset&gt;
+		&lt;p class="submitButton"&gt;
+			&lt;asp:Button ID="LoginButton" runat="server" Text="Log In" 
+				ValidationGroup="LoginUserValidationGroup" onclick="LoginButton_Click" OnClientClick="return Validate()"  /&gt;
+		&lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;!--Remove all test accounts before release:
+		test/test
+		username/password
+		admin/admin--&gt;
+&lt;/asp:Content&gt;
+</AspNet_SourceCode>
+  <AspNet_Compiled_SourceCode>
+    <string>#pragma checksum "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "3B78F43761296DC8B9365F7BB109B35F"
+//------------------------------------------------------------------------------
+// &lt;auto-generated&gt;
+//     This code was generated by a tool.
+//     Runtime Version:2.0.50727.5448
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// &lt;/auto-generated&gt;
+//------------------------------------------------------------------------------
+
+namespace ASP {
+    
+    #line 284 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Security;
+    
+    #line default
+    #line hidden
+    
+    #line 281 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web;
+    
+    #line default
+    #line hidden
+    
+    #line 283 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.SessionState;
+    
+    #line default
+    #line hidden
+    
+    #line 279 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Text;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+    using System.Web.UI.WebControls;
+    
+    #line default
+    #line hidden
+    
+    #line 285 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Profile;
+    
+    #line default
+    #line hidden
+    
+    #line 276 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Collections;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+    using System.Web.UI.WebControls.WebParts;
+    
+    #line default
+    #line hidden
+    
+    #line 278 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Configuration;
+    
+    #line default
+    #line hidden
+    
+    #line 275 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System;
+    
+    #line default
+    #line hidden
+    
+    #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+    using ASP;
+    
+    #line default
+    #line hidden
+    
+    #line 282 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Caching;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+    using System.Web.UI;
+    
+    #line default
+    #line hidden
+    
+    #line 277 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Collections.Specialized;
+    
+    #line default
+    #line hidden
+    
+    #line 280 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Text.RegularExpressions;
+    
+    #line default
+    #line hidden
+    
+    #line 289 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.UI.HtmlControls;
+    
+    #line default
+    #line hidden
+    
+    
+    [System.Runtime.CompilerServices.CompilerGlobalScopeAttribute()]
+    public class account_login_aspx : global::SuperSecureBank.Account.Login, System.Web.IHttpHandler {
+        
+        private static bool @__initialized;
+        
+        private static object @__stringResource;
+        
+        private static object @__fileDependencies;
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public account_login_aspx() {
+            string[] dependencies;
+            ((global::SuperSecureBank.Account.Login)(this)).AppRelativeVirtualPath = "~/Account/Login.aspx";
+            if ((global::ASP.account_login_aspx.@__initialized == false)) {
+                global::ASP.account_login_aspx.@__stringResource = this.ReadStringResource();
+                dependencies = new string[2];
+                dependencies[0] = "~/Account/Login.aspx";
+                dependencies[1] = "~/Site.Master";
+                global::ASP.account_login_aspx.@__fileDependencies = this.GetWrappedFileDependencies(dependencies);
+                global::ASP.account_login_aspx.@__initialized = true;
+            }
+            this.Server.ScriptTimeout = 30000000;
+        }
+        
+        protected System.Web.Profile.DefaultProfile Profile {
+            get {
+                return ((System.Web.Profile.DefaultProfile)(this.Context.Profile));
+            }
+        }
+        
+        protected ASP.global_asax ApplicationInstance {
+            get {
+                return ((ASP.global_asax)(this.Context.ApplicationInstance));
+            }
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlHeaderContent(System.Web.UI.Control @__ctrl) {
+            @__ctrl.SetRenderMethodDelegate(new System.Web.UI.RenderMethod(this.@__RenderHeaderContent));
+        }
+        
+        private void @__RenderHeaderContent(System.Web.UI.HtmlTextWriter @__w, System.Web.UI.Control parameterContainer) {
+            @__w.Write("\n&lt;script&gt;\n    function Validate() {\n        var Url = \"^[A-Za-z0-9]+$\"\n        va" +
+                    "r tempURL = document.getElementById(\"");
+            
+            #line 8 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+                                       @__w.Write(UserName.ClientID);
+
+            
+            #line default
+            #line hidden
+            this.WriteUTF8ResourceString(@__w, 0, 266, true);
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.Literal @__BuildControlFailureText() {
+            global::System.Web.UI.WebControls.Literal @__ctrl;
+            
+            #line 31 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.Literal();
+            
+            #line default
+            #line hidden
+            this.FailureText = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            
+            #line 31 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ID = "FailureText";
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.ValidationSummary @__BuildControlLoginUserValidationSummary() {
+            global::System.Web.UI.WebControls.ValidationSummary @__ctrl;
+            
+            #line 33 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.ValidationSummary();
+            
+            #line default
+            #line hidden
+            this.LoginUserValidationSummary = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 33 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ID = "LoginUserValidationSummary";
+            
+            #line default
+            #line hidden
+            
+            #line 33 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.CssClass = "failureNotification";
+            
+            #line default
+            #line hidden
+            
+            #line 33 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ValidationGroup = "LoginUserValidationGroup";
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.Label @__BuildControlUserNameLabel() {
+            global::System.Web.UI.WebControls.Label @__ctrl;
+            
+            #line 39 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.Label();
+            
+            #line default
+            #line hidden
+            this.UserNameLabel = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 39 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ID = "UserNameLabel";
+            
+            #line default
+            #line hidden
+            
+            #line 39 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.AssociatedControlID = "UserName";
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 39 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("Username:"));
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControlUserName() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            
+            #line 40 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            
+            #line default
+            #line hidden
+            this.UserName = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 40 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ID = "UserName";
+            
+            #line default
+            #line hidden
+            
+            #line 40 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.CssClass = "textEntry";
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.RequiredFieldValidator @__BuildControlUserNameRequired() {
+            global::System.Web.UI.WebControls.RequiredFieldValidator @__ctrl;
+            
+            #line 41 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.RequiredFieldValidator();
+            
+            #line default
+            #line hidden
+            this.UserNameRequired = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 41 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ID = "UserNameRequired";
+            
+            #line default
+            #line hidden
+            
+            #line 41 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ControlToValidate = "UserName";
+            
+            #line default
+            #line hidden
+            
+            #line 41 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.CssClass = "failureNotification";
+            
+            #line default
+            #line hidden
+            
+            #line 41 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ErrorMessage = "User Name is required.";
+            
+            #line default
+            #line hidden
+            
+            #line 41 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ToolTip = "User Name is required.";
+            
+            #line default
+            #line hidden
+            
+            #line 41 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ValidationGroup = "LoginUserValidationGroup";
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 41 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("*"));
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.Label @__BuildControlPasswordLabel() {
+            global::System.Web.UI.WebControls.Label @__ctrl;
+            
+            #line 46 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.Label();
+            
+            #line default
+            #line hidden
+            this.PasswordLabel = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 46 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ID = "PasswordLabel";
+            
+            #line default
+            #line hidden
+            
+            #line 46 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.AssociatedControlID = "Password";
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 46 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("Password:"));
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControlPassword() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            
+            #line 47 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            
+            #line default
+            #line hidden
+            this.Password = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 47 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ID = "Password";
+            
+            #line default
+            #line hidden
+            
+            #line 47 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.CssClass = "passwordEntry";
+            
+            #line default
+            #line hidden
+            
+            #line 47 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.TextMode = System.Web.UI.WebControls.TextBoxMode.Password;
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.RequiredFieldValidator @__BuildControlPasswordRequired() {
+            global::System.Web.UI.WebControls.RequiredFieldValidator @__ctrl;
+            
+            #line 48 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.RequiredFieldValidator();
+            
+            #line default
+            #line hidden
+            this.PasswordRequired = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 48 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ID = "PasswordRequired";
+            
+            #line default
+            #line hidden
+            
+            #line 48 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ControlToValidate = "Password";
+            
+            #line default
+            #line hidden
+            
+            #line 48 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.CssClass = "failureNotification";
+            
+            #line default
+            #line hidden
+            
+            #line 48 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ErrorMessage = "Password is required.";
+            
+            #line default
+            #line hidden
+            
+            #line 48 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ToolTip = "Password is required.";
+            
+            #line default
+            #line hidden
+            
+            #line 48 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ValidationGroup = "LoginUserValidationGroup";
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 48 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("*"));
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.Button @__BuildControlLoginButton() {
+            global::System.Web.UI.WebControls.Button @__ctrl;
+            
+            #line 54 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.Button();
+            
+            #line default
+            #line hidden
+            this.LoginButton = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 54 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ID = "LoginButton";
+            
+            #line default
+            #line hidden
+            
+            #line 54 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.Text = "Log In";
+            
+            #line default
+            #line hidden
+            
+            #line 54 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.ValidationGroup = "LoginUserValidationGroup";
+            
+            #line default
+            #line hidden
+            
+            #line 54 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.OnClientClick = "return Validate()";
+            
+            #line default
+            #line hidden
+            
+            #line 54 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.Click -= new System.EventHandler(this.LoginButton_Click);
+            
+            #line default
+            #line hidden
+            
+            #line 54 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.Click += new System.EventHandler(this.LoginButton_Click);
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlBodyContent(System.Web.UI.Control @__ctrl) {
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t&lt;h2&gt;\n\t\tLog In\n\t&lt;/h2&gt;\n\t&lt;p&gt;\n\t\tPlease enter your username and password.\n\t\t&lt;a href=" +
+                        "\"Register.aspx\"&gt;Register&lt;/a&gt;\n\t\tif you don\'t have an account.\n\t&lt;/p&gt;\n\t&lt;span class=" +
+                        "\"failureNotification\"&gt;\n\t\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.Literal @__ctrl1;
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl1 = this.@__BuildControlFailureText();
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t&lt;/span&gt;\n\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.ValidationSummary @__ctrl2;
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl2 = this.@__BuildControlLoginUserValidationSummary();
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(@__ctrl2);
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t&lt;div class=\"accountInfo\"&gt;\n\t\t&lt;fieldset class=\"login\"&gt;\n\t\t\t&lt;legend&gt;Account Informa" +
+                        "tion&lt;/legend&gt;\n\t\t\t&lt;p&gt;\n\t\t\t\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.Label @__ctrl3;
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl3 = this.@__BuildControlUserNameLabel();
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(@__ctrl3);
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t\t\t\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.TextBox @__ctrl4;
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl4 = this.@__BuildControlUserName();
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(@__ctrl4);
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t\t\t\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.RequiredFieldValidator @__ctrl5;
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl5 = this.@__BuildControlUserNameRequired();
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(@__ctrl5);
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t\t\t&lt;/p&gt;\n\t\t\t&lt;p&gt;\n\t\t\t\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.Label @__ctrl6;
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl6 = this.@__BuildControlPasswordLabel();
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(@__ctrl6);
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t\t\t\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.TextBox @__ctrl7;
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl7 = this.@__BuildControlPassword();
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(@__ctrl7);
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t\t\t\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.RequiredFieldValidator @__ctrl8;
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl8 = this.@__BuildControlPasswordRequired();
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(@__ctrl8);
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t\t\t&lt;/p&gt;\n\t\t&lt;/fieldset&gt;\n\t\t&lt;p class=\"submitButton\"&gt;\n\t\t\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.Button @__ctrl9;
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl9 = this.@__BuildControlLoginButton();
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(@__ctrl9);
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t\t&lt;/p&gt;\n\t&lt;/div&gt;\n\n\t&lt;!--Remove all test accounts before release:\n\t\ttest/test\n\t\tuser" +
+                        "name/password\n\t\tadmin/admin--&gt;\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlTree(account_login_aspx @__ctrl) {
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.Title = "Log In";
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.MasterPageFile = "~/Site.master";
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.EnableViewStateMac = false;
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__ctrl.EnableEventValidation = false;
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            this.InitializeCulture();
+            
+            #line default
+            #line hidden
+            
+            #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            this.AddContentTemplate("HeadContent", new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControlHeaderContent)));
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            this.AddContentTemplate("MainContent", new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControlBodyContent)));
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void FrameworkInitialize() {
+            base.FrameworkInitialize();
+            this.SetStringResourcePointer(global::ASP.account_login_aspx.@__stringResource, 0);
+            this.@__BuildControlTree(this);
+            this.AddWrappedFileDependencies(global::ASP.account_login_aspx.@__fileDependencies);
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override int GetTypeHashCode() {
+            return 1742146678;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override void ProcessRequest(System.Web.HttpContext context) {
+            base.ProcessRequest(context);
+        }
+    }
+}
+</string>
+  </AspNet_Compiled_SourceCode>
+</AspNet_Page>

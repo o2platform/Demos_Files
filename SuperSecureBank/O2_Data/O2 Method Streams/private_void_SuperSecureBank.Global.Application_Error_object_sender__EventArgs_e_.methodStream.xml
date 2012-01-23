@@ -1,0 +1,341 @@
+<?xml version="1.0"?>
+<Saved_MethodStream>
+  <RootMethod ItemType="Method" Name="Application_Error" Class="Global" Namespace="SuperSecureBank" ReturnType="System.Void" Signature="private void SuperSecureBank.Global.Application_Error(object sender, EventArgs e)" DotNetName="SuperSecureBank.Global.Application_Error">
+    <Parameter Key="sender" Value="System.Object" />
+    <Parameter Key="e" Value="System.EventArgs" />
+    <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Global.asax.cs" Line="33" Column="9" Line_End="33" Column_End="59" />
+  </RootMethod>
+  <MethodStreamItems>
+    <MethodStream_Item ItemType="ExternalClasses" Name="String" Class="System.String" Namespace="System" Signature="System.String" DotNetName="System.String" />
+    <MethodStream_Item ItemType="ExternalClasses" Name="Void" Class="System.Void" Namespace="System" Signature="System.Void" DotNetName="System.Void" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="Open" Class="SqlConnection" Namespace="System.Data.SqlClient" ReturnType="System.Void" Signature="public virtual void System.Data.SqlClient.SqlConnection.Open()" DotNetName="System.Data.SqlClient.SqlConnection.Open" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="ExecuteNonQuery" Class="SqlCommand" Namespace="System.Data.SqlClient" ReturnType="System.Int32" Signature="public virtual int System.Data.SqlClient.SqlCommand.ExecuteNonQuery()" DotNetName="System.Data.SqlClient.SqlCommand.ExecuteNonQuery" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="Close" Class="SqlConnection" Namespace="System.Data.SqlClient" ReturnType="System.Void" Signature="public virtual void System.Data.SqlClient.SqlConnection.Close()" DotNetName="System.Data.SqlClient.SqlConnection.Close" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="#ctor" Class="SqlConnection" Namespace="System.Data.SqlClient" ReturnType="System.Data.SqlClient.SqlConnection" Signature="public System.Data.SqlClient.SqlConnection.SqlConnection(string connectionString)" DotNetName="System.Data.SqlClient.SqlConnection.#ctor">
+      <Parameter Key="connectionString" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="#ctor" Class="SqlCommand" Namespace="System.Data.SqlClient" ReturnType="System.Data.SqlClient.SqlCommand" Signature="public System.Data.SqlClient.SqlCommand.SqlCommand(string cmdText, SqlConnection connection)" DotNetName="System.Data.SqlClient.SqlCommand.#ctor">
+      <Parameter Key="cmdText" Value="System.String" />
+      <Parameter Key="connection" Value="System.Data.SqlClient.SqlConnection" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="Format" Class="String" Namespace="System" ReturnType="System.String" Signature="public static string string.Format(string format, object arg0, object arg1, object arg2)" DotNetName="System.String.Format">
+      <Parameter Key="format" Value="System.String" />
+      <Parameter Key="arg0" Value="System.Object" />
+      <Parameter Key="arg1" Value="System.Object" />
+      <Parameter Key="arg2" Value="System.Object" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="Replace" Class="String" Namespace="System" ReturnType="System.String" Signature="public string string.Replace(string oldValue, string newValue)" DotNetName="System.String.Replace">
+      <Parameter Key="oldValue" Value="System.String" />
+      <Parameter Key="newValue" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="ExternalMethod" Name="GetBaseException" Class="Exception" Namespace="System" ReturnType="System.Exception" Signature="public virtual Exception System.Exception.GetBaseException()" DotNetName="System.Exception.GetBaseException" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="GetLastError" Class="HttpServerUtility" Namespace="System.Web" ReturnType="System.Exception" Signature="public Exception System.Web.HttpServerUtility.GetLastError()" DotNetName="System.Web.HttpServerUtility.GetLastError" />
+    <MethodStream_Item ItemType="MappedMethod" Name="Application_Error" Class="Global" Namespace="SuperSecureBank" ReturnType="System.Void" Signature="private void SuperSecureBank.Global.Application_Error(object sender, EventArgs e)" DotNetName="SuperSecureBank.Global.Application_Error">
+      <Parameter Key="sender" Value="System.Object" />
+      <Parameter Key="e" Value="System.EventArgs" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Global.asax.cs" Line="33" Column="9" Line_End="33" Column_End="59" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="AddException" Class="ErrorLogging" Namespace="SuperSecureBank" ReturnType="System.Void" Signature="public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" DotNetName="SuperSecureBank.ErrorLogging.AddException">
+      <Parameter Key="errorText" Value="System.String" />
+      <Parameter Key="ex" Value="System.Exception" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ErrorLogging.cs" Line="13" Column="3" Line_End="13" Column_End="66" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="cleanForSQL" Class="ErrorLogging" Namespace="SuperSecureBank" ReturnType="System.String" Signature="public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" DotNetName="SuperSecureBank.ErrorLogging.cleanForSQL">
+      <Parameter Key="foo" Value="System.String" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ErrorLogging.cs" Line="24" Column="3" Line_End="24" Column_End="47" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="BuildExceptionText" Class="ErrorLogging" Namespace="SuperSecureBank" ReturnType="System.String" Signature="private static string SuperSecureBank.ErrorLogging.BuildExceptionText(Exception ex)" DotNetName="SuperSecureBank.ErrorLogging.BuildExceptionText">
+      <Parameter Key="ex" Value="System.Exception" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ErrorLogging.cs" Line="55" Column="3" Line_End="55" Column_End="57" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="Property" Name="Now" Class="System.DateTime.Now" Namespace="System.DateTime" Signature="System.DateTime.Now" DotNetName="System.DateTime.Now" />
+    <MethodStream_Item ItemType="Property" Name="Message" Class="System.Exception.Message" Namespace="System.Exception" Signature="System.Exception.Message" DotNetName="System.Exception.Message" />
+    <MethodStream_Item ItemType="Property" Name="HelpLink" Class="System.Exception.HelpLink" Namespace="System.Exception" Signature="System.Exception.HelpLink" DotNetName="System.Exception.HelpLink" />
+    <MethodStream_Item ItemType="Property" Name="StackTrace" Class="System.Exception.StackTrace" Namespace="System.Exception" Signature="System.Exception.StackTrace" DotNetName="System.Exception.StackTrace" />
+    <MethodStream_Item ItemType="Property" Name="Server" Class="System.Web.HttpApplication.Server" Namespace="System.Web.HttpApplication" Signature="System.Web.HttpApplication.Server" DotNetName="System.Web.HttpApplication.Server" />
+  </MethodStreamItems>
+  <CodeStreams>
+    <CodeStreamPath Text="method -&gt; private void SuperSecureBank.Global.Application_Error(object sender, EventArgs e)" Line="9" Column="3" Line_End="9" Column_End="53" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; sender" Line="9" Column="26" Line_End="9" Column_End="33" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="9" Column="26" Line_End="9" Column_End="32" HashCode="0">
+      <CodeStreamPath Text="method -&gt; private void SuperSecureBank.Global.Application_Error(object sender, EventArgs e)" Line="9" Column="3" Line_End="9" Column_End="53" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; sender" Line="9" Column="26" Line_End="9" Column_End="33" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="method -&gt; private void SuperSecureBank.Global.Application_Error(object sender, EventArgs e)" Line="9" Column="3" Line_End="9" Column_End="53" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; e" Line="9" Column="41" Line_End="9" Column_End="51" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="9" Column="41" Line_End="9" Column_End="50" HashCode="0">
+      <CodeStreamPath Text="method -&gt; private void SuperSecureBank.Global.Application_Error(object sender, EventArgs e)" Line="9" Column="3" Line_End="9" Column_End="53" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; e" Line="9" Column="41" Line_End="9" Column_End="51" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="0" Column="0" Line_End="0" Column_End="0" HashCode="0" />
+    <CodeStreamPath Text="ExpressionStatement" Line="11" Column="4" Line_End="11" Column_End="101" HashCode="0" />
+    <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="11" Column="29" Line_End="11" Column_End="100" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="16" Column="3" Line_End="16" Column_End="66" HashCode="0">
+        <CodeStreamPath Text="ExpressionStatement" Line="11" Column="4" Line_End="11" Column_End="101" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="11" Column="16" Line_End="11" Column_End="29" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="11" Column="29" Line_End="11" Column_End="100" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="16" Column="3" Line_End="16" Column_End="66" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="11" Column="4" Line_End="11" Column_End="101" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; ErrorLogging : SuperSecureBank.ErrorLogging" Line="11" Column="4" Line_End="11" Column_End="16" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="11" Column="29" Line_End="11" Column_End="100" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="16" Column="3" Line_End="16" Column_End="66" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="11" Column="30" Line_End="11" Column_End="57" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="11" Column="29" Line_End="11" Column_End="100" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="16" Column="3" Line_End="16" Column_End="66" HashCode="0">
+          <CodeStreamPath Text="ExpressionStatement" Line="11" Column="4" Line_End="11" Column_End="101" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; public virtual Exception System.Exception.GetBaseException()" Line="11" Column="97" Line_End="11" Column_End="99" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public virtual Exception System.Exception.GetBaseException()" Line="84" Column="3" Line_End="84" Column_End="46" HashCode="0">
+        <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="11" Column="29" Line_End="11" Column_End="100" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="16" Column="3" Line_End="16" Column_End="66" HashCode="0">
+            <CodeStreamPath Text="ExpressionStatement" Line="11" Column="4" Line_End="11" Column_End="101" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public virtual Exception System.Exception.GetBaseException()" Line="11" Column="80" Line_End="11" Column_End="97" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public virtual Exception System.Exception.GetBaseException()" Line="11" Column="97" Line_End="11" Column_End="99" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public virtual Exception System.Exception.GetBaseException()" Line="84" Column="3" Line_End="84" Column_End="46" HashCode="0">
+          <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="11" Column="29" Line_End="11" Column_End="100" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="16" Column="3" Line_End="16" Column_End="66" HashCode="0">
+              <CodeStreamPath Text="ExpressionStatement" Line="11" Column="4" Line_End="11" Column_End="101" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; public Exception System.Web.HttpServerUtility.GetLastError()" Line="11" Column="78" Line_End="11" Column_End="80" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public Exception System.Web.HttpServerUtility.GetLastError()" Line="120" Column="3" Line_End="120" Column_End="34" HashCode="0">
+        <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public virtual Exception System.Exception.GetBaseException()" Line="11" Column="80" Line_End="11" Column_End="97" HashCode="0">
+          <CodeStreamPath Text="invocation -&gt; public virtual Exception System.Exception.GetBaseException()" Line="11" Column="97" Line_End="11" Column_End="99" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public virtual Exception System.Exception.GetBaseException()" Line="84" Column="3" Line_End="84" Column_End="46" HashCode="0">
+              <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="11" Column="29" Line_End="11" Column_End="100" HashCode="0">
+                <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="16" Column="3" Line_End="16" Column_End="66" HashCode="0">
+                  <CodeStreamPath Text="ExpressionStatement" Line="11" Column="4" Line_End="11" Column_End="101" HashCode="0" />
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public Exception System.Web.HttpServerUtility.GetLastError()" Line="11" Column="65" Line_End="11" Column_End="78" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public Exception System.Web.HttpServerUtility.GetLastError()" Line="11" Column="78" Line_End="11" Column_End="80" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public Exception System.Web.HttpServerUtility.GetLastError()" Line="120" Column="3" Line_End="120" Column_End="34" HashCode="0">
+          <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public virtual Exception System.Exception.GetBaseException()" Line="11" Column="80" Line_End="11" Column_End="97" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public virtual Exception System.Exception.GetBaseException()" Line="11" Column="97" Line_End="11" Column_End="99" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public virtual Exception System.Exception.GetBaseException()" Line="84" Column="3" Line_End="84" Column_End="46" HashCode="0">
+                <CodeStreamPath Text="invocation -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="11" Column="29" Line_End="11" Column_End="100" HashCode="0">
+                  <CodeStreamPath Text="method -&gt; public static void SuperSecureBank.ErrorLogging.AddException(string errorText, Exception ex)" Line="16" Column="3" Line_End="16" Column_End="66" HashCode="0">
+                    <CodeStreamPath Text="parameter -&gt; ex" Line="16" Column="53" Line_End="16" Column_End="63" HashCode="0">
+                      <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="21" Column="102" Line_End="21" Column_End="104" HashCode="0">
+                        <CodeStreamPath Text="method -&gt; private static string SuperSecureBank.ErrorLogging.BuildExceptionText(Exception ex)" Line="33" Column="3" Line_End="33" Column_End="57" HashCode="0">
+                          <CodeStreamPath Text="parameter -&gt; ex" Line="33" Column="44" Line_End="33" Column_End="54" HashCode="0">
+                            <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="36" Column="52" Line_End="36" Column_End="54" HashCode="0">
+                              <CodeStreamPath Text="invocation -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="36" Column="51" Line_End="36" Column_End="63" HashCode="0">
+                                <CodeStreamPath Text="method -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="26" Column="3" Line_End="26" Column_End="47" HashCode="0">
+                                  <CodeStreamPath Text="parameter -&gt; foo" Line="26" Column="36" Line_End="26" Column_End="43" HashCode="0">
+                                    <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="28" Column="16" Line_End="28" Column_End="19" HashCode="0" />
+                                    <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="29" Column="12" Line_End="29" Column_End="15" HashCode="0">
+                                      <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="29" Column="23" Line_End="29" Column_End="34" HashCode="0">
+                                        <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="77" Column="3" Line_End="77" Column_End="58" HashCode="0">
+                                          <CodeStreamPath Text="ReturnStatement" Line="29" Column="5" Line_End="29" Column_End="35" HashCode="0" />
+                                        </CodeStreamPath>
+                                      </CodeStreamPath>
+                                    </CodeStreamPath>
+                                  </CodeStreamPath>
+                                </CodeStreamPath>
+                              </CodeStreamPath>
+                            </CodeStreamPath>
+                            <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="36" Column="77" Line_End="36" Column_End="79" HashCode="0">
+                              <CodeStreamPath Text="invocation -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="36" Column="76" Line_End="36" Column_End="89" HashCode="0">
+                                <CodeStreamPath Text="method -&gt; public static string SuperSecureBank.ErrorLogging.cleanForSQL(string foo)" Line="26" Column="3" Line_End="26" Column_End="47" HashCode="0">
+                                  <CodeStreamPath Text="parameter -&gt; foo" Line="26" Column="36" Line_End="26" Column_End="43" HashCode="0">
+                                    <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="28" Column="16" Line_End="28" Column_End="19" HashCode="0" />
+                                    <CodeStreamPath Text="identifier  -&gt; foo : System.String" Line="29" Column="12" Line_End="29" Column_End="15" HashCode="0">
+                                      <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="29" Column="23" Line_End="29" Column_End="34" HashCode="0">
+                                        <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="77" Column="3" Line_End="77" Column_End="58" HashCode="0">
+                                          <CodeStreamPath Text="ReturnStatement" Line="29" Column="5" Line_End="29" Column_End="35" HashCode="0" />
+                                        </CodeStreamPath>
+                                      </CodeStreamPath>
+                                    </CodeStreamPath>
+                                  </CodeStreamPath>
+                                </CodeStreamPath>
+                              </CodeStreamPath>
+                            </CodeStreamPath>
+                            <CodeStreamPath Text="identifier  -&gt; ex : System.Exception" Line="36" Column="103" Line_End="36" Column_End="105" HashCode="0">
+                              <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="36" Column="124" Line_End="36" Column_End="140" HashCode="0">
+                                <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="77" Column="3" Line_End="77" Column_End="58" HashCode="0">
+                                  <CodeStreamPath Text="ReturnStatement" Line="36" Column="4" Line_End="36" Column_End="185" HashCode="0" />
+                                </CodeStreamPath>
+                              </CodeStreamPath>
+                            </CodeStreamPath>
+                          </CodeStreamPath>
+                        </CodeStreamPath>
+                      </CodeStreamPath>
+                      <CodeStreamPath Text="ExpressionStatement" Line="11" Column="4" Line_End="11" Column_End="101" HashCode="0" />
+                    </CodeStreamPath>
+                  </CodeStreamPath>
+                </CodeStreamPath>
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; Server : System.Web.HttpServerUtility" Line="11" Column="59" Line_End="11" Column_End="65" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public Exception System.Web.HttpServerUtility.GetLastError()" Line="11" Column="78" Line_End="11" Column_End="80" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public Exception System.Web.HttpServerUtility.GetLastError()" Line="120" Column="3" Line_End="120" Column_End="34" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+  </CodeStreams>
+  <MethodStream_FileCache>C:\O2\_tempDir\11-3-2011\_methodStreams\private_void_SuperSecureBank.Global.Application_Error_object_sender__EventArgs_e_.cs</MethodStream_FileCache>
+  <Serialized_Saved_MethodStream_FileCache>C:\O2\Demos\SI - SuperSecureBank\O2 Method Streams_2\private_void_SuperSecureBank.Global.Application_Error_object_sender__EventArgs_e_.methodStream.xml</Serialized_Saved_MethodStream_FileCache>
+  <MethodStream>using System.Web;
+using System;
+using System.Data.SqlClient;
+using SuperSecureBank;
+namespace SuperSecureBank
+{
+	public class Global : System.Web.HttpApplication
+	{
+		void Application_Error(object sender, EventArgs e)
+		{
+			ErrorLogging.AddException("Application_Error Caught!", Server.GetLastError().GetBaseException());
+		}
+	}
+	public class ErrorLogging
+	{
+		public static void AddException(string errorText, Exception ex)
+		{
+			string insertError = "INSERT INTO ErrorLog values ('{0}', '{1}', '{2}')";
+			SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ssbcon"].ConnectionString);
+			conn.Open();
+			insertError = String.Format(insertError, DateTime.Now, cleanForSQL(errorText), BuildExceptionText(ex));
+			SqlCommand command = new SqlCommand(insertError, conn);
+			command.ExecuteNonQuery();
+			conn.Close();
+		}
+		public static string cleanForSQL(string foo)
+		{
+			if (null != foo) {
+				return foo.Replace("'", "''");
+			} else
+				return "";
+		}
+		private static string BuildExceptionText(Exception ex)
+		{
+			string exceptionText = "&lt;h3&gt;{0}&lt;/h3&gt;More Info: {1}&lt;br/&gt;&lt;h4&gt;Stack&lt;/h4&gt;&lt;br/&gt;&lt;pre&gt;&lt;code&gt;{2}&lt;/code&gt;&lt;/pre&gt;";
+			return string.Format(exceptionText, cleanForSQL(ex.Message), cleanForSQL(ex.HelpLink), cleanForSQL(ex.StackTrace.Replace("\r\n", "&lt;br&gt;").Replace("\t", "&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;")));
+		}
+	}
+}
+namespace System.Data.SqlClient
+{
+	public class SqlConnection : System.Data.Common.DbConnection, System.ComponentModel.IComponent, System.IDisposable, System.Data.IDbConnection, System.ICloneable
+	{
+		public virtual void Open()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public virtual void Close()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public SqlConnection(string connectionString)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+	public class SqlCommand : System.Data.Common.DbCommand, System.ComponentModel.IComponent, System.IDisposable, System.Data.IDbCommand, System.ICloneable
+	{
+		public virtual int ExecuteNonQuery()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public SqlCommand(string cmdText, SqlConnection connection)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+}
+namespace System
+{
+	public class String : System.IComparable, System.ICloneable, System.IConvertible, System.IComparable, System.Collections.Generic.IEnumerable, System.Collections.IEnumerable, System.IEquatable
+	{
+		public static string Format(string format, object arg0, object arg1, object arg2)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public string Replace(string oldValue, string newValue)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+	public class Exception : System.Runtime.Serialization.ISerializable, System.Runtime.InteropServices._Exception
+	{
+		public virtual Exception GetBaseException()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+		public virtual string Message {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+		public virtual string HelpLink {
+			get {
+				throw new NotImplementedException();
+			}
+			set {
+				throw new NotImplementedException();
+			}
+		}
+		public virtual string StackTrace {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+	}
+	public class DateTime : System.ValueType, System.IComparable, System.IFormattable, System.IConvertible, System.Runtime.Serialization.ISerializable, System.IComparable, System.IEquatable
+	{
+		public static System.DateTime Now {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+	}
+}
+namespace System.Web
+{
+	public class HttpServerUtility
+	{
+		public Exception GetLastError()
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+	public class HttpApplication : System.Web.IHttpAsyncHandler, System.Web.IHttpHandler, System.ComponentModel.IComponent, System.IDisposable
+	{
+		public System.Web.HttpServerUtility Server {
+			get {
+				throw new NotImplementedException();
+			}
+		}
+	}
+}
+</MethodStream>
+</Saved_MethodStream>

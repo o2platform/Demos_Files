@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project default_configuration_name="Configuration 1" file_encoding="UTF-8" ltd_name=".net" name="SSB" version="8.0.0.1">
+	<Configuration name="Configuration 1"/>
+	<Source exclude="false" path="..\SSB_Precompiled\bin\App_Web_a4zfqded.dll" web="false"/>
+	<Source exclude="false" path="..\SSB_Precompiled\bin\App_Web_c4eglvaj.dll" web="false"/>
+	<Source exclude="false" path="..\SSB_Precompiled\bin\App_Web_s0h5kr4k.dll" web="false"/>
+	<Source exclude="false" path="..\SSB_Precompiled\bin\App_Web_ycjbconf.dll" web="false"/>
+	<Source exclude="false" path="..\SSB_Precompiled\bin\App_global.asax.dll" web="false"/>
+	<Source exclude="false" path="..\SSB_Precompiled\bin\SuperSecureBank.dll" web="false"/>
+	<Source exclude="true" path="..\SSB_Precompiled\bin\App_Web_a4zfqded.dll" web="false"/>
+	<ProjectScanSettings/>
+</Project>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Saved_MethodStream>
+  <RootMethod ItemType="Method" Name="Page_Load" Class="Admin" Namespace="SuperSecureBank" ReturnType="System.Void" Signature="protected void SuperSecureBank.Admin.Page_Load(object sender, EventArgs e)" DotNetName="SuperSecureBank.Admin.Page_Load">
+    <Parameter Key="sender" Value="System.Object" />
+    <Parameter Key="e" Value="System.EventArgs" />
+    <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Admin.aspx.cs" Line="15" Column="9" Line_End="15" Column_End="61" />
+  </RootMethod>
+  <MethodStreamItems>
+    <MethodStream_Item ItemType="ExternalClasses" Name="Void" Class="System.Void" Namespace="System" Signature="System.Void" DotNetName="System.Void" />
+    <MethodStream_Item ItemType="MappedMethod" Name="Page_Load" Class="Admin" Namespace="SuperSecureBank" ReturnType="System.Void" Signature="protected void SuperSecureBank.Admin.Page_Load(object sender, EventArgs e)" DotNetName="SuperSecureBank.Admin.Page_Load">
+      <Parameter Key="sender" Value="System.Object" />
+      <Parameter Key="e" Value="System.EventArgs" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Admin.aspx.cs" Line="15" Column="9" Line_End="15" Column_End="61" />
+    </MethodStream_Item>
+  </MethodStreamItems>
+  <CodeStreams>
+    <CodeStreamPath Text="method -&gt; protected void SuperSecureBank.Admin.Page_Load(object sender, EventArgs e)" Line="7" Column="3" Line_End="7" Column_End="55" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; sender" Line="7" Column="28" Line_End="7" Column_End="35" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="7" Column="28" Line_End="7" Column_End="34" HashCode="0">
+      <CodeStreamPath Text="method -&gt; protected void SuperSecureBank.Admin.Page_Load(object sender, EventArgs e)" Line="7" Column="3" Line_End="7" Column_End="55" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; sender" Line="7" Column="28" Line_End="7" Column_End="35" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="method -&gt; protected void SuperSecureBank.Admin.Page_Load(object sender, EventArgs e)" Line="7" Column="3" Line_End="7" Column_End="55" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; e" Line="7" Column="43" Line_End="7" Column_End="53" HashCode="0" />
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="7" Column="43" Line_End="7" Column_End="52" HashCode="0">
+      <CodeStreamPath Text="method -&gt; protected void SuperSecureBank.Admin.Page_Load(object sender, EventArgs e)" Line="7" Column="3" Line_End="7" Column_End="55" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; e" Line="7" Column="43" Line_End="7" Column_End="53" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="0" Column="0" Line_End="0" Column_End="0" HashCode="0" />
+  </CodeStreams>
+  <MethodStream_FileCache>C:\O2\_tempDir\11-3-2011\_methodStreams\protected_void_SuperSecureBank.Admin.Page_Load_object_sender__EventArgs_e_.cs</MethodStream_FileCache>
+  <Serialized_Saved_MethodStream_FileCache>C:\O2\Demos\SI - SuperSecureBank\O2 Method Streams_2\protected_void_SuperSecureBank.Admin.Page_Load_object_sender__EventArgs_e_.methodStream.xml</Serialized_Saved_MethodStream_FileCache>
+  <MethodStream>using System;
+using SuperSecureBank;
+namespace SuperSecureBank
+{
+	public class Admin : System.Web.UI.Page
+	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
+		}
+	}
+}
+</MethodStream>
+</Saved_MethodStream>

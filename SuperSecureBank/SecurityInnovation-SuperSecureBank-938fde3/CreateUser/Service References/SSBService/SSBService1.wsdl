@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="SSBService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://supersecurebank/SSBService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://supersecurebank/SSBService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://supersecurebank/SSBService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+      <xsd:import schemaLocation="http://supersecurebank/SSBService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISSBService_CreateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateUser" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_CreateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_LookupSession_InputMessage">
+    <wsdl:part name="parameters" element="tns:LookupSession" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_LookupSession_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LookupSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_UserExists_InputMessage">
+    <wsdl:part name="parameters" element="tns:UserExists" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_UserExists_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UserExistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_RemoveSession_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveSession" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_RemoveSession_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_CheckUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckUser" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_CheckUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_LookupUsername_InputMessage">
+    <wsdl:part name="parameters" element="tns:LookupUsername" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_LookupUsername_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LookupUsernameResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_CreateSession_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateSession" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_CreateSession_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_GetAccounts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccounts" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_GetAccounts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_GetAllAccounts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAccounts" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_GetAllAccounts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAccountsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_GetBalance_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBalance" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_GetBalance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_Transfer_InputMessage">
+    <wsdl:part name="parameters" element="tns:Transfer" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_Transfer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TransferResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_UpdateBalance_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBalance" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_UpdateBalance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_CreateAccount_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateAccount" />
+  </wsdl:message>
+  <wsdl:message name="ISSBService_CreateAccount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateAccountResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ISSBService">
+    <wsdl:operation name="CreateUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISSBService/CreateUser" message="tns:ISSBService_CreateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISSBService/CreateUserResponse" message="tns:ISSBService_CreateUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LookupSession">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISSBService/LookupSession" message="tns:ISSBService_LookupSession_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISSBService/LookupSessionResponse" message="tns:ISSBService_LookupSession_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UserExists">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISSBService/UserExists" message="tns:ISSBService_UserExists_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISSBService/UserExistsResponse" message="tns:ISSBService_UserExists_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveSession">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISSBService/RemoveSession" message="tns:ISSBService_RemoveSession_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISSBService/RemoveSessionResponse" message="tns:ISSBService_RemoveSession_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISSBService/CheckUser" message="tns:ISSBService_CheckUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISSBService/CheckUserResponse" message="tns:ISSBService_CheckUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LookupUsername">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISSBService/LookupUsername" message="tns:ISSBService_LookupUsername_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISSBService/LookupUsernameResponse" message="tns:ISSBService_LookupUsername_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateSession">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISSBService/CreateSession" message="tns:ISSBService_CreateSession_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISSBService/CreateSessionResponse" message="tns:ISSBService_CreateSession_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccounts">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISSBService/GetAccounts" message="tns:ISSBService_GetAccounts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISSBService/GetAccountsResponse" message="tns:ISSBService_GetAccounts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAccounts">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISSBService/GetAllAccounts" message="tns:ISSBService_GetAllAccounts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISSBService/GetAllAccountsResponse" message="tns:ISSBService_GetAllAccounts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBalance">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISSBService/GetBalance" message="tns:ISSBService_GetBalance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISSBService/GetBalanceResponse" message="tns:ISSBService_GetBalance_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Transfer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISSBService/Transfer" message="tns:ISSBService_Transfer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISSBService/TransferResponse" message="tns:ISSBService_Transfer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBalance">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISSBService/UpdateBalance" message="tns:ISSBService_UpdateBalance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISSBService/UpdateBalanceResponse" message="tns:ISSBService_UpdateBalance_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateAccount">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISSBService/CreateAccount" message="tns:ISSBService_CreateAccount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISSBService/CreateAccountResponse" message="tns:ISSBService_CreateAccount_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISSBService" type="tns:ISSBService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateUser">
+      <soap:operation soapAction="http://tempuri.org/ISSBService/CreateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LookupSession">
+      <soap:operation soapAction="http://tempuri.org/ISSBService/LookupSession" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserExists">
+      <soap:operation soapAction="http://tempuri.org/ISSBService/UserExists" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveSession">
+      <soap:operation soapAction="http://tempuri.org/ISSBService/RemoveSession" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckUser">
+      <soap:operation soapAction="http://tempuri.org/ISSBService/CheckUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LookupUsername">
+      <soap:operation soapAction="http://tempuri.org/ISSBService/LookupUsername" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateSession">
+      <soap:operation soapAction="http://tempuri.org/ISSBService/CreateSession" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccounts">
+      <soap:operation soapAction="http://tempuri.org/ISSBService/GetAccounts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAccounts">
+      <soap:operation soapAction="http://tempuri.org/ISSBService/GetAllAccounts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBalance">
+      <soap:operation soapAction="http://tempuri.org/ISSBService/GetBalance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Transfer">
+      <soap:operation soapAction="http://tempuri.org/ISSBService/Transfer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBalance">
+      <soap:operation soapAction="http://tempuri.org/ISSBService/UpdateBalance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateAccount">
+      <soap:operation soapAction="http://tempuri.org/ISSBService/CreateAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SSBService">
+    <wsdl:port name="BasicHttpBinding_ISSBService" binding="tns:BasicHttpBinding_ISSBService">
+      <soap:address location="http://supersecurebank/SSBService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

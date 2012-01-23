@@ -1,0 +1,511 @@
+﻿Interest
+http://en.wikipedia.org/wiki/Interest
+<!-- bodytext --> 
+				<div class="dablink">For other uses, see <a href="/wiki/Interest_(disambiguation)" title="Interest (disambiguation)">Interest (disambiguation)</a>.</div> 
+<table class="metadata plainlinks ambox ambox-content" style=""> 
+<tr> 
+<td class="mbox-image"> 
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/f/f4/Ambox_content.png" width="40" height="40" /></div> 
+</td> 
+<td class="mbox-text" style="">This article <b>needs attention from an expert on the subject</b>. See the <a href="/wiki/Talk:Interest" title="Talk:Interest">talk page</a> for details. <a href="/wiki/Wikipedia:WikiProject_Economics" title="Wikipedia:WikiProject Economics">WikiProject Economics</a> or the <a href="/wiki/Portal:Economics" title="Portal:Economics" class="mw-redirect">Economics Portal</a> may be able to help recruit an expert. <small><i>(January 2009)</i></small></td> 
+</tr> 
+</table> 
+<p><b>Interest</b> is a <a href="/wiki/Fee" title="Fee">fee</a> paid on borrowed assets. It is the price paid for the use of borrowed money,<sup id="cite_ref-0" class="reference"><a href="#cite_note-0"><span>[</span>1<span>]</span></a></sup> or, money earned by deposited funds.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>2<span>]</span></a></sup> <a href="/wiki/Asset" title="Asset">Assets</a> that are sometimes lent with interest include <a href="/wiki/Money" title="Money">money</a>, <a href="/wiki/Shares" title="Shares" class="mw-redirect">shares</a>, <a href="/wiki/Consumer_goods" title="Consumer goods" class="mw-redirect">consumer goods</a> through <a href="/wiki/Hire_purchase" title="Hire purchase">hire purchase</a>, major assets such as <a href="/wiki/Aircraft_finance" title="Aircraft finance">aircraft</a>, and even entire factories in <a href="/wiki/Finance_lease" title="Finance lease">finance lease</a> arrangements. The interest is calculated upon the value of the assets in the same manner as upon money. Interest can be thought of as "<a href="/wiki/Renting" title="Renting">rent</a> of money". When money is deposited in a bank, interest is typically paid to the depositor as a percentage of the amount deposited; when money is borrowed, interest is typically paid to the lender as a percentage of the amount owed. The percentage of the principal that is paid as a fee over a certain period of time (typically one month or year), is called the <a href="/wiki/Interest_rate" title="Interest rate">interest rate</a>.</p> 
+<p>Interest is compensation to the lender, and for forgoing other useful <a href="/wiki/Investments" title="Investments" class="mw-redirect">investments</a> that could have been made with the loaned asset. These forgone investments are known as the <a href="/wiki/Opportunity_cost" title="Opportunity cost">opportunity cost</a>. Instead of the lender using the assets directly, they are advanced to the borrower. The borrower then enjoys the benefit of using the assets ahead of the effort required to obtain them, while the lender enjoys the benefit of the fee paid by the borrower for the privilege. Interest also compensates the lender for the risk of losing the principal, called <a href="/wiki/Credit_risk" title="Credit risk">credit risk</a>. In economics, interest is considered the price of credit.</p> 
+<table id="toc" class="toc"> 
+<tr> 
+<td> 
+<div id="toctitle"> 
+<h2>Contents</h2> 
+</div> 
+<ul> 
+<li class="toclevel-1 tocsection-1"><a href="#History_of_interest"><span class="tocnumber">1</span> <span class="toctext">History of interest</span></a></li> 
+<li class="toclevel-1 tocsection-2"><a href="#Types_of_interest"><span class="tocnumber">2</span> <span class="toctext">Types of interest</span></a> 
+<ul> 
+<li class="toclevel-2 tocsection-3"><a href="#Simple_interest"><span class="tocnumber">2.1</span> <span class="toctext">Simple interest</span></a></li> 
+<li class="toclevel-2 tocsection-4"><a href="#Compound_interest"><span class="tocnumber">2.2</span> <span class="toctext">Compound interest</span></a> 
+<ul> 
+<li class="toclevel-3 tocsection-5"><a href="#Fixed_and_floating_rates"><span class="tocnumber">2.2.1</span> <span class="toctext">Fixed and floating rates</span></a></li> 
+</ul> 
+</li> 
+<li class="toclevel-2 tocsection-6"><a href="#Composition_of_interest_rates"><span class="tocnumber">2.3</span> <span class="toctext">Composition of interest rates</span></a></li> 
+<li class="toclevel-2 tocsection-7"><a href="#Cumulative_interest_or_return"><span class="tocnumber">2.4</span> <span class="toctext">Cumulative interest or return</span></a></li> 
+<li class="toclevel-2 tocsection-8"><a href="#Other_conventions_and_uses"><span class="tocnumber">2.5</span> <span class="toctext">Other conventions and uses</span></a></li> 
+</ul> 
+</li> 
+<li class="toclevel-1 tocsection-9"><a href="#Market_interest_rates"><span class="tocnumber">3</span> <span class="toctext">Market interest rates</span></a> 
+<ul> 
+<li class="toclevel-2 tocsection-10"><a href="#Opportunity_cost"><span class="tocnumber">3.1</span> <span class="toctext">Opportunity cost</span></a></li> 
+<li class="toclevel-2 tocsection-11"><a href="#Inflation"><span class="tocnumber">3.2</span> <span class="toctext">Inflation</span></a></li> 
+<li class="toclevel-2 tocsection-12"><a href="#Default"><span class="tocnumber">3.3</span> <span class="toctext">Default</span></a></li> 
+<li class="toclevel-2 tocsection-13"><a href="#Deferred_consumption"><span class="tocnumber">3.4</span> <span class="toctext">Deferred consumption</span></a></li> 
+<li class="toclevel-2 tocsection-14"><a href="#Length_of_time"><span class="tocnumber">3.5</span> <span class="toctext">Length of time</span></a></li> 
+<li class="toclevel-2 tocsection-15"><a href="#Open_market_operations_in_the_United_States"><span class="tocnumber">3.6</span> <span class="toctext">Open market operations in the United States</span></a></li> 
+<li class="toclevel-2 tocsection-16"><a href="#Interest_rates_and_credit_risk"><span class="tocnumber">3.7</span> <span class="toctext">Interest rates and credit risk</span></a></li> 
+<li class="toclevel-2 tocsection-17"><a href="#Money_and_inflation"><span class="tocnumber">3.8</span> <span class="toctext">Money and inflation</span></a></li> 
+</ul> 
+</li> 
+<li class="toclevel-1 tocsection-18"><a href="#Interest_in_mathematics"><span class="tocnumber">4</span> <span class="toctext">Interest in mathematics</span></a></li> 
+<li class="toclevel-1 tocsection-19"><a href="#Formulae"><span class="tocnumber">5</span> <span class="toctext">Formulae</span></a></li> 
+<li class="toclevel-1 tocsection-20"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li> 
+<li class="toclevel-1 tocsection-21"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a> 
+<ul> 
+<li class="toclevel-2 tocsection-22"><a href="#Specific_references"><span class="tocnumber">7.1</span> <span class="toctext">Specific references</span></a></li> 
+<li class="toclevel-2 tocsection-23"><a href="#General_references"><span class="tocnumber">7.2</span> <span class="toctext">General references</span></a></li> 
+</ul> 
+</li> 
+<li class="toclevel-1 tocsection-24"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li> 
+</ul> 
+</td> 
+</tr> 
+</table> 
+<script type="text/javascript"> 
+//<![CDATA[
+if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } 
+//]]>
+</script> 
+<h2><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=1" title="Edit section: History of interest">edit</a>]</span> <span class="mw-headline" id="History_of_interest">History of interest</span></h2> 
+<p>In ancient biblical Israel, it was against the Law of Moses to charge interest on private loans<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>3<span>]</span></a></sup>.During the <a href="/wiki/Middle_Ages" title="Middle Ages">Middle Ages</a>, time was considered to be property of <a href="/wiki/God" title="God">God</a>. Therefore, to charge interest was considered to be commerce with God's property.<sup class="Template-Fact" title="This claim needs references to reliable sources from January 2010" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup> Also, St. <a href="/wiki/Thomas_Aquinas" title="Thomas Aquinas">Thomas Aquinas</a>, the leading theologian of the <a href="/wiki/Catholic_Church" title="Catholic Church">Catholic Church</a>, argued that the charging of interest is wrong because it amounts to "<a href="/wiki/Usury#Usury_in_scholastic_theology" title="Usury">double charging</a>", charging for both the thing and the use of the thing. The church regarded this as a sin of <a href="/wiki/Usury" title="Usury">usury</a>; nevertheless, this rule was never strictly obeyed and eroded gradually until it disappeared during the industrial revolution.<sup class="Template-Fact" title="This claim needs references to reliable sources from January 2008" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup></p> 
+<p><a href="/wiki/Usury" title="Usury">Usury</a> has always been viewed negatively by the Roman Catholic Church. The <a href="/wiki/Second_Lateran_Council" title="Second Lateran Council" class="mw-redirect">Second Lateran Council</a> condemned any repayment of a debt with more money than was originally loaned, the <a href="/w/index.php?title=Council_of_Vienna&amp;action=edit&amp;redlink=1" class="new" title="Council of Vienna (page does not exist)">Council of Vienna</a> explicitly prohibited usury and declared any legislation tolerant of usury to be heretical, and the first scholastics reproved the charging of interest. In the <a href="/w/index.php?title=Medieval_economy&amp;action=edit&amp;redlink=1" class="new" title="Medieval economy (page does not exist)">medieval economy</a>, loans were entirely a consequence of necessity (bad harvests, fire in a workplace) and, under those conditions, it was considered morally reproachable to charge interest.<sup class="Template-Fact" title="This claim needs references to reliable sources from January 2009" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup> It was also considered morally dubious, since no goods were produced through the lending of money, and thus it should not be compensated, unlike other activities with direct physical output such as blacksmithing or farming.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>4<span>]</span></a></sup></p> 
+<p>As Jewish citizens were ostracized from most professions by local rulers, the church and the guilds, they were pushed into marginal occupations considered socially inferior, such as tax and rent collecting and moneylending. Natural tensions between creditors and debtors were added to social, political, religious, and economic strains. ...financial oppression of Jews tended to occur in areas where they were most disliked, and if Jews reacted by concentrating on moneylending to non-Jews, the unpopularity — and so, of course, the pressure — would increase. Thus the Jews became an element in a vicious circle. The Christians, on the basis of the Biblical rulings, condemned interest-taking absolutely, and from 1179 those who practiced it were excommunicated. Catholic autocrats frequently imposed the harshest financial burdens on the Jews. The Jews reacted by engaging in the one business where Christian laws actually discriminated in their favor, and became identified with the hated trade of moneylending.</p> 
+<p>Interest has often been looked down upon in <a href="/wiki/Islamic_civilization" title="Islamic civilization">Islamic civilization</a> as well for the same reason for which usury was forbidden by the Catholic Church, with most scholars agreeing that the Qur'an explicitly forbids charging interest. Medieval jurists therefore developed several financial instruments to encourage responsible lending.</p> 
+<div class="thumb tright"> 
+<div class="thumbinner" style="width:202px;"><a href="/wiki/File:UsuryDurer.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/UsuryDurer.jpg/200px-UsuryDurer.jpg" width="200" height="273" class="thumbimage" /></a> 
+<div class="thumbcaption"> 
+<div class="magnify"><a href="/wiki/File:UsuryDurer.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/skins-1.5/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div> 
+Of Usury, from <a href="/wiki/Sebastian_Brant" title="Sebastian Brant">Brant's</a> <i>Stultifera Navis</i> (<a href="/wiki/Narrenschiff" title="Narrenschiff" class="mw-redirect">the Ship of Fools</a>); <a href="/wiki/Woodcut" title="Woodcut">woodcut</a> attributed to <a href="/wiki/Albrecht_D%C3%BCrer" title="Albrecht Dürer">Albrecht Dürer</a></div> 
+</div> 
+</div> 
+<p>In the <a href="/wiki/Renaissance" title="Renaissance">Renaissance</a> era, greater mobility of people facilitated an increase in commerce and the appearance of appropriate conditions for <a href="/wiki/Entrepreneur" title="Entrepreneur">entrepreneurs</a> to start new, lucrative businesses. Given that borrowed money was no longer strictly for consumption but for production as well, interest was no longer viewed in the same manner. The <a href="/wiki/School_of_Salamanca" title="School of Salamanca">School of Salamanca</a> elaborated on various reasons that justified the charging of interest: the person who received a loan benefited, and one could consider interest as a premium paid for the risk taken by the loaning party. There was also the question of <a href="/wiki/Opportunity_cost" title="Opportunity cost">opportunity cost</a>, in that the loaning party lost other possibilities of using the loaned money. Finally and perhaps most originally was the consideration of money itself as merchandise, and the use of one's money as something for which one should receive a benefit in the form of interest. <a href="/wiki/Mart%C3%ADn_de_Azpilcueta" title="Martín de Azpilcueta">Martín de Azpilcueta</a> also considered the effect of time. Other things being equal, one would prefer to receive a given good now rather than in the future. This <a href="/wiki/Time_preference" title="Time preference">preference</a> indicates greater value. Interest, under this theory, is the payment for the time the loaning individual is deprived of the money.</p> 
+<p>Economically, the <a href="/wiki/Interest_rate" title="Interest rate">interest rate</a> is the cost of capital and is subject to the laws of <a href="/wiki/Supply_and_demand" title="Supply and demand">supply and demand</a> of the <a href="/wiki/Money_supply" title="Money supply">money supply</a>. The first attempt to control interest rates through manipulation of the money supply was made by the <a href="/wiki/Banque_de_France" title="Banque de France">French Central Bank</a> in <a href="/wiki/1847" title="1847">1847</a>.</p> 
+<p>The first formal studies of interest rates and their impact on society were conducted by <a href="/wiki/Adam_Smith" title="Adam Smith">Adam Smith</a>, <a href="/wiki/Jeremy_Bentham" title="Jeremy Bentham">Jeremy Bentham</a> and <a href="/wiki/Mirabeau" title="Mirabeau">Mirabeau</a> during the birth of classic economic thought.<sup class="Template-Fact" title="This claim needs references to reliable sources from January 2009" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup> In the early <a href="/wiki/20th_century" title="20th century">20th century</a>, <a href="/wiki/Irving_Fisher" title="Irving Fisher">Irving Fisher</a> made a major breakthrough in the economic analysis of interest rates by distinguishing nominal interest from real interest. Several perspectives on the nature and impact of interest rates have arisen since then.</p> 
+<p>The latter half of the 20th century saw the rise of interest-free Islamic banking and finance, a movement that attempts to apply religious law developed in the medieval period to the modern economy. Some entire countries, including Iran, Sudan, and Pakistan, have taken steps to eradicate interest from their financial systems entirely.<sup class="Template-Fact" title="This claim needs references to reliable sources from January 2009" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup> Rather than charging interest, the interest-free lender charges a "fee" for the service of lending. As any such fee can be shown to be mathematically identical to an interest charge, the distinction between "interest-free" banking and "for-interest" banking is merely one of semantics</p> 
+<h2><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=2" title="Edit section: Types of interest">edit</a>]</span> <span class="mw-headline" id="Types_of_interest">Types of interest</span></h2> 
+<h3><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=3" title="Edit section: Simple interest">edit</a>]</span> <span class="mw-headline" id="Simple_interest">Simple interest</span></h3> 
+<p>Simple interest is calculated only on the principal amount, or on that portion of the principal amount that remains unpaid.</p> 
+<p>The amount of simple interest is calculated according to the following formula:</p> 
+<dl> 
+<dd><img class="tex" alt="I_{simp} = r \cdot B_0 \cdot m" src="http://upload.wikimedia.org/math/0/a/3/0a3032cff6a1edd4affb4998b842a730.png" /></dd> 
+</dl> 
+<p>where <i>r</i> is the period interest rate (I/m), <i>B<sub>0</sub></i> the initial balance and <i>m</i> the number of time periods elapsed.</p> 
+<p>To calculate the period interest rate <i>r</i>, one divides the interest rate <i>I</i> by the number of periods <i>m</i>.</p> 
+<p>For example, imagine that a credit card holder has an outstanding balance of $2500 and that the simple <a href="/wiki/Interest_rate" title="Interest rate">interest rate</a> is 12.99% per annum. The interest added at the end of 3 months would be,</p> 
+<dl> 
+<dd><img class="tex" alt="I_{simp} = \bigg(\frac{0.1299}{12}\cdot $2500\bigg) \cdot 3=$81.19" src="http://upload.wikimedia.org/math/6/3/2/6329331ff8409a4dff4a08a75e2d22c6.png" /></dd> 
+</dl> 
+<p>and he would have to pay $2581.19 to pay off the balance at this point.</p> 
+<p>If instead he makes interest-only payments for each of those 3 months at the period rate <i>r</i>, the amount of interest paid would be,</p> 
+<dl> 
+<dd><img class="tex" alt="I = \bigg(\frac{0.1299}{12}\cdot $2500\bigg) \cdot 3= ($27.0625/month) \cdot 3=$81.19" src="http://upload.wikimedia.org/math/0/6/9/06918c48b4b0bc3dae8e4c4140b517a6.png" /></dd> 
+</dl> 
+<p>His balance at the end of 3 months would still be $2500.</p> 
+<p>In this case, the <a href="/wiki/Time_value_of_money" title="Time value of money">time value of money</a> is not factored in. The steady payments have an additional cost that needs to be considered when comparing loans. For example, given a $100 principal:</p> 
+<ul> 
+<li>Credit card debt where $1/day is charged: 1/100 = 1%/day = 7%/week = 365%/year.</li> 
+<li>Corporate bond where the first $3 are due after six months, and the second $3 are due at the year's end: (3+3)/100 = 6%/year.</li> 
+<li>Certificate of deposit (<a href="/wiki/Guaranteed_Investment_Certificate" title="Guaranteed Investment Certificate">GIC</a>) where $6 is paid at the year's end: 6/100 = 6%/year.</li> 
+</ul> 
+<p>There are two complications involved when comparing different simple interest bearing offers.</p> 
+<ol> 
+<li>When rates are the same but the periods are different a direct comparison is inaccurate because of the <a href="/wiki/Time_value_of_money" title="Time value of money">time value of money</a>. Paying $3 every six months costs more than $6 paid at year end so, the 6% bond cannot be 'equated' to the 6% GIC.</li> 
+<li>When interest is due, but not paid, does it remain 'interest payable', like the bond's $3 payment after six months or, will it be added to the balance due? In the latter case it is no longer simple interest, but compound interest.</li> 
+</ol> 
+<p>A bank account that offers only simple interest, that money can freely be withdrawn from is unlikely, since withdrawing money and immediately depositing it again would be advantageous.</p> 
+<h3><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=4" title="Edit section: Compound interest">edit</a>]</span> <span class="mw-headline" id="Compound_interest">Compound interest</span></h3> 
+<div class="rellink relarticle mainarticle">Main article: <a href="/wiki/Compound_interest" title="Compound interest">Compound interest</a></div> 
+<p>Compound interest is very similar to simple interest; however, with time, the difference becomes considerably larger. This difference is because unpaid interest is added to the balance due. Put another way, the borrower is charged interest on previous interest. Assuming that no part of the principal or subsequent interest has been paid, the debt is calculated by the following formulas:</p> 
+<dl> 
+<dd><img class="tex" alt=" 
+\begin{align}
+&amp;I_{comp}=B_0\cdot\big[\left(1+r\right)^m-1\big]\\
+&amp;B_m=B_0+I_{comp}
+\end{align}" src="http://upload.wikimedia.org/math/5/8/e/58e52361340f8f8a60b41edb135d951f.png" /></dd> 
+</dl> 
+<p>where <i>I<sub>comp</sub></i> is the compound interest, <i>B<sub>0</sub></i> the initial balance, <i>B<sub>m</sub></i> the balance after m periods (where <i>m</i> is not necessarily an integer) and <i>r</i> the period rate.</p> 
+<p>For example, if the credit card holder above chose not to make any payments, the interest would accumulate</p> 
+<dl> 
+<dd><img class="tex" alt=" 
+\begin{align}
+&amp;\mbox{Calculation for Compound Interest}:\\
+I_{comp}&amp;=$2500\cdot\bigg[\bigg(1+\frac{0.1299}{12}\bigg)^3-1\bigg]\\
+&amp;=$2500\cdot\left(1.010825^3-1\right)\\
+&amp;=$82.07\\
+\end{align}" src="http://upload.wikimedia.org/math/2/e/2/2e29e6081dd8697e4d5cdf34f5586e26.png" /></dd> 
+</dl> 
+<dl> 
+<dd><img class="tex" alt=" 
+\begin{align}
+B_m&amp;=B_0+I_{comp}\\
+&amp;=$2500+$82.07\\
+&amp;=$2582.07
+\end{align}" src="http://upload.wikimedia.org/math/4/3/6/43698a6388b684753ea427f45343a311.png" /></dd> 
+</dl> 
+<p>So, at the end of 3 months the credit card holder's balance would be $2582.07 and he would now have to pay $82.07 to get it down to the initial balance. Simple interest is approximately the same as compound interest over short periods of time, so frequent payments are the least expensive repayment strategy.</p> 
+<p>A problem with compound interest is that the resulting obligation can be difficult to interpret. To simplify this problem, a common convention in economics is to disclose the interest rate as though the term were one year, with annual compounding, yielding the <a href="/wiki/Effective_interest_rate" title="Effective interest rate">effective interest rate</a>. However, interest rates in <a href="/wiki/Loan" title="Loan">lending</a> are often quoted as <a href="/wiki/Nominal_interest_rate" title="Nominal interest rate">nominal interest rates</a> (<i>i.e.</i>, compounding interest uncorrected for the frequency of compounding).<sup class="Template-Fact" title="This claim needs references to reliable sources from January 2009" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup></p> 
+<p>Loans often include various non-interest charges and fees. One example are <a href="/wiki/Point_(mortgage)" title="Point (mortgage)">points</a> on a <a href="/wiki/Mortgage_loan" title="Mortgage loan">mortgage loan</a> in the United States. When such fees are present, lenders are regularly required to provide information on the 'true' cost of finance, often expressed as an <a href="/wiki/Annual_percentage_rate" title="Annual percentage rate">annual percentage rate</a> (APR). The APR attempts to express the total cost of a loan as an interest rate <i>after</i> including the additional fees and expenses, although details may vary by jurisdiction.</p> 
+<p>In economics, <a href="/wiki/Compound_interest#Continuous_compounding" title="Compound interest">continuous compounding</a> is often used due to its particular <a href="/wiki/Mathematical" title="Mathematical" class="mw-redirect">mathematical</a> properties.<sup class="Template-Fact" title="This claim needs references to reliable sources from January 2009" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup></p> 
+<h4><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=5" title="Edit section: Fixed and floating rates">edit</a>]</span> <span class="mw-headline" id="Fixed_and_floating_rates">Fixed and floating rates</span></h4> 
+<p><a href="/w/index.php?title=Commercial_loans&amp;action=edit&amp;redlink=1" class="new" title="Commercial loans (page does not exist)">Commercial loans</a> generally use <a href="/wiki/Simple_interest" title="Simple interest" class="mw-redirect">simple interest</a>, but they may not always have a single interest rate over the life of the loan. Loans for which the interest rate does not change are referred to as <a href="/wiki/Fixed_interest" title="Fixed interest">fixed rate loans</a>. Loans may also have a changeable rate over the life of the loan based on some <a href="/wiki/Reference_rate" title="Reference rate">reference rate</a> (such as <a href="/wiki/LIBOR" title="LIBOR" class="mw-redirect">LIBOR</a> and <a href="/wiki/EURIBOR" title="EURIBOR" class="mw-redirect">EURIBOR</a>), usually plus (or minus) a fixed margin. These are known as <a href="/wiki/Floating_interest_rate" title="Floating interest rate">floating rate</a>, variable rate or adjustable rate loans.</p> 
+<p>Combinations of fixed-rate and floating-rate loans are possible and frequently used. Loans may also have different interest rates applied over the life of the loan, where the changes to the interest rate are governed by specific criteria other than an underlying interest rate. An example would be a loan that uses specific periods of time to dictate specific changes in the rate, such as a rate of 5% in the first year, 6% in the second, and 7% in the third.<sup class="Template-Fact" title="This claim needs references to reliable sources from January 2009" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup></p> 
+<h3><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=6" title="Edit section: Composition of interest rates">edit</a>]</span> <span class="mw-headline" id="Composition_of_interest_rates">Composition of interest rates</span></h3> 
+<p>In economics, interest is considered the price of credit, therefore, it is also subject to distortions due to <a href="/wiki/Inflation" title="Inflation">inflation</a>. The nominal interest rate, which refers to the price before adjustment to inflation, is the one visible to the consumer (<i>i.e.</i>, the interest tagged in a loan contract, credit card statement, etc). Nominal interest is composed of the <a href="/wiki/Real_interest_rate" title="Real interest rate">real interest rate</a> plus inflation, among other factors. A simple formula for the nominal interest is:</p> 
+<p><span class="texhtml"><i>i</i> = <i>r</i> + π</span></p> 
+<p>Where <i>i</i> is the nominal interest, <i>r</i> is the real interest and <i><span class="texhtml">π</span></i> is inflation.</p> 
+<p>This formula attempts to measure the value of the interest in units of stable purchasing power. However, if this statement were true, it would imply at least two misconceptions. First, that all interest rates within an area that shares the same inflation (that is, the same country) should be the same. Second, that the lenders know the inflation for the period of time that they are going to lend the money.</p> 
+<p>One reason behind the difference between the interest that yields a <a href="/wiki/Treasury_security#Treasury_bond" title="Treasury security" class="mw-redirect">treasury bond</a> and the interest that yields a <a href="/wiki/Mortgage_loan" title="Mortgage loan">mortgage loan</a> is the risk that the lender takes from lending money to an economic agent. In this particular case, a government is more likely to pay than a private citizen. Therefore, the interest rate charged to a private citizen is larger than the rate charged to the government.</p> 
+<p>To take into account the <a href="/wiki/Information_asymmetry" title="Information asymmetry">information asymmetry</a> aforementioned, both the value of inflation and the real price of money are changed to their <a href="/wiki/Expected" title="Expected">expected</a> values resulting in the following equation:</p> 
+<p><span class="texhtml"><i>i</i><sub><i>t</i></sub> = <i>r</i><sub>(<i>t</i> + 1)</sub> + π<sub>(<i>t</i> + 1)</sub> + σ</span></p> 
+<p>Here, <span class="texhtml"><i>i</i><sub><i>t</i></sub></span> is the nominal interest at the time of the loan, <span class="texhtml"><i>r</i><sub>(<i>t</i> + 1)</sub></span> is the real interest expected over the period of the loan, <span class="texhtml">π<sub>(<i>t</i> + 1)</sub></span> is the inflation expected over the period of the loan and <span class="texhtml">σ</span> is the representative value for the risk engaged in the operation.</p> 
+<h3><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=7" title="Edit section: Cumulative interest or return">edit</a>]</span> <span class="mw-headline" id="Cumulative_interest_or_return">Cumulative interest or return</span></h3> 
+<table class="metadata plainlinks ambox mbox-small-left ambox-notice" style=""> 
+<tr> 
+<td class="mbox-image"><a href="/wiki/File:Wiki_letter_w.svg" class="image"><img alt="Wiki letter w.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Wiki_letter_w.svg/20px-Wiki_letter_w.svg.png" width="20" height="20" /></a></td> 
+<td class="mbox-text" style="">This section requires <a href="http://en.wikipedia.org/w/index.php?title=Interest&amp;action=edit" class="external text" rel="nofollow">expansion</a>.</td> 
+</tr> 
+</table> 
+<p>The calculation for cumulative interest is (FV/PV)-1. It ignores the 'per year' convention and assumes compounding at every payment date. It is usually used to compare two long term opportunities.<sup class="Template-Fact" title="This claim needs references to reliable sources from January 2009" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup></p> 
+<h3><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=8" title="Edit section: Other conventions and uses">edit</a>]</span> <span class="mw-headline" id="Other_conventions_and_uses">Other conventions and uses</span></h3> 
+<p><b>Exceptions</b>:</p> 
+<ul> 
+<li>US and Canadian T-Bills (short term Government debt) have a different calculation for interest. Their interest is calculated as (100-P)/P where 'P' is the price paid. Instead of normalizing it to a year, the interest is prorated by the number of days 't': (365/t)*100. (See also: <a href="/wiki/Day_count_convention" title="Day count convention">Day count convention</a>). The total calculation is ((100-P)/P)*((365/t)*100). This is equivalent to calculating the price by a process called <b>discounting at a simple interest rate.</b></li> 
+<li>Corporate Bonds are most frequently payable twice yearly. The amount of interest paid is the <b>simple interest</b> disclosed divided by two (multiplied by the face value of debt).</li> 
+</ul> 
+<p><b>Flat Rate Loans and the Rule of 78s</b>: Some consumer loans have been structured as flat rate loans, with the loan outstanding determined by allocating the total interest across the term of the loan by using the "<a href="/wiki/Rule_of_78s" title="Rule of 78s">Rule of 78s</a>" or "Sum of digits" method. Seventy-eight is the sum of the numbers 1 through 12, inclusive. The practice enabled quick calculations of interest in the pre-computer days. In a loan with interest calculated per the Rule of 78s, the total interest over the life of the loan is calculated as either simple or compound interest and amounts to the same as either of the above methods. Payments remain constant over the life of the loan; however, payments are allocated to interest in progressively smaller amounts. In a one-year loan, in the first month, 12/78 of all interest owed over the life of the loan is due; in the second month, 11/78; progressing to the twelfth month where only 1/78 of all interest is due. The practical effect of the Rule of 78s is to make early pay-offs of term loans more expensive. For a one year loan, approximately 3/4 of all interest due is collected by the sixth month, and pay-off of the principal then will cause the effective interest rate to be much higher than the APY used to calculate the payments. <sup id="cite_ref-bankrate.com_4-0" class="reference"><a href="#cite_note-bankrate.com-4"><span>[</span>5<span>]</span></a></sup></p> 
+<p>In 1992, the <a href="/wiki/United_States" title="United States">United States</a> outlawed the use of "Rule of 78s" interest in connection with mortgage refinancing and other consumer loans over five years in term.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>6<span>]</span></a></sup> Certain other jurisdictions have outlawed application of the Rule of 78s in certain types of loans, particularly consumer loans. <sup id="cite_ref-bankrate.com_4-1" class="reference"><a href="#cite_note-bankrate.com-4"><span>[</span>5<span>]</span></a></sup></p> 
+<p><b>Rule of 72</b>: The "<a href="/wiki/Rule_of_72" title="Rule of 72">Rule of 72</a>" is a "quick and dirty" method for finding out how fast money doubles for a given interest rate. For example, if you have an interest rate of 6%, it will take 72/6 or 12 years for your money to double, compounding at 6%. This is an approximation that starts to break down above 10%.</p> 
+<h2><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=9" title="Edit section: Market interest rates">edit</a>]</span> <span class="mw-headline" id="Market_interest_rates">Market interest rates</span></h2> 
+<table class="metadata plainlinks ambox ambox-content" style=""> 
+<tr> 
+<td class="mbox-image"> 
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" /></div> 
+</td> 
+<td class="mbox-text" style="">This section <b>does not <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">cite</a> any <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">references or sources</a></b>.<br /> 
+<small>Please help <a href="http://en.wikipedia.org/w/index.php?title=Interest&amp;action=edit" class="external text" rel="nofollow">improve this article</a> by adding citations to <a href="/wiki/Wikipedia:Reliable_sources" title="Wikipedia:Reliable sources" class="mw-redirect">reliable sources</a>. Unsourced material may be <a href="/wiki/Template:Citation_needed" title="Template:Citation needed">challenged</a> and <a href="/wiki/Wikipedia:Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>. <i>(January 2009)</i></small></td> 
+</tr> 
+</table> 
+<p>There are markets for investments (which include the money market, bond market, as well as retail financial institutions like banks) set <a href="/wiki/Interest_rate" title="Interest rate">interest rates</a>. Each specific debt takes into account the following factors in determining its interest rate:</p> 
+<h4><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=10" title="Edit section: Opportunity cost">edit</a>]</span> <span class="mw-headline" id="Opportunity_cost">Opportunity cost</span></h4> 
+<p><a href="/wiki/Opportunity_cost" title="Opportunity cost">This</a> encompasses any other use to which the money could be put, including lending to others, investing elsewhere, holding cash (for safety, for example), and simply spending the funds.</p> 
+<h4><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=11" title="Edit section: Inflation">edit</a>]</span> <span class="mw-headline" id="Inflation">Inflation</span></h4> 
+<p>Since the lender is deferring his consumption, he will at a bare minimum, want to recover enough to pay the increased cost of goods due to <a href="/wiki/Inflation" title="Inflation">inflation</a>. Because future inflation is unknown, there are three tactics.</p> 
+<ul> 
+<li>Charge X% interest 'plus inflation'. Many governments issue 'real-return' or 'inflation indexed' bonds. The principal amount or the interest payments are continually increased by the rate of inflation. See the discussion at <a href="/wiki/Real_interest_rate" title="Real interest rate">real interest rate</a>.</li> 
+<li>Decide on the 'expected' inflation rate. This still leaves both parties exposed to the risk of 'unexpected' inflation.</li> 
+<li>Allow the interest rate to be periodically changed. While a 'fixed interest rate' remains the same throughout the life of the debt, 'variable' or 'floating' rates can be reset. There are derivative products that allow for hedging and swaps between the two.</li> 
+</ul> 
+<h4><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=12" title="Edit section: Default">edit</a>]</span> <span class="mw-headline" id="Default">Default</span></h4> 
+<p>There is always the risk the borrower will become <a href="/wiki/Bankrupt" title="Bankrupt" class="mw-redirect">bankrupt</a>, <a href="/wiki/Abscond" title="Abscond" class="mw-redirect">abscond</a> or otherwise <a href="/wiki/Default_(finance)" title="Default (finance)">default</a> on the loan. The <a href="/wiki/Risk_premium" title="Risk premium">risk premium</a> attempts to measure the integrity of the borrower, the risk of his enterprise succeeding and the security of any collateral pledged. For example, loans to developing countries have higher risk premiums than those to the US government due to the difference in creditworthiness. An operating line of credit to a business will have a higher rate than a <a href="/wiki/Mortgage_loan" title="Mortgage loan">mortgage loan</a>.</p> 
+<p>The <a href="/wiki/Creditworthiness" title="Creditworthiness" class="mw-redirect">creditworthiness</a> of businesses is measured by <a href="/w/index.php?title=Bond_rating_service&amp;action=edit&amp;redlink=1" class="new" title="Bond rating service (page does not exist)">bond rating services</a> and individual's <a href="/wiki/Credit_score" title="Credit score">credit scores</a> by <a href="/wiki/Credit_bureau" title="Credit bureau">credit bureaus</a>. The risks of an individual debt may have a large standard deviation of possibilities. The lender may want to cover his maximum risk, but lenders with portfolios of debt can lower the risk premium to cover just the most probable outcome.</p> 
+<h4><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=13" title="Edit section: Deferred consumption">edit</a>]</span> <span class="mw-headline" id="Deferred_consumption">Deferred consumption</span></h4> 
+<p>Charging interest equal only to inflation will leave the lender with the same purchasing power, but he would prefer his own consumption sooner rather than later. There will be an interest premium of the delay. He may not want to consume, but instead would invest in another product. The possible return he could realize in competing investments will determine what interest he charges.</p> 
+<h4><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=14" title="Edit section: Length of time">edit</a>]</span> <span class="mw-headline" id="Length_of_time">Length of time</span></h4> 
+<p>Shorter terms have less risk of default and inflation because the near future is easier to predict. Broadly speaking, if interest rates increase, then investment decreases due to the higher cost of borrowing (all else being equal).</p> 
+<p>Interest rates are generally determined by the market, but government intervention - usually by a <a href="/wiki/Central_bank" title="Central bank">central bank</a>- may strongly influence short-term interest rates, and is used as the main tool of <a href="/wiki/Monetary_policy" title="Monetary policy">monetary policy</a>. The central bank offers to buy or sell money at the desired rate and, due to their control of certain tools (such as, in many countries, the ability to print money) they are able to influence overall market interest rates.</p> 
+<p>Investment can change rapidly in response to changes in interest rates, affecting national income, and, through <a href="/wiki/Okun%27s_Law" title="Okun's Law" class="mw-redirect">Okun's Law</a>, changes in output affect <a href="/wiki/Unemployment" title="Unemployment">unemployment</a>.{Fact|date=January 2009}</p> 
+<h3><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=15" title="Edit section: Open market operations in the United States">edit</a>]</span> <span class="mw-headline" id="Open_market_operations_in_the_United_States">Open market operations in the United States</span></h3> 
+<div class="thumb tright"> 
+<div class="thumbinner" style="width:377px;"><a href="/wiki/File:Federal_Funds_Rate_1954_thru_2009_effective.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Federal_Funds_Rate_1954_thru_2009_effective.svg/375px-Federal_Funds_Rate_1954_thru_2009_effective.svg.png" width="375" height="234" class="thumbimage" /></a> 
+<div class="thumbcaption"> 
+<div class="magnify"><a href="/wiki/File:Federal_funds_effective_rate_1954_to_present.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/skins-1.5/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div> 
+The effective federal funds rate charted over more than fifty years.</div> 
+</div> 
+</div> 
+<p>The <a href="/wiki/Federal_Reserve" title="Federal Reserve" class="mw-redirect">Federal Reserve</a> (Fed) implements monetary policy largely by targeting the <a href="/wiki/Federal_funds_rate" title="Federal funds rate">federal funds rate</a>. This is the rate that banks charge each other for overnight loans of <a href="/wiki/Federal_funds" title="Federal funds">federal funds</a>. Federal funds are the reserves held by banks at the Fed.</p> 
+<p><a href="/wiki/Open_market_operations" title="Open market operations">Open market operations</a> are one tool within monetary policy implemented by the Federal Reserve to steer short-term interest rates. Using the power to buy and sell treasury <a href="/wiki/Securities" title="Securities" class="mw-redirect">securities</a>, the Open Market Desk at the <a href="/wiki/Federal_Reserve_Bank_of_New_York" title="Federal Reserve Bank of New York">Federal Reserve Bank of New York</a> can supply the market with dollars by purchasing <a href="/wiki/T-note" title="T-note" class="mw-redirect">T-notes</a>, hence increasing the nation's money supply. By increasing the money supply or <a href="/w/index.php?title=Aggregate_Supply_of_Funding&amp;action=edit&amp;redlink=1" class="new" title="Aggregate Supply of Funding (page does not exist)">Aggregate Supply of Funding</a> (ASF), interest rates will fall due to the excess of dollars banks will end up with in their reserves. <a href="/wiki/Excess_reserves" title="Excess reserves">Excess reserves</a> may be lent in the <a href="/wiki/Federal_funds" title="Federal funds">Fed funds</a> market to other banks, thus driving down rates.</p> 
+<h3><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=16" title="Edit section: Interest rates and credit risk">edit</a>]</span> <span class="mw-headline" id="Interest_rates_and_credit_risk">Interest rates and credit risk</span></h3> 
+<p>It is increasingly recognized that the business cycle, <a href="/wiki/Interest_rate" title="Interest rate">interest rates</a> and <a href="/wiki/Credit_risk" title="Credit risk">credit risk</a> are tightly interrelated. The <a href="/wiki/Jarrow-Turnbull_model" title="Jarrow-Turnbull model" class="mw-redirect">Jarrow-Turnbull model</a> was the first model of credit risk that explicitly had random interest rates at its core. Lando (2004), <a href="/wiki/Darrell_Duffie" title="Darrell Duffie">Darrell Duffie</a> and Singleton (2003), and van Deventer and Imai (2003) discuss interest rates when the issuer of the interest-bearing instrument can default.</p> 
+<h3><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=17" title="Edit section: Money and inflation">edit</a>]</span> <span class="mw-headline" id="Money_and_inflation">Money and inflation</span></h3> 
+<p>Loans, bonds, and shares have some of the characteristics of money and are included in the broad money supply.</p> 
+<p>By setting <b>i*n</b>, the government institution can affect the markets to alter the total of loans, bonds and shares issued. Generally speaking, a higher real interest rate reduces the broad money supply.</p> 
+<p>Through the <a href="/wiki/Quantity_theory_of_money" title="Quantity theory of money">quantity theory of money</a>, increases in the money supply lead to inflation. This means that interest rates can affect inflation in the future.<sup class="Template-Fact" title="This claim needs references to reliable sources from January 2009" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup></p> 
+<h2><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=18" title="Edit section: Interest in mathematics">edit</a>]</span> <span class="mw-headline" id="Interest_in_mathematics">Interest in mathematics</span></h2> 
+<p>It is thought that <a href="/wiki/Jacob_Bernoulli" title="Jacob Bernoulli">Jacob Bernoulli</a> discovered the mathematical constant <a href="/wiki/E_(mathematical_constant)" title="E (mathematical constant)">e</a> by studying a question about compound interest.<sup class="Template-Fact" title="This claim needs references to reliable sources from January 2009" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed">citation needed</a></i>]</sup></p> 
+<p>He realized that if an account that starts with $1.00 and pays 100% interest per year, at the end of the year, the value is $2.00; but if the interest is computed and added twice in the year, the $1 is multiplied by 1.5 twice, yielding $1.00×1.5²&#160;=&#160;$2.25. Compounding quarterly yields $1.00×1.25<sup>4</sup>&#160;=&#160;$2.4414…, and so on.</p> 
+<p>Bernoulli noticed that this sequence can be modeled as follows:</p> 
+<dl> 
+<dd><img class="tex" alt="\lim_{n\rightarrow\infty} \left(1+\dfrac{1}{n}\right)^n=e" src="http://upload.wikimedia.org/math/5/9/0/5906a30883f685c08533244595374008.png" /></dd> 
+</dl> 
+<p>where <i>n</i> is the number of times the interest is to be compounded in a year.</p> 
+<h2><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=19" title="Edit section: Formulae">edit</a>]</span> <span class="mw-headline" id="Formulae">Formulae</span></h2> 
+<p>The <a href="/wiki/Balance_(accounting)" title="Balance (accounting)">balance</a> of a loan with regular monthly payments is augmented by the monthly interest charge and decreased by the payment so,</p> 
+<dl> 
+<dd><img class="tex" alt="B_{k+1}=\big(1+r\big)B_k-p" src="http://upload.wikimedia.org/math/9/2/1/921551468c9ba9f9e04bd56106830cf5.png" />.</dd> 
+</dl> 
+<p>where,</p> 
+<dl> 
+<dd>i = loan rate/100 = annual rate in decimal form (e.g. 10% = 0.10 The loan rate is the rate used to compute payments and balances.)</dd> 
+<dd>r = period rate = i/12 for monthly payments (customary usage for convenience)<a href="http://www.fdic.gov/regulations/laws/rules/6500-1650.html#6500226.14" class="external autonumber" rel="nofollow">[2]</a></dd> 
+<dd>B<sub>0</sub> = initial balance (loan <a href="/wiki/Debt#Types_of_debt" title="Debt">principal</a>)</dd> 
+<dd>B<sub>k</sub> = balance after k payments</dd> 
+<dd>k = balance index</dd> 
+<dd>p = period (monthly) payment</dd> 
+</dl> 
+<p>By repeated substitution one obtains expressions for B<sub>k</sub>, which are linearly proportional to B<sub>0</sub> and p and use of the formula for the partial sum of a <a href="/wiki/Geometric_series" title="Geometric series">geometric series</a> results in,</p> 
+<dl> 
+<dd><img class="tex" alt="B_k=(1+r)^k B_0 - \frac{{(1+r)^k-1}}{r}\ p" src="http://upload.wikimedia.org/math/5/c/f/5cf41e7b0621c2184a56f606b42d8b98.png" /></dd> 
+</dl> 
+<p>A solution of this expression for p in terms of B<sub>0</sub> and B<sub>n</sub> reduces to,</p> 
+<dl> 
+<dd><img class="tex" alt="p=r\Bigg[\frac{B_0-B_n}{({1+r})^n-1}+B_0\Bigg]" src="http://upload.wikimedia.org/math/0/c/8/0c854d79df57fa7b15c35ee7ef1b2a13.png" /></dd> 
+</dl> 
+<p>To find the payment if the loan is to be paid off in n payments one sets B<sub>n</sub> = 0.</p> 
+<p>The PMT function found in <a href="/wiki/Spreadsheet" title="Spreadsheet">spreadsheet</a> programs can be used to calculate the monthly payment of a loan:</p> 
+<dl> 
+<dd><img class="tex" alt="p=PMT(rate,num,PV,FV,) = PMT(r,n,-B_0,B_n,)\;" src="http://upload.wikimedia.org/math/8/7/7/877eecc2566af91361a97c56b6b2d3b2.png" /></dd> 
+</dl> 
+<p>An interest-only payment on the current balance would be,</p> 
+<dl> 
+<dd><img class="tex" alt="p_I=r B\;" src="http://upload.wikimedia.org/math/5/e/1/5e1d76a77d98ac0b348dcfec95616643.png" /></dd> 
+</dl> 
+<p>The total interest, I<sub>T</sub>, paid on the loan is,</p> 
+<dl> 
+<dd><img class="tex" alt="I_T=np-B_0\;" src="http://upload.wikimedia.org/math/a/d/f/adf4abf9b1b576c4ab3df2dca4cc8dc0.png" /></dd> 
+</dl> 
+<p>The formulas for a regular savings program are similar but the payments are added to the balances instead of being subtracted and the formula for the payment is the negative of the one above. These formulas are only approximate since actual loan balances are affected by rounding. To avoid an underpayment at the end of the loan, the payment must be rounded up to the next cent. The final payment would then be (1+r)B<sub>n-1</sub>.</p> 
+<p>Consider a similar loan but with a new period equal to k periods of the problem above. If r<sub>k</sub> and p<sub>k</sub> are the new rate and payment, we now have,</p> 
+<dl> 
+<dd><img class="tex" alt="B_k=B'_0=(1+r_k)B_0-p_k\; " src="http://upload.wikimedia.org/math/0/0/0/000102779a80cc2c3f6dc36d7f5f05f7.png" /></dd> 
+</dl> 
+<p>Comparing this with the expression for B<sub>k</sub> above we note that,</p> 
+<dl> 
+<dd><img class="tex" alt="r_k=(1+r)^k-1\; " src="http://upload.wikimedia.org/math/1/0/d/10d6db0b695fc4bb592f42700b7c2bed.png" /></dd> 
+<dd><img class="tex" alt="p_k=\frac{p}{r} r_k" src="http://upload.wikimedia.org/math/7/a/5/7a5e880e333ebd386c02b9d1c15b35ab.png" /></dd> 
+</dl> 
+<p>The last equation allows us to define a constant that is the same for both problems,</p> 
+<dl> 
+<dd><img class="tex" alt="B^*=\frac{p}{r}=\frac{p_k}{r_k}" src="http://upload.wikimedia.org/math/1/a/b/1ab77404c85680bd53d97a7a4b1007e5.png" /></dd> 
+</dl> 
+<p>and B<sub>k</sub> can be written,</p> 
+<dl> 
+<dd><img class="tex" alt="B_k=(1+r_k)B_0-r_k B^*\; " src="http://upload.wikimedia.org/math/4/9/d/49d1d8bc6e832ceb93f0d63ae34ce041.png" /></dd> 
+</dl> 
+<p>Solving for r<sub>k</sub> we find a formula for r<sub>k</sub> involving known quantities and B<sub>k</sub>, the balance after k periods,</p> 
+<dl> 
+<dd><img class="tex" alt="r_k=\frac{B_0-B_k}{B^*-B_0}" src="http://upload.wikimedia.org/math/f/b/9/fb9a81e39fa6ecc7a90d9e2a60621f81.png" /></dd> 
+</dl> 
+<p>Since B<sub>0</sub> could be any balance in the loan, the formula works for any two balances separate by k periods and can be used to compute a value for the annual interest rate.</p> 
+<p>B* is a <a href="/wiki/Scale_invariant" title="Scale invariant" class="mw-redirect">scale invariant</a> since it does not change with changes in the length of the period.</p> 
+<p>Rearranging the equation for B<sup>*</sup> one gets a transformation coefficient (<a href="/wiki/Scale_factor" title="Scale factor">scale factor</a>),</p> 
+<dl> 
+<dd><img class="tex" alt="\lambda_k=\frac{p_k}{p}=\frac{r_k}{r}=\frac{(1+r)^k-1}{r}=k[1+\frac{(k-1)r}{2}+\cdots]" src="http://upload.wikimedia.org/math/2/a/f/2afc34518733cc770bd6d2f079e11764.png" /> (see <a href="/wiki/Binomial_theorem" title="Binomial theorem">binomial theorem</a>)</dd> 
+</dl> 
+<p>and we see that r and p transform in the same manner,</p> 
+<dl> 
+<dd><img class="tex" alt="r_k=\lambda_k r\;" src="http://upload.wikimedia.org/math/7/2/b/72b9135e8945cfaa12bc194659062862.png" /></dd> 
+<dd><img class="tex" alt="p_k=\lambda_k p\;" src="http://upload.wikimedia.org/math/d/6/5/d659de38fb7d2b07bf24db01a3450002.png" /></dd> 
+</dl> 
+<p>The change in the balance transforms likewise,</p> 
+<dl> 
+<dd><img class="tex" alt="\Delta B_k=B'-B=(\lambda_k rB-\lambda_k p)=\lambda_k \Delta B \;" src="http://upload.wikimedia.org/math/b/0/c/b0c6599b1dd06fe77d4feea31499ffaa.png" /></dd> 
+</dl> 
+<p>which gives an insight into the meaning of some of the coefficients found in the formulas above. The annual rate, r<sub>12</sub>, assumes only one payment per year and is not an "effective" rate for monthly payments. With monthly payments the monthly interest is paid out of each payment and so should not be compounded and an annual rate of 12·r would make more sense. If one just made interest-only payments the amount paid for the year would be 12·r·B<sub>0</sub>.</p> 
+<p>Substituting p<sub>k</sub> = r<sub>k</sub> B* into the equation for the B<sub>k</sub> we get,</p> 
+<dl> 
+<dd><img class="tex" alt="B_k=B_0-r_k(B^*-B_0)\;" src="http://upload.wikimedia.org/math/1/7/0/1705066331f30379eeb93dd69c8f0e20.png" /></dd> 
+</dl> 
+<p>Since B<sub>n</sub> = 0 we can solve for B*,</p> 
+<dl> 
+<dd><img class="tex" alt="B^*=B_0\bigg(\frac{1}{r_n}+1\bigg)" src="http://upload.wikimedia.org/math/9/6/1/96141f3c71562dbf93bd71b63709c120.png" /></dd> 
+</dl> 
+<p>Substituting back into the formula for the B<sub>k</sub> shows that they are a linear function of the r<sub>k</sub> and therefore the λ<sub>k</sub>,</p> 
+<dl> 
+<dd><img class="tex" alt="B_k=B_0\bigg(1-\frac{r_k}{r_n}\bigg)=B_0\bigg(1-\frac{\lambda_k}{\lambda_n}\bigg)" src="http://upload.wikimedia.org/math/7/5/b/75b400ec64d9e47733e2b96144851304.png" /></dd> 
+</dl> 
+<p>This is the easiest way of estimating the balances if the λ<sub>k</sub> are known. Substituting into the first formula for B<sub>k</sub> above and solving for λ<sub>k+1</sub> we get,</p> 
+<dl> 
+<dd><img class="tex" alt="\lambda_{k+1}=1+(1+r)\lambda_k\;" src="http://upload.wikimedia.org/math/c/5/6/c5612479855509c57a4c6036975d397b.png" /></dd> 
+</dl> 
+<p>λ<sub>0</sub> and λ<sub>n</sub> can be found using the formula for λ<sub>k</sub> above or computing the λ<sub>k</sub> recursively from λ<sub>0</sub> = 0 to λ<sub>n</sub>.</p> 
+<p>Since p=rB* the formula for the payment reduces to,</p> 
+<dl> 
+<dd><img class="tex" alt="p=\bigg(r+\frac{1}{\lambda_n}\bigg)B_0" src="http://upload.wikimedia.org/math/0/4/6/0466eec6b9b31da813fdec203b3a0c7c.png" /></dd> 
+</dl> 
+<p>and the average interest rate over the period of the loan is,</p> 
+<dl> 
+<dd><img class="tex" alt="r_{loan}=\frac{I_T}{nB_0}=r+\frac{1}{\lambda_n}-\frac{1}{n}" src="http://upload.wikimedia.org/math/2/c/6/2c6c8d52dd28bcbd32a9f1b0994bbe5c.png" /></dd> 
+</dl> 
+<p>which is less than r if n&gt;1.</p> 
+<p><br /></p> 
+<h2><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=20" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2> 
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;"> 
+<tr> 
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/37px-Wiktionary-logo-en.svg.png" width="37" height="40" /></td> 
+<td class="mbox-text" style="">Look up <i><b><a href="http://en.wiktionary.org/wiki/interest" class="extiw" title="wiktionary:interest">interest</a></b></i> in <a href="/wiki/Wiktionary" title="Wiktionary">Wiktionary</a>, the free dictionary.</td> 
+</tr> 
+</table> 
+<div style="-moz-column-count:3; column-count:3;"> 
+<ul> 
+<li><a href="/wiki/Actuarial_notation" title="Actuarial notation">Actuarial notation</a></li> 
+<li><a href="/wiki/Promissory_note" title="Promissory note">Promissory note</a></li> 
+<li><a href="/wiki/Rate_of_return" title="Rate of return">Rate of return</a></li> 
+<li><a href="/wiki/Cash_accumulation_equation" title="Cash accumulation equation">Cash accumulation equation</a></li> 
+<li><a href="/wiki/Compound_interest" title="Compound interest">Compound interest</a></li> 
+<li><a href="/wiki/Credit_rating_agency" title="Credit rating agency">Credit rating agency</a></li> 
+<li><a href="/wiki/Credit_card_interest" title="Credit card interest">Credit card interest</a></li> 
+<li><a href="/wiki/Discounting" title="Discounting">Discount</a></li> 
+<li><a href="/wiki/Fisher_equation" title="Fisher equation">Fisher equation</a></li> 
+<li><a href="/wiki/Hire_purchase" title="Hire purchase">Hire purchase</a></li> 
+<li><a href="/wiki/Interest_expense" title="Interest expense">Interest expense</a></li> 
+<li><a href="/wiki/Interest_rate" title="Interest rate">Interest rate</a></li> 
+<li><a href="/wiki/Leasing" title="Leasing">Leasing</a></li> 
+<li><a href="/wiki/Monetary_policy" title="Monetary policy">Monetary policy</a></li> 
+<li><a href="/wiki/Mortgage_loan" title="Mortgage loan">Mortgage loan</a></li> 
+<li><a href="/wiki/Risk-free_interest_rate" title="Risk-free interest rate">Risk-free interest rate</a></li> 
+<li><a href="/wiki/Yield_curve" title="Yield curve">Yield curve</a></li> 
+<li><a href="/wiki/Time_value_of_money" title="Time value of money">Time value of money</a></li> 
+<li><a href="/wiki/Usury" title="Usury">Usury</a></li> 
+<li><a href="/wiki/Simple_Interest" title="Simple Interest" class="mw-redirect">Simple Interest</a></li> 
+<li><a href="/wiki/Riba" title="Riba">Riba</a></li> 
+<li><a href="/wiki/JAK_members_bank" title="JAK members bank">JAK members bank</a> a Swedish interest-free bank</li> 
+</ul> 
+</div> 
+<h2><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=21" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2> 
+<table class="metadata plainlinks ambox ambox-style" style=""> 
+<tr> 
+<td class="mbox-image"> 
+<div style="width: 52px;"><a href="/wiki/File:Text_document_with_red_question_mark.svg" class="image"><img alt="Text document with red question mark.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png" width="40" height="40" /></a></div> 
+</td> 
+<td class="mbox-text" style="">This article includes a <a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">list of references</a> or <a href="/wiki/Wikipedia:External_links" title="Wikipedia:External links">external links</a>, but <b>its sources remain unclear because it has insufficient <a href="/wiki/Wikipedia:Citing_sources#Adding_the_citation" title="Wikipedia:Citing sources">inline citations</a></b>. Please help to <a href="/wiki/Wikipedia:WikiProject_Fact_and_Reference_Check" title="Wikipedia:WikiProject Fact and Reference Check">improve</a> this article by introducing more precise citations <a href="/wiki/Wikipedia:When_to_cite" title="Wikipedia:When to cite">where appropriate</a>. <small><i>(January 2009)</i></small></td> 
+</tr> 
+</table> 
+<h3><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=22" title="Edit section: Specific references">edit</a>]</span> <span class="mw-headline" id="Specific_references">Specific references</span></h3> 
+<div class="references-small"> 
+<ol class="references"> 
+<li id="cite_note-0"><b><a href="#cite_ref-0">^</a></b> <span class="citation book"><a href="/wiki/Arthur_O%27_Sullivan" title="Arthur O' Sullivan" class="mw-redirect">Sullivan, arthur</a>; Steven M. Sheffrin (2003). <a href="http://www.pearsonschool.com/index.cfm?locator=PSZ3R9&amp;PMDbSiteId=2781&amp;PMDbSolutionId=6724&amp;PMDbCategoryId=&amp;PMDbProgramId=12881&amp;level=4" class="external text" rel="nofollow"><i>Economics: Principles in action</i></a>. Upper Saddle River, New Jersey 07458: Pearson Prentice Hall. pp.&#160;261. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-13-063085-3" title="Special:BookSources/0-13-063085-3">0-13-063085-3</a><span class="printonly">. <a href="http://www.pearsonschool.com/index.cfm?locator=PSZ3R9&amp;PMDbSiteId=2781&amp;PMDbSolutionId=6724&amp;PMDbCategoryId=&amp;PMDbProgramId=12881&amp;level=4" class="external free" rel="nofollow">http://www.pearsonschool.com/index.cfm?locator=PSZ3R9&amp;PMDbSiteId=2781&amp;PMDbSolutionId=6724&amp;PMDbCategoryId=&amp;PMDbProgramId=12881&amp;level=4</a></span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Economics%3A+Principles+in+action&amp;rft.aulast=Sullivan&amp;rft.aufirst=arthur&amp;rft.au=Sullivan%2C%26%2332%3Barthur&amp;rft.date=2003&amp;rft.pages=pp.%26nbsp%3B261&amp;rft.place=Upper+Saddle+River%2C+New+Jersey+07458&amp;rft.pub=Pearson+Prentice+Hall&amp;rft.isbn=0-13-063085-3&amp;rft_id=http%3A%2F%2Fwww.pearsonschool.com%2Findex.cfm%3Flocator%3DPSZ3R9%26PMDbSiteId%3D2781%26PMDbSolutionId%3D6724%26PMDbCategoryId%3D%26PMDbProgramId%3D12881%26level%3D4&amp;rfr_id=info:sid/en.wikipedia.org:Interest"><span style="display: none;">&#160;</span></span></li> 
+<li id="cite_note-1"><b><a href="#cite_ref-1">^</a></b> <span class="citation book"><a href="/wiki/Arthur_O%27_Sullivan" title="Arthur O' Sullivan" class="mw-redirect">Sullivan, arthur</a>; Steven M. Sheffrin (2003). <a href="http://www.pearsonschool.com/index.cfm?locator=PSZ3R9&amp;PMDbSiteId=2781&amp;PMDbSolutionId=6724&amp;PMDbCategoryId=&amp;PMDbProgramId=12881&amp;level=4" class="external text" rel="nofollow"><i>Economics: Principles in action</i></a>. Upper Saddle River, New Jersey 07458: Pearson Prentice Hall. pp.&#160;506. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-13-063085-3" title="Special:BookSources/0-13-063085-3">0-13-063085-3</a><span class="printonly">. <a href="http://www.pearsonschool.com/index.cfm?locator=PSZ3R9&amp;PMDbSiteId=2781&amp;PMDbSolutionId=6724&amp;PMDbCategoryId=&amp;PMDbProgramId=12881&amp;level=4" class="external free" rel="nofollow">http://www.pearsonschool.com/index.cfm?locator=PSZ3R9&amp;PMDbSiteId=2781&amp;PMDbSolutionId=6724&amp;PMDbCategoryId=&amp;PMDbProgramId=12881&amp;level=4</a></span>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Economics%3A+Principles+in+action&amp;rft.aulast=Sullivan&amp;rft.aufirst=arthur&amp;rft.au=Sullivan%2C%26%2332%3Barthur&amp;rft.date=2003&amp;rft.pages=pp.%26nbsp%3B506&amp;rft.place=Upper+Saddle+River%2C+New+Jersey+07458&amp;rft.pub=Pearson+Prentice+Hall&amp;rft.isbn=0-13-063085-3&amp;rft_id=http%3A%2F%2Fwww.pearsonschool.com%2Findex.cfm%3Flocator%3DPSZ3R9%26PMDbSiteId%3D2781%26PMDbSolutionId%3D6724%26PMDbCategoryId%3D%26PMDbProgramId%3D12881%26level%3D4&amp;rfr_id=info:sid/en.wikipedia.org:Interest"><span style="display: none;">&#160;</span></span></li> 
+<li id="cite_note-2"><b><a href="#cite_ref-2">^</a></b> <a href="http://scripturetext.com/deuteronomy/23-19.htm" class="external free" rel="nofollow">http://scripturetext.com/deuteronomy/23-19.htm</a></li> 
+<li id="cite_note-3"><b><a href="#cite_ref-3">^</a></b> <a href="http://www.uh.edu/engines/epi2547.htm" class="external free" rel="nofollow">http://www.uh.edu/engines/epi2547.htm</a></li> 
+<li id="cite_note-bankrate.com-4">^ <a href="#cite_ref-bankrate.com_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-bankrate.com_4-1"><sup><i><b>b</b></i></sup></a> <a href="http://www.bankrate.com/brm/news/auto/20010827a.asp" class="external autonumber" rel="nofollow">[1]</a></li> 
+<li id="cite_note-5"><b><a href="#cite_ref-5">^</a></b> <a href="/wiki/Title_15_of_the_United_States_Code" title="Title 15 of the United States Code">15 U.S.C.</a>&#160;<a href="http://www.law.cornell.edu/uscode/15/1615.html" class="external text" rel="nofollow">§&#160;1615</a></li> 
+</ol> 
+</div> 
+<h3><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=23" title="Edit section: General references">edit</a>]</span> <span class="mw-headline" id="General_references">General references</span></h3> 
+<ul> 
+<li><span class="citation book">Duffie, Darrell and Kenneth J. Singleton (2003). <i>Credit Risk: Pricing, Measurement, and Management</i>. Princeton University Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/13_978-0691090467" title="Special:BookSources/13 978-0691090467">13 978-0691090467</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Credit+Risk%3A+Pricing%2C+Measurement%2C+and+Management&amp;rft.aulast=Duffie%2C+Darrell+and+Kenneth+J.+Singleton&amp;rft.au=Duffie%2C+Darrell+and+Kenneth+J.+Singleton&amp;rft.date=2003&amp;rft.pub=Princeton+University+Press&amp;rft.isbn=13+978-0691090467&amp;rfr_id=info:sid/en.wikipedia.org:Interest"><span style="display: none;">&#160;</span></span></li> 
+<li><span class="citation book">Kellison, Stephen G. (1970). <i>The Theory of Interest</i>. Richard D. Irwin, Inc.. Library of Congress Catalog Card No. 79-98251.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Theory+of+Interest&amp;rft.aulast=Kellison%2C+Stephen+G.&amp;rft.au=Kellison%2C+Stephen+G.&amp;rft.date=1970&amp;rft.pub=Richard+D.+Irwin%2C+Inc.&amp;rfr_id=info:sid/en.wikipedia.org:Interest"><span style="display: none;">&#160;</span></span></li> 
+<li><span class="citation book">Lando, David (2004). <i>Credit Risk Modeling: Theory and Applications</i>. Princeton University Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/13_978-0691089294" title="Special:BookSources/13 978-0691089294">13 978-0691089294</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Credit+Risk+Modeling%3A+Theory+and+Applications&amp;rft.aulast=Lando%2C+David&amp;rft.au=Lando%2C+David&amp;rft.date=2004&amp;rft.pub=Princeton+University+Press&amp;rft.isbn=13+978-0691089294&amp;rfr_id=info:sid/en.wikipedia.org:Interest"><span style="display: none;">&#160;</span></span></li> 
+<li><span class="citation book">van Deventer, Donald R. and Kenji Imai (2003). <i>Credit Risk Models and the Basel Accords</i>. John Wiley &amp; Sons. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/13_978-0470820919" title="Special:BookSources/13 978-0470820919">13 978-0470820919</a>.</span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Credit+Risk+Models+and+the+Basel+Accords&amp;rft.aulast=van+Deventer%2C+Donald+R.+and+Kenji+Imai&amp;rft.au=van+Deventer%2C+Donald+R.+and+Kenji+Imai&amp;rft.date=2003&amp;rft.pub=John+Wiley+%26+Sons&amp;rft.isbn=13+978-0470820919&amp;rfr_id=info:sid/en.wikipedia.org:Interest"><span style="display: none;">&#160;</span></span></li> 
+</ul> 
+<p>Deepak Tiwari(Rizvi college)BBI student</p> 
+<h2><span class="editsection">[<a href="/w/index.php?title=Interest&amp;action=edit&amp;section=24" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2> 
+<ul> 
+<li><a href="http://www.webmath.com/simpinterest.html" class="external text" rel="nofollow">Simple Interest Calculator</a></li> 
+<li><a href="http://www.webmath.com/compinterest.html" class="external text" rel="nofollow">Compound Interest Calculator</a></li> 
+<li><a href="http://www.obligo.co.uk/mortgage-calculators/mortgage-payment-calculator.html" class="external text" rel="nofollow">Mortgage Payment Calculator</a></li> 
+<li><a href="http://www.mortgagethoughts.com/" class="external text" rel="nofollow">News and information on mortgages</a></li> 
+<li><a href="http://www.margill.com/white-paper-interest.htm" class="external text" rel="nofollow">White Paper: More than Math, The Lost Art of Interest calculation</a></li> 
+<li><a href="http://www.moneymadeclear.fsa.gov.uk/products/mortgages/mortgages.html" class="external text" rel="nofollow">Mortgages made clear</a> <a href="/wiki/Financial_Services_Authority" title="Financial Services Authority">Financial Services Authority</a> (UK)</li> 
+<li><a href="http://dtsreddy.spaces.live.com/blog/cns!13F578534B68D612!734.entry" class="external text" rel="nofollow">Simple &amp; Compound Interest Calculator for Multiple Credits and Debits</a></li> 
+<li><a href="http://stats.oecd.org/Index.aspx?QueryId=579" class="external text" rel="nofollow">OECD interest rate statistics</a></li> 
+</ul> 
+<ul> 
+<li>You can see a list of current interest rates at these sites:
+<ul> 
+<li><a href="http://www.worldinterestrates.info" class="external text" rel="nofollow">World Interest Rates</a></li> 
+<li><a href="http://www.forexmotion.com/index.php/en/exchange-rates.html" class="external text" rel="nofollow">Forex Motion</a></li> 
+<li><a href="http://www.whichwaytopay.com/world-interest-rates.asp" class="external text" rel="nofollow">"Which way to pay"</a></li> 
+</ul> 
+</li> 
+</ul> 
+<p><br /></p> 
+<table class="navbox" cellspacing="0" style=";"> 
+<tr> 
+<td style="padding:2px;"> 
+<table cellspacing="0" class="nowraplinks collapsible autocollapse" style="width:100%;background:transparent;color:inherit;;"> 
+<tr> 
+<th style=";" colspan="2" class="navbox-title"> 
+<div style="float:left; width:6em;text-align:left;"> 
+<div class="noprint plainlinks navbar" style="background:none; padding:0; font-weight:normal;;;border:none;; font-size:xx-small;"><a href="/wiki/Template:Debt" title="Template:Debt"><span title="View this template" style=";;border:none;">v</span></a>&#160;<span style="font-size:80%;">•</span>&#160;<a href="/wiki/Template_talk:Debt" title="Template talk:Debt"><span title="Discuss this template" style=";;border:none;">d</span></a>&#160;<span style="font-size:80%;">•</span>&#160;<a href="http://en.wikipedia.org/w/index.php?title=Template:Debt&amp;action=edit" class="external text" rel="nofollow"><span title="Edit this template" style=";;border:none;;">e</span></a></div> 
+</div> 
+<span class="" style="font-size:110%;"><a href="/wiki/Debt" title="Debt">Debt</a></span></th> 
+</tr> 
+<tr style="height:2px"> 
+<td></td> 
+</tr> 
+<tr> 
+<td class="navbox-group" style=";;">Debt instruments</td> 
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even"> 
+<div style="padding:0em 0.25em"></div> 
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="width:100%;;;;"> 
+<tr> 
+<td class="navbox-group" style=";padding-left:0em;padding-right:0em;;"> 
+<div style="padding:0em 0.75em;"><a href="/wiki/Bond_(finance)" title="Bond (finance)">Bond</a></div> 
+</td> 
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd"> 
+<div style="padding:0em 0.25em"><a href="/wiki/Debenture" title="Debenture">Debenture</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Corporate_bond" title="Corporate bond">Corporate bond</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Government_bond" title="Government bond">Government bond</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Municipal_bond" title="Municipal bond">Municipal bond</a></div> 
+</td> 
+</tr> 
+<tr style="height:2px"> 
+<td></td> 
+</tr> 
+<tr> 
+<td class="navbox-group" style=";padding-left:0em;padding-right:0em;;"> 
+<div style="padding:0em 0.75em;"><a href="/wiki/Loan" title="Loan">Loan</a></div> 
+</td> 
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even"> 
+<div style="padding:0em 0.25em"><a href="/wiki/Usury" title="Usury">Usury</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Consumer_lending" title="Consumer lending">Consumer lending</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Predatory_lending" title="Predatory lending">Predatory lending</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Loan_shark" title="Loan shark">Loan shark</a></div> 
+</td> 
+</tr> 
+</table> 
+</td> 
+</tr> 
+<tr style="height:2px"> 
+<td></td> 
+</tr> 
+<tr> 
+<td class="navbox-group" style=";;">Managing debt</td> 
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd"> 
+<div style="padding:0em 0.25em"><a href="/wiki/Debt_management_plan" title="Debt management plan">Debt management plan</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Debt_consolidation" title="Debt consolidation">Consolidation</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Debt-snowball_method" title="Debt-snowball method">Debt-snowball method</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Bankruptcy" title="Bankruptcy">Bankruptcy</a></div> 
+</td> 
+</tr> 
+<tr style="height:2px"> 
+<td></td> 
+</tr> 
+<tr> 
+<td class="navbox-group" style=";;"><a href="/wiki/Debt_collection" title="Debt collection" class="mw-redirect">Debt collection</a> and <a href="/wiki/Debt_evasion" title="Debt evasion">evasion</a></td> 
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even"> 
+<div style="padding:0em 0.25em"><a href="/wiki/Debt_compliance" title="Debt compliance">Debt compliance</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Collection_agency" title="Collection agency">Collection agency</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Garnishment" title="Garnishment">Garnishment</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Tax_refund_interception" title="Tax refund interception">Tax refund interception</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Debt_bondage" title="Debt bondage">Debt bondage</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Debtors%27_prison" title="Debtors' prison">Debtors' prison</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Phantom_debt" title="Phantom debt">Phantom debt</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Charge-off" title="Charge-off">Charge-off</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Strategic_default" title="Strategic default">Strategic default</a></div> 
+</td> 
+</tr> 
+<tr style="height:2px"> 
+<td></td> 
+</tr> 
+<tr> 
+<td class="navbox-group" style=";;">Debt markets</td> 
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd"> 
+<div style="padding:0em 0.25em"><a href="/wiki/Fixed_income" title="Fixed income">Fixed income</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Consumer_debt" title="Consumer debt">Consumer debt</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Corporate_debt" title="Corporate debt" class="mw-redirect">Corporate debt</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Government_debt" title="Government debt">Government debt</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Money_market" title="Money market">Money market</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Deposit_account" title="Deposit account">Deposit account</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Debt_buyer" title="Debt buyer">Debt buyer</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Securitization" title="Securitization">Securitization</a></div> 
+</td> 
+</tr> 
+<tr style="height:2px"> 
+<td></td> 
+</tr> 
+<tr> 
+<td class="navbox-group" style=";;">Debt in economics</td> 
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd"> 
+<div style="padding:0em 0.25em"><a href="/wiki/Debt_levels_and_flows" title="Debt levels and flows">Debt levels and flows</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/External_debt" title="External debt">External debt</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Internal_debt" title="Internal debt">Internal debt</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Consumer_leverage_ratio" title="Consumer leverage ratio">Consumer leverage ratio</a></div> 
+</td> 
+</tr> 
+<tr style="height:2px;"> 
+<td></td> 
+</tr> 
+<tr> 
+<td class="navbox-abovebelow" style=";" colspan="2"><strong class="selflink">Interest</strong><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Interest_rate" title="Interest rate">Interest rate</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Default_(finance)" title="Default (finance)">Default</a><span style="font-weight:bold;">&#160;·</span>  <a href="/wiki/Insolvency" title="Insolvency">Insolvency</a></td> 
+</tr> 
+</table> 
+</td> 
+</tr> 
+</table> 
+ 
+ 
+<!-- 
+NewPP limit report
+Preprocessor node count: 8591/1000000
+Post-expand include size: 91584/2048000 bytes
+Template argument size: 35720/2048000 bytes
+Expensive parser function count: 17/500
+--> 
+ 
+<!-- Saved in parser cache with key enwiki:pcache:idhash:146738-0!1!0!default!!en!4 and timestamp 20100902215016 --> 
+<div class="printfooter"> 
+Retrieved from "<a href="http://en.wikipedia.org/wiki/Interest">http://en.wikipedia.org/wiki/Interest</a>"</div> 
+				<!-- /bodytext --> 

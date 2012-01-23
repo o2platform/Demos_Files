@@ -1,0 +1,983 @@
+<?xml version="1.0"?>
+<AspNet_Page>
+  <File_Path>C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\</File_Path>
+  <Virtual_Path>/ViewAccount.aspx</Virtual_Path>
+  <Server>localhost</Server>
+  <Web_Address>http://localhost/</Web_Address>
+  <PagesConfig>
+    <Item Key="Properties" Value="System.Configuration.ConfigurationPropertyCollection" />
+    <Item Key="Buffer" Value="True" />
+    <Item Key="EnableSessionState" Value="False" />
+    <Item Key="EnableViewState" Value="True" />
+    <Item Key="EnableViewStateMac" Value="False" />
+    <Item Key="EnableEventValidation" Value="False" />
+    <Item Key="SmartNavigation" Value="False" />
+    <Item Key="AutoEventWireup" Value="True" />
+    <Item Key="MaintainScrollPositionOnPostBack" Value="False" />
+    <Item Key="PageBaseType" Value="System.Web.UI.Page" />
+    <Item Key="UserControlBaseType" Value="System.Web.UI.UserControl" />
+    <Item Key="PageBaseTypeInternal" Value="[null value]" />
+    <Item Key="UserControlBaseTypeInternal" Value="[null value]" />
+    <Item Key="PageParserFilterType" Value="" />
+    <Item Key="PageParserFilterTypeInternal" Value="[null value]" />
+    <Item Key="ValidateRequest" Value="False" />
+    <Item Key="MasterPageFile" Value="" />
+    <Item Key="MasterPageFileInternal" Value="" />
+    <Item Key="Theme" Value="" />
+    <Item Key="ThemeInternal" Value="" />
+    <Item Key="StyleSheetTheme" Value="" />
+    <Item Key="StyleSheetThemeInternal" Value="" />
+    <Item Key="Namespaces" Value="System.Web.Configuration.NamespaceCollection" />
+    <Item Key="Controls" Value="System.Web.Configuration.TagPrefixCollection" />
+    <Item Key="MaxPageStateFieldLength" Value="-1" />
+    <Item Key="TagMapping" Value="System.Web.Configuration.TagMapCollection" />
+    <Item Key="CompilationMode" Value="Always" />
+    <Item Key="ViewStateEncryptionMode" Value="Auto" />
+    <Item Key="AsyncTimeout" Value="00:00:45" />
+    <Item Key="RenderAllHiddenFieldsAtTopOfForm" Value="True" />
+    <Item Key="TagNamespaceRegisterEntriesInternal" Value="System.Web.UI.TagNamespaceRegisterEntryTable" />
+    <Item Key="DefaultTagNamespaceRegisterEntries" Value="System.Web.UI.TagNamespaceRegisterEntry[]" />
+    <Item Key="UserControlRegisterEntriesInternal" Value="System.Collections.Hashtable" />
+    <Item Key="SectionInformation" Value="System.Configuration.SectionInformation" />
+    <Item Key="DataToWriteInternal" Value="False" />
+    <Item Key="ElementPresent" Value="True" />
+    <Item Key="ElementTagName" Value="pages" />
+    <Item Key="LockedAttributesList" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockedAllExceptAttributesList" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="ItemLocked" Value="Default" />
+    <Item Key="LockAttributes" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockAllAttributesExcept" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockElements" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockAllElementsExcept" Value="System.Configuration.ConfigurationLockCollection" />
+    <Item Key="LockItem" Value="False" />
+    <Item Key="Item" Value="[null value]" />
+    <Item Key="Item" Value="[null value]" />
+    <Item Key="Values" Value="System.Configuration.ConfigurationValues" />
+    <Item Key="ElementInformation" Value="System.Configuration.ElementInformation" />
+    <Item Key="EvaluationContext" Value="System.Configuration.ContextInformation" />
+    <Item Key="ElementProperty" Value="System.Configuration.ConfigurationElementProperty" />
+  </PagesConfig>
+  <ConfigItems>
+    <Item Key="CurrentVirtualPathString" Value="/ViewAccount.aspx" />
+    <Item Key="DefaultBaseType" Value="System.Web.UI.Page" />
+    <Item Key="DefaultFileLevelBuilderType" Value="System.Web.UI.FileLevelPageControlBuilder" />
+    <Item Key="HasCodeBehind" Value="True" />
+    <Item Key="IsCodeAllowed" Value="True" />
+  </ConfigItems>
+  <Namespaces>
+    <string>System.Web.Security</string>
+    <string>System.Web</string>
+    <string>System.Web.SessionState</string>
+    <string>System.Text</string>
+    <string>System.Web.UI.WebControls</string>
+    <string>System.Web.Profile</string>
+    <string>System.Collections</string>
+    <string>System.Web.UI.WebControls.WebParts</string>
+    <string>System.Configuration</string>
+    <string>System</string>
+    <string>ASP</string>
+    <string>System.Web.Caching</string>
+    <string>System.Web.UI</string>
+    <string>System.Collections.Specialized</string>
+    <string>System.Text.RegularExpressions</string>
+    <string>System.Web.UI.HtmlControls</string>
+  </Namespaces>
+  <SourceDependencies>
+    <string>/ViewAccount.aspx</string>
+    <string>/Site.Master</string>
+  </SourceDependencies>
+  <CodeBlock VirtualPath="/ViewAccount.aspx" BuilderType="System.Web.UI.FileLevelPageControlBuilder" ControlType="SuperSecureBank.ViewAccount" ID="__control1" Line="1" Column="0" IsHtmlControl="false" HasAspCode="false">
+    <SimplePropertyEntries>
+      <Item Key="Title" Value="" />
+      <Item Key="MasterPageFile" Value="~/Site.Master" />
+      <Item Key="EnableViewStateMac" Value="false" />
+      <Item Key="EnableEventValidation" Value="false" />
+    </SimplePropertyEntries>
+    <EventEntries />
+    <SubBlocks>
+      <CodeBlock VirtualPath="/ViewAccount.aspx" BuilderType="System.Web.UI.WebControls.ContentBuilderInternal" ControlType="System.Web.UI.WebControls.Content" ID="Content1" Line="4" Column="0" TagName="asp:Content" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+        </SubBlocks>
+      </CodeBlock>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+      <CodeBlock VirtualPath="/ViewAccount.aspx" BuilderType="System.Web.UI.WebControls.ContentBuilderInternal" ControlType="System.Web.UI.WebControls.Content" ID="Content2" Line="6" Column="0" TagName="asp:Content" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;	&lt;h1&gt;&#xA;		&lt;img src=&quot;Images/balanceca6.png&quot; alt=&quot;View Account Balances&quot; /&gt;&#xA;		View Account Balances&lt;/h1&gt;&#xA;		&lt;br /&gt;&#xA;		&lt;p&gt;From this page you can view each of your accounts and balances.&lt;/p&gt;&#xA;	&lt;div&gt;&#xA;		">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ViewAccount.aspx" BuilderType="System.Web.UI.WebControls.LabelControlBuilder" ControlType="System.Web.UI.WebControls.Label" ID="message" Line="13" Column="0" TagName="asp:Label" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="Visible" Value="false" />
+              <Item Key="ID" Value="message" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;		">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock VirtualPath="/ViewAccount.aspx" BuilderType="System.Web.UI.ControlBuilder" ControlType="System.Web.UI.WebControls.GridView" ID="Accounts" Line="14" Column="0" TagName="asp:GridView" IsHtmlControl="false" HasAspCode="false" Filter="asp">
+            <SimplePropertyEntries>
+              <Item Key="ID" Value="Accounts" />
+              <Item Key="CellPadding" Value="4" />
+              <Item Key="ForeColor" Value="#333333" />
+              <Item Key="GridLines" Value="Both" />
+              <Item Key="AutoGenerateColumns" Value="False" />
+              <Item Key="DataKeyNames" Value="accountID" />
+              <Item Key="PageSize" Value="1000" />
+              <Item Key="ShowFooter" Value="True" />
+            </SimplePropertyEntries>
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+          <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;	&lt;/div&gt;&#xA;">
+            <SimplePropertyEntries />
+            <EventEntries />
+            <SubBlocks />
+          </CodeBlock>
+        </SubBlocks>
+      </CodeBlock>
+      <CodeBlock BlockType="System.String" Line="0" Column="0" IsHtmlControl="false" HasAspCode="false" Content="&#xA;">
+        <SimplePropertyEntries />
+        <EventEntries />
+        <SubBlocks />
+      </CodeBlock>
+    </SubBlocks>
+  </CodeBlock>
+  <Store_AspNet_SourceCode>true</Store_AspNet_SourceCode>
+  <Store_Compiled_AspNet_SourceCode>true</Store_Compiled_AspNet_SourceCode>
+  <AspNet_SourceCode>&lt;%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
+	CodeBehind="ViewAccount.aspx.cs" Inherits="SuperSecureBank.ViewAccount" %&gt;
+
+&lt;asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server"&gt;
+&lt;/asp:Content&gt;
+&lt;asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server"&gt;
+	&lt;h1&gt;
+		&lt;img src="Images/balanceca6.png" alt="View Account Balances" /&gt;
+		View Account Balances&lt;/h1&gt;
+		&lt;br /&gt;
+		&lt;p&gt;From this page you can view each of your accounts and balances.&lt;/p&gt;
+	&lt;div&gt;
+		&lt;asp:Label visible="false" ID="message" runat="server" /&gt;
+		&lt;asp:GridView ID="Accounts" runat="server" CellPadding="4" ForeColor="#333333"
+			GridLines="Both" AutoGenerateColumns="False" DataKeyNames="accountID" 
+			PageSize="1000" ShowFooter="True"&gt;
+			&lt;HeaderStyle BackColor="#4b6c9e" Font-Bold="True" ForeColor="White" /&gt;
+			&lt;Columns&gt;
+				&lt;asp:BoundField DataField="accountID" HeaderText="Account ID" ReadOnly="True" 
+					SortExpression="accountID" HtmlEncode="false" /&gt;
+				&lt;asp:BoundField DataField="balance" HeaderText="Balance" 
+					SortExpression="balance"  HtmlEncode="false"/&gt;
+				&lt;asp:BoundField DataField="LevelName" HeaderText="Level" 
+					SortExpression="LevelName"  HtmlEncode="false"/&gt;
+				&lt;asp:BoundField DataField="LevelDescription" HeaderText="Level Description" 
+					SortExpression="LevelDescription"  HtmlEncode="false"/&gt;
+				&lt;asp:BoundField DataField="TypeName" HeaderText="Type" 
+					SortExpression="TypeName"  HtmlEncode="false"/&gt;
+				&lt;asp:BoundField DataField="TypeDescription" HeaderText="Type Description" 
+					SortExpression="TypeDescription"  HtmlEncode="false"/&gt;
+				&lt;asp:BoundField DataField="Status" HeaderText="Current Status" 
+					SortExpression="Status" HtmlEncode="false" /&gt;
+			&lt;/Columns&gt;
+			&lt;RowStyle BackColor="#FFFFFF" /&gt;
+		&lt;/asp:GridView&gt;
+	&lt;/div&gt;
+&lt;/asp:Content&gt;
+</AspNet_SourceCode>
+  <AspNet_Compiled_SourceCode>
+    <string>#pragma checksum "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "A7A658179803F32433AAF07F5EAEB068"
+//------------------------------------------------------------------------------
+// &lt;auto-generated&gt;
+//     This code was generated by a tool.
+//     Runtime Version:2.0.50727.5448
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// &lt;/auto-generated&gt;
+//------------------------------------------------------------------------------
+
+namespace ASP {
+    
+    #line 284 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Security;
+    
+    #line default
+    #line hidden
+    
+    #line 281 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web;
+    
+    #line default
+    #line hidden
+    
+    #line 283 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.SessionState;
+    
+    #line default
+    #line hidden
+    
+    #line 279 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Text;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+    using System.Web.UI.WebControls;
+    
+    #line default
+    #line hidden
+    
+    #line 285 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Profile;
+    
+    #line default
+    #line hidden
+    
+    #line 276 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Collections;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+    using System.Web.UI.WebControls.WebParts;
+    
+    #line default
+    #line hidden
+    
+    #line 278 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Configuration;
+    
+    #line default
+    #line hidden
+    
+    #line 275 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System;
+    
+    #line default
+    #line hidden
+    
+    #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+    using ASP;
+    
+    #line default
+    #line hidden
+    
+    #line 282 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.Caching;
+    
+    #line default
+    #line hidden
+    
+    #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+    using System.Web.UI;
+    
+    #line default
+    #line hidden
+    
+    #line 277 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Collections.Specialized;
+    
+    #line default
+    #line hidden
+    
+    #line 280 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Text.RegularExpressions;
+    
+    #line default
+    #line hidden
+    
+    #line 289 "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Config\web.config"
+    using System.Web.UI.HtmlControls;
+    
+    #line default
+    #line hidden
+    
+    
+    [System.Runtime.CompilerServices.CompilerGlobalScopeAttribute()]
+    public class viewaccount_aspx : global::SuperSecureBank.ViewAccount, System.Web.IHttpHandler {
+        
+        private static bool @__initialized;
+        
+        private static object @__fileDependencies;
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public viewaccount_aspx() {
+            string[] dependencies;
+            ((global::SuperSecureBank.ViewAccount)(this)).AppRelativeVirtualPath = "~/ViewAccount.aspx";
+            if ((global::ASP.viewaccount_aspx.@__initialized == false)) {
+                dependencies = new string[2];
+                dependencies[0] = "~/ViewAccount.aspx";
+                dependencies[1] = "~/Site.Master";
+                global::ASP.viewaccount_aspx.@__fileDependencies = this.GetWrappedFileDependencies(dependencies);
+                global::ASP.viewaccount_aspx.@__initialized = true;
+            }
+            this.Server.ScriptTimeout = 30000000;
+        }
+        
+        protected System.Web.Profile.DefaultProfile Profile {
+            get {
+                return ((System.Web.Profile.DefaultProfile)(this.Context.Profile));
+            }
+        }
+        
+        protected ASP.global_asax ApplicationInstance {
+            get {
+                return ((ASP.global_asax)(this.Context.ApplicationInstance));
+            }
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlContent1(System.Web.UI.Control @__ctrl) {
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.Label @__BuildControlmessage() {
+            global::System.Web.UI.WebControls.Label @__ctrl;
+            
+            #line 13 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.Label();
+            
+            #line default
+            #line hidden
+            this.message = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 13 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.Visible = false;
+            
+            #line default
+            #line hidden
+            
+            #line 13 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.ID = "message";
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControl__control2(System.Web.UI.WebControls.TableItemStyle @__ctrl) {
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.BackColor = ((System.Drawing.Color)(System.Drawing.Color.FromArgb(75, 108, 158)));
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.Font.Bold = true;
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.ForeColor = System.Drawing.Color.White;
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.BoundField @__BuildControl__control4() {
+            global::System.Web.UI.WebControls.BoundField @__ctrl;
+            
+            #line 19 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.BoundField();
+            
+            #line default
+            #line hidden
+            
+            #line 19 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.DataField = "accountID";
+            
+            #line default
+            #line hidden
+            
+            #line 19 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.HeaderText = "Account ID";
+            
+            #line default
+            #line hidden
+            
+            #line 19 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.ReadOnly = true;
+            
+            #line default
+            #line hidden
+            
+            #line 19 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.SortExpression = "accountID";
+            
+            #line default
+            #line hidden
+            
+            #line 19 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.HtmlEncode = false;
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.BoundField @__BuildControl__control5() {
+            global::System.Web.UI.WebControls.BoundField @__ctrl;
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.BoundField();
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.DataField = "balance";
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.HeaderText = "Balance";
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.SortExpression = "balance";
+            
+            #line default
+            #line hidden
+            
+            #line 21 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.HtmlEncode = false;
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.BoundField @__BuildControl__control6() {
+            global::System.Web.UI.WebControls.BoundField @__ctrl;
+            
+            #line 23 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.BoundField();
+            
+            #line default
+            #line hidden
+            
+            #line 23 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.DataField = "LevelName";
+            
+            #line default
+            #line hidden
+            
+            #line 23 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.HeaderText = "Level";
+            
+            #line default
+            #line hidden
+            
+            #line 23 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.SortExpression = "LevelName";
+            
+            #line default
+            #line hidden
+            
+            #line 23 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.HtmlEncode = false;
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.BoundField @__BuildControl__control7() {
+            global::System.Web.UI.WebControls.BoundField @__ctrl;
+            
+            #line 25 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.BoundField();
+            
+            #line default
+            #line hidden
+            
+            #line 25 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.DataField = "LevelDescription";
+            
+            #line default
+            #line hidden
+            
+            #line 25 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.HeaderText = "Level Description";
+            
+            #line default
+            #line hidden
+            
+            #line 25 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.SortExpression = "LevelDescription";
+            
+            #line default
+            #line hidden
+            
+            #line 25 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.HtmlEncode = false;
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.BoundField @__BuildControl__control8() {
+            global::System.Web.UI.WebControls.BoundField @__ctrl;
+            
+            #line 27 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.BoundField();
+            
+            #line default
+            #line hidden
+            
+            #line 27 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.DataField = "TypeName";
+            
+            #line default
+            #line hidden
+            
+            #line 27 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.HeaderText = "Type";
+            
+            #line default
+            #line hidden
+            
+            #line 27 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.SortExpression = "TypeName";
+            
+            #line default
+            #line hidden
+            
+            #line 27 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.HtmlEncode = false;
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.BoundField @__BuildControl__control9() {
+            global::System.Web.UI.WebControls.BoundField @__ctrl;
+            
+            #line 29 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.BoundField();
+            
+            #line default
+            #line hidden
+            
+            #line 29 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.DataField = "TypeDescription";
+            
+            #line default
+            #line hidden
+            
+            #line 29 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.HeaderText = "Type Description";
+            
+            #line default
+            #line hidden
+            
+            #line 29 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.SortExpression = "TypeDescription";
+            
+            #line default
+            #line hidden
+            
+            #line 29 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.HtmlEncode = false;
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.BoundField @__BuildControl__control10() {
+            global::System.Web.UI.WebControls.BoundField @__ctrl;
+            
+            #line 31 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.BoundField();
+            
+            #line default
+            #line hidden
+            
+            #line 31 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.DataField = "Status";
+            
+            #line default
+            #line hidden
+            
+            #line 31 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.HeaderText = "Current Status";
+            
+            #line default
+            #line hidden
+            
+            #line 31 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.SortExpression = "Status";
+            
+            #line default
+            #line hidden
+            
+            #line 31 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.HtmlEncode = false;
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControl__control3(System.Web.UI.WebControls.DataControlFieldCollection @__ctrl) {
+            global::System.Web.UI.WebControls.BoundField @__ctrl1;
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl1 = this.@__BuildControl__control4();
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.Add(@__ctrl1);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.BoundField @__ctrl2;
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl2 = this.@__BuildControl__control5();
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.Add(@__ctrl2);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.BoundField @__ctrl3;
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl3 = this.@__BuildControl__control6();
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.Add(@__ctrl3);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.BoundField @__ctrl4;
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl4 = this.@__BuildControl__control7();
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.Add(@__ctrl4);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.BoundField @__ctrl5;
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl5 = this.@__BuildControl__control8();
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.Add(@__ctrl5);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.BoundField @__ctrl6;
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl6 = this.@__BuildControl__control9();
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.Add(@__ctrl6);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.BoundField @__ctrl7;
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl7 = this.@__BuildControl__control10();
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.Add(@__ctrl7);
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControl__control11(System.Web.UI.WebControls.TableItemStyle @__ctrl) {
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.BackColor = System.Drawing.Color.White;
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.GridView @__BuildControlAccounts() {
+            global::System.Web.UI.WebControls.GridView @__ctrl;
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl = new global::System.Web.UI.WebControls.GridView();
+            
+            #line default
+            #line hidden
+            this.Accounts = @__ctrl;
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this);
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.ID = "Accounts";
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.CellPadding = 4;
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.ForeColor = ((System.Drawing.Color)(System.Drawing.Color.FromArgb(51, 51, 51)));
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.GridLines = System.Web.UI.WebControls.GridLines.Both;
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.AutoGenerateColumns = false;
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.DataKeyNames = new string[] {
+                    "accountID"};
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.PageSize = 1000;
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.ShowFooter = true;
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            this.@__BuildControl__control2(@__ctrl.HeaderStyle);
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            this.@__BuildControl__control3(@__ctrl.Columns);
+            
+            #line default
+            #line hidden
+            
+            #line 14 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            this.@__BuildControl__control11(@__ctrl.RowStyle);
+            
+            #line default
+            #line hidden
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlContent2(System.Web.UI.Control @__ctrl) {
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t&lt;h1&gt;\n\t\t&lt;img src=\"Images/balanceca6.png\" alt=\"View Account Balances\" /&gt;\n\t\tView A" +
+                        "ccount Balances&lt;/h1&gt;\n\t\t&lt;br /&gt;\n\t\t&lt;p&gt;From this page you can view each of your acco" +
+                        "unts and balances.&lt;/p&gt;\n\t&lt;div&gt;\n\t\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.Label @__ctrl1;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl1 = this.@__BuildControlmessage();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t\t"));
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.GridView @__ctrl2;
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl2 = this.@__BuildControlAccounts();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__parser.AddParsedSubObject(@__ctrl2);
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n\t&lt;/div&gt;\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlTree(viewaccount_aspx @__ctrl) {
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.Title = "";
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.MasterPageFile = "~/Site.Master";
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.EnableViewStateMac = false;
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__ctrl.EnableEventValidation = false;
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            this.InitializeCulture();
+            
+            #line default
+            #line hidden
+            
+            #line 4 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            this.AddContentTemplate("HeadContent", new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControlContent1)));
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            this.AddContentTemplate("MainContent", new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControlContent2)));
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\ViewAccount.aspx"
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\n"));
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void FrameworkInitialize() {
+            base.FrameworkInitialize();
+            this.@__BuildControlTree(this);
+            this.AddWrappedFileDependencies(global::ASP.viewaccount_aspx.@__fileDependencies);
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override int GetTypeHashCode() {
+            return 237732839;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public override void ProcessRequest(System.Web.HttpContext context) {
+            base.ProcessRequest(context);
+        }
+    }
+}
+</string>
+  </AspNet_Compiled_SourceCode>
+</AspNet_Page>

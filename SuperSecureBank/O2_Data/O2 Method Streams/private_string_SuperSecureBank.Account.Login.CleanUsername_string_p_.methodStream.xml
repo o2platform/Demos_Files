@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<Saved_MethodStream>
+  <RootMethod ItemType="Method" Name="CleanUsername" Class="Login" Namespace="SuperSecureBank.Account" ReturnType="System.String" Signature="private string SuperSecureBank.Account.Login.CleanUsername(string p)" DotNetName="SuperSecureBank.Account.Login.CleanUsername">
+    <Parameter Key="p" Value="System.String" />
+    <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx.cs" Line="59" Column="3" Line_End="59" Column_End="41" />
+  </RootMethod>
+  <MethodStreamItems>
+    <MethodStream_Item ItemType="ExternalClasses" Name="String" Class="System.String" Namespace="System" Signature="System.String" DotNetName="System.String" />
+    <MethodStream_Item ItemType="ExternalMethod" Name="Replace" Class="String" Namespace="System" ReturnType="System.String" Signature="public string string.Replace(string oldValue, string newValue)" DotNetName="System.String.Replace">
+      <Parameter Key="oldValue" Value="System.String" />
+      <Parameter Key="newValue" Value="System.String" />
+    </MethodStream_Item>
+    <MethodStream_Item ItemType="MappedMethod" Name="CleanUsername" Class="Login" Namespace="SuperSecureBank.Account" ReturnType="System.String" Signature="private string SuperSecureBank.Account.Login.CleanUsername(string p)" DotNetName="SuperSecureBank.Account.Login.CleanUsername">
+      <Parameter Key="p" Value="System.String" />
+      <Location File="C:\O2\Demos\SI - SuperSecureBank\SecurityInnovation-SuperSecureBank-938fde3\SuperSecureBank\Account\Login.aspx.cs" Line="59" Column="3" Line_End="59" Column_End="41" />
+    </MethodStream_Item>
+  </MethodStreamItems>
+  <CodeStreams>
+    <CodeStreamPath Text="method -&gt; private string SuperSecureBank.Account.Login.CleanUsername(string p)" Line="7" Column="3" Line_End="7" Column_End="41" HashCode="0">
+      <CodeStreamPath Text="parameter -&gt; p" Line="7" Column="32" Line_End="7" Column_End="39" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="4" Line_End="9" Column_End="5" HashCode="0" />
+        <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="8" Line_End="9" Column_End="9" HashCode="0">
+          <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="9" Column="17" Line_End="9" Column_End="33" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="18" Column="3" Line_End="18" Column_End="58" HashCode="0">
+              <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="4" Line_End="9" Column_End="5" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+        <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="10" Column="11" Line_End="10" Column_End="12" HashCode="0">
+          <CodeStreamPath Text="ReturnStatement" Line="10" Column="4" Line_End="10" Column_End="13" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="7" Column="32" Line_End="7" Column_End="38" HashCode="0">
+      <CodeStreamPath Text="method -&gt; private string SuperSecureBank.Account.Login.CleanUsername(string p)" Line="7" Column="3" Line_End="7" Column_End="41" HashCode="0">
+        <CodeStreamPath Text="parameter -&gt; p" Line="7" Column="32" Line_End="7" Column_End="39" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="4" Line_End="9" Column_End="5" HashCode="0" />
+          <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="8" Line_End="9" Column_End="9" HashCode="0">
+            <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="9" Column="17" Line_End="9" Column_End="33" HashCode="0">
+              <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="18" Column="3" Line_End="18" Column_End="58" HashCode="0">
+                <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="4" Line_End="9" Column_End="5" HashCode="0" />
+              </CodeStreamPath>
+            </CodeStreamPath>
+          </CodeStreamPath>
+          <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="10" Column="11" Line_End="10" Column_End="12" HashCode="0">
+            <CodeStreamPath Text="ReturnStatement" Line="10" Column="4" Line_End="10" Column_End="13" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="TypeReference" Line="7" Column="11" Line_End="7" Column_End="17" HashCode="0" />
+    <CodeStreamPath Text="ExpressionStatement" Line="9" Column="4" Line_End="9" Column_End="34" HashCode="0" />
+    <CodeStreamPath Text="AssignmentExpression" Line="9" Column="4" Line_End="9" Column_End="33" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="4" Line_End="9" Column_End="5" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="8" Line_End="9" Column_End="9" HashCode="0">
+          <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="9" Column="17" Line_End="9" Column_End="33" HashCode="0">
+            <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="18" Column="3" Line_End="18" Column_End="58" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+        <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="10" Column="11" Line_End="10" Column_End="12" HashCode="0">
+          <CodeStreamPath Text="ReturnStatement" Line="10" Column="4" Line_End="10" Column_End="13" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="4" Line_End="9" Column_End="5" HashCode="0">
+      <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="8" Line_End="9" Column_End="9" HashCode="0">
+        <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="9" Column="17" Line_End="9" Column_End="33" HashCode="0">
+          <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="18" Column="3" Line_End="18" Column_End="58" HashCode="0" />
+        </CodeStreamPath>
+      </CodeStreamPath>
+      <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="10" Column="11" Line_End="10" Column_End="12" HashCode="0">
+        <CodeStreamPath Text="ReturnStatement" Line="10" Column="4" Line_End="10" Column_End="13" HashCode="0" />
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="9" Column="17" Line_End="9" Column_End="33" HashCode="0">
+      <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="18" Column="3" Line_End="18" Column_End="58" HashCode="0">
+        <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="4" Line_End="9" Column_End="5" HashCode="0">
+          <CodeStreamPath Text="AssignmentExpression" Line="9" Column="4" Line_End="9" Column_End="33" HashCode="0">
+            <CodeStreamPath Text="ExpressionStatement" Line="9" Column="4" Line_End="9" Column_End="34" HashCode="0" />
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="memberRef -&gt; DefaultMethod: public string string.Replace(string oldValue, string newValue)" Line="9" Column="9" Line_End="9" Column_End="17" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="9" Column="17" Line_End="9" Column_End="33" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="18" Column="3" Line_End="18" Column_End="58" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="4" Line_End="9" Column_End="5" HashCode="0">
+            <CodeStreamPath Text="AssignmentExpression" Line="9" Column="4" Line_End="9" Column_End="33" HashCode="0">
+              <CodeStreamPath Text="ExpressionStatement" Line="9" Column="4" Line_End="9" Column_End="34" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="8" Line_End="9" Column_End="9" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="9" Column="17" Line_End="9" Column_End="33" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="18" Column="3" Line_End="18" Column_End="58" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="4" Line_End="9" Column_End="5" HashCode="0">
+            <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="10" Column="11" Line_End="10" Column_End="12" HashCode="0">
+              <CodeStreamPath Text="ReturnStatement" Line="10" Column="4" Line_End="10" Column_End="13" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="9" Column="18" Line_End="9" Column_End="28" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="9" Column="17" Line_End="9" Column_End="33" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="18" Column="3" Line_End="18" Column_End="58" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="4" Line_End="9" Column_End="5" HashCode="0">
+            <CodeStreamPath Text="AssignmentExpression" Line="9" Column="4" Line_End="9" Column_End="33" HashCode="0">
+              <CodeStreamPath Text="ExpressionStatement" Line="9" Column="4" Line_End="9" Column_End="34" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="PrimitiveExpression" Line="9" Column="30" Line_End="9" Column_End="32" HashCode="0">
+      <CodeStreamPath Text="invocation -&gt; public string string.Replace(string oldValue, string newValue)" Line="9" Column="17" Line_End="9" Column_End="33" HashCode="0">
+        <CodeStreamPath Text="method -&gt; public string string.Replace(string oldValue, string newValue)" Line="18" Column="3" Line_End="18" Column_End="58" HashCode="0">
+          <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="9" Column="4" Line_End="9" Column_End="5" HashCode="0">
+            <CodeStreamPath Text="AssignmentExpression" Line="9" Column="4" Line_End="9" Column_End="33" HashCode="0">
+              <CodeStreamPath Text="ExpressionStatement" Line="9" Column="4" Line_End="9" Column_End="34" HashCode="0" />
+            </CodeStreamPath>
+          </CodeStreamPath>
+        </CodeStreamPath>
+      </CodeStreamPath>
+    </CodeStreamPath>
+    <CodeStreamPath Text="ReturnStatement" Line="10" Column="4" Line_End="10" Column_End="13" HashCode="0" />
+    <CodeStreamPath Text="identifier  -&gt; p : System.String" Line="10" Column="11" Line_End="10" Column_End="12" HashCode="0">
+      <CodeStreamPath Text="ReturnStatement" Line="10" Column="4" Line_End="10" Column_End="13" HashCode="0" />
+    </CodeStreamPath>
+  </CodeStreams>
+  <MethodStream_FileCache>C:\O2\_tempDir\11-3-2011\_methodStreams\private_string_SuperSecureBank.Account.Login.CleanUsername_string_p_.cs</MethodStream_FileCache>
+  <Serialized_Saved_MethodStream_FileCache>C:\O2\Demos\SI - SuperSecureBank\O2 Method Streams_2\private_string_SuperSecureBank.Account.Login.CleanUsername_string_p_.methodStream.xml</Serialized_Saved_MethodStream_FileCache>
+  <MethodStream>using System;
+using SuperSecureBank.Account;
+namespace SuperSecureBank.Account
+{
+	public class Login : System.Web.UI.Page
+	{
+		private string CleanUsername(string p)
+		{
+			p = p.Replace("&lt;script&gt;", "");
+			return p;
+		}
+	}
+}
+namespace System
+{
+	public class String : System.IComparable, System.ICloneable, System.IConvertible, System.IComparable, System.Collections.Generic.IEnumerable, System.Collections.IEnumerable, System.IEquatable
+	{
+		public string Replace(string oldValue, string newValue)
+		{
+			throw new System.Exception("O2 Auto Generated Method");
+		}
+	}
+}
+</MethodStream>
+</Saved_MethodStream>
